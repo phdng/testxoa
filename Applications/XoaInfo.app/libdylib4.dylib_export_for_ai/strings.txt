@@ -1,0 +1,510 @@
+# Strings exported from IDA
+# Format: address | length | type | string
+#================================================================================
+
+0x28 | 16 | ASCII | __TEXT
+0x68 | 16 | ASCII | __text
+0x78 | 16 | ASCII | __TEXT
+0xb8 | 16 | ASCII | __const
+0xc8 | 16 | ASCII | __TEXT
+0x108 | 16 | ASCII | __cstring
+0x118 | 16 | ASCII | __TEXT
+0x158 | 16 | ASCII | __unwind_info
+0x168 | 16 | ASCII | __TEXT
+0x1b0 | 16 | ASCII | __DATA
+0x1f0 | 16 | ASCII | __const
+0x200 | 16 | ASCII | __DATA
+0x240 | 16 | ASCII | __data
+0x250 | 16 | ASCII | __DATA
+0x290 | 16 | ASCII | __common
+0x2a0 | 16 | ASCII | __DATA
+0x2e0 | 16 | ASCII | __bss
+0x2f0 | 16 | ASCII | __DATA
+0x338 | 16 | ASCII | __LINKEDIT
+0x390 | 33 | ASCII | @executable_path/libdylib4.dylib
+0x4a4 | 7 | ASCII | System
+0x1c1b0 | 51 | ASCII | @(#)PROGRAM:kernel  PROJECT:Libsyscall-2423.10.67\n
+0x1c1e8 | 5 | ASCII | 33333
+0x1c238 | 51 | ASCII | @(#)PROGRAM:kernel  PROJECT:Libsyscall-2423.10.67\n
+0x1c270 | 5 | ASCII | 33333
+0x1c278 | 45 | ASCII | (operating system/?) unknown subsystem error
+0x1c2a5 | 39 | ASCII | (user space/?) unknown subsystem error
+0x1c2cc | 35 | ASCII | (server/?) unknown subsystem error
+0x1c2ef | 32 | ASCII | (ipc/?) unknown subsystem error
+0x1c30f | 36 | ASCII | (libkern/?) unknown subsystem error
+0x1c333 | 34 | ASCII | (iokit/?) unknown subsystem error
+0x1c355 | 15 | ASCII | (iokit/common)
+0x1c364 | 9 | ASCII | (iokit/?
+0x1c36d | 19 | ASCII | (iokit/blkstorage)
+0x1c380 | 17 | ASCII | (iokit/graphics)
+0x1c391 | 12 | ASCII | (iokit/pmu)
+0x1c39d | 15 | ASCII | (iokit/vendor)
+0x1c3ac | 17 | ASCII | (iokit/reserved)
+0x1c3bd | 46 | ASCII | (iokit/common) invalid - should never be seen
+0x1c3eb | 29 | ASCII | (iokit/common) general error
+0x1c408 | 37 | ASCII | (iokit/common) can't allocate memory
+0x1c42d | 33 | ASCII | (iokit/common) resource shortage
+0x1c44e | 32 | ASCII | (iokit/common) error during IPC
+0x1c46e | 30 | ASCII | (iokit/common) no such device
+0x1c48c | 35 | ASCII | (iokit/common) privilege violation
+0x1c4af | 32 | ASCII | (iokit/common) invalid argument
+0x1c4cf | 34 | ASCII | (iokit/common) device read locked
+0x1c4f1 | 35 | ASCII | (iokit/common) device write locked
+0x1c514 | 56 | ASCII | (iokit/common) exclusive access and device already open
+0x1c54c | 59 | ASCII | (iokit/common) sent/received messages had different msg_id
+0x1c587 | 36 | ASCII | (iokit/common) unsupported function
+0x1c5ab | 32 | ASCII | (iokit/common) misc. VM failure
+0x1c5cb | 30 | ASCII | (iokit/common) internal error
+0x1c5e9 | 33 | ASCII | (iokit/common) General I/O error
+0x1c60a | 19 | ASCII | (iokit/common) ???
+0x1c61d | 34 | ASCII | (iokit/common) can't acquire lock
+0x1c63f | 31 | ASCII | (iokit/common) device not open
+0x1c65e | 34 | ASCII | (iokit/common) read not supported
+0x1c680 | 35 | ASCII | (iokit/common) write not supported
+0x1c6a3 | 31 | ASCII | (iokit/common) alignment error
+0x1c6c2 | 27 | ASCII | (iokit/common) Media Error
+0x1c6dd | 36 | ASCII | (iokit/common) device(s) still open
+0x1c701 | 27 | ASCII | (iokit/common) rld failure
+0x1c71c | 27 | ASCII | (iokit/common) DMA failure
+0x1c737 | 27 | ASCII | (iokit/common) Device Busy
+0x1c752 | 27 | ASCII | (iokit/common) I/O Timeout
+0x1c76d | 30 | ASCII | (iokit/common) device offline
+0x1c78b | 25 | ASCII | (iokit/common) not ready
+0x1c7a4 | 35 | ASCII | (iokit/common) device not attached
+0x1c7c7 | 36 | ASCII | (iokit/common) no DMA channels left
+0x1c7eb | 33 | ASCII | (iokit/common) no space for data
+0x1c80c | 35 | ASCII | (iokit/common) port already exists
+0x1c82f | 47 | ASCII | (iokit/common) can't wire down physical memory
+0x1c85e | 37 | ASCII | (iokit/common) no interrupt attached
+0x1c883 | 38 | ASCII | (iokit/common) no DMA frames enqueued
+0x1c8a9 | 56 | ASCII | (iokit/common) oversized msg received on interrupt port
+0x1c8e1 | 29 | ASCII | (iokit/common) not permitted
+0x1c8fe | 34 | ASCII | (iokit/common) no power to device
+0x1c920 | 33 | ASCII | (iokit/common) media not present
+0x1c941 | 35 | ASCII | (iokit/common) media not formatted
+0x1c964 | 28 | ASCII | (iokit/common) no such mode
+0x1c980 | 29 | ASCII | (iokit/common) data underrun
+0x1c99d | 28 | ASCII | (iokit/common) data overrun
+0x1c9b9 | 51 | ASCII | (iokit/common) the device is not working properly!
+0x1c9ec | 48 | ASCII | (iokit/common) a completion routine is required
+0x1ca1c | 33 | ASCII | (iokit/common) operation aborted
+0x1ca3d | 47 | ASCII | (iokit/common) bus bandwidth would be exceeded
+0x1ca6c | 37 | ASCII | (iokit/common) device not responding
+0x1ca91 | 57 | ASCII | (iokit/common) isochronous I/O request for distant past!
+0x1caca | 58 | ASCII | (iokit/common) isochronous I/O request for distant future
+0x1cb04 | 34 | ASCII | (iokit/common) data was not found
+0x1cb26 | 17 | ASCII | (libkern/common)
+0x1cb37 | 20 | ASCII | (libkern/metaclass)
+0x1cb4b | 15 | ASCII | (libkern/kext)
+0x1cb5a | 19 | ASCII | unknown error code
+0x1cb6d | 30 | ASCII | (libkern/kext) internal error
+0x1cb8b | 34 | ASCII | (libkern/kext) allocation failure
+0x1cbad | 33 | ASCII | (libkern/kext) resource shortage
+0x1cbce | 30 | ASCII | (libkern/kext) not privileged
+0x1cbec | 32 | ASCII | (libkern/kext) invalid argument
+0x1cc0c | 25 | ASCII | (libkern/kext) not found
+0x1cc25 | 38 | ASCII | (libkern/kext) bad data (mkext/other)
+0x1cc4b | 43 | ASCII | (libkern/kext) XML (un)serialization error
+0x1cc76 | 44 | ASCII | (libkern/kext) function/version unsupported
+0x1cca2 | 33 | ASCII | (libkern/kext) function disabled
+0x1ccc3 | 60 | ASCII | (libkern/kext) malformed kext (bundle layout/missing plist)
+0x1ccff | 53 | ASCII | (libkern/kext) validation failure (plist/executable)
+0x1cd34 | 67 | ASCII | (libkern/kext) authentication failure (file ownership/permissions)
+0x1cd77 | 45 | ASCII | (libkern/kext) dependency resolution failure
+0x1cda4 | 59 | ASCII | (libkern/kext) requested architecture/executable not found
+0x1cddf | 27 | ASCII | (libkern/kext) cache error
+0x1cdfa | 57 | ASCII | (libkern/kext) operation deferred (queued to user space)
+0x1ce33 | 64 | ASCII | (libkern/kext) operation/kext not allowed at current boot level
+0x1ce73 | 49 | ASCII | (libkern/kext) not loadable (reason unspecified)
+0x1cea4 | 53 | ASCII | (libkern/kext) different version/uuid already loaded
+0x1ced9 | 38 | ASCII | (libkern/kext) dependency load failed
+0x1ceff | 26 | ASCII | (libkern/kext) link error
+0x1cf19 | 53 | ASCII | (libkern/kext) kext (kmod) start/stop routine failed
+0x1cf4e | 58 | ASCII | (libkern/kext) kext is in use or retained (cannot unload)
+0x1cf88 | 38 | ASCII | (libkern/kext) kext request timed out
+0x1cfae | 58 | ASCII | (libkern/kext) kext is stopping and cannot issue requests
+0x1cfe8 | 43 | ASCII | (libkern/metaclass) runtime internal error
+0x1d013 | 40 | ASCII | (libkern/metaclass) class has instances
+0x1d03b | 81 | ASCII | (libkern/metaclass) OSMetaClass::preModLoad() not called, runtime internal error
+0x1d08c | 54 | ASCII | (libkern/metaclass) allocation failure, internal data
+0x1d0c2 | 68 | ASCII | (libkern/metaclass) allocation failure, class tracking dictionaries
+0x1d106 | 58 | ASCII | (libkern/metaclass) allocation failure, no kext/class set
+0x1d140 | 65 | ASCII | (libkern/metaclass) failed to insert class into class dictionary
+0x1d181 | 62 | ASCII | (libkern/metaclass) can't associate class with its superclass
+0x1d1bf | 67 | ASCII | (libkern/metaclass) can't find superclass during instance creation
+0x1d202 | 53 | ASCII | (libkern/metaclass) duplicate class name encountered
+0x1d237 | 42 | ASCII | (libkern/metaclass) no kext for metaclass
+0x1d261 | 43 | ASCII | (libkern/common) general/unspecified error
+0x1d28c | 11 | ASCII | (ipc/send)
+0x1d297 | 10 | ASCII | (ipc/rcv)
+0x1d2a1 | 10 | ASCII | (ipc/mig)
+0x1d2ab | 36 | ASCII | (ipc/mig) client type check failure
+0x1d2cf | 33 | ASCII | (ipc/mig) wrong reply message ID
+0x1d2f0 | 32 | ASCII | (ipc/mig) server detected error
+0x1d310 | 33 | ASCII | (ipc/mig) bad request message ID
+0x1d331 | 36 | ASCII | (ipc/mig) server type check failure
+0x1d355 | 34 | ASCII | (ipc/mig) no reply should be sent
+0x1d377 | 34 | ASCII | (ipc/mig) server raised exception
+0x1d399 | 33 | ASCII | (ipc/mig) array not large enough
+0x1d3ba | 22 | ASCII | (ipc/mig) server died
+0x1d3d0 | 33 | ASCII | (ipc/mig) unknown trailer format
+0x1d3f1 | 19 | ASCII | (ipc/rcv) no error
+0x1d404 | 30 | ASCII | (ipc/rcv) receive in progress
+0x1d422 | 23 | ASCII | (ipc/rcv) invalid name
+0x1d439 | 20 | ASCII | (ipc/rcv) timed out
+0x1d44d | 24 | ASCII | (ipc/rcv) msg too large
+0x1d465 | 22 | ASCII | (ipc/rcv) interrupted
+0x1d47b | 23 | ASCII | (ipc/rcv) port changed
+0x1d492 | 30 | ASCII | (ipc/rcv) invalid notify port
+0x1d4b0 | 23 | ASCII | (ipc/rcv) invalid data
+0x1d4c7 | 20 | ASCII | (ipc/rcv) port died
+0x1d4db | 22 | ASCII | (ipc/rcv) port in set
+0x1d4f1 | 23 | ASCII | (ipc/rcv) header error
+0x1d508 | 21 | ASCII | (ipc/rcv) body error
+0x1d51d | 37 | ASCII | (ipc/rcv) invalid scatter list entry
+0x1d542 | 37 | ASCII | (ipc/rcv) overwrite region too small
+0x1d567 | 30 | ASCII | (ipc/rcv) invalid msg-trailer
+0x1d585 | 31 | ASCII | (ipc/rcv) DIPC transport error
+0x1d5a4 | 20 | ASCII | (ipc/send) no error
+0x1d5b8 | 28 | ASCII | (ipc/send) send in progress
+0x1d5d4 | 24 | ASCII | (ipc/send) invalid data
+0x1d5ec | 36 | ASCII | (ipc/send) invalid destination port
+0x1d610 | 21 | ASCII | (ipc/send) timed out
+0x1d625 | 23 | ASCII | (ipc/send) will notify
+0x1d63c | 30 | ASCII | (ipc/send) notify in progress
+0x1d65a | 23 | ASCII | (ipc/send) interrupted
+0x1d671 | 25 | ASCII | (ipc/send) msg too small
+0x1d68a | 30 | ASCII | (ipc/send) invalid reply port
+0x1d6a8 | 30 | ASCII | (ipc/send) invalid port right
+0x1d6c6 | 31 | ASCII | (ipc/send) invalid notify port
+0x1d6e5 | 26 | ASCII | (ipc/send) invalid memory
+0x1d6ff | 25 | ASCII | (ipc/send) no msg buffer
+0x1d718 | 30 | ASCII | (ipc/send) no notify possible
+0x1d736 | 28 | ASCII | (ipc/send) invalid msg-type
+0x1d752 | 30 | ASCII | (ipc/send) invalid msg-header
+0x1d770 | 31 | ASCII | (ipc/send) invalid msg-trailer
+0x1d78f | 34 | ASCII | (ipc/send) DIPC transport failure
+0x1d7b1 | 30 | ASCII | (ipc/send) DIPC port migrated
+0x1d7cf | 30 | ASCII | (ipc/send) DIPC resend failed
+0x1d7ed | 40 | ASCII | (ipc/send) out-of-line buffer too large
+0x1d815 | 50 | ASCII | (ipc/mig) type check failure in message interface
+0x1d847 | 34 | ASCII | (ipc/mig) wrong return message ID
+0x1d869 | 25 | ASCII | (ipc/mig) bad message ID
+0x1d882 | 39 | ASCII | (ipc/mig) server found wrong arguments
+0x1d8a9 | 64 | ASCII | (ipc/mig) user specified array not large enough for return info
+0x1d8e9 | 24 | ASCII | (ipc/rcv) unknown error
+0x1d901 | 25 | ASCII | (ipc/rcv) invalid memory
+0x1d91a | 23 | ASCII | (ipc/rcv) invalid port
+0x1d931 | 28 | ASCII | (ipc/rcv) receive timed out
+0x1d94d | 28 | ASCII | (ipc/rcv) message too large
+0x1d969 | 36 | ASCII | (ipc/rcv) no space for message data
+0x1d98d | 32 | ASCII | (ipc/rcv) only sender remaining
+0x1d9ad | 30 | ASCII | (ipc/rcv) receive interrupted
+0x1d9cb | 55 | ASCII | (ipc/rcv) port receiver changed or port became enabled
+0x1da02 | 25 | ASCII | (ipc/send) unknown error
+0x1da1b | 24 | ASCII | (ipc/send) invalid port
+0x1da33 | 24 | ASCII | (ipc/send) unused error
+0x1da4b | 34 | ASCII | (ipc/send) kernel refused message
+0x1da6d | 28 | ASCII | (ipc/send) send interrupted
+0x1da89 | 34 | ASCII | (ipc/send) send message too large
+0x1daab | 34 | ASCII | (ipc/send) send message too small
+0x1dacd | 51 | ASCII | (ipc/send) message size changed while being copied
+0x1db00 | 17 | ASCII | (server/netname)
+0x1db11 | 17 | ASCII | (server/env_mgr)
+0x1db22 | 15 | ASCII | (server/execd)
+0x1db31 | 19 | ASCII | (server/netmemory)
+0x1db44 | 13 | ASCII | (server/ufs)
+0x1db51 | 21 | ASCII | (server/task_master)
+0x1db66 | 12 | ASCII | (server/ns)
+0x1db72 | 12 | ASCII | (server/io)
+0x1db7e | 14 | ASCII | (server/auth)
+0x1db8c | 12 | ASCII | (server/us)
+0x1db98 | 16 | ASCII | (server/sunrpc)
+0x1dba8 | 23 | ASCII | (server/object system)
+0x1dbbf | 16 | ASCII | (server/loader)
+0x1dbcf | 19 | ASCII | (server/exception)
+0x1dbe2 | 21 | ASCII | (server/unix-signal)
+0x1dbf7 | 17 | ASCII | (server/xkernel)
+0x1dc08 | 31 | ASCII | (server/xkernel) GENERIC ERROR
+0x1dc27 | 26 | ASCII | (server/xkernel) map full
+0x1dc41 | 35 | ASCII | (server/xkernel) inconsistent bind
+0x1dc64 | 32 | ASCII | (server/xkernel) cannot resolve
+0x1dc84 | 31 | ASCII | (server/xkernel) cannot unbind
+0x1dca3 | 30 | ASCII | (server/xkernel) invalid type
+0x1dcc1 | 32 | ASCII | (server/xkernel) invalid opcode
+0x1dce1 | 34 | ASCII | (server/xkernel) buffer too small
+0x1dd03 | 33 | ASCII | (server/xkernel) invalid ev code
+0x1dd24 | 38 | ASCII | (server/xkernel) event not registered
+0x1dd4a | 30 | ASCII | (server/xkernel) invalid open
+0x1dd68 | 30 | ASCII | (server/xkernel) already open
+0x1dd86 | 26 | ASCII | (server/xkernel) bad addr
+0x1dda0 | 35 | ASCII | (server/unix-signal) GENERIC ERROR
+0x1ddc3 | 28 | ASCII | (server/unix-signal) hangup
+0x1dddf | 31 | ASCII | (server/unix-signal) interrupt
+0x1ddfe | 26 | ASCII | (server/unix-signal) quit
+0x1de18 | 31 | ASCII | (server/unix-signal) undefined
+0x1de37 | 26 | ASCII | (server/unix-signal) kill
+0x1de51 | 34 | ASCII | (server/unix-signal) system error
+0x1de73 | 33 | ASCII | (server/unix-signal) pipe signal
+0x1de94 | 27 | ASCII | (server/unix-signal) alarm
+0x1deaf | 31 | ASCII | (server/unix-signal) terminate
+0x1dece | 32 | ASCII | (server/unix-signal) urgent i/o
+0x1deee | 26 | ASCII | (server/unix-signal) stop
+0x1df08 | 35 | ASCII | (server/unix-signal) terminal stop
+0x1df2b | 30 | ASCII | (server/unix-signal) continue
+0x1df49 | 33 | ASCII | (server/unix-signal) child death
+0x1df6a | 31 | ASCII | (server/unix-signal) tty input
+0x1df89 | 32 | ASCII | (server/unix-signal) tty output
+0x1dfa9 | 32 | ASCII | (server/unix-signal) i/o signal
+0x1dfc9 | 45 | ASCII | (server/unix-signal) cpu time limit exceeded
+0x1dff6 | 40 | ASCII | (server/unix-signal) file size exceeded
+0x1e01e | 35 | ASCII | (server/unix-signal) virtual alarm
+0x1e041 | 36 | ASCII | (server/unix-signal) profile signal
+0x1e065 | 40 | ASCII | (server/unix-signal) window size change
+0x1e08d | 43 | ASCII | (server/unix-signal) user-defined signal 1
+0x1e0b8 | 43 | ASCII | (server/unix-signal) user-defined signal 2
+0x1e0e3 | 33 | ASCII | (server/exception) GENERIC ERROR
+0x1e104 | 34 | ASCII | (server/exception) invalid access
+0x1e126 | 39 | ASCII | (server/exception) invalid instruction
+0x1e14d | 40 | ASCII | (server/exception) arithmetic exception
+0x1e175 | 39 | ASCII | (server/exception) emulation exception
+0x1e19c | 38 | ASCII | (server/exception) software exception
+0x1e1c2 | 40 | ASCII | (server/exception) breakpoint exception
+0x1e1ea | 30 | ASCII | (server/loader) GENERIC ERROR
+0x1e208 | 42 | ASCII | (server/loader) object file not relocated
+0x1e232 | 34 | ASCII | (server/loader) unknown file type
+0x1e254 | 33 | ASCII | (server/loader) symbol not found
+0x1e275 | 40 | ASCII | (server/loader) symbol multiply defined
+0x1e29d | 38 | ASCII | (server/loader) memory region overlap
+0x1e2c3 | 37 | ASCII | (server/object system) GENERIC ERROR
+0x1e2e8 | 40 | ASCII | (server/object system) object not found
+0x1e310 | 41 | ASCII | (server/object system) no such operation
+0x1e339 | 54 | ASCII | (server/object system) undefined ipc method arguments
+0x1e36f | 52 | ASCII | (server/object system) too many arguments to method
+0x1e3a3 | 46 | ASCII | (server/object system) bad ipc message format
+0x1e3d1 | 30 | ASCII | (server/sunrpc) GENERIC ERROR
+0x1e3ef | 40 | ASCII | (server/sunrpc) cannot encode arguments
+0x1e417 | 38 | ASCII | (server/sunrpc) cannot decode results
+0x1e43d | 40 | ASCII | (server/sunrpc) failure in sending call
+0x1e465 | 44 | ASCII | (server/sunrpc) failure in receiving result
+0x1e491 | 31 | ASCII | (server/sunrpc) call timed out
+0x1e4b0 | 44 | ASCII | (server/sunrpc) rpc versions not compatible
+0x1e4dc | 37 | ASCII | (server/sunrpc) authentication error
+0x1e501 | 38 | ASCII | (server/sunrpc) program not available
+0x1e527 | 43 | ASCII | (server/sunrpc) program version mismatched
+0x1e552 | 38 | ASCII | (server/sunrpc) procedure unavailable
+0x1e578 | 39 | ASCII | (server/sunrpc) decode arguments error
+0x1e59f | 38 | ASCII | (server/sunrpc) generic other problem
+0x1e5c5 | 34 | ASCII | (server/sunrpc) unknown host name
+0x1e5e7 | 34 | ASCII | (server/sunrpc) portmapper failed
+0x1e609 | 46 | ASCII | (server/sunrpc) remote program not registered
+0x1e637 | 34 | ASCII | (server/sunrpc) unspecified error
+0x1e659 | 33 | ASCII | (server/sunrpc) unknown protocol
+0x1e67a | 26 | ASCII | (server/us) GENERIC ERROR
+0x1e694 | 26 | ASCII | (server/us) unknown error
+0x1e6ae | 29 | ASCII | (server/us) object not found
+0x1e6cb | 26 | ASCII | (server/us) object exists
+0x1e6e5 | 24 | ASCII | (server/us) object busy
+0x1e6fd | 31 | ASCII | (server/us) object not started
+0x1e71c | 24 | ASCII | (server/us) object dead
+0x1e734 | 25 | ASCII | (server/us) invalid args
+0x1e74d | 27 | ASCII | (server/us) invalid access
+0x1e768 | 27 | ASCII | (server/us) invalid format
+0x1e783 | 32 | ASCII | (server/us) invalid buffer size
+0x1e7a3 | 26 | ASCII | (server/us) access denied
+0x1e7bd | 31 | ASCII | (server/us) resource exhausted
+0x1e7dc | 27 | ASCII | (server/us) quota exceeded
+0x1e7f7 | 27 | ASCII | (server/us) limit exceeded
+0x1e812 | 28 | ASCII | (server/us) not implemented
+0x1e82e | 26 | ASCII | (server/us) not supported
+0x1e848 | 27 | ASCII | (server/us) hardware error
+0x1e863 | 27 | ASCII | (server/us) retry required
+0x1e87e | 30 | ASCII | (server/us) not authenticated
+0x1e89c | 29 | ASCII | (server/us) exclusive access
+0x1e8b9 | 20 | ASCII | (server/us) timeout
+0x1e8cd | 32 | ASCII | (server/us) bad reference count
+0x1e8ed | 27 | ASCII | (server/us) internal error
+0x1e908 | 28 | ASCII | (server/auth) GENERIC ERROR
+0x1e924 | 31 | ASCII | (server/auth) bad private port
+0x1e943 | 23 | ASCII | (server/auth) bad name
+0x1e95a | 26 | ASCII | (server/auth) not primary
+0x1e974 | 29 | ASCII | (server/auth) bad pauthsword
+0x1e991 | 24 | ASCII | (server/auth) bad group
+0x1e9a9 | 27 | ASCII | (server/auth) duplicate id
+0x1e9c4 | 29 | ASCII | (server/auth) duplicate name
+0x1e9e1 | 28 | ASCII | (server/auth) not secondary
+0x1e9fd | 26 | ASCII | (server/io) GENERIC ERROR
+0x1ea17 | 27 | ASCII | (server/io) invalid offset
+0x1ea32 | 25 | ASCII | (server/io) invalid size
+0x1ea4b | 25 | ASCII | (server/io) invalid mode
+0x1ea64 | 29 | ASCII | (server/io) invalid strategy
+0x1ea81 | 58 | ASCII | (server/io) operation rejected under current I/O strategy
+0x1eabb | 26 | ASCII | (server/ns) GENERIC ERROR
+0x1ead5 | 27 | ASCII | (server/ns) invalid handle
+0x1eaf0 | 27 | ASCII | (server/ns) name not found
+0x1eb0b | 32 | ASCII | (server/ns) name already exists
+0x1eb2b | 26 | ASCII | (server/ns) name too long
+0x1eb45 | 26 | ASCII | (server/ns) path too long
+0x1eb5f | 25 | ASCII | (server/ns) invalid name
+0x1eb78 | 28 | ASCII | (server/ns) not a directory
+0x1eb94 | 27 | ASCII | (server/ns) is a directory
+0x1ebaf | 32 | ASCII | (server/ns) directory not empty
+0x1ebcf | 44 | ASCII | (server/ns) infinite retry loop in resolver
+0x1ebfb | 49 | ASCII | (server/ns) infinite forwarding loop in resolver
+0x1ec2c | 27 | ASCII | (server/ns) invalid prefix
+0x1ec47 | 34 | ASCII | (server/ns) prefix table overflow
+0x1ec69 | 37 | ASCII | (server/ns) bad format for directory
+0x1ec8e | 31 | ASCII | (server/ns) unknown entry type
+0x1ecad | 31 | ASCII | (server/ns) invalid generation
+0x1eccc | 31 | ASCII | (server/ns) entry not reserved
+0x1eceb | 35 | ASCII | (server/task_master) GENERIC ERROR
+0x1ed0e | 42 | ASCII | (server/task_master) invalid tm_task port
+0x1ed38 | 37 | ASCII | (server/task_master) invalid task id
+0x1ed5d | 41 | ASCII | (server/task_master) invalid kernel port
+0x1ed86 | 39 | ASCII | (server/task_master) invalid job group
+0x1edad | 36 | ASCII | (server/task_master) invalid action
+0x1edd1 | 30 | ASCII | (server/netmemory) successful
+0x1edef | 36 | ASCII | (server/netmemory) invalid argument
+0x1ee13 | 37 | ASCII | (server/netmemory) resource shortage
+0x1ee38 | 42 | ASCII | (server/execd) could not find file to run
+0x1ee62 | 44 | ASCII | (server/execd) userid or password incorrect
+0x1ee8e | 27 | ASCII | (server/execd) fork failed
+0x1eea9 | 36 | ASCII | (server/env_mgr) variable not found
+0x1eecd | 40 | ASCII | (server/env_mgr) wrong type of variable
+0x1eef5 | 30 | ASCII | (server/env_mgr) unknown port
+0x1ef13 | 39 | ASCII | (server/env_mgr) read only environment
+0x1ef3a | 47 | ASCII | (server/env_mgr) no more connections available
+0x1ef69 | 33 | ASCII | (server/env_mgr) port table full
+0x1ef8a | 50 | ASCII | (server/env_mgr) attempting to enter a null port 
+0x1efbc | 35 | ASCII | (server/netname) name is not yours
+0x1efdf | 37 | ASCII | (server/netname) name not checked in
+0x1f004 | 30 | ASCII | (server/netname) no such host
+0x1f022 | 32 | ASCII | (server/netname) host not found
+0x1f042 | 10 | ASCII | (os/kern)
+0x1f04c | 7 | ASCII | (os/?)
+0x1f053 | 10 | ASCII | (os/unix)
+0x1f05d | 30 | ASCII | (os/unix) no rights to object
+0x1f07b | 43 | ASCII | (os/unix) file or directory does not exist
+0x1f0a6 | 26 | ASCII | (os/unix) no such process
+0x1f0c0 | 34 | ASCII | (os/unix) interrupted system call
+0x1f0e2 | 20 | ASCII | (os/unix) i/o error
+0x1f0f6 | 32 | ASCII | (os/unix) device does not exist
+0x1f116 | 36 | ASCII | (os/unix) argument list is too long
+0x1f13a | 43 | ASCII | (os/unix) invalid executable object format
+0x1f165 | 37 | ASCII | (os/unix) bad file descriptor number
+0x1f18a | 41 | ASCII | (os/unix) no child processes are present
+0x1f1b3 | 42 | ASCII | (os/unix) no more processes are available
+0x1f1dd | 30 | ASCII | (os/unix) insufficient memory
+0x1f1fb | 24 | ASCII | (os/unix) access denied
+0x1f213 | 30 | ASCII | (os/unix) memory access fault
+0x1f231 | 46 | ASCII | (os/unix) block device required for operation
+0x1f25f | 28 | ASCII | (os/unix) mount device busy
+0x1f27b | 30 | ASCII | (os/unix) file already exists
+0x1f299 | 28 | ASCII | (os/unix) cross device link
+0x1f2b5 | 36 | ASCII | (os/unix) object is not a directory
+0x1f2d9 | 32 | ASCII | (os/unix) object is a directory
+0x1f2f9 | 27 | ASCII | (os/unix) invalid argument
+0x1f314 | 39 | ASCII | (os/unix) internal file table overflow
+0x1f33b | 47 | ASCII | (os/unix) maximum number of open files reached
+0x1f36a | 42 | ASCII | (os/unix) object is not a tty-like device
+0x1f394 | 38 | ASCII | (os/unix) executable object is in use
+0x1f3ba | 28 | ASCII | (os/unix) file is too large
+0x1f3d6 | 37 | ASCII | (os/unix) no space is left on device
+0x1f3fb | 31 | ASCII | (os/unix) illegal seek attempt
+0x1f41a | 32 | ASCII | (os/unix) read-only file system
+0x1f43a | 25 | ASCII | (os/unix) too many links
+0x1f453 | 22 | ASCII | (os/unix) broken pipe
+0x1f469 | 32 | ASCII | (os/unix) argument is too large
+0x1f489 | 33 | ASCII | (os/unix) result is out of range
+0x1f4aa | 42 | ASCII | (os/unix) operation on device would block
+0x1f4d4 | 39 | ASCII | (os/unix) operation is now in progress
+0x1f4fb | 43 | ASCII | (os/unix) operation is already in progress
+0x1f526 | 58 | ASCII | (os/unix) socket operation attempted on non-socket object
+0x1f560 | 42 | ASCII | (os/unix) destination address is required
+0x1f58a | 30 | ASCII | (os/unix) message is too long
+0x1f5a8 | 48 | ASCII | (os/unix) protocol type is incorrect for socket
+0x1f5d8 | 42 | ASCII | (os/unix) protocol type is not availaible
+0x1f602 | 41 | ASCII | (os/unix) protocol type is not supported
+0x1f62b | 39 | ASCII | (os/unix) socket type is not supported
+0x1f652 | 48 | ASCII | (os/unix) operation is not supported on sockets
+0x1f682 | 43 | ASCII | (os/unix) protocol family is not supported
+0x1f6ad | 61 | ASCII | (os/unix) address family is not supported by protocol family
+0x1f6ea | 36 | ASCII | (os/unix) address is already in use
+0x1f70e | 41 | ASCII | (os/unix) can't assign requested address
+0x1f737 | 26 | ASCII | (os/unix) network is down
+0x1f751 | 33 | ASCII | (os/unix) network is unreachable
+0x1f772 | 46 | ASCII | (os/unix) network dropped connection on reset
+0x1f7a0 | 38 | ASCII | (os/unix) software aborted connection
+0x1f7c6 | 35 | ASCII | (os/unix) connection reset by peer
+0x1f7e9 | 39 | ASCII | (os/unix) no buffer space is available
+0x1f810 | 38 | ASCII | (os/unix) socket is already connected
+0x1f836 | 34 | ASCII | (os/unix) socket is not connected
+0x1f858 | 43 | ASCII | (os/unix) can't send after socket shutdown
+0x1f883 | 44 | ASCII | (os/unix) too many references; can't splice
+0x1f8af | 31 | ASCII | (os/unix) connection timed out
+0x1f8ce | 33 | ASCII | (os/unix) connection was refused
+0x1f8ef | 44 | ASCII | (os/unix) too many levels of symbolic links
+0x1f91b | 49 | ASCII | (os/unix) file name exceeds system maximum limit
+0x1f94c | 23 | ASCII | (os/unix) host is down
+0x1f963 | 36 | ASCII | (os/unix) there is no route to host
+0x1f987 | 33 | ASCII | (os/unix) directory is not empty
+0x1f9a8 | 48 | ASCII | (os/unix) quota on number of processes exceeded
+0x1f9d8 | 44 | ASCII | (os/unix) quota on number of users exceeded
+0x1fa04 | 49 | ASCII | (os/unix) quota on available disk space exceeded
+0x1fa35 | 21 | ASCII | (os/kern) successful
+0x1fa4a | 26 | ASCII | (os/kern) invalid address
+0x1fa64 | 29 | ASCII | (os/kern) protection failure
+0x1fa81 | 29 | ASCII | (os/kern) no space available
+0x1fa9e | 27 | ASCII | (os/kern) invalid argument
+0x1fab9 | 18 | ASCII | (os/kern) failure
+0x1facb | 28 | ASCII | (os/kern) resource shortage
+0x1fae7 | 23 | ASCII | (os/kern) not receiver
+0x1fafe | 20 | ASCII | (os/kern) no access
+0x1fb12 | 25 | ASCII | (os/kern) memory failure
+0x1fb2b | 23 | ASCII | (os/kern) memory error
+0x1fb42 | 25 | ASCII | (os/kern) already in set
+0x1fb5b | 21 | ASCII | (os/kern) not in set
+0x1fb70 | 22 | ASCII | (os/kern) name exists
+0x1fb86 | 18 | ASCII | (os/kern) aborted
+0x1fb98 | 23 | ASCII | (os/kern) invalid name
+0x1fbaf | 23 | ASCII | (os/kern) invalid task
+0x1fbc6 | 24 | ASCII | (os/kern) invalid right
+0x1fbde | 24 | ASCII | (os/kern) invalid value
+0x1fbf6 | 25 | ASCII | (os/kern) urefs overflow
+0x1fc0f | 29 | ASCII | (os/kern) invalid capability
+0x1fc2c | 23 | ASCII | (os/kern) right exists
+0x1fc43 | 23 | ASCII | (os/kern) invalid host
+0x1fc5a | 25 | ASCII | (os/kern) memory present
+0x1fc73 | 28 | ASCII | (os/kern) memory data moved
+0x1fc8f | 30 | ASCII | (os/kern) memory restart copy
+0x1fcad | 32 | ASCII | (os/kern) invalid processor set
+0x1fccd | 23 | ASCII | (os/kern) policy limit
+0x1fce4 | 25 | ASCII | (os/kern) invalid policy
+0x1fcfd | 25 | ASCII | (os/kern) invalid object
+0x1fd16 | 26 | ASCII | (os/kern) already waiting
+0x1fd30 | 22 | ASCII | (os/kern) default set
+0x1fd46 | 30 | ASCII | (os/kern) exception protected
+0x1fd64 | 25 | ASCII | (os/kern) invalid ledger
+0x1fd7d | 33 | ASCII | (os/kern) invalid memory control
+0x1fd9e | 27 | ASCII | (os/kern) invalid security
+0x1fdb9 | 24 | ASCII | (os/kern) not depressed
+0x1fdd1 | 28 | ASCII | (os/kern) object terminated
+0x1fded | 29 | ASCII | (os/kern) lock set destroyed
+0x1fe0a | 24 | ASCII | (os/kern) lock unstable
+0x1fe22 | 32 | ASCII | (os/kern) lock owned by another
+0x1fe42 | 29 | ASCII | (os/kern) lock owned by self
+0x1fe5f | 30 | ASCII | (os/kern) semaphore destroyed
+0x1fe7d | 25 | ASCII | (os/kern) RPC terminated
+0x1fe96 | 27 | ASCII | (os/kern) terminate orphan
+0x1feb1 | 30 | ASCII | (os/kern) let orphan continue
+0x1fecf | 32 | ASCII | (os/kern) service not supported
+0x1feef | 27 | ASCII | (os/kern) remote node down
+0x1ff0a | 37 | ASCII | catch_exception_raise_state_identity
+0x1ff2f | 28 | ASCII | catch_exception_raise_state
+0x1ff4b | 22 | ASCII | catch_exception_raise
+0x1ff61 | 6 | ASCII | (?/?)
+0x1ff67 | 11 | ASCII | %s %s (%x)
+0x1ff72 | 7 | ASCII | %s %s\n
+0x1ff79 | 11 | ASCII | panic: %s\n
+0x1ff84 | 33 | ASCII | port_obj_init: can't vm_allocate
+0x1ffa5 | 17 | ASCII | 0123456789abcdef

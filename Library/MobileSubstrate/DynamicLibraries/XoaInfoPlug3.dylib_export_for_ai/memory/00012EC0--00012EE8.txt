@@ -1,0 +1,9 @@
+# Memory dump: 0x12ec0 - 0x12ee8
+# Segment: __common
+#============================================================================
+
+# Address        | Hex Bytes                                       | ASCII
+#----------------------------------------------------------------------------
+0000000000012EC0 | FF FF FF FF FF FF FF FF  FF FF FF FF FF FF FF FF  | ................
+0000000000012ED0 | FF FF FF FF FF FF FF FF  FF FF FF FF FF FF FF FF  | ................
+0000000000012EE0 | FF FF FF FF FF FF FF FF                           | ........

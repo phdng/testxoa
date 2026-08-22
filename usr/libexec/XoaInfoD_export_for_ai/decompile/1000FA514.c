@@ -1,0 +1,15 @@
+/*
+ * func-name: sub_1000FA514
+ * func-address: 0x1000fa514
+ * export-type: decompile
+ * callers: none
+ * callees: 0x1001e5174
+ */
+
+__int64 sub_1000FA514()
+{
+  __int64 v0; // x19
+
+  objc_release(*(id *)(v0 + 2072));
+  return sub_100101180();
+}

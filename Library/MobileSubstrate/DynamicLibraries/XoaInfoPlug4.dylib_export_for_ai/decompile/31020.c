@@ -1,0 +1,14 @@
+/*
+ * func-name: ___24-[z7c0GPfd setD2jrg8ic:]_block_invoke
+ * func-address: 0x31020
+ * export-type: decompile
+ * callers: 0x30f8c
+ * callees: none
+ */
+
+__int64 __fastcall __24__z7c0GPfd_setD2jrg8ic___block_invoke(__int64 result)
+{
+  *(_WORD *)(*(_QWORD *)(result + 32) + 12LL) = *(_WORD *)(*(_QWORD *)(result + 32) + 12LL) & 0xFFF7
+                                              | (8 * (*(_BYTE *)(result + 40) == 0));
+  return result;
+}

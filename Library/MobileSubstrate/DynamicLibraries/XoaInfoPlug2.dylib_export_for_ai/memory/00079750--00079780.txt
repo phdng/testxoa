@@ -1,0 +1,9 @@
+# Memory dump: 0x79750 - 0x79780
+# Segment: __common
+#============================================================================
+
+# Address        | Hex Bytes                                       | ASCII
+#----------------------------------------------------------------------------
+0000000000079750 | FF FF FF FF FF FF FF FF  FF FF FF FF FF FF FF FF  | ................
+0000000000079760 | FF FF FF FF FF FF FF FF  FF FF FF FF FF FF FF FF  | ................
+0000000000079770 | FF FF FF FF FF FF FF FF  FF FF FF FF FF FF FF FF  | ................

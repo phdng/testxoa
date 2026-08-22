@@ -1,0 +1,28 @@
+# Imports
+# Format: func-addr:func-name
+#============================================================
+
+0x8150:dyld_stub_binder
+0x8158:_mach_task_self_
+0x8160:_sigprocmask
+0x8168:___error
+0x8170:___gettimeofday
+0x8178:___sendto
+0x8180:___sigreturn
+0x8188:_close
+0x8190:_connect
+0x8198:_fcntl
+0x81a0:_getgid
+0x81a8:_getpid
+0x81b0:_getuid
+0x81b8:_mach_vm_deallocate
+0x81c0:_mach_vm_map
+0x81c8:_semaphore_create
+0x81d0:_semaphore_destroy
+0x81d8:_semaphore_signal
+0x81e0:_semaphore_wait
+0x81e8:_socket
+0x81f0:_thread_switch
+0x81f8:_vm_allocate
+0x8200:_vm_deallocate
+0x8208:_write

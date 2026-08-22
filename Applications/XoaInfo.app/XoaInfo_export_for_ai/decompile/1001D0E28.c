@@ -1,0 +1,18 @@
+/*
+ * func-name: sub_1001D0E28
+ * func-address: 0x1001d0e28
+ * export-type: decompile
+ * callers: none
+ * callees: 0x1001d8d04
+ */
+
+__int64 __fastcall sub_1001D0E28(__int64 a1, __int64 a2, __int64 a3)
+{
+  int v3; // w19
+  int v4; // w21
+  __int64 v5; // x26
+  __int64 (*v6)(void); // x0
+
+  v6 = (__int64 (*)(void))nullsub_12(*(_QWORD *)(v5 + 8LL * (v3 < v4)), a2, a3);
+  return v6();
+}

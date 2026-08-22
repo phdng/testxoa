@@ -1,0 +1,13 @@
+/*
+ * func-name: ___error
+ * func-address: 0x227864
+ * export-type: decompile
+ * callers: 0x102ac, 0x1c8a0, 0x1d670, 0x2027c, 0x282c0, 0x283c8, 0x2b510, 0x2cf4c, 0x2dda4, 0x2dfbc, 0xc31a0, 0xc44dc, 0x1a153c, 0x20d9d0, 0x20da5c, 0x20e0a4
+ * callees: none
+ */
+
+// attributes: thunk
+int *__error(void)
+{
+  return ___error();
+}

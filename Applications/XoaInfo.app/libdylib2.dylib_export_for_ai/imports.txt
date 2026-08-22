@@ -1,0 +1,23 @@
+# Imports
+# Format: func-addr:func-name
+#============================================================
+
+0x42c0:_free
+0x42c8:_malloc
+0x42d0:_malloc_size
+0x42d8:___cxa_atexit
+0x42e0:___cxa_finalize
+0x42e8:__NSGetMachExecuteHeader
+0x42f0:_exit
+0x42f8:_strcmp
+0x4300:_strlen
+0x4308:_strncmp
+0x4310:_strrchr
+0x4318:_pthread_getspecific
+0x4320:_pthread_key_create
+0x4328:_pthread_setspecific
+0x4330:_pthread_mutex_lock
+0x4338:_pthread_mutex_unlock
+0x4340:_vproc_swap_integer
+0x4348:_mmap
+0x4350:_vm_allocate

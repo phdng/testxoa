@@ -1,0 +1,3628 @@
+/*
+ * func-name: sub_1006D66EC
+ * func-address: 0x1006d66ec
+ * export-type: disassembly-fallback
+ * callers: none
+ * callees: 0x1006dfe60
+ * fallback-reason: too many instructions (>3000, limit 3000)
+ */
+
+1006D66EC: ADRP            X8, #dword_1009F9950@PAGE
+1006D66F0: LDR             W8, [X8,#dword_1009F9950@PAGEOFF]
+1006D66F4: ADRP            X9, #dword_1009F9954@PAGE
+1006D66F8: LDR             W9, [X9,#dword_1009F9954@PAGEOFF]
+1006D66FC: SUB             W8, W8, W9
+1006D6700: MOV             W9, #0xE59C82D2
+1006D6708: ADD             W8, W8, W9
+1006D670C: MOV             W9, #0x1A86B390
+1006D6714: ORR             W8, W8, W9
+1006D6718: MOV             W9, #0xA47A1860
+1006D6720: ADD             W8, W8, W9
+1006D6724: MOV             W9, #0x2ECBA4B3
+1006D672C: CMP             W8, W9
+1006D6730: MOV             W8, #0x49CBD28
+1006D6738: CSEL            W8, W20, W8, HI
+1006D673C: B               loc_1006DA278
+1006D6740: CMP             W26, W19
+1006D6744: CSET            W8, LT
+1006D6748: ADRL            X9, off_100A05000
+1006D6750: LDR             X0, [X9,W8,UXTW#3]
+1006D6754: BL              nullsub_30
+1006D6758: BR              X0
+1006D675C: MOV             W19, #0xD38AA0FB
+1006D6764: CMP             W26, W19
+1006D6768: CSET            W8, LT
+1006D676C: ADRL            X9, off_100A05010
+1006D6774: LDR             X0, [X9,W8,UXTW#3]
+1006D6778: BL              nullsub_30
+1006D677C: BR              X0
+1006D6780: MOV             W19, #0xD2DFDC5A
+1006D6788: CMP             W26, W19
+1006D678C: CSET            W8, EQ
+1006D6790: ADRL            X9, off_100A05030
+1006D6798: LDR             X0, [X9,W8,UXTW#3]
+1006D679C: BL              nullsub_30
+1006D67A0: MOV             W9, #0xD38AA0FB
+1006D67A8: BR              X0
+1006D67AC: LDR             X8, [SP,#arg_8]
+1006D67B0: STR             W9, [X8]
+1006D67B4: B               loc_1006D6624
+1006D67B8: MOV             W27, #0xF11560C6
+1006D67C0: CMP             W26, W27
+1006D67C4: CSET            W8, LT
+1006D67C8: LDR             X0, [X22,W8,UXTW#3]
+1006D67CC: BL              nullsub_30
+1006D67D0: BR              X0
+1006D67D4: CMP             W26, W27
+1006D67D8: CSET            W8, EQ
+1006D67DC: ADRL            X9, off_100A04FE0
+1006D67E4: LDR             X0, [X9,W8,UXTW#3]
+1006D67E8: BL              nullsub_30
+1006D67EC: MOV             W20, #0xD9DA73AA
+1006D67F4: MOV             W9, #0x884EDED5
+1006D67FC: BR              X0
+1006D6800: LDR             W8, [SP,#arg_1C]
+1006D6804: MOV             W10, #0x417087DE
+1006D680C: CMP             W8, W10
+1006D6810: MOV             W8, #0x8539FB9C
+1006D6818: CSEL            W8, W9, W8, EQ
+1006D681C: B               loc_1006DA278
+1006D6820: MOV             W25, #0x884EDED5
+1006D6828: CMP             W26, W25
+1006D682C: CSET            W8, LT
+1006D6830: ADRL            X9, off_100A05040
+1006D6838: LDR             X0, [X9,W8,UXTW#3]
+1006D683C: BL              nullsub_30
+1006D6840: BR              X0
+1006D6844: CMP             W26, W25
+1006D6848: CSET            W8, EQ
+1006D684C: ADRL            X9, off_100A05050
+1006D6854: LDR             X0, [X9,W8,UXTW#3]
+1006D6858: BL              nullsub_30
+1006D685C: ADRP            X25, #0x1009FE000
+1006D6860: BR              X0
+1006D6864: ADRL            X8, dword_100A224C8
+1006D686C: LDAR            WZR, [X8]
+1006D6870: LDR             X8, [SP,#arg_8]
+1006D6874: MOV             W9, #0x8539FB9C
+1006D687C: STR             W9, [X8]
+1006D6880: B               loc_1006D6624
+1006D6884: MOV             W8, #0xF717F25F
+1006D688C: CMP             W26, W8
+1006D6890: CSET            W8, EQ
+1006D6894: ADRL            X9, off_100A04FC0
+1006D689C: LDR             X0, [X9,W8,UXTW#3]
+1006D68A0: BL              nullsub_30
+1006D68A4: MOV             W9, #0xD38AA0FB
+1006D68AC: BR              X0
+1006D68B0: LDRB            W8, [SP,#arg_1B]
+1006D68B4: CMP             W8, #0
+1006D68B8: MOV             W8, #0x496373F8
+1006D68C0: B               loc_1006DA274
+1006D68C4: MOV             W20, #0xD9DA73AA
+1006D68CC: CMP             W26, W20
+1006D68D0: CSET            W8, EQ
+1006D68D4: ADRL            X9, off_100A04FF0
+1006D68DC: LDR             X0, [X9,W8,UXTW#3]
+1006D68E0: BL              nullsub_30
+1006D68E4: BR              X0
+1006D68E8: ADRL            X9, byte_1009F864F
+1006D68F0: LDRB            W8, [X9]
+1006D68F4: MOV             W10, #0xBA
+1006D68F8: EOR             W8, W8, W10
+1006D68FC: MOV             W4, #0xBA
+1006D6900: ADRL            X11, byte_1009F8659
+1006D6908: STRB            W8, [X11]
+1006D690C: LDRB            W8, [X9,#(byte_1009F8650 - 0x1009F864F)]
+1006D6910: EOR             W8, W8, #0xC0
+1006D6914: STRB            W8, [X11,#(byte_1009F865A - 0x1009F8659)]
+1006D6918: LDRB            W8, [X9,#(byte_1009F8651 - 0x1009F864F)]
+1006D691C: MOV             W10, #0x15
+1006D6920: EOR             W8, W8, W10
+1006D6924: STRB            W8, [X11,#(byte_1009F865B - 0x1009F8659)]
+1006D6928: LDRB            W8, [X9,#(byte_1009F8652 - 0x1009F864F)]
+1006D692C: EOR             W8, W8, #0x38 ; '8'
+1006D6930: STRB            W8, [X11,#(byte_1009F865C - 0x1009F8659)]
+1006D6934: LDRB            W8, [X9,#(byte_1009F8653 - 0x1009F864F)]
+1006D6938: MOV             W12, #0xCA
+1006D693C: EOR             W8, W8, W12
+1006D6940: STRB            W8, [X11,#(byte_1009F865D - 0x1009F8659)]
+1006D6944: LDRB            W8, [X9,#(byte_1009F8654 - 0x1009F864F)]
+1006D6948: MOV             W10, #0x4E ; 'N'
+1006D694C: EOR             W8, W8, W10
+1006D6950: MOV             W19, #0x4E ; 'N'
+1006D6954: STRB            W8, [X11,#(byte_1009F865E - 0x1009F8659)]
+1006D6958: LDRB            W8, [X9,#(byte_1009F8655 - 0x1009F864F)]
+1006D695C: EOR             W8, W8, W12
+1006D6960: MOV             W13, #0xCA
+1006D6964: STRB            W8, [X11,#(byte_1009F865F - 0x1009F8659)]
+1006D6968: LDRB            W8, [X9,#(byte_1009F8656 - 0x1009F864F)]
+1006D696C: MOV             W15, #0x2F ; '/'
+1006D6970: EOR             W8, W8, W15
+1006D6974: STRB            W8, [X11,#(byte_1009F8660 - 0x1009F8659)]
+1006D6978: LDRB            W8, [X9,#(byte_1009F8657 - 0x1009F864F)]
+1006D697C: MOV             W12, #0x8D
+1006D6980: EOR             W8, W8, W12
+1006D6984: STRB            W8, [X11,#(byte_1009F8661 - 0x1009F8659)]
+1006D6988: LDRB            W8, [X9,#(byte_1009F8658 - 0x1009F864F)]
+1006D698C: MOV             W9, #0x9E
+1006D6990: EOR             W8, W8, W9
+1006D6994: MOV             W12, #0x9E
+1006D6998: STRB            W8, [X11,#(byte_1009F8662 - 0x1009F8659)]
+1006D699C: ADRL            X9, byte_1009F8663
+1006D69A4: LDRB            W8, [X9]
+1006D69A8: EOR             W8, W8, #0xFFFFFFC7
+1006D69AC: ADRL            X11, byte_1009F866E
+1006D69B4: STRB            W8, [X11]
+1006D69B8: LDRB            W8, [X9,#(byte_1009F8664 - 0x1009F8663)]
+1006D69BC: MVN             W8, W8
+1006D69C0: STRB            W8, [X11,#(byte_1009F866F - 0x1009F866E)]
+1006D69C4: LDRB            W8, [X9,#(byte_1009F8665 - 0x1009F8663)]
+1006D69C8: EOR             W8, W8, #0x3E ; '>'
+1006D69CC: STRB            W8, [X11,#(byte_1009F8670 - 0x1009F866E)]
+1006D69D0: LDRB            W8, [X9,#(byte_1009F8666 - 0x1009F8663)]
+1006D69D4: MOV             W14, #0x3B ; ';'
+1006D69D8: EOR             W8, W8, W14
+1006D69DC: STRB            W8, [X11,#(byte_1009F8671 - 0x1009F866E)]
+1006D69E0: LDRB            W8, [X9,#(byte_1009F8667 - 0x1009F8663)]
+1006D69E4: MOV             W14, #0x9D
+1006D69E8: EOR             W8, W8, W14
+1006D69EC: STRB            W8, [X11,#(byte_1009F8672 - 0x1009F866E)]
+1006D69F0: LDRB            W8, [X9,#(byte_1009F8668 - 0x1009F8663)]
+1006D69F4: MOV             W14, #0x45 ; 'E'
+1006D69F8: EOR             W8, W8, W14
+1006D69FC: STRB            W8, [X11,#(byte_1009F8673 - 0x1009F866E)]
+1006D6A00: LDRB            W8, [X9,#(byte_1009F8669 - 0x1009F8663)]
+1006D6A04: MOV             W14, #0x91
+1006D6A08: EOR             W8, W8, W14
+1006D6A0C: MOV             W24, #0x91
+1006D6A10: STRB            W8, [X11,#(byte_1009F8674 - 0x1009F866E)]
+1006D6A14: LDRB            W8, [X9,#(byte_1009F866A - 0x1009F8663)]
+1006D6A18: MOV             W14, #0xCE
+1006D6A1C: EOR             W8, W8, W14
+1006D6A20: MOV             W26, #0xCE
+1006D6A24: STRB            W8, [X11,#(byte_1009F8675 - 0x1009F866E)]
+1006D6A28: LDRB            W8, [X9,#(byte_1009F866B - 0x1009F8663)]
+1006D6A2C: MVN             W8, W8
+1006D6A30: STRB            W8, [X11,#(byte_1009F8676 - 0x1009F866E)]
+1006D6A34: LDRB            W8, [X9,#(byte_1009F866C - 0x1009F8663)]
+1006D6A38: MOV             W14, #0x95
+1006D6A3C: EOR             W8, W8, W14
+1006D6A40: STRB            W8, [X11,#(byte_1009F8677 - 0x1009F866E)]
+1006D6A44: LDRB            W8, [X9,#(byte_1009F866D - 0x1009F8663)]
+1006D6A48: MOV             W9, #0x34 ; '4'
+1006D6A4C: EOR             W8, W8, W9
+1006D6A50: MOV             W0, #0x34 ; '4'
+1006D6A54: STRB            W8, [X11,#(byte_1009F8678 - 0x1009F866E)]
+1006D6A58: ADRL            X11, byte_1009F8680
+1006D6A60: LDRB            W8, [X11]
+1006D6A64: MOV             W9, #0x8E
+1006D6A68: EOR             W8, W8, W9
+1006D6A6C: ADRL            X7, byte_1009F86A0
+1006D6A74: STRB            W8, [X7]
+1006D6A78: LDRB            W8, [X11,#(byte_1009F8681 - 0x1009F8680)]
+1006D6A7C: EOR             W8, W8, #0xFFFFFFFB
+1006D6A80: STRB            W8, [X7,#(byte_1009F86A1 - 0x1009F86A0)]
+1006D6A84: LDRB            W8, [X11,#(byte_1009F8682 - 0x1009F8680)]
+1006D6A88: EOR             W8, W8, #0xFFFFFFFD
+1006D6A8C: STRB            W8, [X7,#(byte_1009F86A2 - 0x1009F86A0)]
+1006D6A90: LDRB            W8, [X11,#(byte_1009F8683 - 0x1009F8680)]
+1006D6A94: MOV             W9, #0x1A
+1006D6A98: EOR             W8, W8, W9
+1006D6A9C: STRB            W8, [X7,#(byte_1009F86A3 - 0x1009F86A0)]
+1006D6AA0: LDRB            W8, [X11,#(byte_1009F8684 - 0x1009F8680)]
+1006D6AA4: EOR             W8, W8, #2
+1006D6AA8: STRB            W8, [X7,#(byte_1009F86A4 - 0x1009F86A0)]
+1006D6AAC: LDRB            W8, [X11,#(byte_1009F8685 - 0x1009F8680)]
+1006D6AB0: MOV             W28, #0x96
+1006D6AB4: EOR             W8, W8, W28
+1006D6AB8: STRB            W8, [X7,#(byte_1009F86A5 - 0x1009F86A0)]
+1006D6ABC: LDRB            W8, [X11,#(byte_1009F8686 - 0x1009F8680)]
+1006D6AC0: EOR             W8, W8, #6
+1006D6AC4: STRB            W8, [X7,#(byte_1009F86A6 - 0x1009F86A0)]
+1006D6AC8: LDRB            W8, [X11,#(byte_1009F8687 - 0x1009F8680)]
+1006D6ACC: MOV             W9, #0xDA
+1006D6AD0: EOR             W8, W8, W9
+1006D6AD4: STRB            W8, [X7,#(byte_1009F86A7 - 0x1009F86A0)]
+1006D6AD8: LDRB            W8, [X11,#(byte_1009F8688 - 0x1009F8680)]
+1006D6ADC: MOV             W9, #0x5D ; ']'
+1006D6AE0: EOR             W8, W8, W9
+1006D6AE4: STRB            W8, [X7,#(byte_1009F86A8 - 0x1009F86A0)]
+1006D6AE8: LDRB            W8, [X11,#(byte_1009F8689 - 0x1009F8680)]
+1006D6AEC: MOV             W9, #0x41 ; 'A'
+1006D6AF0: EOR             W8, W8, W9
+1006D6AF4: STRB            W8, [X7,#(byte_1009F86A9 - 0x1009F86A0)]
+1006D6AF8: LDRB            W8, [X11,#(byte_1009F868A - 0x1009F8680)]
+1006D6AFC: MOV             W25, #0x61 ; 'a'
+1006D6B00: EOR             W8, W8, W25
+1006D6B04: STRB            W8, [X7,#(byte_1009F86AA - 0x1009F86A0)]
+1006D6B08: LDRB            W8, [X11,#(byte_1009F868B - 0x1009F8680)]
+1006D6B0C: MOV             W9, #0x9B
+1006D6B10: EOR             W8, W8, W9
+1006D6B14: STRB            W8, [X7,#(byte_1009F86AB - 0x1009F86A0)]
+1006D6B18: LDRB            W8, [X11,#(byte_1009F868C - 0x1009F8680)]
+1006D6B1C: MOV             W9, #0x67 ; 'g'
+1006D6B20: EOR             W8, W8, W9
+1006D6B24: STRB            W8, [X7,#(byte_1009F86AC - 0x1009F86A0)]
+1006D6B28: LDRB            W8, [X11,#(byte_1009F868D - 0x1009F8680)]
+1006D6B2C: MOV             W9, #0xCB
+1006D6B30: EOR             W8, W8, W9
+1006D6B34: STRB            W8, [X7,#(byte_1009F86AD - 0x1009F86A0)]
+1006D6B38: LDRB            W8, [X11,#(byte_1009F868E - 0x1009F8680)]
+1006D6B3C: MOV             W9, #0x6D ; 'm'
+1006D6B40: EOR             W8, W8, W9
+1006D6B44: STRB            W8, [X7,#(byte_1009F86AE - 0x1009F86A0)]
+1006D6B48: LDRB            W8, [X11,#(byte_1009F868F - 0x1009F8680)]
+1006D6B4C: EOR             W8, W8, #0xFFFFFFEF
+1006D6B50: STRB            W8, [X7,#(byte_1009F86AF - 0x1009F86A0)]
+1006D6B54: LDRB            W8, [X11,#(byte_1009F8690 - 0x1009F8680)]
+1006D6B58: MOV             W9, #0x68 ; 'h'
+1006D6B5C: EOR             W8, W8, W9
+1006D6B60: STRB            W8, [X7,#(byte_1009F86B0 - 0x1009F86A0)]
+1006D6B64: LDRB            W8, [X11,#(byte_1009F8691 - 0x1009F8680)]
+1006D6B68: EOR             W8, W8, #0xFFFFFF83
+1006D6B6C: STRB            W8, [X7,#(byte_1009F86B1 - 0x1009F86A0)]
+1006D6B70: LDRB            W8, [X11,#(byte_1009F8692 - 0x1009F8680)]
+1006D6B74: MOV             W9, #0xAC
+1006D6B78: EOR             W8, W8, W9
+1006D6B7C: MOV             W27, #0xAC
+1006D6B80: STRB            W8, [X7,#(byte_1009F86B2 - 0x1009F86A0)]
+1006D6B84: ADRL            X11, byte_1009F86B3
+1006D6B8C: LDRB            W8, [X11]
+1006D6B90: EOR             W8, W8, #0x55555555
+1006D6B94: ADRL            X7, byte_1009F86C1
+1006D6B9C: STRB            W8, [X7]
+1006D6BA0: LDRB            W8, [X11,#(byte_1009F86B4 - 0x1009F86B3)]
+1006D6BA4: MOV             W9, #0xC8
+1006D6BA8: EOR             W8, W8, W9
+1006D6BAC: STRB            W8, [X7,#(byte_1009F86C2 - 0x1009F86C1)]
+1006D6BB0: LDRB            W8, [X11,#(byte_1009F86B5 - 0x1009F86B3)]
+1006D6BB4: MOV             W9, #0xC9
+1006D6BB8: EOR             W8, W8, W9
+1006D6BBC: STRB            W8, [X7,#(byte_1009F86C3 - 0x1009F86C1)]
+1006D6BC0: LDRB            W8, [X11,#(byte_1009F86B6 - 0x1009F86B3)]
+1006D6BC4: MOV             W9, #0x31 ; '1'
+1006D6BC8: EOR             W8, W8, W9
+1006D6BCC: STRB            W8, [X7,#(byte_1009F86C4 - 0x1009F86C1)]
+1006D6BD0: LDRB            W8, [X11,#(byte_1009F86B7 - 0x1009F86B3)]
+1006D6BD4: MOV             W9, #0x56 ; 'V'
+1006D6BD8: EOR             W8, W8, W9
+1006D6BDC: STRB            W8, [X7,#(byte_1009F86C5 - 0x1009F86C1)]
+1006D6BE0: LDRB            W8, [X11,#(byte_1009F86B8 - 0x1009F86B3)]
+1006D6BE4: EOR             W8, W8, W25
+1006D6BE8: STRB            W8, [X7,#(byte_1009F86C6 - 0x1009F86C1)]
+1006D6BEC: LDRB            W8, [X11,#(byte_1009F86B9 - 0x1009F86B3)]
+1006D6BF0: EOR             W8, W8, #0xE
+1006D6BF4: STRB            W8, [X7,#(byte_1009F86C7 - 0x1009F86C1)]
+1006D6BF8: LDRB            W8, [X11,#(byte_1009F86BA - 0x1009F86B3)]
+1006D6BFC: MOV             W9, #0x58 ; 'X'
+1006D6C00: EOR             W8, W8, W9
+1006D6C04: STRB            W8, [X7,#(byte_1009F86C8 - 0x1009F86C1)]
+1006D6C08: LDRB            W8, [X11,#(byte_1009F86BB - 0x1009F86B3)]
+1006D6C0C: EOR             W8, W8, #0xC0
+1006D6C10: STRB            W8, [X7,#(byte_1009F86C9 - 0x1009F86C1)]
+1006D6C14: LDRB            W8, [X11,#(byte_1009F86BC - 0x1009F86B3)]
+1006D6C18: MOV             W9, #0x43 ; 'C'
+1006D6C1C: EOR             W8, W8, W9
+1006D6C20: STRB            W8, [X7,#(byte_1009F86CA - 0x1009F86C1)]
+1006D6C24: LDRB            W8, [X11,#(byte_1009F86BD - 0x1009F86B3)]
+1006D6C28: MOV             W9, #0xEC
+1006D6C2C: EOR             W8, W8, W9
+1006D6C30: STRB            W8, [X7,#(byte_1009F86CB - 0x1009F86C1)]
+1006D6C34: LDRB            W8, [X11,#(byte_1009F86BE - 0x1009F86B3)]
+1006D6C38: MOV             W9, #0xE2
+1006D6C3C: EOR             W8, W8, W9
+1006D6C40: MOV             W16, #0xE2
+1006D6C44: STRB            W8, [X7,#(byte_1009F86CC - 0x1009F86C1)]
+1006D6C48: LDRB            W8, [X11,#(byte_1009F86BF - 0x1009F86B3)]
+1006D6C4C: MOV             W9, #0xE6
+1006D6C50: EOR             W8, W8, W9
+1006D6C54: STRB            W8, [X7,#(byte_1009F86CD - 0x1009F86C1)]
+1006D6C58: LDRB            W8, [X11,#(byte_1009F86C0 - 0x1009F86B3)]
+1006D6C5C: MOV             W9, #0x94
+1006D6C60: EOR             W8, W8, W9
+1006D6C64: STRB            W8, [X7,#(byte_1009F86CE - 0x1009F86C1)]
+1006D6C68: ADRL            X11, byte_1009F86CF
+1006D6C70: LDRB            W8, [X11]
+1006D6C74: MOV             W9, #0x7A ; 'z'
+1006D6C78: EOR             W8, W8, W9
+1006D6C7C: MOV             W17, #0x7A ; 'z'
+1006D6C80: ADRL            X6, byte_1009F86D9
+1006D6C88: STRB            W8, [X6]
+1006D6C8C: LDRB            W8, [X11,#(byte_1009F86D0 - 0x1009F86CF)]
+1006D6C90: EOR             W8, W8, #0xFFFFFF87
+1006D6C94: STRB            W8, [X6,#(byte_1009F86DA - 0x1009F86D9)]
+1006D6C98: LDRB            W8, [X11,#(byte_1009F86D1 - 0x1009F86CF)]
+1006D6C9C: EOR             W8, W8, W28
+1006D6CA0: STRB            W8, [X6,#(byte_1009F86DB - 0x1009F86D9)]
+1006D6CA4: LDRB            W8, [X11,#(byte_1009F86D2 - 0x1009F86CF)]
+1006D6CA8: EOR             W8, W8, #0x30 ; '0'
+1006D6CAC: STRB            W8, [X6,#(byte_1009F86DC - 0x1009F86D9)]
+1006D6CB0: LDRB            W8, [X11,#(byte_1009F86D3 - 0x1009F86CF)]
+1006D6CB4: MOV             W9, #0x9A
+1006D6CB8: EOR             W8, W8, W9
+1006D6CBC: STRB            W8, [X6,#(byte_1009F86DD - 0x1009F86D9)]
+1006D6CC0: LDRB            W8, [X11,#(byte_1009F86D4 - 0x1009F86CF)]
+1006D6CC4: EOR             W8, W8, W15
+1006D6CC8: STRB            W8, [X6,#(byte_1009F86DE - 0x1009F86D9)]
+1006D6CCC: LDRB            W8, [X11,#(byte_1009F86D5 - 0x1009F86CF)]
+1006D6CD0: MOV             W9, #0x27 ; '''
+1006D6CD4: EOR             W8, W8, W9
+1006D6CD8: MOV             W30, #0x27 ; '''
+1006D6CDC: STRB            W8, [X6,#(byte_1009F86DF - 0x1009F86D9)]
+1006D6CE0: LDRB            W8, [X11,#(byte_1009F86D6 - 0x1009F86CF)]
+1006D6CE4: EOR             W8, W8, W27
+1006D6CE8: STRB            W8, [X6,#(byte_1009F86E0 - 0x1009F86D9)]
+1006D6CEC: LDRB            W8, [X11,#(byte_1009F86D7 - 0x1009F86CF)]
+1006D6CF0: EOR             W8, W8, #0xBBBBBBBB
+1006D6CF4: STRB            W8, [X6,#(byte_1009F86E1 - 0x1009F86D9)]
+1006D6CF8: LDRB            W8, [X11,#(byte_1009F86D8 - 0x1009F86CF)]
+1006D6CFC: MOV             W11, #0x84
+1006D6D00: EOR             W8, W8, W11
+1006D6D04: STRB            W8, [X6,#(byte_1009F86E2 - 0x1009F86D9)]
+1006D6D08: ADRL            X11, byte_1009F86E3
+1006D6D10: LDRB            W8, [X11]
+1006D6D14: MOV             W9, #0x63 ; 'c'
+1006D6D18: EOR             W8, W8, W9
+1006D6D1C: MOV             W14, #0x63 ; 'c'
+1006D6D20: ADRL            X5, byte_1009F86EE
+1006D6D28: STRB            W8, [X5]
+1006D6D2C: LDRB            W8, [X11,#(byte_1009F86E4 - 0x1009F86E3)]
+1006D6D30: EOR             W8, W8, W0
+1006D6D34: STRB            W8, [X5,#(byte_1009F86EF - 0x1009F86EE)]
+1006D6D38: LDRB            W8, [X11,#(byte_1009F86E5 - 0x1009F86E3)]
+1006D6D3C: EOR             W8, W8, W17
+1006D6D40: MOV             W10, #0x7A ; 'z'
+1006D6D44: STRB            W8, [X5,#(byte_1009F86F0 - 0x1009F86EE)]
+1006D6D48: LDRB            W8, [X11,#(byte_1009F86E6 - 0x1009F86E3)]
+1006D6D4C: EOR             W8, W8, #0x7C ; '|'
+1006D6D50: STRB            W8, [X5,#(byte_1009F86F1 - 0x1009F86EE)]
+1006D6D54: LDRB            W8, [X11,#(byte_1009F86E7 - 0x1009F86E3)]
+1006D6D58: EOR             W8, W8, #0xEEEEEEEE
+1006D6D5C: STRB            W8, [X5,#(byte_1009F86F2 - 0x1009F86EE)]
+1006D6D60: LDRB            W8, [X11,#(byte_1009F86E8 - 0x1009F86E3)]
+1006D6D64: MOV             W9, #0x3B ; ';'
+1006D6D68: EOR             W8, W8, W9
+1006D6D6C: STRB            W8, [X5,#(byte_1009F86F3 - 0x1009F86EE)]
+1006D6D70: LDRB            W8, [X11,#(byte_1009F86E9 - 0x1009F86E3)]
+1006D6D74: MOV             W15, #0xAE
+1006D6D78: EOR             W8, W8, W15
+1006D6D7C: STRB            W8, [X5,#(byte_1009F86F4 - 0x1009F86EE)]
+1006D6D80: LDRB            W8, [X11,#(byte_1009F86EA - 0x1009F86E3)]
+1006D6D84: MOV             W15, #0xDE
+1006D6D88: EOR             W8, W8, W15
+1006D6D8C: STRB            W8, [X5,#(byte_1009F86F5 - 0x1009F86EE)]
+1006D6D90: LDRB            W8, [X11,#(byte_1009F86EB - 0x1009F86E3)]
+1006D6D94: MOV             W15, #0x7D ; '}'
+1006D6D98: EOR             W8, W8, W15
+1006D6D9C: MOV             W0, #0x7D ; '}'
+1006D6DA0: STRB            W8, [X5,#(byte_1009F86F6 - 0x1009F86EE)]
+1006D6DA4: LDRB            W8, [X11,#(byte_1009F86EC - 0x1009F86E3)]
+1006D6DA8: EOR             W8, W8, #0x66666666
+1006D6DAC: STRB            W8, [X5,#(byte_1009F86F7 - 0x1009F86EE)]
+1006D6DB0: LDRB            W8, [X11,#(byte_1009F86ED - 0x1009F86E3)]
+1006D6DB4: EOR             W8, W8, #0x70 ; 'p'
+1006D6DB8: STRB            W8, [X5,#(byte_1009F86F8 - 0x1009F86EE)]
+1006D6DBC: ADRL            X11, byte_1009F8700
+1006D6DC4: LDRB            W8, [X11]
+1006D6DC8: MOV             W15, #0x62 ; 'b'
+1006D6DCC: EOR             W8, W8, W15
+1006D6DD0: ADRL            X5, byte_1009F8720
+1006D6DD8: STRB            W8, [X5]
+1006D6DDC: LDRB            W8, [X11,#(byte_1009F8701 - 0x1009F8700)]
+1006D6DE0: EOR             W8, W8, W9
+1006D6DE4: MOV             W20, #0x3B ; ';'
+1006D6DE8: STRB            W8, [X5,#(byte_1009F8721 - 0x1009F8720)]
+1006D6DEC: LDRB            W8, [X11,#(byte_1009F8702 - 0x1009F8700)]
+1006D6DF0: EOR             W8, W8, #0xFE
+1006D6DF4: STRB            W8, [X5,#(byte_1009F8722 - 0x1009F8720)]
+1006D6DF8: LDRB            W8, [X11,#(byte_1009F8703 - 0x1009F8700)]
+1006D6DFC: MOV             W9, #0xA5
+1006D6E00: EOR             W8, W8, W9
+1006D6E04: STRB            W8, [X5,#(byte_1009F8723 - 0x1009F8720)]
+1006D6E08: LDRB            W8, [X11,#(byte_1009F8704 - 0x1009F8700)]
+1006D6E0C: MOV             W9, #0x74 ; 't'
+1006D6E10: EOR             W8, W8, W9
+1006D6E14: MOV             W22, #0x74 ; 't'
+1006D6E18: STRB            W8, [X5,#(byte_1009F8724 - 0x1009F8720)]
+1006D6E1C: LDRB            W8, [X11,#(byte_1009F8705 - 0x1009F8700)]
+1006D6E20: MOV             W9, #0xE8
+1006D6E24: EOR             W8, W8, W9
+1006D6E28: MOV             W7, #0xE8
+1006D6E2C: STRB            W8, [X5,#(byte_1009F8725 - 0x1009F8720)]
+1006D6E30: LDRB            W8, [X11,#(byte_1009F8706 - 0x1009F8700)]
+1006D6E34: MOV             W9, #0x75 ; 'u'
+1006D6E38: EOR             W8, W8, W9
+1006D6E3C: MOV             W1, #0x75 ; 'u'
+1006D6E40: STRB            W8, [X5,#(byte_1009F8726 - 0x1009F8720)]
+1006D6E44: LDRB            W8, [X11,#(byte_1009F8707 - 0x1009F8700)]
+1006D6E48: EOR             W8, W8, #0xCCCCCCCC
+1006D6E4C: STRB            W8, [X5,#(byte_1009F8727 - 0x1009F8720)]
+1006D6E50: LDRB            W8, [X11,#(byte_1009F8708 - 0x1009F8700)]
+1006D6E54: MOV             W9, #0x8C
+1006D6E58: EOR             W8, W8, W9
+1006D6E5C: MOV             W3, #0x8C
+1006D6E60: STRB            W8, [X5,#(byte_1009F8728 - 0x1009F8720)]
+1006D6E64: LDRB            W8, [X11,#(byte_1009F8709 - 0x1009F8700)]
+1006D6E68: MOV             W9, #0x39 ; '9'
+1006D6E6C: EOR             W8, W8, W9
+1006D6E70: MOV             W15, #0x39 ; '9'
+1006D6E74: STRB            W8, [X5,#(byte_1009F8729 - 0x1009F8720)]
+1006D6E78: LDRB            W8, [X11,#(byte_1009F870A - 0x1009F8700)]
+1006D6E7C: EOR             W8, W8, #0xC0
+1006D6E80: STRB            W8, [X5,#(byte_1009F872A - 0x1009F8720)]
+1006D6E84: LDRB            W8, [X11,#(byte_1009F870B - 0x1009F8700)]
+1006D6E88: MOV             W9, #0x4F ; 'O'
+1006D6E8C: EOR             W8, W8, W9
+1006D6E90: STRB            W8, [X5,#(byte_1009F872B - 0x1009F8720)]
+1006D6E94: LDRB            W8, [X11,#(byte_1009F870C - 0x1009F8700)]
+1006D6E98: EOR             W8, W8, #4
+1006D6E9C: STRB            W8, [X5,#(byte_1009F872C - 0x1009F8720)]
+1006D6EA0: LDRB            W8, [X11,#(byte_1009F870D - 0x1009F8700)]
+1006D6EA4: EOR             W8, W8, W13
+1006D6EA8: STRB            W8, [X5,#(byte_1009F872D - 0x1009F8720)]
+1006D6EAC: LDRB            W8, [X11,#(byte_1009F870E - 0x1009F8700)]
+1006D6EB0: MOV             W9, #0xB0
+1006D6EB4: EOR             W8, W8, W9
+1006D6EB8: STRB            W8, [X5,#(byte_1009F872E - 0x1009F8720)]
+1006D6EBC: LDRB            W8, [X11,#(byte_1009F870F - 0x1009F8700)]
+1006D6EC0: MOV             W6, #0x98
+1006D6EC4: EOR             W8, W8, W6
+1006D6EC8: STRB            W8, [X5,#(byte_1009F872F - 0x1009F8720)]
+1006D6ECC: LDRB            W8, [X11,#(byte_1009F8710 - 0x1009F8700)]
+1006D6ED0: MOV             W6, #0x49 ; 'I'
+1006D6ED4: EOR             W8, W8, W6
+1006D6ED8: STRB            W8, [X5,#(byte_1009F8730 - 0x1009F8720)]
+1006D6EDC: LDRB            W8, [X11,#(byte_1009F8711 - 0x1009F8700)]
+1006D6EE0: MOV             W9, #0xA3
+1006D6EE4: EOR             W8, W8, W9
+1006D6EE8: MOV             W2, #0xA3
+1006D6EEC: STRB            W8, [X5,#(byte_1009F8731 - 0x1009F8720)]
+1006D6EF0: LDRB            W8, [X11,#(byte_1009F8712 - 0x1009F8700)]
+1006D6EF4: EOR             W8, W8, #0xFFFFFFFB
+1006D6EF8: STRB            W8, [X5,#(byte_1009F8732 - 0x1009F8720)]
+1006D6EFC: ADRL            X11, byte_1009F8733
+1006D6F04: LDRB            W8, [X11]
+1006D6F08: EOR             W8, W8, #0xFFFFFFF3
+1006D6F0C: ADRL            X5, byte_1009F8741
+1006D6F14: STRB            W8, [X5]
+1006D6F18: LDRB            W8, [X11,#(byte_1009F8734 - 0x1009F8733)]
+1006D6F1C: MOV             W9, #0xB2
+1006D6F20: EOR             W8, W8, W9
+1006D6F24: STRB            W8, [X5,#(byte_1009F8742 - 0x1009F8741)]
+1006D6F28: LDRB            W8, [X11,#(byte_1009F8735 - 0x1009F8733)]
+1006D6F2C: MOV             W9, #0xB4
+1006D6F30: EOR             W8, W8, W9
+1006D6F34: STRB            W8, [X5,#(byte_1009F8743 - 0x1009F8741)]
+1006D6F38: LDRB            W8, [X11,#(byte_1009F8736 - 0x1009F8733)]
+1006D6F3C: EOR             W8, W8, W0
+1006D6F40: STRB            W8, [X5,#(byte_1009F8744 - 0x1009F8741)]
+1006D6F44: LDRB            W8, [X11,#(byte_1009F8737 - 0x1009F8733)]
+1006D6F48: EOR             W8, W8, W12
+1006D6F4C: STRB            W8, [X5,#(byte_1009F8745 - 0x1009F8741)]
+1006D6F50: LDRB            W8, [X11,#(byte_1009F8738 - 0x1009F8733)]
+1006D6F54: MOV             W0, #0xEB
+1006D6F58: EOR             W8, W8, W0
+1006D6F5C: STRB            W8, [X5,#(byte_1009F8746 - 0x1009F8741)]
+1006D6F60: LDRB            W8, [X11,#(byte_1009F8739 - 0x1009F8733)]
+1006D6F64: MOV             W9, #0x1D
+1006D6F68: EOR             W8, W8, W9
+1006D6F6C: STRB            W8, [X5,#(byte_1009F8747 - 0x1009F8741)]
+1006D6F70: LDRB            W8, [X11,#(byte_1009F873A - 0x1009F8733)]
+1006D6F74: EOR             W8, W8, #0xBBBBBBBB
+1006D6F78: STRB            W8, [X5,#(byte_1009F8748 - 0x1009F8741)]
+1006D6F7C: LDRB            W8, [X11,#(byte_1009F873B - 0x1009F8733)]
+1006D6F80: MOV             W9, #0x76 ; 'v'
+1006D6F84: EOR             W8, W8, W9
+1006D6F88: MOV             W17, #0x76 ; 'v'
+1006D6F8C: STRB            W8, [X5,#(byte_1009F8749 - 0x1009F8741)]
+1006D6F90: LDRB            W8, [X11,#(byte_1009F873C - 0x1009F8733)]
+1006D6F94: MOV             W21, #0x52 ; 'R'
+1006D6F98: EOR             W8, W8, W21
+1006D6F9C: STRB            W8, [X5,#(byte_1009F874A - 0x1009F8741)]
+1006D6FA0: LDRB            W8, [X11,#(byte_1009F873D - 0x1009F8733)]
+1006D6FA4: EOR             W8, W8, W30
+1006D6FA8: STRB            W8, [X5,#(byte_1009F874B - 0x1009F8741)]
+1006D6FAC: LDRB            W8, [X11,#(byte_1009F873E - 0x1009F8733)]
+1006D6FB0: MOV             W23, #0x94
+1006D6FB4: EOR             W8, W8, W23
+1006D6FB8: STRB            W8, [X5,#(byte_1009F874C - 0x1009F8741)]
+1006D6FBC: LDRB            W8, [X11,#(byte_1009F873F - 0x1009F8733)]
+1006D6FC0: EOR             W8, W8, #0x44444444
+1006D6FC4: STRB            W8, [X5,#(byte_1009F874D - 0x1009F8741)]
+1006D6FC8: LDRB            W8, [X11,#(byte_1009F8740 - 0x1009F8733)]
+1006D6FCC: MOV             W11, #0x64 ; 'd'
+1006D6FD0: EOR             W8, W8, W11
+1006D6FD4: MOV             W9, #0x64 ; 'd'
+1006D6FD8: STRB            W8, [X5,#(byte_1009F874E - 0x1009F8741)]
+1006D6FDC: ADRL            X5, byte_1009F8750
+1006D6FE4: LDRB            W8, [X5]
+1006D6FE8: EOR             W8, W8, #0xFFFFFF87
+1006D6FEC: ADRL            X11, byte_1009F8770
+1006D6FF4: STRB            W8, [X11]
+1006D6FF8: LDRB            W8, [X5,#(byte_1009F8751 - 0x1009F8750)]
+1006D6FFC: MOV             W12, #0x6B ; 'k'
+1006D7000: EOR             W8, W8, W12
+1006D7004: STRB            W8, [X11,#(byte_1009F8771 - 0x1009F8770)]
+1006D7008: LDRB            W8, [X5,#(byte_1009F8752 - 0x1009F8750)]
+1006D700C: EOR             W8, W8, W15
+1006D7010: MOV             W15, #0x39 ; '9'
+1006D7014: STRB            W8, [X11,#(byte_1009F8772 - 0x1009F8770)]
+1006D7018: LDRB            W8, [X5,#(byte_1009F8753 - 0x1009F8750)]
+1006D701C: EOR             W8, W8, W4
+1006D7020: STRB            W8, [X11,#(byte_1009F8773 - 0x1009F8770)]
+1006D7024: LDRB            W8, [X5,#(byte_1009F8754 - 0x1009F8750)]
+1006D7028: EOR             W8, W8, #4
+1006D702C: STRB            W8, [X11,#(byte_1009F8774 - 0x1009F8770)]
+1006D7030: LDRB            W8, [X5,#(byte_1009F8755 - 0x1009F8750)]
+1006D7034: EOR             W8, W8, W10
+1006D7038: STRB            W8, [X11,#(byte_1009F8775 - 0x1009F8770)]
+1006D703C: LDRB            W8, [X5,#(byte_1009F8756 - 0x1009F8750)]
+1006D7040: EOR             W8, W8, W27
+1006D7044: STRB            W8, [X11,#(byte_1009F8776 - 0x1009F8770)]
+1006D7048: LDRB            W8, [X5,#(byte_1009F8757 - 0x1009F8750)]
+1006D704C: EOR             W8, W8, W14
+1006D7050: STRB            W8, [X11,#(byte_1009F8777 - 0x1009F8770)]
+1006D7054: LDRB            W8, [X5,#(byte_1009F8758 - 0x1009F8750)]
+1006D7058: EOR             W8, W8, W28
+1006D705C: STRB            W8, [X11,#(byte_1009F8778 - 0x1009F8770)]
+1006D7060: LDRB            W8, [X5,#(byte_1009F8759 - 0x1009F8750)]
+1006D7064: EOR             W8, W8, W19
+1006D7068: STRB            W8, [X11,#(byte_1009F8779 - 0x1009F8770)]
+1006D706C: LDRB            W8, [X5,#(byte_1009F875A - 0x1009F8750)]
+1006D7070: MOV             W10, #0x72 ; 'r'
+1006D7074: EOR             W8, W8, W10
+1006D7078: MOV             W12, #0x72 ; 'r'
+1006D707C: STRB            W8, [X11,#(byte_1009F877A - 0x1009F8770)]
+1006D7080: LDRB            W8, [X5,#(byte_1009F875B - 0x1009F8750)]
+1006D7084: EOR             W8, W8, W30
+1006D7088: STRB            W8, [X11,#(byte_1009F877B - 0x1009F8770)]
+1006D708C: LDRB            W8, [X5,#(byte_1009F875C - 0x1009F8750)]
+1006D7090: EOR             W8, W8, #0xFFFFFFF7
+1006D7094: STRB            W8, [X11,#(byte_1009F877C - 0x1009F8770)]
+1006D7098: LDRB            W8, [X5,#(byte_1009F875D - 0x1009F8750)]
+1006D709C: MOV             W10, #0x65 ; 'e'
+1006D70A0: EOR             W8, W8, W10
+1006D70A4: STRB            W8, [X11,#(byte_1009F877D - 0x1009F8770)]
+1006D70A8: LDRB            W8, [X5,#(byte_1009F875E - 0x1009F8750)]
+1006D70AC: MOV             W10, #0xBD
+1006D70B0: EOR             W8, W8, W10
+1006D70B4: STRB            W8, [X11,#(byte_1009F877E - 0x1009F8770)]
+1006D70B8: LDRB            W8, [X5,#(byte_1009F875F - 0x1009F8750)]
+1006D70BC: EOR             W8, W8, #0x77777777
+1006D70C0: STRB            W8, [X11,#(byte_1009F877F - 0x1009F8770)]
+1006D70C4: LDRB            W8, [X5,#(byte_1009F8760 - 0x1009F8750)]
+1006D70C8: MOV             W10, #0x69 ; 'i'
+1006D70CC: EOR             W8, W8, W10
+1006D70D0: STRB            W8, [X11,#(byte_1009F8780 - 0x1009F8770)]
+1006D70D4: LDRB            W8, [X5,#(byte_1009F8761 - 0x1009F8750)]
+1006D70D8: MOV             W13, #0x14
+1006D70DC: EOR             W8, W8, W13
+1006D70E0: STRB            W8, [X11,#(byte_1009F8781 - 0x1009F8770)]
+1006D70E4: LDRB            W8, [X5,#(byte_1009F8762 - 0x1009F8750)]
+1006D70E8: EOR             W8, W8, W10
+1006D70EC: MOV             W4, #0x69 ; 'i'
+1006D70F0: STRB            W8, [X11,#(byte_1009F8782 - 0x1009F8770)]
+1006D70F4: ADRL            X11, byte_1009F8783
+1006D70FC: LDRB            W8, [X11]
+1006D7100: EOR             W8, W8, W28
+1006D7104: ADRL            X5, byte_1009F8791
+1006D710C: STRB            W8, [X5]
+1006D7110: LDRB            W8, [X11,#(byte_1009F8784 - 0x1009F8783)]
+1006D7114: EOR             W8, W8, #0xE
+1006D7118: STRB            W8, [X5,#(byte_1009F8792 - 0x1009F8791)]
+1006D711C: LDRB            W8, [X11,#(byte_1009F8785 - 0x1009F8783)]
+1006D7120: EOR             W8, W8, W3
+1006D7124: STRB            W8, [X5,#(byte_1009F8793 - 0x1009F8791)]
+1006D7128: LDRB            W8, [X11,#(byte_1009F8786 - 0x1009F8783)]
+1006D712C: EOR             W8, W8, #2
+1006D7130: STRB            W8, [X5,#(byte_1009F8794 - 0x1009F8791)]
+1006D7134: LDRB            W8, [X11,#(byte_1009F8787 - 0x1009F8783)]
+1006D7138: EOR             W8, W8, #0xFFFFFFF1
+1006D713C: STRB            W8, [X5,#(byte_1009F8795 - 0x1009F8791)]
+1006D7140: LDRB            W8, [X11,#(byte_1009F8788 - 0x1009F8783)]
+1006D7144: EOR             W8, W8, #0xFFFFFFC7
+1006D7148: STRB            W8, [X5,#(byte_1009F8796 - 0x1009F8791)]
+1006D714C: LDRB            W8, [X11,#(byte_1009F8789 - 0x1009F8783)]
+1006D7150: EOR             W8, W8, W0
+1006D7154: STRB            W8, [X5,#(byte_1009F8797 - 0x1009F8791)]
+1006D7158: LDRB            W8, [X11,#(byte_1009F878A - 0x1009F8783)]
+1006D715C: EOR             W8, W8, W26
+1006D7160: STRB            W8, [X5,#(byte_1009F8798 - 0x1009F8791)]
+1006D7164: LDRB            W8, [X11,#(byte_1009F878B - 0x1009F8783)]
+1006D7168: MOV             W14, #0x92
+1006D716C: EOR             W8, W8, W14
+1006D7170: STRB            W8, [X5,#(byte_1009F8799 - 0x1009F8791)]
+1006D7174: LDRB            W8, [X11,#(byte_1009F878C - 0x1009F8783)]
+1006D7178: MOV             W10, #0x97
+1006D717C: EOR             W8, W8, W10
+1006D7180: MOV             W13, #0x97
+1006D7184: STRB            W8, [X5,#(byte_1009F879A - 0x1009F8791)]
+1006D7188: LDRB            W8, [X11,#(byte_1009F878D - 0x1009F8783)]
+1006D718C: EOR             W8, W8, #0xF8
+1006D7190: STRB            W8, [X5,#(byte_1009F879B - 0x1009F8791)]
+1006D7194: LDRB            W8, [X11,#(byte_1009F878E - 0x1009F8783)]
+1006D7198: EOR             W8, W8, W14
+1006D719C: MOV             W14, #0x92
+1006D71A0: STRB            W8, [X5,#(byte_1009F879C - 0x1009F8791)]
+1006D71A4: LDRB            W8, [X11,#(byte_1009F878F - 0x1009F8783)]
+1006D71A8: EOR             W8, W8, W25
+1006D71AC: STRB            W8, [X5,#(byte_1009F879D - 0x1009F8791)]
+1006D71B0: LDRB            W8, [X11,#(byte_1009F8790 - 0x1009F8783)]
+1006D71B4: MOV             W10, #0x53 ; 'S'
+1006D71B8: EOR             W8, W8, W10
+1006D71BC: MOV             W26, #0x53 ; 'S'
+1006D71C0: STRB            W8, [X5,#(byte_1009F879E - 0x1009F8791)]
+1006D71C4: ADRL            X11, byte_1009F879F
+1006D71CC: LDRB            W8, [X11]
+1006D71D0: EOR             W8, W8, #0x33333333
+1006D71D4: ADRL            X5, byte_1009F87A9
+1006D71DC: STRB            W8, [X5]
+1006D71E0: LDRB            W8, [X11,#(byte_1009F87A0 - 0x1009F879F)]
+1006D71E4: EOR             W8, W8, W16
+1006D71E8: STRB            W8, [X5,#(byte_1009F87AA - 0x1009F87A9)]
+1006D71EC: LDRB            W8, [X11,#(byte_1009F87A1 - 0x1009F879F)]
+1006D71F0: EOR             W8, W8, W4
+1006D71F4: STRB            W8, [X5,#(byte_1009F87AB - 0x1009F87A9)]
+1006D71F8: LDRB            W8, [X11,#(byte_1009F87A2 - 0x1009F879F)]
+1006D71FC: EOR             W8, W8, #0x44444444
+1006D7200: STRB            W8, [X5,#(byte_1009F87AC - 0x1009F87A9)]
+1006D7204: LDRB            W8, [X11,#(byte_1009F87A3 - 0x1009F879F)]
+1006D7208: MOV             W3, #0xB7
+1006D720C: EOR             W8, W8, W3
+1006D7210: STRB            W8, [X5,#(byte_1009F87AD - 0x1009F87A9)]
+1006D7214: LDRB            W8, [X11,#(byte_1009F87A4 - 0x1009F879F)]
+1006D7218: MOV             W10, #0x12
+1006D721C: EOR             W8, W8, W10
+1006D7220: STRB            W8, [X5,#(byte_1009F87AE - 0x1009F87A9)]
+1006D7224: LDRB            W8, [X11,#(byte_1009F87A5 - 0x1009F879F)]
+1006D7228: EOR             W8, W8, W14
+1006D722C: STRB            W8, [X5,#(byte_1009F87AF - 0x1009F87A9)]
+1006D7230: LDRB            W8, [X11,#(byte_1009F87A6 - 0x1009F879F)]
+1006D7234: EOR             W8, W8, W9
+1006D7238: STRB            W8, [X5,#(byte_1009F87B0 - 0x1009F87A9)]
+1006D723C: LDRB            W8, [X11,#(byte_1009F87A7 - 0x1009F879F)]
+1006D7240: EOR             W8, W8, W24
+1006D7244: STRB            W8, [X5,#(byte_1009F87B1 - 0x1009F87A9)]
+1006D7248: LDRB            W8, [X11,#(byte_1009F87A8 - 0x1009F879F)]
+1006D724C: MOV             W9, #0x8A
+1006D7250: EOR             W8, W8, W9
+1006D7254: STRB            W8, [X5,#(byte_1009F87B2 - 0x1009F87A9)]
+1006D7258: ADRL            X5, byte_1009F87B3
+1006D7260: LDRB            W8, [X5]
+1006D7264: EOR             W8, W8, #3
+1006D7268: ADRL            X11, byte_1009F87BE
+1006D7270: STRB            W8, [X11]
+1006D7274: LDRB            W8, [X5,#(byte_1009F87B4 - 0x1009F87B3)]
+1006D7278: EOR             W8, W8, #0xFFFFFF83
+1006D727C: STRB            W8, [X11,#(byte_1009F87BF - 0x1009F87BE)]
+1006D7280: LDRB            W8, [X5,#(byte_1009F87B5 - 0x1009F87B3)]
+1006D7284: EOR             W8, W8, #0xDDDDDDDD
+1006D7288: STRB            W8, [X11,#(byte_1009F87C0 - 0x1009F87BE)]
+1006D728C: LDRB            W8, [X5,#(byte_1009F87B6 - 0x1009F87B3)]
+1006D7290: MOV             W9, #0xB8
+1006D7294: EOR             W8, W8, W9
+1006D7298: MOV             W24, #0xB8
+1006D729C: STRB            W8, [X11,#(byte_1009F87C1 - 0x1009F87BE)]
+1006D72A0: LDRB            W8, [X5,#(byte_1009F87B7 - 0x1009F87B3)]
+1006D72A4: EOR             W8, W8, #6
+1006D72A8: STRB            W8, [X11,#(byte_1009F87C2 - 0x1009F87BE)]
+1006D72AC: LDRB            W8, [X5,#(byte_1009F87B8 - 0x1009F87B3)]
+1006D72B0: EOR             W8, W8, #0x1F
+1006D72B4: STRB            W8, [X11,#(byte_1009F87C3 - 0x1009F87BE)]
+1006D72B8: LDRB            W8, [X5,#(byte_1009F87B9 - 0x1009F87B3)]
+1006D72BC: MOV             W10, #0x9C
+1006D72C0: EOR             W8, W8, W10
+1006D72C4: STRB            W8, [X11,#(byte_1009F87C4 - 0x1009F87BE)]
+1006D72C8: LDRB            W8, [X5,#(byte_1009F87BA - 0x1009F87B3)]
+1006D72CC: MOV             W9, #0xD2
+1006D72D0: EOR             W8, W8, W9
+1006D72D4: MOV             W4, #0xD2
+1006D72D8: STRB            W8, [X11,#(byte_1009F87C5 - 0x1009F87BE)]
+1006D72DC: LDRB            W8, [X5,#(byte_1009F87BB - 0x1009F87B3)]
+1006D72E0: EOR             W8, W8, #0xFFFFFFF7
+1006D72E4: STRB            W8, [X11,#(byte_1009F87C6 - 0x1009F87BE)]
+1006D72E8: LDRB            W8, [X5,#(byte_1009F87BC - 0x1009F87B3)]
+1006D72EC: MOV             W10, #0x54 ; 'T'
+1006D72F0: EOR             W8, W8, W10
+1006D72F4: STRB            W8, [X11,#(byte_1009F87C7 - 0x1009F87BE)]
+1006D72F8: LDRB            W8, [X5,#(byte_1009F87BD - 0x1009F87B3)]
+1006D72FC: EOR             W8, W8, #0xE0
+1006D7300: STRB            W8, [X11,#(byte_1009F87C8 - 0x1009F87BE)]
+1006D7304: ADRL            X11, byte_1009F87C9
+1006D730C: LDRB            W8, [X11]
+1006D7310: MOV             W16, #0x31 ; '1'
+1006D7314: EOR             W8, W8, W16
+1006D7318: ADRL            X5, byte_1009F87D6
+1006D7320: STRB            W8, [X5]
+1006D7324: LDRB            W8, [X11,#(byte_1009F87CA - 0x1009F87C9)]
+1006D7328: EOR             W8, W8, W23
+1006D732C: STRB            W8, [X5,#(byte_1009F87D7 - 0x1009F87D6)]
+1006D7330: LDRB            W8, [X11,#(byte_1009F87CB - 0x1009F87C9)]
+1006D7334: EOR             W8, W8, #1
+1006D7338: STRB            W8, [X5,#(byte_1009F87D8 - 0x1009F87D6)]
+1006D733C: LDRB            W8, [X11,#(byte_1009F87CC - 0x1009F87C9)]
+1006D7340: MOV             W3, #0xB1
+1006D7344: EOR             W8, W8, W3
+1006D7348: STRB            W8, [X5,#(byte_1009F87D9 - 0x1009F87D6)]
+1006D734C: LDRB            W8, [X11,#(byte_1009F87CD - 0x1009F87C9)]
+1006D7350: EOR             W8, W8, W17
+1006D7354: STRB            W8, [X5,#(byte_1009F87DA - 0x1009F87D6)]
+1006D7358: LDRB            W8, [X11,#(byte_1009F87CE - 0x1009F87C9)]
+1006D735C: MOV             W9, #0x71 ; 'q'
+1006D7360: EOR             W8, W8, W9
+1006D7364: MOV             W3, #0x71 ; 'q'
+1006D7368: STRB            W8, [X5,#(byte_1009F87DB - 0x1009F87D6)]
+1006D736C: LDRB            W8, [X11,#(byte_1009F87CF - 0x1009F87C9)]
+1006D7370: MOV             W9, #9
+1006D7374: EOR             W8, W8, W9
+1006D7378: STRB            W8, [X5,#(byte_1009F87DC - 0x1009F87D6)]
+1006D737C: LDRB            W8, [X11,#(byte_1009F87D0 - 0x1009F87C9)]
+1006D7380: MOV             W10, #0x9E
+1006D7384: EOR             W8, W8, W10
+1006D7388: STRB            W8, [X5,#(byte_1009F87DD - 0x1009F87D6)]
+1006D738C: LDRB            W8, [X11,#(byte_1009F87D1 - 0x1009F87C9)]
+1006D7390: EOR             W8, W8, W2
+1006D7394: STRB            W8, [X5,#(byte_1009F87DE - 0x1009F87D6)]
+1006D7398: LDRB            W8, [X11,#(byte_1009F87D2 - 0x1009F87C9)]
+1006D739C: EOR             W8, W8, W12
+1006D73A0: STRB            W8, [X5,#(byte_1009F87DF - 0x1009F87D6)]
+1006D73A4: LDRB            W8, [X11,#(byte_1009F87D3 - 0x1009F87C9)]
+1006D73A8: EOR             W8, W8, W15
+1006D73AC: STRB            W8, [X5,#(byte_1009F87E0 - 0x1009F87D6)]
+1006D73B0: LDRB            W8, [X11,#(byte_1009F87D4 - 0x1009F87C9)]
+1006D73B4: EOR             W8, W8, #6
+1006D73B8: STRB            W8, [X5,#(byte_1009F87E1 - 0x1009F87D6)]
+1006D73BC: LDRB            W8, [X11,#(byte_1009F87D5 - 0x1009F87C9)]
+1006D73C0: EOR             W8, W8, #0x38 ; '8'
+1006D73C4: STRB            W8, [X5,#(byte_1009F87E2 - 0x1009F87D6)]
+1006D73C8: ADRL            X11, byte_1009F87E3
+1006D73D0: LDRB            W8, [X11]
+1006D73D4: MOV             W12, #0x82
+1006D73D8: EOR             W8, W8, W12
+1006D73DC: ADRL            X5, byte_1009F87EE
+1006D73E4: STRB            W8, [X5]
+1006D73E8: LDRB            W8, [X11,#(byte_1009F87E4 - 0x1009F87E3)]
+1006D73EC: EOR             W8, W8, #0xFE
+1006D73F0: STRB            W8, [X5,#(byte_1009F87EF - 0x1009F87EE)]
+1006D73F4: LDRB            W8, [X11,#(byte_1009F87E5 - 0x1009F87E3)]
+1006D73F8: MOV             W28, #0xD9
+1006D73FC: EOR             W8, W8, W28
+1006D7400: STRB            W8, [X5,#(byte_1009F87F0 - 0x1009F87EE)]
+1006D7404: LDRB            W8, [X11,#(byte_1009F87E6 - 0x1009F87E3)]
+1006D7408: EOR             W8, W8, #0x11111111
+1006D740C: STRB            W8, [X5,#(byte_1009F87F1 - 0x1009F87EE)]
+1006D7410: LDRB            W8, [X11,#(byte_1009F87E7 - 0x1009F87E3)]
+1006D7414: EOR             W8, W8, #3
+1006D7418: STRB            W8, [X5,#(byte_1009F87F2 - 0x1009F87EE)]
+1006D741C: LDRB            W8, [X11,#(byte_1009F87E8 - 0x1009F87E3)]
+1006D7420: MOV             W12, #0xB6
+1006D7424: EOR             W8, W8, W12
+1006D7428: STRB            W8, [X5,#(byte_1009F87F3 - 0x1009F87EE)]
+1006D742C: LDRB            W8, [X11,#(byte_1009F87E9 - 0x1009F87E3)]
+1006D7430: EOR             W8, W8, #6
+1006D7434: STRB            W8, [X5,#(byte_1009F87F4 - 0x1009F87EE)]
+1006D7438: LDRB            W8, [X11,#(byte_1009F87EA - 0x1009F87E3)]
+1006D743C: EOR             W8, W8, #0xFFFFFFCF
+1006D7440: STRB            W8, [X5,#(byte_1009F87F5 - 0x1009F87EE)]
+1006D7444: LDRB            W8, [X11,#(byte_1009F87EB - 0x1009F87E3)]
+1006D7448: EOR             W8, W8, W13
+1006D744C: STRB            W8, [X5,#(byte_1009F87F6 - 0x1009F87EE)]
+1006D7450: LDRB            W8, [X11,#(byte_1009F87EC - 0x1009F87E3)]
+1006D7454: EOR             W8, W8, W1
+1006D7458: STRB            W8, [X5,#(byte_1009F87F7 - 0x1009F87EE)]
+1006D745C: LDRB            W8, [X11,#(byte_1009F87ED - 0x1009F87E3)]
+1006D7460: EOR             W8, W8, W7
+1006D7464: STRB            W8, [X5,#(byte_1009F87F8 - 0x1009F87EE)]
+1006D7468: ADRL            X11, byte_1009F8800
+1006D7470: LDRB            W8, [X11]
+1006D7474: MOV             W9, #0x2E ; '.'
+1006D7478: EOR             W8, W8, W9
+1006D747C: MOV             W1, #0x2E ; '.'
+1006D7480: ADRL            X5, byte_1009F8820
+1006D7488: STRB            W8, [X5]
+1006D748C: LDRB            W8, [X11,#(byte_1009F8801 - 0x1009F8800)]
+1006D7490: EOR             W8, W8, #0xF
+1006D7494: STRB            W8, [X5,#(byte_1009F8821 - 0x1009F8820)]
+1006D7498: LDRB            W8, [X11,#(byte_1009F8802 - 0x1009F8800)]
+1006D749C: MOV             W9, #0x5C ; '\'
+1006D74A0: EOR             W8, W8, W9
+1006D74A4: STRB            W8, [X5,#(byte_1009F8822 - 0x1009F8820)]
+1006D74A8: LDRB            W8, [X11,#(byte_1009F8803 - 0x1009F8800)]
+1006D74AC: MOV             W9, #0xAF
+1006D74B0: EOR             W8, W8, W9
+1006D74B4: MOV             W19, #0xAF
+1006D74B8: STRB            W8, [X5,#(byte_1009F8823 - 0x1009F8820)]
+1006D74BC: LDRB            W8, [X11,#(byte_1009F8804 - 0x1009F8800)]
+1006D74C0: EOR             W8, W8, W10
+1006D74C4: MOV             W15, #0x9E
+1006D74C8: STRB            W8, [X5,#(byte_1009F8824 - 0x1009F8820)]
+1006D74CC: LDRB            W8, [X11,#(byte_1009F8805 - 0x1009F8800)]
+1006D74D0: MOV             W9, #0xC8
+1006D74D4: EOR             W8, W8, W9
+1006D74D8: STRB            W8, [X5,#(byte_1009F8825 - 0x1009F8820)]
+1006D74DC: LDRB            W8, [X11,#(byte_1009F8806 - 0x1009F8800)]
+1006D74E0: EOR             W8, W8, W16
+1006D74E4: MOV             W14, #0x31 ; '1'
+1006D74E8: STRB            W8, [X5,#(byte_1009F8826 - 0x1009F8820)]
+1006D74EC: LDRB            W8, [X11,#(byte_1009F8807 - 0x1009F8800)]
+1006D74F0: EOR             W8, W8, W21
+1006D74F4: ADRL            X21, off_1009FEAA8
+1006D74FC: STRB            W8, [X5,#(byte_1009F8827 - 0x1009F8820)]
+1006D7500: LDRB            W8, [X11,#(byte_1009F8808 - 0x1009F8800)]
+1006D7504: MOV             W9, #0x51 ; 'Q'
+1006D7508: EOR             W8, W8, W9
+1006D750C: STRB            W8, [X5,#(byte_1009F8828 - 0x1009F8820)]
+1006D7510: LDRB            W8, [X11,#(byte_1009F8809 - 0x1009F8800)]
+1006D7514: EOR             W8, W8, W22
+1006D7518: STRB            W8, [X5,#(byte_1009F8829 - 0x1009F8820)]
+1006D751C: LDRB            W8, [X11,#(byte_1009F880A - 0x1009F8800)]
+1006D7520: EOR             W8, W8, #0x3C ; '<'
+1006D7524: STRB            W8, [X5,#(byte_1009F882A - 0x1009F8820)]
+1006D7528: LDRB            W8, [X11,#(byte_1009F880B - 0x1009F8800)]
+1006D752C: EOR             W8, W8, #4
+1006D7530: STRB            W8, [X5,#(byte_1009F882B - 0x1009F8820)]
+1006D7534: LDRB            W8, [X11,#(byte_1009F880C - 0x1009F8800)]
+1006D7538: EOR             W8, W8, #0xFFFFFFFB
+1006D753C: STRB            W8, [X5,#(byte_1009F882C - 0x1009F8820)]
+1006D7540: LDRB            W8, [X11,#(byte_1009F880D - 0x1009F8800)]
+1006D7544: MOV             W9, #0x28 ; '('
+1006D7548: EOR             W8, W8, W9
+1006D754C: MOV             W13, #0x28 ; '('
+1006D7550: STRB            W8, [X5,#(byte_1009F882D - 0x1009F8820)]
+1006D7554: LDRB            W8, [X11,#(byte_1009F880E - 0x1009F8800)]
+1006D7558: MOV             W9, #0x59 ; 'Y'
+1006D755C: EOR             W8, W8, W9
+1006D7560: STRB            W8, [X5,#(byte_1009F882E - 0x1009F8820)]
+1006D7564: LDRB            W8, [X11,#(byte_1009F880F - 0x1009F8800)]
+1006D7568: EOR             W8, W8, W27
+1006D756C: STRB            W8, [X5,#(byte_1009F882F - 0x1009F8820)]
+1006D7570: LDRB            W8, [X11,#(byte_1009F8810 - 0x1009F8800)]
+1006D7574: EOR             W8, W8, W20
+1006D7578: STRB            W8, [X5,#(byte_1009F8830 - 0x1009F8820)]
+1006D757C: ADRL            X11, byte_1009F8831
+1006D7584: LDRB            W8, [X11]
+1006D7588: EOR             W8, W8, W28
+1006D758C: ADRL            X5, byte_1009F883F
+1006D7594: STRB            W8, [X5]
+1006D7598: LDRB            W8, [X11,#(byte_1009F8832 - 0x1009F8831)]
+1006D759C: EOR             W8, W8, #0xFFFFFFEF
+1006D75A0: STRB            W8, [X5,#(byte_1009F8840 - 0x1009F883F)]
+1006D75A4: LDRB            W8, [X11,#(byte_1009F8833 - 0x1009F8831)]
+1006D75A8: MOV             W10, #0xA2
+1006D75AC: EOR             W8, W8, W10
+1006D75B0: STRB            W8, [X5,#(byte_1009F8841 - 0x1009F883F)]
+1006D75B4: LDRB            W8, [X11,#(byte_1009F8834 - 0x1009F8831)]
+1006D75B8: EOR             W8, W8, #0xFE
+1006D75BC: STRB            W8, [X5,#(byte_1009F8842 - 0x1009F883F)]
+1006D75C0: LDRB            W8, [X11,#(byte_1009F8835 - 0x1009F8831)]
+1006D75C4: MOV             W9, #0x25 ; '%'
+1006D75C8: EOR             W8, W8, W9
+1006D75CC: STRB            W8, [X5,#(byte_1009F8843 - 0x1009F883F)]
+1006D75D0: LDRB            W8, [X11,#(byte_1009F8836 - 0x1009F8831)]
+1006D75D4: EOR             W8, W8, #0xFFFFFFFD
+1006D75D8: STRB            W8, [X5,#(byte_1009F8844 - 0x1009F883F)]
+1006D75DC: LDRB            W8, [X11,#(byte_1009F8837 - 0x1009F8831)]
+1006D75E0: MOV             W9, #0x23 ; '#'
+1006D75E4: EOR             W8, W8, W9
+1006D75E8: STRB            W8, [X5,#(byte_1009F8845 - 0x1009F883F)]
+1006D75EC: LDRB            W8, [X11,#(byte_1009F8838 - 0x1009F8831)]
+1006D75F0: MOV             W10, #0x21 ; '!'
+1006D75F4: EOR             W8, W8, W10
+1006D75F8: STRB            W8, [X5,#(byte_1009F8846 - 0x1009F883F)]
+1006D75FC: LDRB            W8, [X11,#(byte_1009F8839 - 0x1009F8831)]
+1006D7600: MOV             W9, #0x68 ; 'h'
+1006D7604: EOR             W8, W8, W9
+1006D7608: STRB            W8, [X5,#(byte_1009F8847 - 0x1009F883F)]
+1006D760C: LDRB            W8, [X11,#(byte_1009F883A - 0x1009F8831)]
+1006D7610: EOR             W8, W8, #0x3F ; '?'
+1006D7614: STRB            W8, [X5,#(byte_1009F8848 - 0x1009F883F)]
+1006D7618: LDRB            W8, [X11,#(byte_1009F883B - 0x1009F8831)]
+1006D761C: MOV             W9, #0xDC
+1006D7620: EOR             W8, W8, W9
+1006D7624: MOV             W2, #0xDC
+1006D7628: STRB            W8, [X5,#(byte_1009F8849 - 0x1009F883F)]
+1006D762C: LDRB            W8, [X11,#(byte_1009F883C - 0x1009F8831)]
+1006D7630: EOR             W8, W8, #0x10
+1006D7634: STRB            W8, [X5,#(byte_1009F884A - 0x1009F883F)]
+1006D7638: LDRB            W8, [X11,#(byte_1009F883D - 0x1009F8831)]
+1006D763C: MOV             W10, #0x5B ; '['
+1006D7640: EOR             W8, W8, W10
+1006D7644: STRB            W8, [X5,#(byte_1009F884B - 0x1009F883F)]
+1006D7648: LDRB            W8, [X11,#(byte_1009F883E - 0x1009F8831)]
+1006D764C: EOR             W8, W8, W28
+1006D7650: STRB            W8, [X5,#(byte_1009F884C - 0x1009F883F)]
+1006D7654: ADRL            X11, byte_1009F884D
+1006D765C: LDRB            W8, [X11]
+1006D7660: EOR             W8, W8, #0x7F
+1006D7664: ADRL            X5, byte_1009F8857
+1006D766C: STRB            W8, [X5]
+1006D7670: LDRB            W8, [X11,#(byte_1009F884E - 0x1009F884D)]
+1006D7674: EOR             W8, W8, #0x22222222
+1006D7678: STRB            W8, [X5,#(byte_1009F8858 - 0x1009F8857)]
+1006D767C: LDRB            W8, [X11,#(byte_1009F884F - 0x1009F884D)]
+1006D7680: EOR             W8, W8, #3
+1006D7684: STRB            W8, [X5,#(byte_1009F8859 - 0x1009F8857)]
+1006D7688: LDRB            W8, [X11,#(byte_1009F8850 - 0x1009F884D)]
+1006D768C: MOV             W9, #0x4B ; 'K'
+1006D7690: EOR             W8, W8, W9
+1006D7694: STRB            W8, [X5,#(byte_1009F885A - 0x1009F8857)]
+1006D7698: LDRB            W8, [X11,#(byte_1009F8851 - 0x1009F884D)]
+1006D769C: MOV             W17, #0xE6
+1006D76A0: EOR             W8, W8, W17
+1006D76A4: STRB            W8, [X5,#(byte_1009F885B - 0x1009F8857)]
+1006D76A8: LDRB            W8, [X11,#(byte_1009F8852 - 0x1009F884D)]
+1006D76AC: EOR             W8, W8, W4
+1006D76B0: STRB            W8, [X5,#(byte_1009F885C - 0x1009F8857)]
+1006D76B4: LDRB            W8, [X11,#(byte_1009F8853 - 0x1009F884D)]
+1006D76B8: MOV             W12, #0xA0
+1006D76BC: EOR             W8, W8, W12
+1006D76C0: MOV             W16, #0xA0
+1006D76C4: STRB            W8, [X5,#(byte_1009F885D - 0x1009F8857)]
+1006D76C8: LDRB            W8, [X11,#(byte_1009F8854 - 0x1009F884D)]
+1006D76CC: EOR             W8, W8, #0xFFFFFF87
+1006D76D0: STRB            W8, [X5,#(byte_1009F885E - 0x1009F8857)]
+1006D76D4: LDRB            W8, [X11,#(byte_1009F8855 - 0x1009F884D)]
+1006D76D8: MOV             W9, #0x9D
+1006D76DC: EOR             W8, W8, W9
+1006D76E0: STRB            W8, [X5,#(byte_1009F885F - 0x1009F8857)]
+1006D76E4: LDRB            W8, [X11,#(byte_1009F8856 - 0x1009F884D)]
+1006D76E8: EOR             W8, W8, #0x70 ; 'p'
+1006D76EC: STRB            W8, [X5,#(byte_1009F8860 - 0x1009F8857)]
+1006D76F0: ADRL            X11, byte_1009F8861
+1006D76F8: LDRB            W8, [X11]
+1006D76FC: MOV             W20, #0x63 ; 'c'
+1006D7700: EOR             W8, W8, W20
+1006D7704: ADRL            X5, byte_1009F886C
+1006D770C: STRB            W8, [X5]
+1006D7710: LDRB            W8, [X11,#(byte_1009F8862 - 0x1009F8861)]
+1006D7714: EOR             W8, W8, W30
+1006D7718: STRB            W8, [X5,#(byte_1009F886D - 0x1009F886C)]
+1006D771C: LDRB            W8, [X11,#(byte_1009F8863 - 0x1009F8861)]
+1006D7720: MOV             W12, #0x3A ; ':'
+1006D7724: EOR             W8, W8, W12
+1006D7728: STRB            W8, [X5,#(byte_1009F886E - 0x1009F886C)]
+1006D772C: LDRB            W8, [X11,#(byte_1009F8864 - 0x1009F8861)]
+1006D7730: EOR             W8, W8, #0xC0
+1006D7734: STRB            W8, [X5,#(byte_1009F886F - 0x1009F886C)]
+1006D7738: LDRB            W8, [X11,#(byte_1009F8865 - 0x1009F8861)]
+1006D773C: EOR             W8, W8, W6
+1006D7740: STRB            W8, [X5,#(byte_1009F8870 - 0x1009F886C)]
+1006D7744: LDRB            W8, [X11,#(byte_1009F8866 - 0x1009F8861)]
+1006D7748: MOV             W9, #0xC9
+1006D774C: EOR             W8, W8, W9
+1006D7750: STRB            W8, [X5,#(byte_1009F8871 - 0x1009F886C)]
+1006D7754: LDRB            W8, [X11,#(byte_1009F8867 - 0x1009F8861)]
+1006D7758: MOV             W9, #0xAD
+1006D775C: EOR             W8, W8, W9
+1006D7760: MOV             W7, #0xAD
+1006D7764: STRB            W8, [X5,#(byte_1009F8872 - 0x1009F886C)]
+1006D7768: LDRB            W8, [X11,#(byte_1009F8868 - 0x1009F8861)]
+1006D776C: MOV             W9, #0xA7
+1006D7770: EOR             W8, W8, W9
+1006D7774: STRB            W8, [X5,#(byte_1009F8873 - 0x1009F886C)]
+1006D7778: LDRB            W8, [X11,#(byte_1009F8869 - 0x1009F8861)]
+1006D777C: MOV             W9, #0xA
+1006D7780: EOR             W8, W8, W9
+1006D7784: MOV             W27, #0xA
+1006D7788: STRB            W8, [X5,#(byte_1009F8874 - 0x1009F886C)]
+1006D778C: LDRB            W8, [X11,#(byte_1009F886A - 0x1009F8861)]
+1006D7790: EOR             W8, W8, #0xC
+1006D7794: STRB            W8, [X5,#(byte_1009F8875 - 0x1009F886C)]
+1006D7798: LDRB            W8, [X11,#(byte_1009F886B - 0x1009F8861)]
+1006D779C: EOR             W8, W8, #0xFFFFFFC7
+1006D77A0: STRB            W8, [X5,#(byte_1009F8876 - 0x1009F886C)]
+1006D77A4: ADRL            X11, byte_1009F8880
+1006D77AC: LDRB            W8, [X11]
+1006D77B0: EOR             W8, W8, #0xFFFFFF87
+1006D77B4: ADRL            X5, byte_1009F88A0
+1006D77BC: STRB            W8, [X5]
+1006D77C0: LDRB            W8, [X11,#(byte_1009F8881 - 0x1009F8880)]
+1006D77C4: EOR             W8, W8, W13
+1006D77C8: STRB            W8, [X5,#(byte_1009F88A1 - 0x1009F88A0)]
+1006D77CC: LDRB            W8, [X11,#(byte_1009F8882 - 0x1009F8880)]
+1006D77D0: MOV             W9, #0xBE
+1006D77D4: EOR             W8, W8, W9
+1006D77D8: MOV             W22, #0xBE
+1006D77DC: STRB            W8, [X5,#(byte_1009F88A2 - 0x1009F88A0)]
+1006D77E0: LDRB            W8, [X11,#(byte_1009F8883 - 0x1009F8880)]
+1006D77E4: MOV             W12, #0xBA
+1006D77E8: EOR             W8, W8, W12
+1006D77EC: STRB            W8, [X5,#(byte_1009F88A3 - 0x1009F88A0)]
+1006D77F0: LDRB            W8, [X11,#(byte_1009F8884 - 0x1009F8880)]
+1006D77F4: MOV             W9, #0xF5
+1006D77F8: EOR             W8, W8, W9
+1006D77FC: STRB            W8, [X5,#(byte_1009F88A4 - 0x1009F88A0)]
+1006D7800: LDRB            W8, [X11,#(byte_1009F8885 - 0x1009F8880)]
+1006D7804: EOR             W8, W8, W3
+1006D7808: STRB            W8, [X5,#(byte_1009F88A5 - 0x1009F88A0)]
+1006D780C: LDRB            W8, [X11,#(byte_1009F8886 - 0x1009F8880)]
+1006D7810: EOR             W8, W8, #0x3F ; '?'
+1006D7814: STRB            W8, [X5,#(byte_1009F88A6 - 0x1009F88A0)]
+1006D7818: LDRB            W8, [X11,#(byte_1009F8887 - 0x1009F8880)]
+1006D781C: EOR             W8, W8, W16
+1006D7820: STRB            W8, [X5,#(byte_1009F88A7 - 0x1009F88A0)]
+1006D7824: LDRB            W8, [X11,#(byte_1009F8888 - 0x1009F8880)]
+1006D7828: MOV             W9, #0xB4
+1006D782C: EOR             W8, W8, W9
+1006D7830: STRB            W8, [X5,#(byte_1009F88A8 - 0x1009F88A0)]
+1006D7834: LDRB            W8, [X11,#(byte_1009F8889 - 0x1009F8880)]
+1006D7838: EOR             W8, W8, #0xFFFFFFF3
+1006D783C: STRB            W8, [X5,#(byte_1009F88A9 - 0x1009F88A0)]
+1006D7840: LDRB            W8, [X11,#(byte_1009F888A - 0x1009F8880)]
+1006D7844: MOV             W9, #0xF6
+1006D7848: EOR             W8, W8, W9
+1006D784C: MOV             W13, #0xF6
+1006D7850: STRB            W8, [X5,#(byte_1009F88AA - 0x1009F88A0)]
+1006D7854: LDRB            W8, [X11,#(byte_1009F888B - 0x1009F8880)]
+1006D7858: EOR             W8, W8, W19
+1006D785C: STRB            W8, [X5,#(byte_1009F88AB - 0x1009F88A0)]
+1006D7860: LDRB            W8, [X11,#(byte_1009F888C - 0x1009F8880)]
+1006D7864: EOR             W8, W8, #2
+1006D7868: STRB            W8, [X5,#(byte_1009F88AC - 0x1009F88A0)]
+1006D786C: LDRB            W8, [X11,#(byte_1009F888D - 0x1009F8880)]
+1006D7870: MOV             W19, #0x19
+1006D7874: EOR             W8, W8, W19
+1006D7878: STRB            W8, [X5,#(byte_1009F88AD - 0x1009F88A0)]
+1006D787C: LDRB            W8, [X11,#(byte_1009F888E - 0x1009F8880)]
+1006D7880: MOV             W9, #0x41 ; 'A'
+1006D7884: EOR             W8, W8, W9
+1006D7888: STRB            W8, [X5,#(byte_1009F88AE - 0x1009F88A0)]
+1006D788C: LDRB            W8, [X11,#(byte_1009F888F - 0x1009F8880)]
+1006D7890: MOV             W9, #0xB3
+1006D7894: EOR             W8, W8, W9
+1006D7898: MOV             W4, #0xB3
+1006D789C: STRB            W8, [X5,#(byte_1009F88AF - 0x1009F88A0)]
+1006D78A0: LDRB            W8, [X11,#(byte_1009F8890 - 0x1009F8880)]
+1006D78A4: MOV             W9, #0xC6
+1006D78A8: EOR             W8, W8, W9
+1006D78AC: MOV             W16, #0xC6
+1006D78B0: STRB            W8, [X5,#(byte_1009F88B0 - 0x1009F88A0)]
+1006D78B4: LDRB            W8, [X11,#(byte_1009F8891 - 0x1009F8880)]
+1006D78B8: EOR             W8, W8, #0x7F
+1006D78BC: STRB            W8, [X5,#(byte_1009F88B1 - 0x1009F88A0)]
+1006D78C0: LDRB            W8, [X11,#(byte_1009F8892 - 0x1009F8880)]
+1006D78C4: MOV             W9, #0xCB
+1006D78C8: EOR             W8, W8, W9
+1006D78CC: STRB            W8, [X5,#(byte_1009F88B2 - 0x1009F88A0)]
+1006D78D0: ADRL            X11, byte_1009F88B3
+1006D78D8: LDRB            W8, [X11]
+1006D78DC: EOR             W8, W8, W17
+1006D78E0: ADRL            X5, byte_1009F88C1
+1006D78E8: STRB            W8, [X5]
+1006D78EC: LDRB            W8, [X11,#(byte_1009F88B4 - 0x1009F88B3)]
+1006D78F0: EOR             W8, W8, W13
+1006D78F4: STRB            W8, [X5,#(byte_1009F88C2 - 0x1009F88C1)]
+1006D78F8: LDRB            W8, [X11,#(byte_1009F88B5 - 0x1009F88B3)]
+1006D78FC: EOR             W8, W8, W0
+1006D7900: STRB            W8, [X5,#(byte_1009F88C3 - 0x1009F88C1)]
+1006D7904: LDRB            W8, [X11,#(byte_1009F88B6 - 0x1009F88B3)]
+1006D7908: EOR             W8, W8, #0xFFFFFF9F
+1006D790C: STRB            W8, [X5,#(byte_1009F88C4 - 0x1009F88C1)]
+1006D7910: LDRB            W8, [X11,#(byte_1009F88B7 - 0x1009F88B3)]
+1006D7914: EOR             W8, W8, W4
+1006D7918: STRB            W8, [X5,#(byte_1009F88C5 - 0x1009F88C1)]
+1006D791C: LDRB            W8, [X11,#(byte_1009F88B8 - 0x1009F88B3)]
+1006D7920: MOV             W9, #0x36 ; '6'
+1006D7924: EOR             W8, W8, W9
+1006D7928: STRB            W8, [X5,#(byte_1009F88C6 - 0x1009F88C1)]
+1006D792C: LDRB            W8, [X11,#(byte_1009F88B9 - 0x1009F88B3)]
+1006D7930: MOV             W9, #0x8B
+1006D7934: EOR             W8, W8, W9
+1006D7938: STRB            W8, [X5,#(byte_1009F88C7 - 0x1009F88C1)]
+1006D793C: LDRB            W8, [X11,#(byte_1009F88BA - 0x1009F88B3)]
+1006D7940: EOR             W8, W8, W12
+1006D7944: STRB            W8, [X5,#(byte_1009F88C8 - 0x1009F88C1)]
+1006D7948: LDRB            W8, [X11,#(byte_1009F88BB - 0x1009F88B3)]
+1006D794C: EOR             W8, W8, #0xE0
+1006D7950: STRB            W8, [X5,#(byte_1009F88C9 - 0x1009F88C1)]
+1006D7954: LDRB            W8, [X11,#(byte_1009F88BC - 0x1009F88B3)]
+1006D7958: MOV             W9, #0x5F ; '_'
+1006D795C: EOR             W8, W8, W9
+1006D7960: MOV             W3, #0x5F ; '_'
+1006D7964: STRB            W8, [X5,#(byte_1009F88CA - 0x1009F88C1)]
+1006D7968: LDRB            W8, [X11,#(byte_1009F88BD - 0x1009F88B3)]
+1006D796C: EOR             W8, W8, #0xFFFFFFE3
+1006D7970: STRB            W8, [X5,#(byte_1009F88CB - 0x1009F88C1)]
+1006D7974: LDRB            W8, [X11,#(byte_1009F88BE - 0x1009F88B3)]
+1006D7978: MOV             W9, #0xF4
+1006D797C: EOR             W8, W8, W9
+1006D7980: STRB            W8, [X5,#(byte_1009F88CC - 0x1009F88C1)]
+1006D7984: LDRB            W8, [X11,#(byte_1009F88BF - 0x1009F88B3)]
+1006D7988: EOR             W8, W8, #0x44444444
+1006D798C: STRB            W8, [X5,#(byte_1009F88CD - 0x1009F88C1)]
+1006D7990: LDRB            W8, [X11,#(byte_1009F88C0 - 0x1009F88B3)]
+1006D7994: MOV             W9, #0x32 ; '2'
+1006D7998: EOR             W8, W8, W9
+1006D799C: STRB            W8, [X5,#(byte_1009F88CE - 0x1009F88C1)]
+1006D79A0: ADRL            X11, byte_1009F88CF
+1006D79A8: LDRB            W8, [X11]
+1006D79AC: EOR             W8, W8, W30
+1006D79B0: ADRL            X5, byte_1009F88D9
+1006D79B8: STRB            W8, [X5]
+1006D79BC: LDRB            W8, [X11,#(byte_1009F88D0 - 0x1009F88CF)]
+1006D79C0: EOR             W8, W8, W24
+1006D79C4: STRB            W8, [X5,#(byte_1009F88DA - 0x1009F88D9)]
+1006D79C8: LDRB            W8, [X11,#(byte_1009F88D1 - 0x1009F88CF)]
+1006D79CC: EOR             W8, W8, #0xBBBBBBBB
+1006D79D0: STRB            W8, [X5,#(byte_1009F88DB - 0x1009F88D9)]
+1006D79D4: LDRB            W8, [X11,#(byte_1009F88D2 - 0x1009F88CF)]
+1006D79D8: MOV             W9, #0x2A ; '*'
+1006D79DC: EOR             W8, W8, W9
+1006D79E0: STRB            W8, [X5,#(byte_1009F88DC - 0x1009F88D9)]
+1006D79E4: LDRB            W8, [X11,#(byte_1009F88D3 - 0x1009F88CF)]
+1006D79E8: MOV             W13, #0xAC
+1006D79EC: EOR             W8, W8, W13
+1006D79F0: STRB            W8, [X5,#(byte_1009F88DD - 0x1009F88D9)]
+1006D79F4: LDRB            W8, [X11,#(byte_1009F88D4 - 0x1009F88CF)]
+1006D79F8: MOV             W9, #0x93
+1006D79FC: EOR             W8, W8, W9
+1006D7A00: STRB            W8, [X5,#(byte_1009F88DE - 0x1009F88D9)]
+1006D7A04: LDRB            W8, [X11,#(byte_1009F88D5 - 0x1009F88CF)]
+1006D7A08: EOR             W8, W8, W15
+1006D7A0C: STRB            W8, [X5,#(byte_1009F88DF - 0x1009F88D9)]
+1006D7A10: LDRB            W8, [X11,#(byte_1009F88D6 - 0x1009F88CF)]
+1006D7A14: MOV             W9, #0xA4
+1006D7A18: EOR             W8, W8, W9
+1006D7A1C: MOV             W0, #0xA4
+1006D7A20: STRB            W8, [X5,#(byte_1009F88E0 - 0x1009F88D9)]
+1006D7A24: LDRB            W8, [X11,#(byte_1009F88D7 - 0x1009F88CF)]
+1006D7A28: MOV             W9, #0x46 ; 'F'
+1006D7A2C: EOR             W8, W8, W9
+1006D7A30: STRB            W8, [X5,#(byte_1009F88E1 - 0x1009F88D9)]
+1006D7A34: LDRB            W8, [X11,#(byte_1009F88D8 - 0x1009F88CF)]
+1006D7A38: EOR             W8, W8, W19
+1006D7A3C: STRB            W8, [X5,#(byte_1009F88E2 - 0x1009F88D9)]
+1006D7A40: ADRL            X11, byte_1009F88E3
+1006D7A48: LDRB            W8, [X11]
+1006D7A4C: EOR             W8, W8, W1
+1006D7A50: ADRL            X5, byte_1009F88EE
+1006D7A58: STRB            W8, [X5]
+1006D7A5C: LDRB            W8, [X11,#(byte_1009F88E4 - 0x1009F88E3)]
+1006D7A60: EOR             W8, W8, W26
+1006D7A64: STRB            W8, [X5,#(byte_1009F88EF - 0x1009F88EE)]
+1006D7A68: LDRB            W8, [X11,#(byte_1009F88E5 - 0x1009F88E3)]
+1006D7A6C: EOR             W8, W8, W14
+1006D7A70: STRB            W8, [X5,#(byte_1009F88F0 - 0x1009F88EE)]
+1006D7A74: LDRB            W8, [X11,#(byte_1009F88E6 - 0x1009F88E3)]
+1006D7A78: MOV             W9, #0x97
+1006D7A7C: EOR             W8, W8, W9
+1006D7A80: STRB            W8, [X5,#(byte_1009F88F1 - 0x1009F88EE)]
+1006D7A84: LDRB            W8, [X11,#(byte_1009F88E7 - 0x1009F88E3)]
+1006D7A88: EOR             W8, W8, #0x1E
+1006D7A8C: STRB            W8, [X5,#(byte_1009F88F2 - 0x1009F88EE)]
+1006D7A90: LDRB            W8, [X11,#(byte_1009F88E8 - 0x1009F88E3)]
+1006D7A94: MOV             W12, #0xC4
+1006D7A98: EOR             W8, W8, W12
+1006D7A9C: STRB            W8, [X5,#(byte_1009F88F3 - 0x1009F88EE)]
+1006D7AA0: LDRB            W8, [X11,#(byte_1009F88E9 - 0x1009F88E3)]
+1006D7AA4: EOR             W8, W8, W9
+1006D7AA8: STRB            W8, [X5,#(byte_1009F88F4 - 0x1009F88EE)]
+1006D7AAC: LDRB            W8, [X11,#(byte_1009F88EA - 0x1009F88E3)]
+1006D7AB0: EOR             W8, W8, W27
+1006D7AB4: STRB            W8, [X5,#(byte_1009F88F5 - 0x1009F88EE)]
+1006D7AB8: LDRB            W8, [X11,#(byte_1009F88EB - 0x1009F88E3)]
+1006D7ABC: MOV             W9, #0xDB
+1006D7AC0: EOR             W8, W8, W9
+1006D7AC4: MOV             W9, #0xDB
+1006D7AC8: STRB            W8, [X5,#(byte_1009F88F6 - 0x1009F88EE)]
+1006D7ACC: LDRB            W8, [X11,#(byte_1009F88EC - 0x1009F88E3)]
+1006D7AD0: MOV             W12, #0x42 ; 'B'
+1006D7AD4: EOR             W8, W8, W12
+1006D7AD8: STRB            W8, [X5,#(byte_1009F88F7 - 0x1009F88EE)]
+1006D7ADC: LDRB            W8, [X11,#(byte_1009F88ED - 0x1009F88E3)]
+1006D7AE0: EOR             W8, W8, #8
+1006D7AE4: STRB            W8, [X5,#(byte_1009F88F8 - 0x1009F88EE)]
+1006D7AE8: ADRL            X11, byte_1009F8900
+1006D7AF0: LDRB            W8, [X11]
+1006D7AF4: EOR             W8, W8, W25
+1006D7AF8: ADRL            X5, byte_1009F8920
+1006D7B00: STRB            W8, [X5]
+1006D7B04: LDRB            W8, [X11,#(byte_1009F8901 - 0x1009F8900)]
+1006D7B08: EOR             W8, W8, W13
+1006D7B0C: STRB            W8, [X5,#(byte_1009F8921 - 0x1009F8920)]
+1006D7B10: LDRB            W8, [X11,#(byte_1009F8902 - 0x1009F8900)]
+1006D7B14: EOR             W8, W8, #0xFFFFFF8F
+1006D7B18: STRB            W8, [X5,#(byte_1009F8922 - 0x1009F8920)]
+1006D7B1C: LDRB            W8, [X11,#(byte_1009F8903 - 0x1009F8900)]
+1006D7B20: EOR             W8, W8, W30
+1006D7B24: STRB            W8, [X5,#(byte_1009F8923 - 0x1009F8920)]
+1006D7B28: LDRB            W8, [X11,#(byte_1009F8904 - 0x1009F8900)]
+1006D7B2C: MOV             W12, #0x6C ; 'l'
+1006D7B30: EOR             W8, W8, W12
+1006D7B34: MOV             W23, #0x6C ; 'l'
+1006D7B38: STRB            W8, [X5,#(byte_1009F8924 - 0x1009F8920)]
+1006D7B3C: LDRB            W8, [X11,#(byte_1009F8905 - 0x1009F8900)]
+1006D7B40: EOR             W8, W8, #0x1F
+1006D7B44: STRB            W8, [X5,#(byte_1009F8925 - 0x1009F8920)]
+1006D7B48: LDRB            W8, [X11,#(byte_1009F8906 - 0x1009F8900)]
+1006D7B4C: MOV             W12, #0xDA
+1006D7B50: EOR             W8, W8, W12
+1006D7B54: STRB            W8, [X5,#(byte_1009F8926 - 0x1009F8920)]
+1006D7B58: LDRB            W8, [X11,#(byte_1009F8907 - 0x1009F8900)]
+1006D7B5C: MOV             W12, #0x89
+1006D7B60: EOR             W8, W8, W12
+1006D7B64: MOV             W14, #0x89
+1006D7B68: STRB            W8, [X5,#(byte_1009F8927 - 0x1009F8920)]
+1006D7B6C: LDRB            W8, [X11,#(byte_1009F8908 - 0x1009F8900)]
+1006D7B70: EOR             W8, W8, #0xC
+1006D7B74: STRB            W8, [X5,#(byte_1009F8928 - 0x1009F8920)]
+1006D7B78: LDRB            W8, [X11,#(byte_1009F8909 - 0x1009F8900)]
+1006D7B7C: EOR             W8, W8, #0x11111111
+1006D7B80: STRB            W8, [X5,#(byte_1009F8929 - 0x1009F8920)]
+1006D7B84: LDRB            W8, [X11,#(byte_1009F890A - 0x1009F8900)]
+1006D7B88: EOR             W8, W8, W9
+1006D7B8C: MOV             W15, #0xDB
+1006D7B90: STRB            W8, [X5,#(byte_1009F892A - 0x1009F8920)]
+1006D7B94: LDRB            W8, [X11,#(byte_1009F890B - 0x1009F8900)]
+1006D7B98: EOR             W8, W8, W6
+1006D7B9C: STRB            W8, [X5,#(byte_1009F892B - 0x1009F8920)]
+1006D7BA0: LDRB            W8, [X11,#(byte_1009F890C - 0x1009F8900)]
+1006D7BA4: EOR             W8, W8, #0xFC
+1006D7BA8: STRB            W8, [X5,#(byte_1009F892C - 0x1009F8920)]
+1006D7BAC: LDRB            W8, [X11,#(byte_1009F890D - 0x1009F8900)]
+1006D7BB0: MOV             W9, #0x1D
+1006D7BB4: EOR             W8, W8, W9
+1006D7BB8: STRB            W8, [X5,#(byte_1009F892D - 0x1009F8920)]
+1006D7BBC: LDRB            W8, [X11,#(byte_1009F890E - 0x1009F8900)]
+1006D7BC0: MOV             W9, #0xCE
+1006D7BC4: EOR             W8, W8, W9
+1006D7BC8: STRB            W8, [X5,#(byte_1009F892E - 0x1009F8920)]
+1006D7BCC: LDRB            W8, [X11,#(byte_1009F890F - 0x1009F8900)]
+1006D7BD0: EOR             W8, W8, W28
+1006D7BD4: STRB            W8, [X5,#(byte_1009F892F - 0x1009F8920)]
+1006D7BD8: LDRB            W8, [X11,#(byte_1009F8910 - 0x1009F8900)]
+1006D7BDC: MOV             W9, #0x85
+1006D7BE0: EOR             W8, W8, W9
+1006D7BE4: STRB            W8, [X5,#(byte_1009F8930 - 0x1009F8920)]
+1006D7BE8: LDRB            W8, [X11,#(byte_1009F8911 - 0x1009F8900)]
+1006D7BEC: MOV             W9, #0x26 ; '&'
+1006D7BF0: EOR             W8, W8, W9
+1006D7BF4: STRB            W8, [X5,#(byte_1009F8931 - 0x1009F8920)]
+1006D7BF8: LDRB            W8, [X11,#(byte_1009F8912 - 0x1009F8900)]
+1006D7BFC: EOR             W8, W8, W19
+1006D7C00: MOV             W19, #0xD2DFDC5A
+1006D7C08: STRB            W8, [X5,#(byte_1009F8932 - 0x1009F8920)]
+1006D7C0C: ADRL            X11, byte_1009F8933
+1006D7C14: LDRB            W8, [X11]
+1006D7C18: EOR             W8, W8, #0xC0
+1006D7C1C: ADRL            X5, byte_1009F8941
+1006D7C24: STRB            W8, [X5]
+1006D7C28: LDRB            W8, [X11,#(byte_1009F8934 - 0x1009F8933)]
+1006D7C2C: EOR             W8, W8, #0xFFFFFFF7
+1006D7C30: STRB            W8, [X5,#(byte_1009F8942 - 0x1009F8941)]
+1006D7C34: LDRB            W8, [X11,#(byte_1009F8935 - 0x1009F8933)]
+1006D7C38: MOV             W9, #0xED
+1006D7C3C: EOR             W8, W8, W9
+1006D7C40: STRB            W8, [X5,#(byte_1009F8943 - 0x1009F8941)]
+1006D7C44: LDRB            W8, [X11,#(byte_1009F8936 - 0x1009F8933)]
+1006D7C48: MOV             W12, #0x86
+1006D7C4C: EOR             W8, W8, W12
+1006D7C50: MOV             W26, #0x86
+1006D7C54: STRB            W8, [X5,#(byte_1009F8944 - 0x1009F8941)]
+1006D7C58: LDRB            W8, [X11,#(byte_1009F8937 - 0x1009F8933)]
+1006D7C5C: MOV             W4, #0x5E ; '^'
+1006D7C60: EOR             W8, W8, W4
+1006D7C64: STRB            W8, [X5,#(byte_1009F8945 - 0x1009F8941)]
+1006D7C68: LDRB            W8, [X11,#(byte_1009F8938 - 0x1009F8933)]
+1006D7C6C: MOV             W13, #0xB
+1006D7C70: EOR             W8, W8, W13
+1006D7C74: STRB            W8, [X5,#(byte_1009F8946 - 0x1009F8941)]
+1006D7C78: LDRB            W8, [X11,#(byte_1009F8939 - 0x1009F8933)]
+1006D7C7C: MOV             W13, #0xB5
+1006D7C80: EOR             W8, W8, W13
+1006D7C84: STRB            W8, [X5,#(byte_1009F8947 - 0x1009F8941)]
+1006D7C88: LDRB            W8, [X11,#(byte_1009F893A - 0x1009F8933)]
+1006D7C8C: EOR             W8, W8, #0xFFFFFF87
+1006D7C90: STRB            W8, [X5,#(byte_1009F8948 - 0x1009F8941)]
+1006D7C94: LDRB            W8, [X11,#(byte_1009F893B - 0x1009F8933)]
+1006D7C98: MOV             W13, #0x9A
+1006D7C9C: EOR             W8, W8, W13
+1006D7CA0: STRB            W8, [X5,#(byte_1009F8949 - 0x1009F8941)]
+1006D7CA4: LDRB            W8, [X11,#(byte_1009F893C - 0x1009F8933)]
+1006D7CA8: EOR             W8, W8, #0xE
+1006D7CAC: STRB            W8, [X5,#(byte_1009F894A - 0x1009F8941)]
+1006D7CB0: LDRB            W8, [X11,#(byte_1009F893D - 0x1009F8933)]
+1006D7CB4: EOR             W8, W8, W2
+1006D7CB8: STRB            W8, [X5,#(byte_1009F894B - 0x1009F8941)]
+1006D7CBC: LDRB            W8, [X11,#(byte_1009F893E - 0x1009F8933)]
+1006D7CC0: EOR             W8, W8, W9
+1006D7CC4: STRB            W8, [X5,#(byte_1009F894C - 0x1009F8941)]
+1006D7CC8: LDRB            W8, [X11,#(byte_1009F893F - 0x1009F8933)]
+1006D7CCC: EOR             W8, W8, #0xBBBBBBBB
+1006D7CD0: STRB            W8, [X5,#(byte_1009F894D - 0x1009F8941)]
+1006D7CD4: LDRB            W8, [X11,#(byte_1009F8940 - 0x1009F8933)]
+1006D7CD8: MOV             W12, #0x43 ; 'C'
+1006D7CDC: EOR             W8, W8, W12
+1006D7CE0: STRB            W8, [X5,#(byte_1009F894E - 0x1009F8941)]
+1006D7CE4: ADRL            X9, byte_1009F894F
+1006D7CEC: LDRB            W8, [X9]
+1006D7CF0: MOV             W13, #0x96
+1006D7CF4: EOR             W8, W8, W13
+1006D7CF8: ADRL            X11, byte_1009F8959
+1006D7D00: STRB            W8, [X11]
+1006D7D04: LDRB            W8, [X9,#(byte_1009F8950 - 0x1009F894F)]
+1006D7D08: MOV             W17, #0x13
+1006D7D0C: EOR             W8, W8, W17
+1006D7D10: STRB            W8, [X11,#(byte_1009F895A - 0x1009F8959)]
+1006D7D14: LDRB            W8, [X9,#(byte_1009F8951 - 0x1009F894F)]
+1006D7D18: EOR             W8, W8, W13
+1006D7D1C: STRB            W8, [X11,#(byte_1009F895B - 0x1009F8959)]
+1006D7D20: LDRB            W8, [X9,#(byte_1009F8952 - 0x1009F894F)]
+1006D7D24: MOV             W13, #9
+1006D7D28: EOR             W8, W8, W13
+1006D7D2C: STRB            W8, [X11,#(byte_1009F895C - 0x1009F8959)]
+1006D7D30: LDRB            W8, [X9,#(byte_1009F8953 - 0x1009F894F)]
+1006D7D34: EOR             W8, W8, W20
+1006D7D38: STRB            W8, [X11,#(byte_1009F895D - 0x1009F8959)]
+1006D7D3C: LDRB            W8, [X9,#(byte_1009F8954 - 0x1009F894F)]
+1006D7D40: MOV             W13, #0x73 ; 's'
+1006D7D44: EOR             W8, W8, W13
+1006D7D48: STRB            W8, [X11,#(byte_1009F895E - 0x1009F8959)]
+1006D7D4C: LDRB            W8, [X9,#(byte_1009F8955 - 0x1009F894F)]
+1006D7D50: EOR             W8, W8, #0xE0
+1006D7D54: STRB            W8, [X11,#(byte_1009F895F - 0x1009F8959)]
+1006D7D58: LDRB            W8, [X9,#(byte_1009F8956 - 0x1009F894F)]
+1006D7D5C: EOR             W8, W8, #0xFFFFFFF9
+1006D7D60: STRB            W8, [X11,#(byte_1009F8960 - 0x1009F8959)]
+1006D7D64: LDRB            W8, [X9,#(byte_1009F8957 - 0x1009F894F)]
+1006D7D68: MOV             W13, #0x2B ; '+'
+1006D7D6C: EOR             W8, W8, W13
+1006D7D70: STRB            W8, [X11,#(byte_1009F8961 - 0x1009F8959)]
+1006D7D74: LDRB            W8, [X9,#(byte_1009F8958 - 0x1009F894F)]
+1006D7D78: EOR             W8, W8, #0xFC
+1006D7D7C: STRB            W8, [X11,#(byte_1009F8962 - 0x1009F8959)]
+1006D7D80: ADRL            X9, byte_1009F8963
+1006D7D88: LDRB            W8, [X9]
+1006D7D8C: EOR             W8, W8, W10
+1006D7D90: ADRL            X10, byte_1009F896E
+1006D7D98: STRB            W8, [X10]
+1006D7D9C: LDRB            W8, [X9,#(byte_1009F8964 - 0x1009F8963)]
+1006D7DA0: MOV             W2, #0xB2
+1006D7DA4: EOR             W8, W8, W2
+1006D7DA8: STRB            W8, [X10,#(byte_1009F896F - 0x1009F896E)]
+1006D7DAC: LDRB            W8, [X9,#(byte_1009F8965 - 0x1009F8963)]
+1006D7DB0: MOV             W11, #0x29 ; ')'
+1006D7DB4: EOR             W8, W8, W11
+1006D7DB8: STRB            W8, [X10,#(byte_1009F8970 - 0x1009F896E)]
+1006D7DBC: LDRB            W8, [X9,#(byte_1009F8966 - 0x1009F8963)]
+1006D7DC0: EOR             W8, W8, #0xFFFFFFFB
+1006D7DC4: STRB            W8, [X10,#(byte_1009F8971 - 0x1009F896E)]
+1006D7DC8: LDRB            W8, [X9,#(byte_1009F8967 - 0x1009F8963)]
+1006D7DCC: EOR             W8, W8, W0
+1006D7DD0: STRB            W8, [X10,#(byte_1009F8972 - 0x1009F896E)]
+1006D7DD4: LDRB            W8, [X9,#(byte_1009F8968 - 0x1009F8963)]
+1006D7DD8: EOR             W8, W8, W22
+1006D7DDC: MOV             W5, #0xBE
+1006D7DE0: STRB            W8, [X10,#(byte_1009F8973 - 0x1009F896E)]
+1006D7DE4: LDRB            W8, [X9,#(byte_1009F8969 - 0x1009F8963)]
+1006D7DE8: EOR             W8, W8, #0xFFFFFFE1
+1006D7DEC: STRB            W8, [X10,#(byte_1009F8974 - 0x1009F896E)]
+1006D7DF0: LDRB            W8, [X9,#(byte_1009F896A - 0x1009F8963)]
+1006D7DF4: EOR             W8, W8, W3
+1006D7DF8: MOV             W1, #0x5F ; '_'
+1006D7DFC: STRB            W8, [X10,#(byte_1009F8975 - 0x1009F896E)]
+1006D7E00: LDRB            W8, [X9,#(byte_1009F896B - 0x1009F8963)]
+1006D7E04: EOR             W8, W8, #0x18
+1006D7E08: STRB            W8, [X10,#(byte_1009F8976 - 0x1009F896E)]
+1006D7E0C: LDRB            W8, [X9,#(byte_1009F896C - 0x1009F8963)]
+1006D7E10: MOV             W11, #0xFA
+1006D7E14: EOR             W8, W8, W11
+1006D7E18: MOV             W3, #0xFA
+1006D7E1C: STRB            W8, [X10,#(byte_1009F8977 - 0x1009F896E)]
+1006D7E20: LDRB            W8, [X9,#(byte_1009F896D - 0x1009F8963)]
+1006D7E24: EOR             W8, W8, W15
+1006D7E28: STRB            W8, [X10,#(byte_1009F8978 - 0x1009F896E)]
+1006D7E2C: ADRL            X9, byte_1009F8979
+1006D7E34: LDRB            W8, [X9]
+1006D7E38: MOV             W0, #0xCB
+1006D7E3C: EOR             W8, W8, W0
+1006D7E40: ADRL            X10, byte_1009F8983
+1006D7E48: STRB            W8, [X10]
+1006D7E4C: LDRB            W8, [X9,#(byte_1009F897A - 0x1009F8979)]
+1006D7E50: MOV             W11, #0xC2
+1006D7E54: EOR             W8, W8, W11
+1006D7E58: STRB            W8, [X10,#(byte_1009F8984 - 0x1009F8983)]
+1006D7E5C: LDRB            W8, [X9,#(byte_1009F897B - 0x1009F8979)]
+1006D7E60: EOR             W8, W8, #0x7C ; '|'
+1006D7E64: STRB            W8, [X10,#(byte_1009F8985 - 0x1009F8983)]
+1006D7E68: LDRB            W8, [X9,#(byte_1009F897C - 0x1009F8979)]
+1006D7E6C: MOV             W11, #0xD8
+1006D7E70: EOR             W8, W8, W11
+1006D7E74: STRB            W8, [X10,#(byte_1009F8986 - 0x1009F8983)]
+1006D7E78: LDRB            W8, [X9,#(byte_1009F897D - 0x1009F8979)]
+1006D7E7C: MOV             W24, #0x34 ; '4'
+1006D7E80: EOR             W8, W8, W24
+1006D7E84: STRB            W8, [X10,#(byte_1009F8987 - 0x1009F8983)]
+1006D7E88: LDRB            W8, [X9,#(byte_1009F897E - 0x1009F8979)]
+1006D7E8C: EOR             W8, W8, #0xFFFFFFF3
+1006D7E90: STRB            W8, [X10,#(byte_1009F8988 - 0x1009F8983)]
+1006D7E94: LDRB            W8, [X9,#(byte_1009F897F - 0x1009F8979)]
+1006D7E98: MOV             W11, #0xEA
+1006D7E9C: EOR             W8, W8, W11
+1006D7EA0: MOV             W20, #0xEA
+1006D7EA4: STRB            W8, [X10,#(byte_1009F8989 - 0x1009F8983)]
+1006D7EA8: LDRB            W8, [X9,#(byte_1009F8980 - 0x1009F8979)]
+1006D7EAC: MOV             W11, #0xCA
+1006D7EB0: EOR             W8, W8, W11
+1006D7EB4: STRB            W8, [X10,#(byte_1009F898A - 0x1009F8983)]
+1006D7EB8: LDRB            W8, [X9,#(byte_1009F8981 - 0x1009F8979)]
+1006D7EBC: MOV             W11, #0x58 ; 'X'
+1006D7EC0: EOR             W8, W8, W11
+1006D7EC4: STRB            W8, [X10,#(byte_1009F898B - 0x1009F8983)]
+1006D7EC8: LDRB            W8, [X9,#(byte_1009F8982 - 0x1009F8979)]
+1006D7ECC: EOR             W8, W8, W16
+1006D7ED0: STRB            W8, [X10,#(byte_1009F898C - 0x1009F8983)]
+1006D7ED4: ADRL            X9, byte_1009F898D
+1006D7EDC: LDRB            W8, [X9]
+1006D7EE0: MOV             W10, #0xBC
+1006D7EE4: EOR             W8, W8, W10
+1006D7EE8: MOV             W13, #0xBC
+1006D7EEC: ADRL            X10, byte_1009F8998
+1006D7EF4: STRB            W8, [X10]
+1006D7EF8: LDRB            W8, [X9,#(byte_1009F898E - 0x1009F898D)]
+1006D7EFC: EOR             W8, W8, #0xE0
+1006D7F00: STRB            W8, [X10,#(byte_1009F8999 - 0x1009F8998)]
+1006D7F04: LDRB            W8, [X9,#(byte_1009F898F - 0x1009F898D)]
+1006D7F08: EOR             W8, W8, #0xCCCCCCCC
+1006D7F0C: STRB            W8, [X10,#(byte_1009F899A - 0x1009F8998)]
+1006D7F10: LDRB            W8, [X9,#(byte_1009F8990 - 0x1009F898D)]
+1006D7F14: EOR             W8, W8, #0xFFFFFFC1
+1006D7F18: STRB            W8, [X10,#(byte_1009F899B - 0x1009F8998)]
+1006D7F1C: LDRB            W8, [X9,#(byte_1009F8991 - 0x1009F898D)]
+1006D7F20: EOR             W8, W8, #3
+1006D7F24: STRB            W8, [X10,#(byte_1009F899C - 0x1009F8998)]
+1006D7F28: LDRB            W8, [X9,#(byte_1009F8992 - 0x1009F898D)]
+1006D7F2C: MOV             W15, #0x6E ; 'n'
+1006D7F30: EOR             W8, W8, W15
+1006D7F34: MOV             W15, #0x6E ; 'n'
+1006D7F38: STRB            W8, [X10,#(byte_1009F899D - 0x1009F8998)]
+1006D7F3C: LDRB            W8, [X9,#(byte_1009F8993 - 0x1009F898D)]
+1006D7F40: MOV             W17, #0x72 ; 'r'
+1006D7F44: EOR             W8, W8, W17
+1006D7F48: STRB            W8, [X10,#(byte_1009F899E - 0x1009F8998)]
+1006D7F4C: LDRB            W8, [X9,#(byte_1009F8994 - 0x1009F898D)]
+1006D7F50: EOR             W8, W8, #0x30 ; '0'
+1006D7F54: STRB            W8, [X10,#(byte_1009F899F - 0x1009F8998)]
+1006D7F58: LDRB            W8, [X9,#(byte_1009F8995 - 0x1009F898D)]
+1006D7F5C: EOR             W8, W8, #0xFFFFFFE7
+1006D7F60: STRB            W8, [X10,#(byte_1009F89A0 - 0x1009F8998)]
+1006D7F64: LDRB            W8, [X9,#(byte_1009F8996 - 0x1009F898D)]
+1006D7F68: EOR             W8, W8, W3
+1006D7F6C: STRB            W8, [X10,#(byte_1009F89A1 - 0x1009F8998)]
+1006D7F70: LDRB            W8, [X9,#(byte_1009F8997 - 0x1009F898D)]
+1006D7F74: EOR             W8, W8, W13
+1006D7F78: STRB            W8, [X10,#(byte_1009F89A2 - 0x1009F8998)]
+1006D7F7C: ADRL            X9, byte_1009F89A3
+1006D7F84: LDRB            W8, [X9]
+1006D7F88: EOR             W8, W8, W2
+1006D7F8C: MOV             W30, #0xB2
+1006D7F90: ADRL            X10, byte_1009F89AD
+1006D7F98: STRB            W8, [X10]
+1006D7F9C: LDRB            W8, [X9,#(byte_1009F89A4 - 0x1009F89A3)]
+1006D7FA0: EOR             W8, W8, #0xFFFFFFEF
+1006D7FA4: STRB            W8, [X10,#(byte_1009F89AE - 0x1009F89AD)]
+1006D7FA8: LDRB            W8, [X9,#(byte_1009F89A5 - 0x1009F89A3)]
+1006D7FAC: EOR             W8, W8, #0xC0
+1006D7FB0: STRB            W8, [X10,#(byte_1009F89AF - 0x1009F89AD)]
+1006D7FB4: LDRB            W8, [X9,#(byte_1009F89A6 - 0x1009F89A3)]
+1006D7FB8: EOR             W8, W8, #0xE
+1006D7FBC: STRB            W8, [X10,#(byte_1009F89B0 - 0x1009F89AD)]
+1006D7FC0: LDRB            W8, [X9,#(byte_1009F89A7 - 0x1009F89A3)]
+1006D7FC4: EOR             W8, W8, W20
+1006D7FC8: STRB            W8, [X10,#(byte_1009F89B1 - 0x1009F89AD)]
+1006D7FCC: LDRB            W8, [X9,#(byte_1009F89A8 - 0x1009F89A3)]
+1006D7FD0: MOV             W13, #0x8E
+1006D7FD4: EOR             W8, W8, W13
+1006D7FD8: STRB            W8, [X10,#(byte_1009F89B2 - 0x1009F89AD)]
+1006D7FDC: LDRB            W8, [X9,#(byte_1009F89A9 - 0x1009F89A3)]
+1006D7FE0: MOV             W13, #0x24 ; '$'
+1006D7FE4: EOR             W8, W8, W13
+1006D7FE8: STRB            W8, [X10,#(byte_1009F89B3 - 0x1009F89AD)]
+1006D7FEC: LDRB            W8, [X9,#(byte_1009F89AA - 0x1009F89A3)]
+1006D7FF0: EOR             W8, W8, W7
+1006D7FF4: STRB            W8, [X10,#(byte_1009F89B4 - 0x1009F89AD)]
+1006D7FF8: LDRB            W8, [X9,#(byte_1009F89AB - 0x1009F89A3)]
+1006D7FFC: EOR             W8, W8, #0x7F
+1006D8000: STRB            W8, [X10,#(byte_1009F89B5 - 0x1009F89AD)]
+1006D8004: LDRB            W8, [X9,#(byte_1009F89AC - 0x1009F89A3)]
+1006D8008: EOR             W8, W8, #0x20 ; ' '
+1006D800C: STRB            W8, [X10,#(byte_1009F89B6 - 0x1009F89AD)]
+1006D8010: ADRL            X9, byte_1009F89B7
+1006D8018: LDRB            W8, [X9]
+1006D801C: EOR             W8, W8, W15
+1006D8020: ADRL            X10, byte_1009F89C2
+1006D8028: STRB            W8, [X10]
+1006D802C: LDRB            W8, [X9,#(byte_1009F89B8 - 0x1009F89B7)]
+1006D8030: MOV             W13, #0x6D ; 'm'
+1006D8034: EOR             W8, W8, W13
+1006D8038: STRB            W8, [X10,#(byte_1009F89C3 - 0x1009F89C2)]
+1006D803C: LDRB            W8, [X9,#(byte_1009F89B9 - 0x1009F89B7)]
+1006D8040: MOV             W13, #0x45 ; 'E'
+1006D8044: EOR             W8, W8, W13
+1006D8048: STRB            W8, [X10,#(byte_1009F89C4 - 0x1009F89C2)]
+1006D804C: LDRB            W8, [X9,#(byte_1009F89BA - 0x1009F89B7)]
+1006D8050: MOV             W6, #0xAE
+1006D8054: EOR             W8, W8, W6
+1006D8058: STRB            W8, [X10,#(byte_1009F89C5 - 0x1009F89C2)]
+1006D805C: LDRB            W8, [X9,#(byte_1009F89BB - 0x1009F89B7)]
+1006D8060: MOV             W15, #0x71 ; 'q'
+1006D8064: EOR             W8, W8, W15
+1006D8068: STRB            W8, [X10,#(byte_1009F89C6 - 0x1009F89C2)]
+1006D806C: LDRB            W8, [X9,#(byte_1009F89BC - 0x1009F89B7)]
+1006D8070: MOV             W13, #0x64 ; 'd'
+1006D8074: EOR             W8, W8, W13
+1006D8078: STRB            W8, [X10,#(byte_1009F89C7 - 0x1009F89C2)]
+1006D807C: LDRB            W8, [X9,#(byte_1009F89BD - 0x1009F89B7)]
+1006D8080: EOR             W8, W8, #0x7C ; '|'
+1006D8084: STRB            W8, [X10,#(byte_1009F89C8 - 0x1009F89C2)]
+1006D8088: LDRB            W8, [X9,#(byte_1009F89BE - 0x1009F89B7)]
+1006D808C: MOV             W13, #0xEC
+1006D8090: EOR             W8, W8, W13
+1006D8094: STRB            W8, [X10,#(byte_1009F89C9 - 0x1009F89C2)]
+1006D8098: LDRB            W8, [X9,#(byte_1009F89BF - 0x1009F89B7)]
+1006D809C: MOV             W13, #0x4A ; 'J'
+1006D80A0: EOR             W8, W8, W13
+1006D80A4: MOV             W2, #0x4A ; 'J'
+1006D80A8: STRB            W8, [X10,#(byte_1009F89CA - 0x1009F89C2)]
+1006D80AC: LDRB            W8, [X9,#(byte_1009F89C0 - 0x1009F89B7)]
+1006D80B0: EOR             W8, W8, #0xFFFFFFEF
+1006D80B4: STRB            W8, [X10,#(byte_1009F89CB - 0x1009F89C2)]
+1006D80B8: LDRB            W8, [X9,#(byte_1009F89C1 - 0x1009F89B7)]
+1006D80BC: MOV             W9, #0xD6
+1006D80C0: EOR             W8, W8, W9
+1006D80C4: MOV             W16, #0xD6
+1006D80C8: STRB            W8, [X10,#(byte_1009F89CC - 0x1009F89C2)]
+1006D80CC: ADRL            X10, byte_1009F89CD
+1006D80D4: LDRB            W8, [X10]
+1006D80D8: EOR             W8, W8, W14
+1006D80DC: ADRL            X9, byte_1009F89D6
+1006D80E4: STRB            W8, [X9]
+1006D80E8: LDRB            W8, [X10,#(byte_1009F89CE - 0x1009F89CD)]
+1006D80EC: MOV             W13, #0xD0
+1006D80F0: EOR             W8, W8, W13
+1006D80F4: STRB            W8, [X9,#(byte_1009F89D7 - 0x1009F89D6)]
+1006D80F8: LDRB            W8, [X10,#(byte_1009F89CF - 0x1009F89CD)]
+1006D80FC: EOR             W8, W8, W0
+1006D8100: MOV             W22, #0xCB
+1006D8104: STRB            W8, [X9,#(byte_1009F89D8 - 0x1009F89D6)]
+1006D8108: LDRB            W8, [X10,#(byte_1009F89D0 - 0x1009F89CD)]
+1006D810C: MOV             W13, #5
+1006D8110: EOR             W8, W8, W13
+1006D8114: STRB            W8, [X9,#(byte_1009F89D9 - 0x1009F89D6)]
+1006D8118: LDRB            W8, [X10,#(byte_1009F89D1 - 0x1009F89CD)]
+1006D811C: EOR             W8, W8, W25
+1006D8120: STRB            W8, [X9,#(byte_1009F89DA - 0x1009F89D6)]
+1006D8124: LDRB            W8, [X10,#(byte_1009F89D2 - 0x1009F89CD)]
+1006D8128: MOV             W14, #0x3B ; ';'
+1006D812C: EOR             W8, W8, W14
+1006D8130: STRB            W8, [X9,#(byte_1009F89DB - 0x1009F89D6)]
+1006D8134: LDRB            W8, [X10,#(byte_1009F89D3 - 0x1009F89CD)]
+1006D8138: EOR             W8, W8, #3
+1006D813C: STRB            W8, [X9,#(byte_1009F89DC - 0x1009F89D6)]
+1006D8140: LDRB            W8, [X10,#(byte_1009F89D4 - 0x1009F89CD)]
+1006D8144: MOV             W13, #0x4C ; 'L'
+1006D8148: EOR             W8, W8, W13
+1006D814C: MOV             W3, #0x4C ; 'L'
+1006D8150: STRB            W8, [X9,#(byte_1009F89DD - 0x1009F89D6)]
+1006D8154: LDRB            W8, [X10,#(byte_1009F89D5 - 0x1009F89CD)]
+1006D8158: MOV             W10, #0x1B
+1006D815C: EOR             W8, W8, W10
+1006D8160: STRB            W8, [X9,#(byte_1009F89DE - 0x1009F89D6)]
+1006D8164: ADRL            X9, byte_1009F89DF
+1006D816C: LDRB            W8, [X9]
+1006D8170: EOR             W8, W8, #0x1C
+1006D8174: ADRL            X10, byte_1009F89E7
+1006D817C: STRB            W8, [X10]
+1006D8180: LDRB            W8, [X9,#(byte_1009F89E0 - 0x1009F89DF)]
+1006D8184: EOR             W8, W8, #0xFC
+1006D8188: STRB            W8, [X10,#(byte_1009F89E8 - 0x1009F89E7)]
+1006D818C: LDRB            W8, [X9,#(byte_1009F89E1 - 0x1009F89DF)]
+1006D8190: MOV             W0, #0x91
+1006D8194: EOR             W8, W8, W0
+1006D8198: STRB            W8, [X10,#(byte_1009F89E9 - 0x1009F89E7)]
+1006D819C: LDRB            W8, [X9,#(byte_1009F89E2 - 0x1009F89DF)]
+1006D81A0: MOV             W13, #0x4F ; 'O'
+1006D81A4: EOR             W8, W8, W13
+1006D81A8: STRB            W8, [X10,#(byte_1009F89EA - 0x1009F89E7)]
+1006D81AC: LDRB            W8, [X9,#(byte_1009F89E3 - 0x1009F89DF)]
+1006D81B0: EOR             W8, W8, W11
+1006D81B4: STRB            W8, [X10,#(byte_1009F89EB - 0x1009F89E7)]
+1006D81B8: LDRB            W8, [X9,#(byte_1009F89E4 - 0x1009F89DF)]
+1006D81BC: MOV             W25, #0xBA
+1006D81C0: EOR             W8, W8, W25
+1006D81C4: STRB            W8, [X10,#(byte_1009F89EC - 0x1009F89E7)]
+1006D81C8: LDRB            W8, [X9,#(byte_1009F89E5 - 0x1009F89DF)]
+1006D81CC: EOR             W8, W8, #0xFFFFFFE7
+1006D81D0: STRB            W8, [X10,#(byte_1009F89ED - 0x1009F89E7)]
+1006D81D4: LDRB            W8, [X9,#(byte_1009F89E6 - 0x1009F89DF)]
+1006D81D8: MOV             W9, #0xD3
+1006D81DC: EOR             W8, W8, W9
+1006D81E0: STRB            W8, [X10,#(byte_1009F89EE - 0x1009F89E7)]
+1006D81E4: ADRL            X10, byte_1009F89EF
+1006D81EC: LDRB            W8, [X10]
+1006D81F0: EOR             W8, W8, #0xFFFFFFC7
+1006D81F4: ADRL            X7, byte_1009F89F9
+1006D81FC: STRB            W8, [X7]
+1006D8200: LDRB            W8, [X10,#(byte_1009F89F0 - 0x1009F89EF)]
+1006D8204: MOV             W11, #0x92
+1006D8208: EOR             W8, W8, W11
+1006D820C: STRB            W8, [X7,#(byte_1009F89FA - 0x1009F89F9)]
+1006D8210: LDRB            W8, [X10,#(byte_1009F89F1 - 0x1009F89EF)]
+1006D8214: MOV             W28, #0x2D ; '-'
+1006D8218: EOR             W8, W8, W28
+1006D821C: STRB            W8, [X7,#(byte_1009F89FB - 0x1009F89F9)]
+1006D8220: LDRB            W8, [X10,#(byte_1009F89F2 - 0x1009F89EF)]
+1006D8224: EOR             W8, W8, W23
+1006D8228: STRB            W8, [X7,#(byte_1009F89FC - 0x1009F89F9)]
+1006D822C: LDRB            W8, [X10,#(byte_1009F89F3 - 0x1009F89EF)]
+1006D8230: MOV             W11, #0x65 ; 'e'
+1006D8234: EOR             W8, W8, W11
+1006D8238: STRB            W8, [X7,#(byte_1009F89FD - 0x1009F89F9)]
+1006D823C: LDRB            W8, [X10,#(byte_1009F89F4 - 0x1009F89EF)]
+1006D8240: MOV             W11, #0x6F ; 'o'
+1006D8244: EOR             W8, W8, W11
+1006D8248: STRB            W8, [X7,#(byte_1009F89FE - 0x1009F89F9)]
+1006D824C: LDRB            W8, [X10,#(byte_1009F89F5 - 0x1009F89EF)]
+1006D8250: EOR             W8, W8, W17
+1006D8254: STRB            W8, [X7,#(byte_1009F89FF - 0x1009F89F9)]
+1006D8258: LDRB            W8, [X10,#(byte_1009F89F6 - 0x1009F89EF)]
+1006D825C: EOR             W8, W8, #0xFFFFFFFB
+1006D8260: STRB            W8, [X7,#(byte_1009F8A00 - 0x1009F89F9)]
+1006D8264: LDRB            W8, [X10,#(byte_1009F89F7 - 0x1009F89EF)]
+1006D8268: EOR             W8, W8, #0xFFFFFFDF
+1006D826C: STRB            W8, [X7,#(byte_1009F8A01 - 0x1009F89F9)]
+1006D8270: LDRB            W8, [X10,#(byte_1009F89F8 - 0x1009F89EF)]
+1006D8274: MOV             W10, #0x79 ; 'y'
+1006D8278: EOR             W8, W8, W10
+1006D827C: STRB            W8, [X7,#(byte_1009F8A02 - 0x1009F89F9)]
+1006D8280: ADRL            X7, byte_1009F8A03
+1006D8288: LDRB            W8, [X7]
+1006D828C: MOV             W10, #0xA3
+1006D8290: EOR             W8, W8, W10
+1006D8294: ADRL            X10, byte_1009F8A0E
+1006D829C: STRB            W8, [X10]
+1006D82A0: LDRB            W8, [X7,#(byte_1009F8A04 - 0x1009F8A03)]
+1006D82A4: EOR             W8, W8, W27
+1006D82A8: STRB            W8, [X10,#(byte_1009F8A0F - 0x1009F8A0E)]
+1006D82AC: LDRB            W8, [X7,#(byte_1009F8A05 - 0x1009F8A03)]
+1006D82B0: EOR             W8, W8, #0xDDDDDDDD
+1006D82B4: STRB            W8, [X10,#(byte_1009F8A10 - 0x1009F8A0E)]
+1006D82B8: LDRB            W8, [X7,#(byte_1009F8A06 - 0x1009F8A03)]
+1006D82BC: MOV             W11, #0xC5
+1006D82C0: EOR             W8, W8, W11
+1006D82C4: STRB            W8, [X10,#(byte_1009F8A11 - 0x1009F8A0E)]
+1006D82C8: LDRB            W8, [X7,#(byte_1009F8A07 - 0x1009F8A03)]
+1006D82CC: MOV             W11, #0x94
+1006D82D0: EOR             W8, W8, W11
+1006D82D4: STRB            W8, [X10,#(byte_1009F8A12 - 0x1009F8A0E)]
+1006D82D8: LDRB            W8, [X7,#(byte_1009F8A08 - 0x1009F8A03)]
+1006D82DC: MOV             W11, #0x24 ; '$'
+1006D82E0: EOR             W8, W8, W11
+1006D82E4: STRB            W8, [X10,#(byte_1009F8A13 - 0x1009F8A0E)]
+1006D82E8: LDRB            W8, [X7,#(byte_1009F8A09 - 0x1009F8A03)]
+1006D82EC: EOR             W8, W8, #0x99999999
+1006D82F0: STRB            W8, [X10,#(byte_1009F8A14 - 0x1009F8A0E)]
+1006D82F4: LDRB            W8, [X7,#(byte_1009F8A0A - 0x1009F8A03)]
+1006D82F8: EOR             W8, W8, #0xFFFFFF9F
+1006D82FC: STRB            W8, [X10,#(byte_1009F8A15 - 0x1009F8A0E)]
+1006D8300: LDRB            W8, [X7,#(byte_1009F8A0B - 0x1009F8A03)]
+1006D8304: EOR             W8, W8, W16
+1006D8308: STRB            W8, [X10,#(byte_1009F8A16 - 0x1009F8A0E)]
+1006D830C: LDRB            W8, [X7,#(byte_1009F8A0C - 0x1009F8A03)]
+1006D8310: EOR             W8, W8, #0xFFFFFFF3
+1006D8314: STRB            W8, [X10,#(byte_1009F8A17 - 0x1009F8A0E)]
+1006D8318: LDRB            W8, [X7,#(byte_1009F8A0D - 0x1009F8A03)]
+1006D831C: EOR             W8, W8, #0xFFFFFFFD
+1006D8320: STRB            W8, [X10,#(byte_1009F8A18 - 0x1009F8A0E)]
+1006D8324: ADRL            X10, byte_1009F8A19
+1006D832C: LDRB            W8, [X10]
+1006D8330: EOR             W8, W8, W5
+1006D8334: ADRL            X7, byte_1009F8A22
+1006D833C: STRB            W8, [X7]
+1006D8340: LDRB            W8, [X10,#(byte_1009F8A1A - 0x1009F8A19)]
+1006D8344: EOR             W8, W8, W1
+1006D8348: STRB            W8, [X7,#(byte_1009F8A23 - 0x1009F8A22)]
+1006D834C: LDRB            W8, [X10,#(byte_1009F8A1B - 0x1009F8A19)]
+1006D8350: MOV             W13, #0xA5
+1006D8354: EOR             W8, W8, W13
+1006D8358: STRB            W8, [X7,#(byte_1009F8A24 - 0x1009F8A22)]
+1006D835C: LDRB            W8, [X10,#(byte_1009F8A1C - 0x1009F8A19)]
+1006D8360: MOV             W13, #0x75 ; 'u'
+1006D8364: EOR             W8, W8, W13
+1006D8368: STRB            W8, [X7,#(byte_1009F8A25 - 0x1009F8A22)]
+1006D836C: LDRB            W8, [X10,#(byte_1009F8A1D - 0x1009F8A19)]
+1006D8370: EOR             W8, W8, W26
+1006D8374: STRB            W8, [X7,#(byte_1009F8A26 - 0x1009F8A22)]
+1006D8378: LDRB            W8, [X10,#(byte_1009F8A1E - 0x1009F8A19)]
+1006D837C: MOV             W16, #0x1A
+1006D8380: EOR             W8, W8, W16
+1006D8384: STRB            W8, [X7,#(byte_1009F8A27 - 0x1009F8A22)]
+1006D8388: LDRB            W8, [X10,#(byte_1009F8A1F - 0x1009F8A19)]
+1006D838C: EOR             W8, W8, #0x7E ; '~'
+1006D8390: STRB            W8, [X7,#(byte_1009F8A28 - 0x1009F8A22)]
+1006D8394: LDRB            W8, [X10,#(byte_1009F8A20 - 0x1009F8A19)]
+1006D8398: EOR             W8, W8, W11
+1006D839C: MOV             W17, #0x24 ; '$'
+1006D83A0: STRB            W8, [X7,#(byte_1009F8A29 - 0x1009F8A22)]
+1006D83A4: LDRB            W8, [X10,#(byte_1009F8A21 - 0x1009F8A19)]
+1006D83A8: EOR             W8, W8, W12
+1006D83AC: STRB            W8, [X7,#(byte_1009F8A2A - 0x1009F8A22)]
+1006D83B0: ADRL            X10, byte_1009F8A2B
+1006D83B8: LDRB            W8, [X10]
+1006D83BC: EOR             W8, W8, #0xFFFFFFE1
+1006D83C0: ADRL            X7, byte_1009F8A33
+1006D83C8: STRB            W8, [X7]
+1006D83CC: LDRB            W8, [X10,#(byte_1009F8A2C - 0x1009F8A2B)]
+1006D83D0: EOR             W8, W8, W3
+1006D83D4: STRB            W8, [X7,#(byte_1009F8A34 - 0x1009F8A33)]
+1006D83D8: LDRB            W8, [X10,#(byte_1009F8A2D - 0x1009F8A2B)]
+1006D83DC: EOR             W8, W8, #0xFFFFFFC1
+1006D83E0: STRB            W8, [X7,#(byte_1009F8A35 - 0x1009F8A33)]
+1006D83E4: LDRB            W8, [X10,#(byte_1009F8A2E - 0x1009F8A2B)]
+1006D83E8: MOV             W11, #0xB
+1006D83EC: EOR             W8, W8, W11
+1006D83F0: STRB            W8, [X7,#(byte_1009F8A36 - 0x1009F8A33)]
+1006D83F4: LDRB            W8, [X10,#(byte_1009F8A2F - 0x1009F8A2B)]
+1006D83F8: MOV             W13, #0xF6
+1006D83FC: EOR             W8, W8, W13
+1006D8400: STRB            W8, [X7,#(byte_1009F8A37 - 0x1009F8A33)]
+1006D8404: LDRB            W8, [X10,#(byte_1009F8A30 - 0x1009F8A2B)]
+1006D8408: EOR             W8, W8, W6
+1006D840C: STRB            W8, [X7,#(byte_1009F8A38 - 0x1009F8A33)]
+1006D8410: LDRB            W8, [X10,#(byte_1009F8A31 - 0x1009F8A2B)]
+1006D8414: MOV             W1, #0x93
+1006D8418: EOR             W8, W8, W1
+1006D841C: STRB            W8, [X7,#(byte_1009F8A39 - 0x1009F8A33)]
+1006D8420: LDRB            W8, [X10,#(byte_1009F8A32 - 0x1009F8A2B)]
+1006D8424: MOV             W10, #0x8C
+1006D8428: EOR             W8, W8, W10
+1006D842C: STRB            W8, [X7,#(byte_1009F8A3A - 0x1009F8A33)]
+1006D8430: ADRL            X10, byte_1009F8A3B
+1006D8438: LDRB            W8, [X10]
+1006D843C: MOV             W11, #0x50 ; 'P'
+1006D8440: EOR             W8, W8, W11
+1006D8444: ADRL            X7, byte_1009F8A44
+1006D844C: STRB            W8, [X7]
+1006D8450: LDRB            W8, [X10,#(byte_1009F8A3C - 0x1009F8A3B)]
+1006D8454: EOR             W8, W8, #0xC0
+1006D8458: STRB            W8, [X7,#(byte_1009F8A45 - 0x1009F8A44)]
+1006D845C: LDRB            W8, [X10,#(byte_1009F8A3D - 0x1009F8A3B)]
+1006D8460: MOV             W11, #0x74 ; 't'
+1006D8464: EOR             W8, W8, W11
+1006D8468: STRB            W8, [X7,#(byte_1009F8A46 - 0x1009F8A44)]
+1006D846C: LDRB            W8, [X10,#(byte_1009F8A3E - 0x1009F8A3B)]
+1006D8470: MOV             W11, #0x28 ; '('
+1006D8474: EOR             W8, W8, W11
+1006D8478: STRB            W8, [X7,#(byte_1009F8A47 - 0x1009F8A44)]
+1006D847C: LDRB            W8, [X10,#(byte_1009F8A3F - 0x1009F8A3B)]
+1006D8480: EOR             W8, W8, W4
+1006D8484: STRB            W8, [X7,#(byte_1009F8A48 - 0x1009F8A44)]
+1006D8488: LDRB            W8, [X10,#(byte_1009F8A40 - 0x1009F8A3B)]
+1006D848C: EOR             W8, W8, #0xFFFFFFBF
+1006D8490: STRB            W8, [X7,#(byte_1009F8A49 - 0x1009F8A44)]
+1006D8494: LDRB            W8, [X10,#(byte_1009F8A41 - 0x1009F8A3B)]
+1006D8498: EOR             W8, W8, W0
+1006D849C: STRB            W8, [X7,#(byte_1009F8A4A - 0x1009F8A44)]
+1006D84A0: LDRB            W8, [X10,#(byte_1009F8A42 - 0x1009F8A3B)]
+1006D84A4: MOV             W12, #0xAF
+1006D84A8: EOR             W8, W8, W12
+1006D84AC: STRB            W8, [X7,#(byte_1009F8A4B - 0x1009F8A44)]
+1006D84B0: LDRB            W8, [X10,#(byte_1009F8A43 - 0x1009F8A3B)]
+1006D84B4: EOR             W8, W8, W14
+1006D84B8: STRB            W8, [X7,#(byte_1009F8A4C - 0x1009F8A44)]
+1006D84BC: ADRL            X10, byte_1009F8A4D
+1006D84C4: LDRB            W8, [X10]
+1006D84C8: EOR             W8, W8, W20
+1006D84CC: ADRL            X12, byte_1009F8A55
+1006D84D4: STRB            W8, [X12]
+1006D84D8: LDRB            W8, [X10,#(byte_1009F8A4E - 0x1009F8A4D)]
+1006D84DC: EOR             W8, W8, W16
+1006D84E0: MOV             W23, #0x1A
+1006D84E4: STRB            W8, [X12,#(byte_1009F8A56 - 0x1009F8A55)]
+1006D84E8: LDRB            W8, [X10,#(byte_1009F8A4F - 0x1009F8A4D)]
+1006D84EC: EOR             W8, W8, #0xFFFFFFE1
+1006D84F0: STRB            W8, [X12,#(byte_1009F8A57 - 0x1009F8A55)]
+1006D84F4: LDRB            W8, [X10,#(byte_1009F8A50 - 0x1009F8A4D)]
+1006D84F8: MOV             W14, #0xCD
+1006D84FC: EOR             W8, W8, W14
+1006D8500: STRB            W8, [X12,#(byte_1009F8A58 - 0x1009F8A55)]
+1006D8504: LDRB            W8, [X10,#(byte_1009F8A51 - 0x1009F8A4D)]
+1006D8508: EOR             W8, W8, W11
+1006D850C: STRB            W8, [X12,#(byte_1009F8A59 - 0x1009F8A55)]
+1006D8510: LDRB            W8, [X10,#(byte_1009F8A52 - 0x1009F8A4D)]
+1006D8514: EOR             W8, W8, #0x1C
+1006D8518: STRB            W8, [X12,#(byte_1009F8A5A - 0x1009F8A55)]
+1006D851C: LDRB            W8, [X10,#(byte_1009F8A53 - 0x1009F8A4D)]
+1006D8520: MOV             W11, #0x23 ; '#'
+1006D8524: EOR             W8, W8, W11
+1006D8528: STRB            W8, [X12,#(byte_1009F8A5B - 0x1009F8A55)]
+1006D852C: LDRB            W8, [X10,#(byte_1009F8A54 - 0x1009F8A4D)]
+1006D8530: EOR             W8, W8, W17
+1006D8534: STRB            W8, [X12,#(byte_1009F8A5C - 0x1009F8A55)]
+1006D8538: ADRL            X10, byte_1009F8A5D
+1006D8540: LDRB            W8, [X10]
+1006D8544: MOV             W20, #0xA9
+1006D8548: EOR             W8, W8, W20
+1006D854C: ADRL            X12, byte_1009F8A66
+1006D8554: STRB            W8, [X12]
+1006D8558: LDRB            W8, [X10,#(byte_1009F8A5E - 0x1009F8A5D)]
+1006D855C: MOV             W11, #0x95
+1006D8560: EOR             W8, W8, W11
+1006D8564: STRB            W8, [X12,#(byte_1009F8A67 - 0x1009F8A66)]
+1006D8568: LDRB            W8, [X10,#(byte_1009F8A5F - 0x1009F8A5D)]
+1006D856C: MOV             W6, #0x46 ; 'F'
+1006D8570: EOR             W8, W8, W6
+1006D8574: STRB            W8, [X12,#(byte_1009F8A68 - 0x1009F8A66)]
+1006D8578: LDRB            W8, [X10,#(byte_1009F8A60 - 0x1009F8A5D)]
+1006D857C: MOV             W11, #0x5D ; ']'
+1006D8580: EOR             W8, W8, W11
+1006D8584: STRB            W8, [X12,#(byte_1009F8A69 - 0x1009F8A66)]
+1006D8588: LDRB            W8, [X10,#(byte_1009F8A61 - 0x1009F8A5D)]
+1006D858C: EOR             W8, W8, #0x1F
+1006D8590: STRB            W8, [X12,#(byte_1009F8A6A - 0x1009F8A66)]
+1006D8594: LDRB            W8, [X10,#(byte_1009F8A62 - 0x1009F8A5D)]
+1006D8598: MOV             W0, #0xA
+1006D859C: EOR             W8, W8, W0
+1006D85A0: STRB            W8, [X12,#(byte_1009F8A6B - 0x1009F8A66)]
+1006D85A4: LDRB            W8, [X10,#(byte_1009F8A63 - 0x1009F8A5D)]
+1006D85A8: EOR             W8, W8, W1
+1006D85AC: STRB            W8, [X12,#(byte_1009F8A6C - 0x1009F8A66)]
+1006D85B0: LDRB            W8, [X10,#(byte_1009F8A64 - 0x1009F8A5D)]
+1006D85B4: MOV             W11, #0xE8
+1006D85B8: EOR             W8, W8, W11
+1006D85BC: STRB            W8, [X12,#(byte_1009F8A6D - 0x1009F8A66)]
+1006D85C0: LDRB            W8, [X10,#(byte_1009F8A65 - 0x1009F8A5D)]
+1006D85C4: MOV             W10, #0x8B
+1006D85C8: EOR             W8, W8, W10
+1006D85CC: STRB            W8, [X12,#(byte_1009F8A6E - 0x1009F8A66)]
+1006D85D0: ADRL            X12, byte_1009F8A6F
+1006D85D8: LDRB            W8, [X12]
+1006D85DC: MOV             W10, #0x12
+1006D85E0: EOR             W8, W8, W10
+1006D85E4: ADRL            X10, byte_1009F8A77
+1006D85EC: STRB            W8, [X10]
+1006D85F0: LDRB            W8, [X12,#(byte_1009F8A70 - 0x1009F8A6F)]
+1006D85F4: MOV             W3, #0x82
+1006D85F8: EOR             W8, W8, W3
+1006D85FC: STRB            W8, [X10,#(byte_1009F8A78 - 0x1009F8A77)]
+1006D8600: LDRB            W8, [X12,#(byte_1009F8A71 - 0x1009F8A6F)]
+1006D8604: EOR             W8, W8, #0xFE
+1006D8608: STRB            W8, [X10,#(byte_1009F8A79 - 0x1009F8A77)]
+1006D860C: LDRB            W8, [X12,#(byte_1009F8A72 - 0x1009F8A6F)]
+1006D8610: MOV             W14, #0xA1
+1006D8614: EOR             W8, W8, W14
+1006D8618: STRB            W8, [X10,#(byte_1009F8A7A - 0x1009F8A77)]
+1006D861C: LDRB            W8, [X12,#(byte_1009F8A73 - 0x1009F8A6F)]
+1006D8620: EOR             W8, W8, W14
+1006D8624: STRB            W8, [X10,#(byte_1009F8A7B - 0x1009F8A77)]
+1006D8628: LDRB            W8, [X12,#(byte_1009F8A74 - 0x1009F8A6F)]
+1006D862C: EOR             W8, W8, #0xFFFFFFC3
+1006D8630: STRB            W8, [X10,#(byte_1009F8A7C - 0x1009F8A77)]
+1006D8634: LDRB            W8, [X12,#(byte_1009F8A75 - 0x1009F8A6F)]
+1006D8638: EOR             W8, W8, #0x80
+1006D863C: STRB            W8, [X10,#(byte_1009F8A7D - 0x1009F8A77)]
+1006D8640: LDRB            W8, [X12,#(byte_1009F8A76 - 0x1009F8A6F)]
+1006D8644: EOR             W8, W8, #0x78 ; 'x'
+1006D8648: STRB            W8, [X10,#(byte_1009F8A7E - 0x1009F8A77)]
+1006D864C: ADRL            X10, byte_1009F8A7F
+1006D8654: LDRB            W8, [X10]
+1006D8658: MOV             W12, #0x7B ; '{'
+1006D865C: EOR             W8, W8, W12
+1006D8660: ADRL            X12, byte_1009F8A88
+1006D8668: STRB            W8, [X12]
+1006D866C: LDRB            W8, [X10,#(byte_1009F8A80 - 0x1009F8A7F)]
+1006D8670: EOR             W8, W8, #0xEEEEEEEE
+1006D8674: STRB            W8, [X12,#(byte_1009F8A89 - 0x1009F8A88)]
+1006D8678: LDRB            W8, [X10,#(byte_1009F8A81 - 0x1009F8A7F)]
+1006D867C: EOR             W8, W8, W28
+1006D8680: STRB            W8, [X12,#(byte_1009F8A8A - 0x1009F8A88)]
+1006D8684: LDRB            W8, [X10,#(byte_1009F8A82 - 0x1009F8A7F)]
+1006D8688: MOV             W14, #0xE4
+1006D868C: EOR             W8, W8, W14
+1006D8690: STRB            W8, [X12,#(byte_1009F8A8B - 0x1009F8A88)]
+1006D8694: LDRB            W8, [X10,#(byte_1009F8A83 - 0x1009F8A7F)]
+1006D8698: EOR             W8, W8, #0x99999999
+1006D869C: STRB            W8, [X12,#(byte_1009F8A8C - 0x1009F8A88)]
+1006D86A0: LDRB            W8, [X10,#(byte_1009F8A84 - 0x1009F8A7F)]
+1006D86A4: EOR             W8, W8, W2
+1006D86A8: STRB            W8, [X12,#(byte_1009F8A8D - 0x1009F8A88)]
+1006D86AC: LDRB            W8, [X10,#(byte_1009F8A85 - 0x1009F8A7F)]
+1006D86B0: EOR             W8, W8, W23
+1006D86B4: STRB            W8, [X12,#(byte_1009F8A8E - 0x1009F8A88)]
+1006D86B8: LDRB            W8, [X10,#(byte_1009F8A86 - 0x1009F8A7F)]
+1006D86BC: EOR             W8, W8, W15
+1006D86C0: STRB            W8, [X12,#(byte_1009F8A8F - 0x1009F8A88)]
+1006D86C4: LDRB            W8, [X10,#(byte_1009F8A87 - 0x1009F8A7F)]
+1006D86C8: MOV             W10, #0xB5
+1006D86CC: EOR             W8, W8, W10
+1006D86D0: STRB            W8, [X12,#(byte_1009F8A90 - 0x1009F8A88)]
+1006D86D4: ADRL            X10, byte_1009F8A91
+1006D86DC: LDRB            W8, [X10]
+1006D86E0: EOR             W8, W8, W30
+1006D86E4: ADRL            X12, byte_1009F8A99
+1006D86EC: STRB            W8, [X12]
+1006D86F0: LDRB            W8, [X10,#(byte_1009F8A92 - 0x1009F8A91)]
+1006D86F4: MOV             W14, #0xB6
+1006D86F8: EOR             W8, W8, W14
+1006D86FC: STRB            W8, [X12,#(byte_1009F8A9A - 0x1009F8A99)]
+1006D8700: LDRB            W8, [X10,#(byte_1009F8A93 - 0x1009F8A91)]
+1006D8704: EOR             W8, W8, #0xFFFFFF83
+1006D8708: STRB            W8, [X12,#(byte_1009F8A9B - 0x1009F8A99)]
+1006D870C: LDRB            W8, [X10,#(byte_1009F8A94 - 0x1009F8A91)]
+1006D8710: MOV             W14, #0xBC
+1006D8714: EOR             W8, W8, W14
+1006D8718: STRB            W8, [X12,#(byte_1009F8A9C - 0x1009F8A99)]
+1006D871C: LDRB            W8, [X10,#(byte_1009F8A95 - 0x1009F8A91)]
+1006D8720: EOR             W8, W8, #0xAAAAAAAA
+1006D8724: STRB            W8, [X12,#(byte_1009F8A9D - 0x1009F8A99)]
+1006D8728: LDRB            W8, [X10,#(byte_1009F8A96 - 0x1009F8A91)]
+1006D872C: MOV             W14, #0xA2
+1006D8730: EOR             W8, W8, W14
+1006D8734: STRB            W8, [X12,#(byte_1009F8A9E - 0x1009F8A99)]
+1006D8738: LDRB            W8, [X10,#(byte_1009F8A97 - 0x1009F8A91)]
+1006D873C: MOV             W15, #0xB8
+1006D8740: EOR             W8, W8, W15
+1006D8744: STRB            W8, [X12,#(byte_1009F8A9F - 0x1009F8A99)]
+1006D8748: LDRB            W8, [X10,#(byte_1009F8A98 - 0x1009F8A91)]
+1006D874C: MOV             W5, #0xD2
+1006D8750: EOR             W8, W8, W5
+1006D8754: STRB            W8, [X12,#(byte_1009F8AA0 - 0x1009F8A99)]
+1006D8758: ADRL            X12, byte_1009F8AA1
+1006D8760: LDRB            W8, [X12]
+1006D8764: MOV             W10, #0x5C ; '\'
+1006D8768: EOR             W8, W8, W10
+1006D876C: ADRL            X10, byte_1009F8AAE
+1006D8774: STRB            W8, [X10]
+1006D8778: LDRB            W8, [X12,#(byte_1009F8AA2 - 0x1009F8AA1)]
+1006D877C: MOV             W17, #0x53 ; 'S'
+1006D8780: EOR             W8, W8, W17
+1006D8784: STRB            W8, [X10,#(byte_1009F8AAF - 0x1009F8AAE)]
+1006D8788: LDRB            W8, [X12,#(byte_1009F8AA3 - 0x1009F8AA1)]
+1006D878C: MOV             W15, #0xC5
+1006D8790: EOR             W8, W8, W15
+1006D8794: STRB            W8, [X10,#(byte_1009F8AB0 - 0x1009F8AAE)]
+1006D8798: LDRB            W8, [X12,#(byte_1009F8AA4 - 0x1009F8AA1)]
+1006D879C: EOR             W8, W8, W22
+1006D87A0: STRB            W8, [X10,#(byte_1009F8AB1 - 0x1009F8AAE)]
+1006D87A4: LDRB            W8, [X12,#(byte_1009F8AA5 - 0x1009F8AA1)]
+1006D87A8: EOR             W8, W8, #0x40 ; '@'
+1006D87AC: STRB            W8, [X10,#(byte_1009F8AB2 - 0x1009F8AAE)]
+1006D87B0: LDRB            W8, [X12,#(byte_1009F8AA6 - 0x1009F8AA1)]
+1006D87B4: MOV             W16, #0x9D
+1006D87B8: EOR             W8, W8, W16
+1006D87BC: STRB            W8, [X10,#(byte_1009F8AB3 - 0x1009F8AAE)]
+1006D87C0: LDRB            W8, [X12,#(byte_1009F8AA7 - 0x1009F8AA1)]
+1006D87C4: MOV             W1, #0xA4
+1006D87C8: EOR             W8, W8, W1
+1006D87CC: STRB            W8, [X10,#(byte_1009F8AB4 - 0x1009F8AAE)]
+1006D87D0: LDRB            W8, [X12,#(byte_1009F8AA8 - 0x1009F8AA1)]
+1006D87D4: STRB            W8, [X10,#(byte_1009F8AB5 - 0x1009F8AAE)]
+1006D87D8: LDRB            W8, [X12,#(byte_1009F8AA9 - 0x1009F8AA1)]
+1006D87DC: MOV             W22, #0x2E ; '.'
+1006D87E0: EOR             W8, W8, W22
+1006D87E4: STRB            W8, [X10,#(byte_1009F8AB6 - 0x1009F8AAE)]
+1006D87E8: LDRB            W8, [X12,#(byte_1009F8AAA - 0x1009F8AA1)]
+1006D87EC: EOR             W8, W8, W25
+1006D87F0: STRB            W8, [X10,#(byte_1009F8AB7 - 0x1009F8AAE)]
+1006D87F4: LDRB            W8, [X12,#(byte_1009F8AAB - 0x1009F8AA1)]
+1006D87F8: MOV             W2, #0xA7
+1006D87FC: EOR             W8, W8, W2
+1006D8800: STRB            W8, [X10,#(byte_1009F8AB8 - 0x1009F8AAE)]
+1006D8804: LDRB            W8, [X12,#(byte_1009F8AAC - 0x1009F8AA1)]
+1006D8808: MOV             W16, #0xCE
+1006D880C: EOR             W8, W8, W16
+1006D8810: STRB            W8, [X10,#(byte_1009F8AB9 - 0x1009F8AAE)]
+1006D8814: LDRB            W8, [X12,#(byte_1009F8AAD - 0x1009F8AA1)]
+1006D8818: EOR             W8, W8, W15
+1006D881C: STRB            W8, [X10,#(byte_1009F8ABA - 0x1009F8AAE)]
+1006D8820: ADRL            X10, byte_1009F8ABB
+1006D8828: LDRB            W8, [X10]
+1006D882C: MOV             W12, #0xAC
+1006D8830: EOR             W8, W8, W12
+1006D8834: ADRL            X12, byte_1009F8AC6
+1006D883C: STRB            W8, [X12]
+1006D8840: LDRB            W8, [X10,#(byte_1009F8ABC - 0x1009F8ABB)]
+1006D8844: MOV             W30, #0x3A ; ':'
+1006D8848: EOR             W8, W8, W30
+1006D884C: STRB            W8, [X12,#(byte_1009F8AC7 - 0x1009F8AC6)]
+1006D8850: LDRB            W8, [X10,#(byte_1009F8ABD - 0x1009F8ABB)]
+1006D8854: MOV             W15, #0x57 ; 'W'
+1006D8858: EOR             W8, W8, W15
+1006D885C: STRB            W8, [X12,#(byte_1009F8AC8 - 0x1009F8AC6)]
+1006D8860: LDRB            W8, [X10,#(byte_1009F8ABE - 0x1009F8ABB)]
+1006D8864: EOR             W8, W8, W0
+1006D8868: STRB            W8, [X12,#(byte_1009F8AC9 - 0x1009F8AC6)]
+1006D886C: LDRB            W8, [X10,#(byte_1009F8ABF - 0x1009F8ABB)]
+1006D8870: EOR             W8, W8, #0x3E ; '>'
+1006D8874: STRB            W8, [X12,#(byte_1009F8ACA - 0x1009F8AC6)]
+1006D8878: LDRB            W8, [X10,#(byte_1009F8AC0 - 0x1009F8ABB)]
+1006D887C: EOR             W8, W8, #0xFFFFFF87
+1006D8880: STRB            W8, [X12,#(byte_1009F8ACB - 0x1009F8AC6)]
+1006D8884: LDRB            W8, [X10,#(byte_1009F8AC1 - 0x1009F8ABB)]
+1006D8888: MOV             W15, #0x17
+1006D888C: EOR             W8, W8, W15
+1006D8890: STRB            W8, [X12,#(byte_1009F8ACC - 0x1009F8AC6)]
+1006D8894: LDRB            W8, [X10,#(byte_1009F8AC2 - 0x1009F8ABB)]
+1006D8898: MOV             W15, #0x7A ; 'z'
+1006D889C: EOR             W8, W8, W15
+1006D88A0: STRB            W8, [X12,#(byte_1009F8ACD - 0x1009F8AC6)]
+1006D88A4: LDRB            W8, [X10,#(byte_1009F8AC3 - 0x1009F8ABB)]
+1006D88A8: MOV             W17, #0xAD
+1006D88AC: EOR             W8, W8, W17
+1006D88B0: STRB            W8, [X12,#(byte_1009F8ACE - 0x1009F8AC6)]
+1006D88B4: LDRB            W8, [X10,#(byte_1009F8AC4 - 0x1009F8ABB)]
+1006D88B8: MOV             W15, #0xEA
+1006D88BC: EOR             W8, W8, W15
+1006D88C0: STRB            W8, [X12,#(byte_1009F8ACF - 0x1009F8AC6)]
+1006D88C4: LDRB            W8, [X10,#(byte_1009F8AC5 - 0x1009F8ABB)]
+1006D88C8: EOR             W8, W8, #0x1E
+1006D88CC: STRB            W8, [X12,#(byte_1009F8AD0 - 0x1009F8AC6)]
+1006D88D0: ADRL            X10, byte_1009F8AD1
+1006D88D8: LDRB            W8, [X10]
+1006D88DC: MOV             W7, #0x67 ; 'g'
+1006D88E0: EOR             W8, W8, W7
+1006D88E4: ADRL            X12, byte_1009F8ADD
+1006D88EC: STRB            W8, [X12]
+1006D88F0: LDRB            W8, [X10,#(byte_1009F8AD2 - 0x1009F8AD1)]
+1006D88F4: MOV             W0, #0x14
+1006D88F8: EOR             W8, W8, W0
+1006D88FC: STRB            W8, [X12,#(byte_1009F8ADE - 0x1009F8ADD)]
+1006D8900: LDRB            W8, [X10,#(byte_1009F8AD3 - 0x1009F8AD1)]
+1006D8904: EOR             W8, W8, W24
+1006D8908: STRB            W8, [X12,#(byte_1009F8ADF - 0x1009F8ADD)]
+1006D890C: LDRB            W8, [X10,#(byte_1009F8AD4 - 0x1009F8AD1)]
+1006D8910: EOR             W8, W8, W11
+1006D8914: STRB            W8, [X12,#(byte_1009F8AE0 - 0x1009F8ADD)]
+1006D8918: LDRB            W8, [X10,#(byte_1009F8AD5 - 0x1009F8AD1)]
+1006D891C: EOR             W8, W8, #0x80
+1006D8920: STRB            W8, [X12,#(byte_1009F8AE1 - 0x1009F8ADD)]
+1006D8924: LDRB            W8, [X10,#(byte_1009F8AD6 - 0x1009F8AD1)]
+1006D8928: MOV             W11, #0xC9
+1006D892C: EOR             W8, W8, W11
+1006D8930: STRB            W8, [X12,#(byte_1009F8AE2 - 0x1009F8ADD)]
+1006D8934: LDRB            W8, [X10,#(byte_1009F8AD7 - 0x1009F8AD1)]
+1006D8938: MOV             W0, #0x59 ; 'Y'
+1006D893C: EOR             W8, W8, W0
+1006D8940: STRB            W8, [X12,#(byte_1009F8AE3 - 0x1009F8ADD)]
+1006D8944: LDRB            W8, [X10,#(byte_1009F8AD8 - 0x1009F8AD1)]
+1006D8948: EOR             W8, W8, W20
+1006D894C: STRB            W8, [X12,#(byte_1009F8AE4 - 0x1009F8ADD)]
+1006D8950: LDRB            W8, [X10,#(byte_1009F8AD9 - 0x1009F8AD1)]
+1006D8954: EOR             W8, W8, #0xFFFFFFBF
+1006D8958: STRB            W8, [X12,#(byte_1009F8AE5 - 0x1009F8ADD)]
+1006D895C: LDRB            W8, [X10,#(byte_1009F8ADA - 0x1009F8AD1)]
+1006D8960: EOR             W8, W8, #0xFC
+1006D8964: STRB            W8, [X12,#(byte_1009F8AE6 - 0x1009F8ADD)]
+1006D8968: LDRB            W8, [X10,#(byte_1009F8ADB - 0x1009F8AD1)]
+1006D896C: MOV             W0, #0xC2
+1006D8970: EOR             W8, W8, W0
+1006D8974: STRB            W8, [X12,#(byte_1009F8AE7 - 0x1009F8ADD)]
+1006D8978: LDRB            W8, [X10,#(byte_1009F8ADC - 0x1009F8AD1)]
+1006D897C: MOV             W10, #0x97
+1006D8980: EOR             W8, W8, W10
+1006D8984: STRB            W8, [X12,#(byte_1009F8AE8 - 0x1009F8ADD)]
+1006D8988: ADRL            X12, byte_1009F8AE9
+1006D8990: LDRB            W8, [X12]
+1006D8994: MOV             W20, #0x2B ; '+'
+1006D8998: EOR             W8, W8, W20
+1006D899C: ADRL            X10, byte_1009F8AF1
+1006D89A4: STRB            W8, [X10]
+1006D89A8: LDRB            W8, [X12,#(byte_1009F8AEA - 0x1009F8AE9)]
+1006D89AC: EOR             W8, W8, W14
+1006D89B0: STRB            W8, [X10,#(byte_1009F8AF2 - 0x1009F8AF1)]
+1006D89B4: LDRB            W8, [X12,#(byte_1009F8AEB - 0x1009F8AE9)]
+1006D89B8: MOV             W14, #0xD5
+1006D89BC: EOR             W8, W8, W14
+1006D89C0: MOV             W25, #0xD5
+1006D89C4: STRB            W8, [X10,#(byte_1009F8AF3 - 0x1009F8AF1)]
+1006D89C8: LDRB            W8, [X12,#(byte_1009F8AEC - 0x1009F8AE9)]
+1006D89CC: MOV             W14, #0x76 ; 'v'
+1006D89D0: EOR             W8, W8, W14
+1006D89D4: STRB            W8, [X10,#(byte_1009F8AF4 - 0x1009F8AF1)]
+1006D89D8: LDRB            W8, [X12,#(byte_1009F8AED - 0x1009F8AE9)]
+1006D89DC: MOV             W24, #0xDA
+1006D89E0: EOR             W8, W8, W24
+1006D89E4: STRB            W8, [X10,#(byte_1009F8AF5 - 0x1009F8AF1)]
+1006D89E8: LDRB            W8, [X12,#(byte_1009F8AEE - 0x1009F8AE9)]
+1006D89EC: EOR             W8, W8, W15
+1006D89F0: STRB            W8, [X10,#(byte_1009F8AF6 - 0x1009F8AF1)]
+1006D89F4: LDRB            W8, [X12,#(byte_1009F8AEF - 0x1009F8AE9)]
+1006D89F8: MOV             W16, #0x4C ; 'L'
+1006D89FC: EOR             W8, W8, W16
+1006D8A00: STRB            W8, [X10,#(byte_1009F8AF7 - 0x1009F8AF1)]
+1006D8A04: LDRB            W8, [X12,#(byte_1009F8AF0 - 0x1009F8AE9)]
+1006D8A08: EOR             W8, W8, W23
+1006D8A0C: STRB            W8, [X10,#(byte_1009F8AF8 - 0x1009F8AF1)]
+1006D8A10: ADRL            X10, byte_1009F8AF9
+1006D8A18: LDRB            W8, [X10]
+1006D8A1C: MOV             W26, #0x4D ; 'M'
+1006D8A20: EOR             W8, W8, W26
+1006D8A24: ADRL            X12, byte_1009F8B03
+1006D8A2C: STRB            W8, [X12]
+1006D8A30: LDRB            W8, [X10,#(byte_1009F8AFA - 0x1009F8AF9)]
+1006D8A34: EOR             W8, W8, W30
+1006D8A38: STRB            W8, [X12,#(byte_1009F8B04 - 0x1009F8B03)]
+1006D8A3C: LDRB            W8, [X10,#(byte_1009F8AFB - 0x1009F8AF9)]
+1006D8A40: EOR             W8, W8, W20
+1006D8A44: STRB            W8, [X12,#(byte_1009F8B05 - 0x1009F8B03)]
+1006D8A48: LDRB            W8, [X10,#(byte_1009F8AFC - 0x1009F8AF9)]
+1006D8A4C: MOV             W14, #0xD
+1006D8A50: EOR             W8, W8, W14
+1006D8A54: MOV             W15, #0xD
+1006D8A58: STRB            W8, [X12,#(byte_1009F8B06 - 0x1009F8B03)]
+1006D8A5C: LDRB            W8, [X10,#(byte_1009F8AFD - 0x1009F8AF9)]
+1006D8A60: EOR             W8, W8, #0x3F ; '?'
+1006D8A64: STRB            W8, [X12,#(byte_1009F8B07 - 0x1009F8B03)]
+1006D8A68: LDRB            W8, [X10,#(byte_1009F8AFE - 0x1009F8AF9)]
+1006D8A6C: EOR             W8, W8, W11
+1006D8A70: STRB            W8, [X12,#(byte_1009F8B08 - 0x1009F8B03)]
+1006D8A74: LDRB            W8, [X10,#(byte_1009F8AFF - 0x1009F8AF9)]
+1006D8A78: MOV             W27, #0x15
+1006D8A7C: EOR             W8, W8, W27
+1006D8A80: STRB            W8, [X12,#(byte_1009F8B09 - 0x1009F8B03)]
+1006D8A84: LDRB            W8, [X10,#(byte_1009F8B00 - 0x1009F8AF9)]
+1006D8A88: EOR             W8, W8, W9
+1006D8A8C: STRB            W8, [X12,#(byte_1009F8B0A - 0x1009F8B03)]
+1006D8A90: LDRB            W8, [X10,#(byte_1009F8B01 - 0x1009F8AF9)]
+1006D8A94: EOR             W8, W8, W28
+1006D8A98: STRB            W8, [X12,#(byte_1009F8B0B - 0x1009F8B03)]
+1006D8A9C: LDRB            W8, [X10,#(byte_1009F8B02 - 0x1009F8AF9)]
+1006D8AA0: EOR             W8, W8, #0x7E ; '~'
+1006D8AA4: STRB            W8, [X12,#(byte_1009F8B0C - 0x1009F8B03)]
+1006D8AA8: ADRL            X10, byte_1009F8B0D
+1006D8AB0: LDRB            W8, [X10]
+1006D8AB4: MOV             W11, #0x39 ; '9'
+1006D8AB8: EOR             W8, W8, W11
+1006D8ABC: ADRL            X12, byte_1009F8B18
+1006D8AC4: STRB            W8, [X12]
+1006D8AC8: LDRB            W8, [X10,#(byte_1009F8B0E - 0x1009F8B0D)]
+1006D8ACC: EOR             W8, W8, W22
+1006D8AD0: STRB            W8, [X12,#(byte_1009F8B19 - 0x1009F8B18)]
+1006D8AD4: LDRB            W8, [X10,#(byte_1009F8B0F - 0x1009F8B0D)]
+1006D8AD8: EOR             W8, W8, W30
+1006D8ADC: MOV             W14, #0x3A ; ':'
+1006D8AE0: STRB            W8, [X12,#(byte_1009F8B1A - 0x1009F8B18)]
+1006D8AE4: LDRB            W8, [X10,#(byte_1009F8B10 - 0x1009F8B0D)]
+1006D8AE8: EOR             W8, W8, W9
+1006D8AEC: STRB            W8, [X12,#(byte_1009F8B1B - 0x1009F8B18)]
+1006D8AF0: LDRB            W8, [X10,#(byte_1009F8B11 - 0x1009F8B0D)]
+1006D8AF4: MOV             W9, #0xF5
+1006D8AF8: EOR             W8, W8, W9
+1006D8AFC: STRB            W8, [X12,#(byte_1009F8B1C - 0x1009F8B18)]
+1006D8B00: LDRB            W8, [X10,#(byte_1009F8B12 - 0x1009F8B0D)]
+1006D8B04: EOR             W8, W8, W13
+1006D8B08: STRB            W8, [X12,#(byte_1009F8B1D - 0x1009F8B18)]
+1006D8B0C: LDRB            W8, [X10,#(byte_1009F8B13 - 0x1009F8B0D)]
+1006D8B10: EOR             W8, W8, #0xF
+1006D8B14: STRB            W8, [X12,#(byte_1009F8B1E - 0x1009F8B18)]
+1006D8B18: LDRB            W8, [X10,#(byte_1009F8B14 - 0x1009F8B0D)]
+1006D8B1C: EOR             W8, W8, W5
+1006D8B20: STRB            W8, [X12,#(byte_1009F8B1F - 0x1009F8B18)]
+1006D8B24: LDRB            W8, [X10,#(byte_1009F8B15 - 0x1009F8B0D)]
+1006D8B28: EOR             W8, W8, #0x7F
+1006D8B2C: STRB            W8, [X12,#(byte_1009F8B20 - 0x1009F8B18)]
+1006D8B30: LDRB            W8, [X10,#(byte_1009F8B16 - 0x1009F8B0D)]
+1006D8B34: MOV             W9, #0x9B
+1006D8B38: EOR             W8, W8, W9
+1006D8B3C: STRB            W8, [X12,#(byte_1009F8B21 - 0x1009F8B18)]
+1006D8B40: LDRB            W8, [X10,#(byte_1009F8B17 - 0x1009F8B0D)]
+1006D8B44: EOR             W8, W8, W15
+1006D8B48: STRB            W8, [X12,#(byte_1009F8B22 - 0x1009F8B18)]
+1006D8B4C: ADRL            X10, byte_1009F8B30
+1006D8B54: LDRB            W8, [X10]
+1006D8B58: MOV             W9, #0x7D ; '}'
+1006D8B5C: EOR             W8, W8, W9
+1006D8B60: ADRL            X9, byte_1009F8B50
+1006D8B68: STRB            W8, [X9]
+1006D8B6C: LDRB            W8, [X10,#(byte_1009F8B31 - 0x1009F8B30)]
+1006D8B70: EOR             W8, W8, W6
+1006D8B74: STRB            W8, [X9,#(byte_1009F8B51 - 0x1009F8B50)]
+1006D8B78: LDRB            W8, [X10,#(byte_1009F8B32 - 0x1009F8B30)]
+1006D8B7C: EOR             W8, W8, W17
+1006D8B80: STRB            W8, [X9,#(byte_1009F8B52 - 0x1009F8B50)]
+1006D8B84: LDRB            W8, [X10,#(byte_1009F8B33 - 0x1009F8B30)]
+1006D8B88: EOR             W8, W8, #0xFFFFFFC3
+1006D8B8C: STRB            W8, [X9,#(byte_1009F8B53 - 0x1009F8B50)]
+1006D8B90: LDRB            W8, [X10,#(byte_1009F8B34 - 0x1009F8B30)]
+1006D8B94: MOV             W11, #0x27 ; '''
+1006D8B98: EOR             W8, W8, W11
+1006D8B9C: STRB            W8, [X9,#(byte_1009F8B54 - 0x1009F8B50)]
+1006D8BA0: LDRB            W8, [X10,#(byte_1009F8B35 - 0x1009F8B30)]
+1006D8BA4: MOV             W12, #0xE5
+1006D8BA8: EOR             W8, W8, W12
+1006D8BAC: MOV             W5, #0xE5
+1006D8BB0: STRB            W8, [X9,#(byte_1009F8B55 - 0x1009F8B50)]
+1006D8BB4: LDRB            W8, [X10,#(byte_1009F8B36 - 0x1009F8B30)]
+1006D8BB8: MOV             W12, #0xBE
+1006D8BBC: EOR             W8, W8, W12
+1006D8BC0: STRB            W8, [X9,#(byte_1009F8B56 - 0x1009F8B50)]
+1006D8BC4: LDRB            W8, [X10,#(byte_1009F8B37 - 0x1009F8B30)]
+1006D8BC8: EOR             W8, W8, W26
+1006D8BCC: STRB            W8, [X9,#(byte_1009F8B57 - 0x1009F8B50)]
+1006D8BD0: LDRB            W8, [X10,#(byte_1009F8B38 - 0x1009F8B30)]
+1006D8BD4: MOV             W13, #0x79 ; 'y'
+1006D8BD8: EOR             W8, W8, W13
+1006D8BDC: STRB            W8, [X9,#(byte_1009F8B58 - 0x1009F8B50)]
+1006D8BE0: LDRB            W8, [X10,#(byte_1009F8B39 - 0x1009F8B30)]
+1006D8BE4: EOR             W8, W8, W11
+1006D8BE8: STRB            W8, [X9,#(byte_1009F8B59 - 0x1009F8B50)]
+1006D8BEC: LDRB            W8, [X10,#(byte_1009F8B3A - 0x1009F8B30)]
+1006D8BF0: EOR             W8, W8, W12
+1006D8BF4: MOV             W22, #0xBE
+1006D8BF8: STRB            W8, [X9,#(byte_1009F8B5A - 0x1009F8B50)]
+1006D8BFC: LDRB            W8, [X10,#(byte_1009F8B3B - 0x1009F8B30)]
+1006D8C00: MOV             W11, #0x5F ; '_'
+1006D8C04: EOR             W8, W8, W11
+1006D8C08: STRB            W8, [X9,#(byte_1009F8B5B - 0x1009F8B50)]
+1006D8C0C: LDRB            W8, [X10,#(byte_1009F8B3C - 0x1009F8B30)]
+1006D8C10: EOR             W8, W8, #0x78 ; 'x'
+1006D8C14: STRB            W8, [X9,#(byte_1009F8B5C - 0x1009F8B50)]
+1006D8C18: LDRB            W8, [X10,#(byte_1009F8B3D - 0x1009F8B30)]
+1006D8C1C: EOR             W8, W8, #0xAAAAAAAA
+1006D8C20: STRB            W8, [X9,#(byte_1009F8B5D - 0x1009F8B50)]
+1006D8C24: LDRB            W8, [X10,#(byte_1009F8B3E - 0x1009F8B30)]
+1006D8C28: MOV             W11, #0x6F ; 'o'
+1006D8C2C: EOR             W8, W8, W11
+1006D8C30: STRB            W8, [X9,#(byte_1009F8B5E - 0x1009F8B50)]
+1006D8C34: LDRB            W8, [X10,#(byte_1009F8B3F - 0x1009F8B30)]
+1006D8C38: EOR             W8, W8, W1
+1006D8C3C: MOV             W20, #0xA4
+1006D8C40: STRB            W8, [X9,#(byte_1009F8B5F - 0x1009F8B50)]
+1006D8C44: LDRB            W8, [X10,#(byte_1009F8B40 - 0x1009F8B30)]
+1006D8C48: MOV             W11, #0x4B ; 'K'
+1006D8C4C: EOR             W8, W8, W11
+1006D8C50: STRB            W8, [X9,#(byte_1009F8B60 - 0x1009F8B50)]
+1006D8C54: LDRB            W8, [X10,#(byte_1009F8B41 - 0x1009F8B30)]
+1006D8C58: MOV             W15, #0x4A ; 'J'
+1006D8C5C: EOR             W8, W8, W15
+1006D8C60: STRB            W8, [X9,#(byte_1009F8B61 - 0x1009F8B50)]
+1006D8C64: LDRB            W8, [X10,#(byte_1009F8B42 - 0x1009F8B30)]
+1006D8C68: EOR             W8, W8, #0xFC
+1006D8C6C: STRB            W8, [X9,#(byte_1009F8B62 - 0x1009F8B50)]
+1006D8C70: ADRL            X9, byte_1009F8B63
+1006D8C78: LDRB            W8, [X9]
+1006D8C7C: EOR             W8, W8, W7
+1006D8C80: ADRL            X10, byte_1009F8B71
+1006D8C88: STRB            W8, [X10]
+1006D8C8C: LDRB            W8, [X9,#(byte_1009F8B64 - 0x1009F8B63)]
+1006D8C90: MOV             W11, #0x41 ; 'A'
+1006D8C94: EOR             W8, W8, W11
+1006D8C98: STRB            W8, [X10,#(byte_1009F8B72 - 0x1009F8B71)]
+1006D8C9C: LDRB            W8, [X9,#(byte_1009F8B65 - 0x1009F8B63)]
+1006D8CA0: EOR             W8, W8, #0x77777777
+1006D8CA4: STRB            W8, [X10,#(byte_1009F8B73 - 0x1009F8B71)]
+1006D8CA8: LDRB            W8, [X9,#(byte_1009F8B66 - 0x1009F8B63)]
+1006D8CAC: MOV             W11, #0x6D ; 'm'
+1006D8CB0: EOR             W8, W8, W11
+1006D8CB4: STRB            W8, [X10,#(byte_1009F8B74 - 0x1009F8B71)]
+1006D8CB8: LDRB            W8, [X9,#(byte_1009F8B67 - 0x1009F8B63)]
+1006D8CBC: MOV             W11, #0xFA
+1006D8CC0: EOR             W8, W8, W11
+1006D8CC4: STRB            W8, [X10,#(byte_1009F8B75 - 0x1009F8B71)]
+1006D8CC8: LDRB            W8, [X9,#(byte_1009F8B68 - 0x1009F8B63)]
+1006D8CCC: MOV             W1, #0x7A ; 'z'
+1006D8CD0: EOR             W8, W8, W1
+1006D8CD4: STRB            W8, [X10,#(byte_1009F8B76 - 0x1009F8B71)]
+1006D8CD8: LDRB            W8, [X9,#(byte_1009F8B69 - 0x1009F8B63)]
+1006D8CDC: EOR             W8, W8, #0x55555555
+1006D8CE0: STRB            W8, [X10,#(byte_1009F8B77 - 0x1009F8B71)]
+1006D8CE4: LDRB            W8, [X9,#(byte_1009F8B6A - 0x1009F8B63)]
+1006D8CE8: EOR             W8, W8, #2
+1006D8CEC: STRB            W8, [X10,#(byte_1009F8B78 - 0x1009F8B71)]
+1006D8CF0: LDRB            W8, [X9,#(byte_1009F8B6B - 0x1009F8B63)]
+1006D8CF4: EOR             W8, W8, W0
+1006D8CF8: STRB            W8, [X10,#(byte_1009F8B79 - 0x1009F8B71)]
+1006D8CFC: LDRB            W8, [X9,#(byte_1009F8B6C - 0x1009F8B63)]
+1006D8D00: MOV             W28, #0x95
+1006D8D04: EOR             W8, W8, W28
+1006D8D08: STRB            W8, [X10,#(byte_1009F8B7A - 0x1009F8B71)]
+1006D8D0C: LDRB            W8, [X9,#(byte_1009F8B6D - 0x1009F8B63)]
+1006D8D10: MOV             W13, #0xAB
+1006D8D14: EOR             W8, W8, W13
+1006D8D18: STRB            W8, [X10,#(byte_1009F8B7B - 0x1009F8B71)]
+1006D8D1C: LDRB            W8, [X9,#(byte_1009F8B6E - 0x1009F8B63)]
+1006D8D20: EOR             W8, W8, #0x33333333
+1006D8D24: STRB            W8, [X10,#(byte_1009F8B7C - 0x1009F8B71)]
+1006D8D28: LDRB            W8, [X9,#(byte_1009F8B6F - 0x1009F8B63)]
+1006D8D2C: MOV             W12, #0x54 ; 'T'
+1006D8D30: EOR             W8, W8, W12
+1006D8D34: STRB            W8, [X10,#(byte_1009F8B7D - 0x1009F8B71)]
+1006D8D38: LDRB            W8, [X9,#(byte_1009F8B70 - 0x1009F8B63)]
+1006D8D3C: MOV             W30, #0x25 ; '%'
+1006D8D40: EOR             W8, W8, W30
+1006D8D44: STRB            W8, [X10,#(byte_1009F8B7E - 0x1009F8B71)]
+1006D8D48: ADRL            X9, byte_1009F8B7F
+1006D8D50: LDRB            W8, [X9]
+1006D8D54: MOV             W7, #0xA8
+1006D8D58: EOR             W8, W8, W7
+1006D8D5C: ADRL            X10, byte_1009F8B88
+1006D8D64: STRB            W8, [X10]
+1006D8D68: LDRB            W8, [X9,#(byte_1009F8B80 - 0x1009F8B7F)]
+1006D8D6C: EOR             W8, W8, #0xFE
+1006D8D70: STRB            W8, [X10,#(byte_1009F8B89 - 0x1009F8B88)]
+1006D8D74: LDRB            W8, [X9,#(byte_1009F8B81 - 0x1009F8B7F)]
+1006D8D78: MOV             W11, #0x75 ; 'u'
+1006D8D7C: EOR             W8, W8, W11
+1006D8D80: STRB            W8, [X10,#(byte_1009F8B8A - 0x1009F8B88)]
+1006D8D84: LDRB            W8, [X9,#(byte_1009F8B82 - 0x1009F8B7F)]
+1006D8D88: MOV             W6, #0x6A ; 'j'
+1006D8D8C: EOR             W8, W8, W6
+1006D8D90: STRB            W8, [X10,#(byte_1009F8B8B - 0x1009F8B88)]
+1006D8D94: LDRB            W8, [X9,#(byte_1009F8B83 - 0x1009F8B7F)]
+1006D8D98: EOR             W8, W8, #0xFFFFFFF1
+1006D8D9C: STRB            W8, [X10,#(byte_1009F8B8C - 0x1009F8B88)]
+1006D8DA0: LDRB            W8, [X9,#(byte_1009F8B84 - 0x1009F8B7F)]
+1006D8DA4: EOR             W8, W8, W6
+1006D8DA8: STRB            W8, [X10,#(byte_1009F8B8D - 0x1009F8B88)]
+1006D8DAC: LDRB            W8, [X9,#(byte_1009F8B85 - 0x1009F8B7F)]
+1006D8DB0: MOV             W11, #0xE9
+1006D8DB4: EOR             W8, W8, W11
+1006D8DB8: STRB            W8, [X10,#(byte_1009F8B8E - 0x1009F8B88)]
+1006D8DBC: LDRB            W8, [X9,#(byte_1009F8B86 - 0x1009F8B7F)]
+1006D8DC0: MOV             W11, #5
+1006D8DC4: EOR             W8, W8, W11
+1006D8DC8: STRB            W8, [X10,#(byte_1009F8B8F - 0x1009F8B88)]
+1006D8DCC: LDRB            W8, [X9,#(byte_1009F8B87 - 0x1009F8B7F)]
+1006D8DD0: EOR             W8, W8, W16
+1006D8DD4: STRB            W8, [X10,#(byte_1009F8B90 - 0x1009F8B88)]
+1006D8DD8: ADRL            X10, byte_1009F8B91
+1006D8DE0: LDRB            W8, [X10]
+1006D8DE4: MOV             W17, #0xDE
+1006D8DE8: EOR             W8, W8, W17
+1006D8DEC: ADRL            X9, byte_1009F8B99
+1006D8DF4: STRB            W8, [X9]
+1006D8DF8: LDRB            W8, [X10,#(byte_1009F8B92 - 0x1009F8B91)]
+1006D8DFC: MOV             W11, #0x64 ; 'd'
+1006D8E00: EOR             W8, W8, W11
+1006D8E04: STRB            W8, [X9,#(byte_1009F8B9A - 0x1009F8B99)]
+1006D8E08: LDRB            W8, [X10,#(byte_1009F8B93 - 0x1009F8B91)]
+1006D8E0C: EOR             W8, W8, W5
+1006D8E10: STRB            W8, [X9,#(byte_1009F8B9B - 0x1009F8B99)]
+1006D8E14: LDRB            W8, [X10,#(byte_1009F8B94 - 0x1009F8B91)]
+1006D8E18: MOV             W5, #0xA6
+1006D8E1C: EOR             W8, W8, W5
+1006D8E20: STRB            W8, [X9,#(byte_1009F8B9C - 0x1009F8B99)]
+1006D8E24: LDRB            W8, [X10,#(byte_1009F8B95 - 0x1009F8B91)]
+1006D8E28: EOR             W8, W8, W3
+1006D8E2C: STRB            W8, [X9,#(byte_1009F8B9D - 0x1009F8B99)]
+1006D8E30: LDRB            W8, [X10,#(byte_1009F8B96 - 0x1009F8B91)]
+1006D8E34: EOR             W8, W8, #1
+1006D8E38: STRB            W8, [X9,#(byte_1009F8B9E - 0x1009F8B99)]
+1006D8E3C: LDRB            W8, [X10,#(byte_1009F8B97 - 0x1009F8B91)]
+1006D8E40: EOR             W8, W8, #0x1F
+1006D8E44: STRB            W8, [X9,#(byte_1009F8B9F - 0x1009F8B99)]
+1006D8E48: LDRB            W8, [X10,#(byte_1009F8B98 - 0x1009F8B91)]
+1006D8E4C: MOV             W11, #0x93
+1006D8E50: EOR             W8, W8, W11
+1006D8E54: STRB            W8, [X9,#(byte_1009F8BA0 - 0x1009F8B99)]
+1006D8E58: ADRL            X12, byte_1009F8BB0
+1006D8E60: LDRB            W8, [X12]
+1006D8E64: EOR             W8, W8, #0x20 ; ' '
+1006D8E68: ADRL            X13, byte_1009F8BE0
+1006D8E70: STRB            W8, [X13]
+1006D8E74: LDRB            W8, [X12,#(byte_1009F8BB1 - 0x1009F8BB0)]
+1006D8E78: EOR             W8, W8, #6
+1006D8E7C: STRB            W8, [X13,#(byte_1009F8BE1 - 0x1009F8BE0)]
+1006D8E80: LDRB            W8, [X12,#(byte_1009F8BB2 - 0x1009F8BB0)]
+1006D8E84: MOV             W10, #0x12
+1006D8E88: EOR             W8, W8, W10
+1006D8E8C: STRB            W8, [X13,#(byte_1009F8BE2 - 0x1009F8BE0)]
+1006D8E90: LDRB            W8, [X12,#(byte_1009F8BB3 - 0x1009F8BB0)]
+1006D8E94: EOR             W8, W8, W2
+1006D8E98: STRB            W8, [X13,#(byte_1009F8BE3 - 0x1009F8BE0)]
+1006D8E9C: LDRB            W8, [X12,#(byte_1009F8BB4 - 0x1009F8BB0)]
+1006D8EA0: EOR             W8, W8, W1
+1006D8EA4: STRB            W8, [X13,#(byte_1009F8BE4 - 0x1009F8BE0)]
+1006D8EA8: LDRB            W8, [X12,#(byte_1009F8BB5 - 0x1009F8BB0)]
+1006D8EAC: EOR             W8, W8, W15
+1006D8EB0: STRB            W8, [X13,#(byte_1009F8BE5 - 0x1009F8BE0)]
+1006D8EB4: LDRB            W8, [X12,#(byte_1009F8BB6 - 0x1009F8BB0)]
+1006D8EB8: MOV             W15, #0x57 ; 'W'
+1006D8EBC: EOR             W8, W8, W15
+1006D8EC0: STRB            W8, [X13,#(byte_1009F8BE6 - 0x1009F8BE0)]
+1006D8EC4: LDRB            W8, [X12,#(byte_1009F8BB7 - 0x1009F8BB0)]
+1006D8EC8: EOR             W8, W8, W23
+1006D8ECC: STRB            W8, [X13,#(byte_1009F8BE7 - 0x1009F8BE0)]
+1006D8ED0: LDRB            W8, [X12,#(byte_1009F8BB8 - 0x1009F8BB0)]
+1006D8ED4: EOR             W8, W8, #0x3F ; '?'
+1006D8ED8: STRB            W8, [X13,#(byte_1009F8BE8 - 0x1009F8BE0)]
+1006D8EDC: LDRB            W8, [X12,#(byte_1009F8BB9 - 0x1009F8BB0)]
+1006D8EE0: EOR             W8, W8, #0xFFFFFFF7
+1006D8EE4: STRB            W8, [X13,#(byte_1009F8BE9 - 0x1009F8BE0)]
+1006D8EE8: LDRB            W8, [X12,#(byte_1009F8BBA - 0x1009F8BB0)]
+1006D8EEC: EOR             W8, W8, W11
+1006D8EF0: STRB            W8, [X13,#(byte_1009F8BEA - 0x1009F8BE0)]
+1006D8EF4: LDRB            W8, [X12,#(byte_1009F8BBB - 0x1009F8BB0)]
+1006D8EF8: MOV             W9, #0x2A ; '*'
+1006D8EFC: EOR             W8, W8, W9
+1006D8F00: STRB            W8, [X13,#(byte_1009F8BEB - 0x1009F8BE0)]
+1006D8F04: LDRB            W8, [X12,#(byte_1009F8BBC - 0x1009F8BB0)]
+1006D8F08: EOR             W8, W8, #0xFFFFFF83
+1006D8F0C: STRB            W8, [X13,#(byte_1009F8BEC - 0x1009F8BE0)]
+1006D8F10: LDRB            W8, [X12,#(byte_1009F8BBD - 0x1009F8BB0)]
+1006D8F14: EOR             W8, W8, #0x7C ; '|'
+1006D8F18: STRB            W8, [X13,#(byte_1009F8BED - 0x1009F8BE0)]
+1006D8F1C: LDRB            W8, [X12,#(byte_1009F8BBE - 0x1009F8BB0)]
+1006D8F20: EOR             W8, W8, #0xF0
+1006D8F24: STRB            W8, [X13,#(byte_1009F8BEE - 0x1009F8BE0)]
+1006D8F28: LDRB            W8, [X12,#(byte_1009F8BBF - 0x1009F8BB0)]
+1006D8F2C: EOR             W8, W8, W6
+1006D8F30: STRB            W8, [X13,#(byte_1009F8BEF - 0x1009F8BE0)]
+1006D8F34: LDRB            W8, [X12,#(byte_1009F8BC0 - 0x1009F8BB0)]
+1006D8F38: MOV             W9, #0xA1
+1006D8F3C: EOR             W8, W8, W9
+1006D8F40: STRB            W8, [X13,#(byte_1009F8BF0 - 0x1009F8BE0)]
+1006D8F44: LDRB            W8, [X12,#(byte_1009F8BC1 - 0x1009F8BB0)]
+1006D8F48: MOV             W9, #0xA0
+1006D8F4C: EOR             W8, W8, W9
+1006D8F50: STRB            W8, [X13,#(byte_1009F8BF1 - 0x1009F8BE0)]
+1006D8F54: LDRB            W8, [X12,#(byte_1009F8BC2 - 0x1009F8BB0)]
+1006D8F58: MOV             W11, #0xB0
+1006D8F5C: EOR             W8, W8, W11
+1006D8F60: STRB            W8, [X13,#(byte_1009F8BF2 - 0x1009F8BE0)]
+1006D8F64: LDRB            W8, [X12,#(byte_1009F8BC3 - 0x1009F8BB0)]
+1006D8F68: EOR             W8, W8, #0x3C ; '<'
+1006D8F6C: STRB            W8, [X13,#(byte_1009F8BF3 - 0x1009F8BE0)]
+1006D8F70: LDRB            W8, [X12,#(byte_1009F8BC4 - 0x1009F8BB0)]
+1006D8F74: MOV             W0, #0xC5
+1006D8F78: EOR             W8, W8, W0
+1006D8F7C: STRB            W8, [X13,#(byte_1009F8BF4 - 0x1009F8BE0)]
+1006D8F80: LDRB            W8, [X12,#(byte_1009F8BC5 - 0x1009F8BB0)]
+1006D8F84: EOR             W8, W8, W24
+1006D8F88: STRB            W8, [X13,#(byte_1009F8BF5 - 0x1009F8BE0)]
+1006D8F8C: LDRB            W8, [X12,#(byte_1009F8BC6 - 0x1009F8BB0)]
+1006D8F90: EOR             W8, W8, #0xC
+1006D8F94: STRB            W8, [X13,#(byte_1009F8BF6 - 0x1009F8BE0)]
+1006D8F98: LDRB            W8, [X12,#(byte_1009F8BC7 - 0x1009F8BB0)]
+1006D8F9C: EOR             W8, W8, #0x77777777
+1006D8FA0: STRB            W8, [X13,#(byte_1009F8BF7 - 0x1009F8BE0)]
+1006D8FA4: LDRB            W8, [X12,#(byte_1009F8BC8 - 0x1009F8BB0)]
+1006D8FA8: EOR             W8, W8, #0xFFFFFFF1
+1006D8FAC: STRB            W8, [X13,#(byte_1009F8BF8 - 0x1009F8BE0)]
+1006D8FB0: LDRB            W8, [X12,#(byte_1009F8BC9 - 0x1009F8BB0)]
+1006D8FB4: MOV             W16, #0x89
+1006D8FB8: EOR             W8, W8, W16
+1006D8FBC: STRB            W8, [X13,#(byte_1009F8BF9 - 0x1009F8BE0)]
+1006D8FC0: LDRB            W8, [X12,#(byte_1009F8BCA - 0x1009F8BB0)]
+1006D8FC4: MOV             W4, #0x1D
+1006D8FC8: EOR             W8, W8, W4
+1006D8FCC: STRB            W8, [X13,#(byte_1009F8BFA - 0x1009F8BE0)]
+1006D8FD0: LDRB            W8, [X12,#(byte_1009F8BCB - 0x1009F8BB0)]
+1006D8FD4: MOV             W9, #0xD4
+1006D8FD8: EOR             W8, W8, W9
+1006D8FDC: STRB            W8, [X13,#(byte_1009F8BFB - 0x1009F8BE0)]
+1006D8FE0: LDRB            W8, [X12,#(byte_1009F8BCC - 0x1009F8BB0)]
+1006D8FE4: EOR             W8, W8, W14
+1006D8FE8: STRB            W8, [X13,#(byte_1009F8BFC - 0x1009F8BE0)]
+1006D8FEC: LDRB            W8, [X12,#(byte_1009F8BCD - 0x1009F8BB0)]
+1006D8FF0: EOR             W8, W8, W10
+1006D8FF4: STRB            W8, [X13,#(byte_1009F8BFD - 0x1009F8BE0)]
+1006D8FF8: LDRB            W8, [X12,#(byte_1009F8BCE - 0x1009F8BB0)]
+1006D8FFC: MOV             W9, #0xE2
+1006D9000: EOR             W8, W8, W9
+1006D9004: STRB            W8, [X13,#(byte_1009F8BFE - 0x1009F8BE0)]
+1006D9008: LDRB            W8, [X12,#(byte_1009F8BCF - 0x1009F8BB0)]
+1006D900C: MOV             W9, #0x6B ; 'k'
+1006D9010: EOR             W8, W8, W9
+1006D9014: STRB            W8, [X13,#(byte_1009F8BFF - 0x1009F8BE0)]
+1006D9018: LDRB            W8, [X12,#(byte_1009F8BD0 - 0x1009F8BB0)]
+1006D901C: EOR             W8, W8, W7
+1006D9020: STRB            W8, [X13,#(byte_1009F8C00 - 0x1009F8BE0)]
+1006D9024: LDRB            W8, [X12,#(byte_1009F8BD1 - 0x1009F8BB0)]
+1006D9028: MOV             W9, #0xB3
+1006D902C: EOR             W8, W8, W9
+1006D9030: STRB            W8, [X13,#(byte_1009F8C01 - 0x1009F8BE0)]
+1006D9034: ADRL            X9, byte_1009F8C10
+1006D903C: LDRB            W8, [X9]
+1006D9040: EOR             W8, W8, W16
+1006D9044: ADRL            X10, byte_1009F8C30
+1006D904C: STRB            W8, [X10]
+1006D9050: LDRB            W8, [X9,#(byte_1009F8C11 - 0x1009F8C10)]
+1006D9054: EOR             W8, W8, #0xFFFFFFC3
+1006D9058: STRB            W8, [X10,#(byte_1009F8C31 - 0x1009F8C30)]
+1006D905C: LDRB            W8, [X9,#(byte_1009F8C12 - 0x1009F8C10)]
+1006D9060: MOV             W1, #0x68 ; 'h'
+1006D9064: EOR             W8, W8, W1
+1006D9068: STRB            W8, [X10,#(byte_1009F8C32 - 0x1009F8C30)]
+1006D906C: LDRB            W8, [X9,#(byte_1009F8C13 - 0x1009F8C10)]
+1006D9070: EOR             W8, W8, W25
+1006D9074: STRB            W8, [X10,#(byte_1009F8C33 - 0x1009F8C30)]
+1006D9078: LDRB            W8, [X9,#(byte_1009F8C14 - 0x1009F8C10)]
+1006D907C: EOR             W8, W8, #0xF8
+1006D9080: STRB            W8, [X10,#(byte_1009F8C34 - 0x1009F8C30)]
+1006D9084: LDRB            W8, [X9,#(byte_1009F8C15 - 0x1009F8C10)]
+1006D9088: EOR             W8, W8, #0xAAAAAAAA
+1006D908C: STRB            W8, [X10,#(byte_1009F8C35 - 0x1009F8C30)]
+1006D9090: LDRB            W8, [X9,#(byte_1009F8C16 - 0x1009F8C10)]
+1006D9094: MOV             W12, #0x94
+1006D9098: EOR             W8, W8, W12
+1006D909C: STRB            W8, [X10,#(byte_1009F8C36 - 0x1009F8C30)]
+1006D90A0: LDRB            W8, [X9,#(byte_1009F8C17 - 0x1009F8C10)]
+1006D90A4: EOR             W8, W8, #0x18
+1006D90A8: STRB            W8, [X10,#(byte_1009F8C37 - 0x1009F8C30)]
+1006D90AC: LDRB            W8, [X9,#(byte_1009F8C18 - 0x1009F8C10)]
+1006D90B0: MOV             W12, #0x17
+1006D90B4: EOR             W8, W8, W12
+1006D90B8: STRB            W8, [X10,#(byte_1009F8C38 - 0x1009F8C30)]
+1006D90BC: LDRB            W8, [X9,#(byte_1009F8C19 - 0x1009F8C10)]
+1006D90C0: MOV             W16, #0xCE
+1006D90C4: EOR             W8, W8, W16
+1006D90C8: STRB            W8, [X10,#(byte_1009F8C39 - 0x1009F8C30)]
+1006D90CC: LDRB            W8, [X9,#(byte_1009F8C1A - 0x1009F8C10)]
+1006D90D0: EOR             W8, W8, #2
+1006D90D4: STRB            W8, [X10,#(byte_1009F8C3A - 0x1009F8C30)]
+1006D90D8: LDRB            W8, [X9,#(byte_1009F8C1B - 0x1009F8C10)]
+1006D90DC: MOV             W12, #0x4F ; 'O'
+1006D90E0: EOR             W8, W8, W12
+1006D90E4: STRB            W8, [X10,#(byte_1009F8C3B - 0x1009F8C30)]
+1006D90E8: LDRB            W8, [X9,#(byte_1009F8C1C - 0x1009F8C10)]
+1006D90EC: MOV             W14, #0x32 ; '2'
+1006D90F0: EOR             W8, W8, W14
+1006D90F4: STRB            W8, [X10,#(byte_1009F8C3C - 0x1009F8C30)]
+1006D90F8: LDRB            W8, [X9,#(byte_1009F8C1D - 0x1009F8C10)]
+1006D90FC: MOV             W12, #0x8D
+1006D9100: EOR             W8, W8, W12
+1006D9104: STRB            W8, [X10,#(byte_1009F8C3D - 0x1009F8C30)]
+1006D9108: LDRB            W8, [X9,#(byte_1009F8C1E - 0x1009F8C10)]
+1006D910C: MOV             W12, #0x71 ; 'q'
+1006D9110: EOR             W8, W8, W12
+1006D9114: STRB            W8, [X10,#(byte_1009F8C3E - 0x1009F8C30)]
+1006D9118: LDRB            W8, [X9,#(byte_1009F8C1F - 0x1009F8C10)]
+1006D911C: MOV             W13, #0xA
+1006D9120: EOR             W8, W8, W13
+1006D9124: STRB            W8, [X10,#(byte_1009F8C3F - 0x1009F8C30)]
+1006D9128: LDRB            W8, [X9,#(byte_1009F8C20 - 0x1009F8C10)]
+1006D912C: EOR             W8, W8, W12
+1006D9130: STRB            W8, [X10,#(byte_1009F8C40 - 0x1009F8C30)]
+1006D9134: LDRB            W8, [X9,#(byte_1009F8C21 - 0x1009F8C10)]
+1006D9138: EOR             W8, W8, #0x1F
+1006D913C: STRB            W8, [X10,#(byte_1009F8C41 - 0x1009F8C30)]
+1006D9140: ADRL            X10, byte_1009F8C42
+1006D9148: LDRB            W8, [X10]
+1006D914C: EOR             W8, W8, W26
+1006D9150: ADRL            X9, byte_1009F8C4C
+1006D9158: STRB            W8, [X9]
+1006D915C: LDRB            W8, [X10,#(byte_1009F8C43 - 0x1009F8C42)]
+1006D9160: MOV             W3, #0xC8
+1006D9164: EOR             W8, W8, W3
+1006D9168: STRB            W8, [X9,#(byte_1009F8C4D - 0x1009F8C4C)]
+1006D916C: LDRB            W8, [X10,#(byte_1009F8C44 - 0x1009F8C42)]
+1006D9170: MOV             W13, #0x51 ; 'Q'
+1006D9174: EOR             W8, W8, W13
+1006D9178: STRB            W8, [X9,#(byte_1009F8C4E - 0x1009F8C4C)]
+1006D917C: LDRB            W8, [X10,#(byte_1009F8C45 - 0x1009F8C42)]
+1006D9180: EOR             W8, W8, #0x33333333
+1006D9184: STRB            W8, [X9,#(byte_1009F8C4F - 0x1009F8C4C)]
+1006D9188: LDRB            W8, [X10,#(byte_1009F8C46 - 0x1009F8C42)]
+1006D918C: MOV             W12, #0x8A
+1006D9190: EOR             W8, W8, W12
+1006D9194: STRB            W8, [X9,#(byte_1009F8C50 - 0x1009F8C4C)]
+1006D9198: LDRB            W8, [X10,#(byte_1009F8C47 - 0x1009F8C42)]
+1006D919C: EOR             W8, W8, W0
+1006D91A0: MOV             W2, #0xC5
+1006D91A4: STRB            W8, [X9,#(byte_1009F8C51 - 0x1009F8C4C)]
+1006D91A8: LDRB            W8, [X10,#(byte_1009F8C48 - 0x1009F8C42)]
+1006D91AC: EOR             W8, W8, W11
+1006D91B0: MOV             W0, #0xB0
+1006D91B4: STRB            W8, [X9,#(byte_1009F8C52 - 0x1009F8C4C)]
+1006D91B8: LDRB            W8, [X10,#(byte_1009F8C49 - 0x1009F8C42)]
+1006D91BC: EOR             W8, W8, #0x40 ; '@'
+1006D91C0: STRB            W8, [X9,#(byte_1009F8C53 - 0x1009F8C4C)]
+1006D91C4: LDRB            W8, [X10,#(byte_1009F8C4A - 0x1009F8C42)]
+1006D91C8: MOV             W23, #0x76 ; 'v'
+1006D91CC: EOR             W8, W8, W23
+1006D91D0: STRB            W8, [X9,#(byte_1009F8C54 - 0x1009F8C4C)]
+1006D91D4: LDRB            W8, [X10,#(byte_1009F8C4B - 0x1009F8C42)]
+1006D91D8: MOV             W10, #0x50 ; 'P'
+1006D91DC: EOR             W8, W8, W10
+1006D91E0: STRB            W8, [X9,#(byte_1009F8C55 - 0x1009F8C4C)]
+1006D91E4: ADRL            X9, byte_1009F8C56
+1006D91EC: LDRB            W8, [X9]
+1006D91F0: MOV             W10, #0x65 ; 'e'
+1006D91F4: EOR             W8, W8, W10
+1006D91F8: ADRL            X10, byte_1009F8C61
+1006D9200: STRB            W8, [X10]
+1006D9204: LDRB            W8, [X9,#(byte_1009F8C57 - 0x1009F8C56)]
+1006D9208: MOV             W11, #0xF5
+1006D920C: EOR             W8, W8, W11
+1006D9210: STRB            W8, [X10,#(byte_1009F8C62 - 0x1009F8C61)]
+1006D9214: LDRB            W8, [X9,#(byte_1009F8C58 - 0x1009F8C56)]
+1006D9218: EOR             W8, W8, W15
+1006D921C: STRB            W8, [X10,#(byte_1009F8C63 - 0x1009F8C61)]
+1006D9220: LDRB            W8, [X9,#(byte_1009F8C59 - 0x1009F8C56)]
+1006D9224: MOV             W12, #0x86
+1006D9228: EOR             W8, W8, W12
+1006D922C: STRB            W8, [X10,#(byte_1009F8C64 - 0x1009F8C61)]
+1006D9230: LDRB            W8, [X9,#(byte_1009F8C5A - 0x1009F8C56)]
+1006D9234: EOR             W8, W8, #0xFFFFFFE7
+1006D9238: STRB            W8, [X10,#(byte_1009F8C65 - 0x1009F8C61)]
+1006D923C: LDRB            W8, [X9,#(byte_1009F8C5B - 0x1009F8C56)]
+1006D9240: EOR             W8, W8, W27
+1006D9244: STRB            W8, [X10,#(byte_1009F8C66 - 0x1009F8C61)]
+1006D9248: LDRB            W8, [X9,#(byte_1009F8C5C - 0x1009F8C56)]
+1006D924C: EOR             W8, W8, #0xFFFFFFC7
+1006D9250: STRB            W8, [X10,#(byte_1009F8C67 - 0x1009F8C61)]
+1006D9254: LDRB            W8, [X9,#(byte_1009F8C5D - 0x1009F8C56)]
+1006D9258: MOV             W12, #0x85
+1006D925C: EOR             W8, W8, W12
+1006D9260: STRB            W8, [X10,#(byte_1009F8C68 - 0x1009F8C61)]
+1006D9264: LDRB            W8, [X9,#(byte_1009F8C5E - 0x1009F8C56)]
+1006D9268: EOR             W8, W8, W20
+1006D926C: STRB            W8, [X10,#(byte_1009F8C69 - 0x1009F8C61)]
+1006D9270: LDRB            W8, [X9,#(byte_1009F8C5F - 0x1009F8C56)]
+1006D9274: MOV             W24, #0x92
+1006D9278: EOR             W8, W8, W24
+1006D927C: STRB            W8, [X10,#(byte_1009F8C6A - 0x1009F8C61)]
+1006D9280: LDRB            W8, [X9,#(byte_1009F8C60 - 0x1009F8C56)]
+1006D9284: EOR             W8, W8, #0x55555555
+1006D9288: STRB            W8, [X10,#(byte_1009F8C6B - 0x1009F8C61)]
+1006D928C: ADRL            X9, byte_1009F8C6C
+1006D9294: LDRB            W8, [X9]
+1006D9298: MOV             W25, #0xE8
+1006D929C: EOR             W8, W8, W25
+1006D92A0: ADRL            X10, byte_1009F8C75
+1006D92A8: STRB            W8, [X10]
+1006D92AC: LDRB            W8, [X9,#(byte_1009F8C6D - 0x1009F8C6C)]
+1006D92B0: MOV             W12, #0x34 ; '4'
+1006D92B4: EOR             W8, W8, W12
+1006D92B8: STRB            W8, [X10,#(byte_1009F8C76 - 0x1009F8C75)]
+1006D92BC: LDRB            W8, [X9,#(byte_1009F8C6E - 0x1009F8C6C)]
+1006D92C0: EOR             W8, W8, W16
+1006D92C4: STRB            W8, [X10,#(byte_1009F8C77 - 0x1009F8C75)]
+1006D92C8: LDRB            W8, [X9,#(byte_1009F8C6F - 0x1009F8C6C)]
+1006D92CC: MOV             W16, #0xD1
+1006D92D0: EOR             W8, W8, W16
+1006D92D4: STRB            W8, [X10,#(byte_1009F8C78 - 0x1009F8C75)]
+1006D92D8: LDRB            W8, [X9,#(byte_1009F8C70 - 0x1009F8C6C)]
+1006D92DC: EOR             W8, W8, W4
+1006D92E0: STRB            W8, [X10,#(byte_1009F8C79 - 0x1009F8C75)]
+1006D92E4: LDRB            W8, [X9,#(byte_1009F8C71 - 0x1009F8C6C)]
+1006D92E8: EOR             W8, W8, #2
+1006D92EC: STRB            W8, [X10,#(byte_1009F8C7A - 0x1009F8C75)]
+1006D92F0: LDRB            W8, [X9,#(byte_1009F8C72 - 0x1009F8C6C)]
+1006D92F4: MOV             W20, #0x3B ; ';'
+1006D92F8: EOR             W8, W8, W20
+1006D92FC: STRB            W8, [X10,#(byte_1009F8C7B - 0x1009F8C75)]
+1006D9300: LDRB            W8, [X9,#(byte_1009F8C73 - 0x1009F8C6C)]
+1006D9304: MOV             W4, #0xF2
+1006D9308: EOR             W8, W8, W4
+1006D930C: STRB            W8, [X10,#(byte_1009F8C7C - 0x1009F8C75)]
+1006D9310: LDRB            W8, [X9,#(byte_1009F8C74 - 0x1009F8C6C)]
+1006D9314: MOV             W9, #0x3D ; '='
+1006D9318: EOR             W8, W8, W9
+1006D931C: STRB            W8, [X10,#(byte_1009F8C7D - 0x1009F8C75)]
+1006D9320: ADRL            X10, byte_1009F8C7E
+1006D9328: LDRB            W8, [X10]
+1006D932C: EOR             W8, W8, W22
+1006D9330: ADRL            X9, byte_1009F8C86
+1006D9338: STRB            W8, [X9]
+1006D933C: LDRB            W8, [X10,#(byte_1009F8C7F - 0x1009F8C7E)]
+1006D9340: EOR             W8, W8, #3
+1006D9344: STRB            W8, [X9,#(byte_1009F8C87 - 0x1009F8C86)]
+1006D9348: LDRB            W8, [X10,#(byte_1009F8C80 - 0x1009F8C7E)]
+1006D934C: EOR             W8, W8, #0xFC
+1006D9350: STRB            W8, [X9,#(byte_1009F8C88 - 0x1009F8C86)]
+1006D9354: LDRB            W8, [X10,#(byte_1009F8C81 - 0x1009F8C7E)]
+1006D9358: EOR             W8, W8, W13
+1006D935C: MOV             W13, #0x51 ; 'Q'
+1006D9360: STRB            W8, [X9,#(byte_1009F8C89 - 0x1009F8C86)]
+1006D9364: LDRB            W8, [X10,#(byte_1009F8C82 - 0x1009F8C7E)]
+1006D9368: MOV             W5, #0x35 ; '5'
+1006D936C: EOR             W8, W8, W5
+1006D9370: STRB            W8, [X9,#(byte_1009F8C8A - 0x1009F8C86)]
+1006D9374: LDRB            W8, [X10,#(byte_1009F8C83 - 0x1009F8C7E)]
+1006D9378: EOR             W8, W8, #0xFFFFFFF3
+1006D937C: STRB            W8, [X9,#(byte_1009F8C8B - 0x1009F8C86)]
+1006D9380: LDRB            W8, [X10,#(byte_1009F8C84 - 0x1009F8C7E)]
+1006D9384: EOR             W8, W8, W23
+1006D9388: STRB            W8, [X9,#(byte_1009F8C8C - 0x1009F8C86)]
+1006D938C: LDRB            W8, [X10,#(byte_1009F8C85 - 0x1009F8C7E)]
+1006D9390: EOR             W8, W8, #0x7C ; '|'
+1006D9394: STRB            W8, [X9,#(byte_1009F8C8D - 0x1009F8C86)]
+1006D9398: ADRL            X9, byte_1009F8410
+1006D93A0: LDRB            W8, [X9]
+1006D93A4: EOR             W8, W8, #0x88888888
+1006D93A8: ADRL            X10, byte_1009F8419
+1006D93B0: STRB            W8, [X10]
+1006D93B4: LDRB            W8, [X9,#(byte_1009F8411 - 0x1009F8410)]
+1006D93B8: EOR             W8, W8, #3
+1006D93BC: STRB            W8, [X10,#(byte_1009F841A - 0x1009F8419)]
+1006D93C0: LDRB            W8, [X9,#(byte_1009F8412 - 0x1009F8410)]
+1006D93C4: EOR             W8, W8, #0x7E ; '~'
+1006D93C8: STRB            W8, [X10,#(byte_1009F841B - 0x1009F8419)]
+1006D93CC: LDRB            W8, [X9,#(byte_1009F8413 - 0x1009F8410)]
+1006D93D0: MOV             W23, #0x59 ; 'Y'
+1006D93D4: EOR             W8, W8, W23
+1006D93D8: STRB            W8, [X10,#(byte_1009F841C - 0x1009F8419)]
+1006D93DC: LDRB            W8, [X9,#(byte_1009F8414 - 0x1009F8410)]
+1006D93E0: EOR             W8, W8, #0xFFFFFFDF
+1006D93E4: STRB            W8, [X10,#(byte_1009F841D - 0x1009F8419)]
+1006D93E8: LDRB            W8, [X9,#(byte_1009F8415 - 0x1009F8410)]
+1006D93EC: EOR             W8, W8, W28
+1006D93F0: STRB            W8, [X10,#(byte_1009F841E - 0x1009F8419)]
+1006D93F4: LDRB            W8, [X9,#(byte_1009F8416 - 0x1009F8410)]
+1006D93F8: MOV             W28, #0x47 ; 'G'
+1006D93FC: EOR             W8, W8, W28
+1006D9400: STRB            W8, [X10,#(byte_1009F841F - 0x1009F8419)]
+1006D9404: LDRB            W8, [X9,#(byte_1009F8417 - 0x1009F8410)]
+1006D9408: EOR             W8, W8, W3
+1006D940C: STRB            W8, [X10,#(byte_1009F8420 - 0x1009F8419)]
+1006D9410: LDRB            W8, [X9,#(byte_1009F8418 - 0x1009F8410)]
+1006D9414: EOR             W8, W8, #0x20 ; ' '
+1006D9418: STRB            W8, [X10,#(byte_1009F8421 - 0x1009F8419)]
+1006D941C: ADRL            X9, byte_1009F8430
+1006D9424: LDRB            W8, [X9]
+1006D9428: EOR             W8, W8, W12
+1006D942C: MOV             W23, #0x34 ; '4'
+1006D9430: ADRL            X27, byte_1009F8450
+1006D9438: STRB            W8, [X27]
+1006D943C: LDRB            W8, [X9,#(byte_1009F8431 - 0x1009F8430)]
+1006D9440: MOV             W4, #0xF6
+1006D9444: EOR             W8, W8, W4
+1006D9448: STRB            W8, [X27,#(byte_1009F8451 - 0x1009F8450)]
+1006D944C: LDRB            W8, [X9,#(byte_1009F8432 - 0x1009F8430)]
+1006D9450: MOV             W10, #0x96
+1006D9454: EOR             W8, W8, W10
+1006D9458: STRB            W8, [X27,#(byte_1009F8452 - 0x1009F8450)]
+1006D945C: LDRB            W8, [X9,#(byte_1009F8433 - 0x1009F8430)]
+1006D9460: MOV             W10, #0x48 ; 'H'
+1006D9464: EOR             W8, W8, W10
+1006D9468: STRB            W8, [X27,#(byte_1009F8453 - 0x1009F8450)]
+1006D946C: LDRB            W8, [X9,#(byte_1009F8434 - 0x1009F8430)]
+1006D9470: EOR             W8, W8, #0x30 ; '0'
+1006D9474: STRB            W8, [X27,#(byte_1009F8454 - 0x1009F8450)]
+1006D9478: LDRB            W8, [X9,#(byte_1009F8435 - 0x1009F8430)]
+1006D947C: MOV             W12, #0x4E ; 'N'
+1006D9480: EOR             W8, W8, W12
+1006D9484: STRB            W8, [X27,#(byte_1009F8455 - 0x1009F8450)]
+1006D9488: LDRB            W8, [X9,#(byte_1009F8436 - 0x1009F8430)]
+1006D948C: EOR             W8, W8, W24
+1006D9490: STRB            W8, [X27,#(byte_1009F8456 - 0x1009F8450)]
+1006D9494: LDRB            W8, [X9,#(byte_1009F8437 - 0x1009F8430)]
+1006D9498: EOR             W8, W8, W6
+1006D949C: STRB            W8, [X27,#(byte_1009F8457 - 0x1009F8450)]
+1006D94A0: LDRB            W8, [X9,#(byte_1009F8438 - 0x1009F8430)]
+1006D94A4: EOR             W8, W8, #0x3E ; '>'
+1006D94A8: STRB            W8, [X27,#(byte_1009F8458 - 0x1009F8450)]
+1006D94AC: LDRB            W8, [X9,#(byte_1009F8439 - 0x1009F8430)]
+1006D94B0: MOV             W15, #0xAE
+1006D94B4: EOR             W8, W8, W15
+1006D94B8: STRB            W8, [X27,#(byte_1009F8459 - 0x1009F8450)]
+1006D94BC: LDRB            W8, [X9,#(byte_1009F843A - 0x1009F8430)]
+1006D94C0: MOV             W12, #0x73 ; 's'
+1006D94C4: EOR             W8, W8, W12
+1006D94C8: STRB            W8, [X27,#(byte_1009F845A - 0x1009F8450)]
+1006D94CC: LDRB            W8, [X9,#(byte_1009F843B - 0x1009F8430)]
+1006D94D0: MOV             W24, #0x2C ; ','
+1006D94D4: EOR             W8, W8, W24
+1006D94D8: STRB            W8, [X27,#(byte_1009F845B - 0x1009F8450)]
+1006D94DC: LDRB            W8, [X9,#(byte_1009F843C - 0x1009F8430)]
+1006D94E0: MOV             W12, #0x2B ; '+'
+1006D94E4: EOR             W8, W8, W12
+1006D94E8: STRB            W8, [X27,#(byte_1009F845C - 0x1009F8450)]
+1006D94EC: LDRB            W8, [X9,#(byte_1009F843D - 0x1009F8430)]
+1006D94F0: MOV             W12, #0x36 ; '6'
+1006D94F4: EOR             W8, W8, W12
+1006D94F8: STRB            W8, [X27,#(byte_1009F845D - 0x1009F8450)]
+1006D94FC: LDRB            W8, [X9,#(byte_1009F843E - 0x1009F8430)]
+1006D9500: EOR             W8, W8, W24
+1006D9504: ADRL            X22, off_100A04FD0
+1006D950C: STRB            W8, [X27,#(byte_1009F845E - 0x1009F8450)]
+1006D9510: LDRB            W8, [X9,#(byte_1009F843F - 0x1009F8430)]
+1006D9514: EOR             W8, W8, #0xFFFFFFFB
+1006D9518: STRB            W8, [X27,#(byte_1009F845F - 0x1009F8450)]
+1006D951C: LDRB            W8, [X9,#(byte_1009F8440 - 0x1009F8430)]
+1006D9520: MOV             W24, #0xE4
+1006D9524: EOR             W8, W8, W24
+1006D9528: STRB            W8, [X27,#(byte_1009F8460 - 0x1009F8450)]
+1006D952C: LDRB            W8, [X9,#(byte_1009F8441 - 0x1009F8430)]
+1006D9530: MOV             W12, #0x74 ; 't'
+1006D9534: EOR             W8, W8, W12
+1006D9538: STRB            W8, [X27,#(byte_1009F8461 - 0x1009F8450)]
+1006D953C: LDRB            W8, [X9,#(byte_1009F8442 - 0x1009F8430)]
+1006D9540: EOR             W8, W8, W5
+1006D9544: STRB            W8, [X27,#(byte_1009F8462 - 0x1009F8450)]
+1006D9548: LDRB            W8, [X9,#(byte_1009F8443 - 0x1009F8430)]
+1006D954C: EOR             W8, W8, W11
+1006D9550: STRB            W8, [X27,#(byte_1009F8463 - 0x1009F8450)]
+1006D9554: LDRB            W8, [X9,#(byte_1009F8444 - 0x1009F8430)]
+1006D9558: EOR             W8, W8, W16
+1006D955C: STRB            W8, [X27,#(byte_1009F8464 - 0x1009F8450)]
+1006D9560: LDRB            W8, [X9,#(byte_1009F8445 - 0x1009F8430)]
+1006D9564: EOR             W8, W8, W17
+1006D9568: STRB            W8, [X27,#(byte_1009F8465 - 0x1009F8450)]
+1006D956C: LDRB            W8, [X9,#(byte_1009F8446 - 0x1009F8430)]
+1006D9570: EOR             W8, W8, W10
+1006D9574: STRB            W8, [X27,#(byte_1009F8466 - 0x1009F8450)]
+1006D9578: LDRB            W8, [X9,#(byte_1009F8447 - 0x1009F8430)]
+1006D957C: MOV             W11, #0x9D
+1006D9580: EOR             W8, W8, W11
+1006D9584: STRB            W8, [X27,#(byte_1009F8467 - 0x1009F8450)]
+1006D9588: LDRB            W8, [X9,#(byte_1009F8448 - 0x1009F8430)]
+1006D958C: MOV             W10, #0xB6
+1006D9590: EOR             W8, W8, W10
+1006D9594: STRB            W8, [X27,#(byte_1009F8468 - 0x1009F8450)]
+1006D9598: LDRB            W8, [X9,#(byte_1009F8449 - 0x1009F8430)]
+1006D959C: EOR             W8, W8, #0xFFFFFFFD
+1006D95A0: STRB            W8, [X27,#(byte_1009F8469 - 0x1009F8450)]
+1006D95A4: ADRL            X9, byte_1009F8470
+1006D95AC: LDRB            W8, [X9]
+1006D95B0: EOR             W8, W8, W13
+1006D95B4: ADRL            X10, byte_1009F8490
+1006D95BC: STRB            W8, [X10]
+1006D95C0: LDRB            W8, [X9,#(byte_1009F8471 - 0x1009F8470)]
+1006D95C4: MOV             W12, #0xBA
+1006D95C8: EOR             W8, W8, W12
+1006D95CC: STRB            W8, [X10,#(byte_1009F8491 - 0x1009F8490)]
+1006D95D0: LDRB            W8, [X9,#(byte_1009F8472 - 0x1009F8470)]
+1006D95D4: EOR             W8, W8, #0x66666666
+1006D95D8: STRB            W8, [X10,#(byte_1009F8492 - 0x1009F8490)]
+1006D95DC: LDRB            W8, [X9,#(byte_1009F8473 - 0x1009F8470)]
+1006D95E0: EOR             W8, W8, W25
+1006D95E4: STRB            W8, [X10,#(byte_1009F8493 - 0x1009F8490)]
+1006D95E8: LDRB            W8, [X9,#(byte_1009F8474 - 0x1009F8470)]
+1006D95EC: MOV             W13, #0x97
+1006D95F0: EOR             W8, W8, W13
+1006D95F4: STRB            W8, [X10,#(byte_1009F8494 - 0x1009F8490)]
+1006D95F8: LDRB            W8, [X9,#(byte_1009F8475 - 0x1009F8470)]
+1006D95FC: MOV             W12, #0xDC
+1006D9600: EOR             W8, W8, W12
+1006D9604: STRB            W8, [X10,#(byte_1009F8495 - 0x1009F8490)]
+1006D9608: LDRB            W8, [X9,#(byte_1009F8476 - 0x1009F8470)]
+1006D960C: MOV             W17, #0x31 ; '1'
+1006D9610: EOR             W8, W8, W17
+1006D9614: STRB            W8, [X10,#(byte_1009F8496 - 0x1009F8490)]
+1006D9618: LDRB            W8, [X9,#(byte_1009F8477 - 0x1009F8470)]
+1006D961C: MOV             W27, #0xB4
+1006D9620: EOR             W8, W8, W27
+1006D9624: STRB            W8, [X10,#(byte_1009F8497 - 0x1009F8490)]
+1006D9628: LDRB            W8, [X9,#(byte_1009F8478 - 0x1009F8470)]
+1006D962C: EOR             W8, W8, #1
+1006D9630: STRB            W8, [X10,#(byte_1009F8498 - 0x1009F8490)]
+1006D9634: LDRB            W8, [X9,#(byte_1009F8479 - 0x1009F8470)]
+1006D9638: EOR             W8, W8, #0x80
+1006D963C: STRB            W8, [X10,#(byte_1009F8499 - 0x1009F8490)]
+1006D9640: LDRB            W8, [X9,#(byte_1009F847A - 0x1009F8470)]
+1006D9644: MOV             W17, #0xE6
+1006D9648: EOR             W8, W8, W17
+1006D964C: STRB            W8, [X10,#(byte_1009F849A - 0x1009F8490)]
+1006D9650: LDRB            W8, [X9,#(byte_1009F847B - 0x1009F8470)]
+1006D9654: MOV             W3, #0x62 ; 'b'
+1006D9658: EOR             W8, W8, W3
+1006D965C: STRB            W8, [X10,#(byte_1009F849B - 0x1009F8490)]
+1006D9660: LDRB            W8, [X9,#(byte_1009F847C - 0x1009F8470)]
+1006D9664: EOR             W8, W8, W13
+1006D9668: MOV             W3, #0x97
+1006D966C: STRB            W8, [X10,#(byte_1009F849C - 0x1009F8490)]
+1006D9670: LDRB            W8, [X9,#(byte_1009F847D - 0x1009F8470)]
+1006D9674: EOR             W8, W8, #0x44444444
+1006D9678: STRB            W8, [X10,#(byte_1009F849D - 0x1009F8490)]
+1006D967C: LDRB            W8, [X9,#(byte_1009F847E - 0x1009F8470)]
+1006D9680: EOR             W8, W8, #0x55555555
+1006D9684: STRB            W8, [X10,#(byte_1009F849E - 0x1009F8490)]
+1006D9688: LDRB            W8, [X9,#(byte_1009F847F - 0x1009F8470)]
+1006D968C: MOV             W13, #0xC2
+1006D9690: EOR             W8, W8, W13
+1006D9694: STRB            W8, [X10,#(byte_1009F849F - 0x1009F8490)]
+1006D9698: LDRB            W8, [X9,#(byte_1009F8480 - 0x1009F8470)]
+1006D969C: EOR             W8, W8, W0
+1006D96A0: STRB            W8, [X10,#(byte_1009F84A0 - 0x1009F8490)]
+1006D96A4: ADRL            X9, byte_1009F84B0
+1006D96AC: LDRB            W8, [X9]
+1006D96B0: EOR             W8, W8, W28
+1006D96B4: ADRP            X28, #0x1009FE000
+1006D96B8: ADRL            X10, byte_1009F84D0
+1006D96C0: STRB            W8, [X10]
+1006D96C4: LDRB            W8, [X9,#(byte_1009F84B1 - 0x1009F84B0)]
+1006D96C8: MOV             W13, #0x42 ; 'B'
+1006D96CC: EOR             W8, W8, W13
+1006D96D0: STRB            W8, [X10,#(byte_1009F84D1 - 0x1009F84D0)]
+1006D96D4: LDRB            W8, [X9,#(byte_1009F84B2 - 0x1009F84B0)]
+1006D96D8: EOR             W8, W8, #0xC0
+1006D96DC: STRB            W8, [X10,#(byte_1009F84D2 - 0x1009F84D0)]
+1006D96E0: LDRB            W8, [X9,#(byte_1009F84B3 - 0x1009F84B0)]
+1006D96E4: EOR             W8, W8, #0xFFFFFFE3
+1006D96E8: STRB            W8, [X10,#(byte_1009F84D3 - 0x1009F84D0)]
+1006D96EC: LDRB            W8, [X9,#(byte_1009F84B4 - 0x1009F84B0)]
+1006D96F0: EOR             W8, W8, #6
+1006D96F4: STRB            W8, [X10,#(byte_1009F84D4 - 0x1009F84D0)]
+1006D96F8: LDRB            W8, [X9,#(byte_1009F84B5 - 0x1009F84B0)]
+1006D96FC: MOV             W13, #0xD0
+1006D9700: EOR             W8, W8, W13
+1006D9704: STRB            W8, [X10,#(byte_1009F84D5 - 0x1009F84D0)]
+1006D9708: LDRB            W8, [X9,#(byte_1009F84B6 - 0x1009F84B0)]
+1006D970C: EOR             W8, W8, #0xFFFFFFC3
+1006D9710: STRB            W8, [X10,#(byte_1009F84D6 - 0x1009F84D0)]
+1006D9714: LDRB            W8, [X9,#(byte_1009F84B7 - 0x1009F84B0)]
+1006D9718: EOR             W8, W8, #0xFFFFFFFD
+1006D971C: STRB            W8, [X10,#(byte_1009F84D7 - 0x1009F84D0)]
+1006D9720: LDRB            W8, [X9,#(byte_1009F84B8 - 0x1009F84B0)]
+1006D9724: MOV             W13, #0xC9
+1006D9728: EOR             W8, W8, W13
+1006D972C: STRB            W8, [X10,#(byte_1009F84D8 - 0x1009F84D0)]
+1006D9730: LDRB            W8, [X9,#(byte_1009F84B9 - 0x1009F84B0)]
+1006D9734: EOR             W8, W8, #0xFFFFFF9F
+1006D9738: STRB            W8, [X10,#(byte_1009F84D9 - 0x1009F84D0)]
+1006D973C: LDRB            W8, [X9,#(byte_1009F84BA - 0x1009F84B0)]
+1006D9740: EOR             W8, W8, #0x80
+1006D9744: STRB            W8, [X10,#(byte_1009F84DA - 0x1009F84D0)]
+1006D9748: LDRB            W8, [X9,#(byte_1009F84BB - 0x1009F84B0)]
+1006D974C: EOR             W8, W8, W26
+1006D9750: STRB            W8, [X10,#(byte_1009F84DB - 0x1009F84D0)]
+1006D9754: LDRB            W8, [X9,#(byte_1009F84BC - 0x1009F84B0)]
+1006D9758: MOV             W13, #0x24 ; '$'
+1006D975C: EOR             W8, W8, W13
+1006D9760: STRB            W8, [X10,#(byte_1009F84DC - 0x1009F84D0)]
+1006D9764: LDRB            W8, [X9,#(byte_1009F84BD - 0x1009F84B0)]
+1006D9768: EOR             W8, W8, #0x3C ; '<'
+1006D976C: STRB            W8, [X10,#(byte_1009F84DD - 0x1009F84D0)]
+1006D9770: LDRB            W8, [X9,#(byte_1009F84BE - 0x1009F84B0)]
+1006D9774: MOV             W13, #0x4C ; 'L'
+1006D9778: EOR             W8, W8, W13
+1006D977C: ADRP            X25, #0x1009FE000
+1006D9780: STRB            W8, [X10,#(byte_1009F84DE - 0x1009F84D0)]
+1006D9784: LDRB            W8, [X9,#(byte_1009F84BF - 0x1009F84B0)]
+1006D9788: EOR             W8, W8, W14
+1006D978C: STRB            W8, [X10,#(byte_1009F84DF - 0x1009F84D0)]
+1006D9790: LDRB            W8, [X9,#(byte_1009F84C0 - 0x1009F84B0)]
+1006D9794: EOR             W8, W8, W11
+1006D9798: STRB            W8, [X10,#(byte_1009F84E0 - 0x1009F84D0)]
+1006D979C: ADRL            X9, byte_1009F84E1
+1006D97A4: LDRB            W8, [X9]
+1006D97A8: MOV             W10, #0x4A ; 'J'
+1006D97AC: EOR             W8, W8, W10
+1006D97B0: ADRL            X10, byte_1009F84EF
+1006D97B8: STRB            W8, [X10]
+1006D97BC: LDRB            W8, [X9,#(byte_1009F84E2 - 0x1009F84E1)]
+1006D97C0: EOR             W8, W8, W30
+1006D97C4: STRB            W8, [X10,#(byte_1009F84F0 - 0x1009F84EF)]
+1006D97C8: LDRB            W8, [X9,#(byte_1009F84E3 - 0x1009F84E1)]
+1006D97CC: EOR             W8, W8, W7
+1006D97D0: STRB            W8, [X10,#(byte_1009F84F1 - 0x1009F84EF)]
+1006D97D4: LDRB            W8, [X9,#(byte_1009F84E4 - 0x1009F84E1)]
+1006D97D8: EOR             W8, W8, W1
+1006D97DC: STRB            W8, [X10,#(byte_1009F84F2 - 0x1009F84EF)]
+1006D97E0: LDRB            W8, [X9,#(byte_1009F84E5 - 0x1009F84E1)]
+1006D97E4: MOV             W14, #0x69 ; 'i'
+1006D97E8: EOR             W8, W8, W14
+1006D97EC: STRB            W8, [X10,#(byte_1009F84F3 - 0x1009F84EF)]
+1006D97F0: LDRB            W8, [X9,#(byte_1009F84E6 - 0x1009F84E1)]
+1006D97F4: MOV             W11, #0x2E ; '.'
+1006D97F8: EOR             W8, W8, W11
+1006D97FC: STRB            W8, [X10,#(byte_1009F84F4 - 0x1009F84EF)]
+1006D9800: LDRB            W8, [X9,#(byte_1009F84E7 - 0x1009F84E1)]
+1006D9804: MOV             W30, #0xD
+1006D9808: EOR             W8, W8, W30
+1006D980C: STRB            W8, [X10,#(byte_1009F84F5 - 0x1009F84EF)]
+1006D9810: LDRB            W8, [X9,#(byte_1009F84E8 - 0x1009F84E1)]
+1006D9814: EOR             W8, W8, #0xFFFFFFF3
+1006D9818: STRB            W8, [X10,#(byte_1009F84F6 - 0x1009F84EF)]
+1006D981C: LDRB            W8, [X9,#(byte_1009F84E9 - 0x1009F84E1)]
+1006D9820: MOV             W11, #0x63 ; 'c'
+1006D9824: EOR             W8, W8, W11
+1006D9828: STRB            W8, [X10,#(byte_1009F84F7 - 0x1009F84EF)]
+1006D982C: LDRB            W8, [X9,#(byte_1009F84EA - 0x1009F84E1)]
+1006D9830: MOV             W7, #0x58 ; 'X'
+1006D9834: EOR             W8, W8, W7
+1006D9838: STRB            W8, [X10,#(byte_1009F84F8 - 0x1009F84EF)]
+1006D983C: LDRB            W8, [X9,#(byte_1009F84EB - 0x1009F84E1)]
+1006D9840: MOV             W17, #0xA4
+1006D9844: EOR             W8, W8, W17
+1006D9848: STRB            W8, [X10,#(byte_1009F84F9 - 0x1009F84EF)]
+1006D984C: LDRB            W8, [X9,#(byte_1009F84EC - 0x1009F84E1)]
+1006D9850: EOR             W8, W8, #0x99999999
+1006D9854: STRB            W8, [X10,#(byte_1009F84FA - 0x1009F84EF)]
+1006D9858: LDRB            W8, [X9,#(byte_1009F84ED - 0x1009F84E1)]
+1006D985C: MOV             W11, #0xBD
+1006D9860: EOR             W8, W8, W11
+1006D9864: STRB            W8, [X10,#(byte_1009F84FB - 0x1009F84EF)]
+1006D9868: LDRB            W8, [X9,#(byte_1009F84EE - 0x1009F84E1)]
+1006D986C: MOV             W9, #0x6C ; 'l'
+1006D9870: EOR             W8, W8, W9
+1006D9874: STRB            W8, [X10,#(byte_1009F84FC - 0x1009F84EF)]
+1006D9878: ADRL            X9, byte_1009F84FD
+1006D9880: LDRB            W8, [X9]
+1006D9884: EOR             W8, W8, #0xBBBBBBBB
+1006D9888: ADRL            X10, byte_1009F8507
+1006D9890: STRB            W8, [X10]
+1006D9894: LDRB            W8, [X9,#(byte_1009F84FE - 0x1009F84FD)]
+1006D9898: EOR             W8, W8, W14
+1006D989C: STRB            W8, [X10,#(byte_1009F8508 - 0x1009F8507)]
+1006D98A0: LDRB            W8, [X9,#(byte_1009F84FF - 0x1009F84FD)]
+1006D98A4: MOV             W11, #0x8B
+1006D98A8: EOR             W8, W8, W11
+1006D98AC: STRB            W8, [X10,#(byte_1009F8509 - 0x1009F8507)]
+1006D98B0: LDRB            W8, [X9,#(byte_1009F8500 - 0x1009F84FD)]
+1006D98B4: EOR             W8, W8, #0x30 ; '0'
+1006D98B8: STRB            W8, [X10,#(byte_1009F850A - 0x1009F8507)]
+1006D98BC: LDRB            W8, [X9,#(byte_1009F8501 - 0x1009F84FD)]
+1006D98C0: MOV             W11, #0x64 ; 'd'
+1006D98C4: EOR             W8, W8, W11
+1006D98C8: STRB            W8, [X10,#(byte_1009F850B - 0x1009F8507)]
+1006D98CC: LDRB            W8, [X9,#(byte_1009F8502 - 0x1009F84FD)]
+1006D98D0: MOV             W11, #0xCD
+1006D98D4: EOR             W8, W8, W11
+1006D98D8: STRB            W8, [X10,#(byte_1009F850C - 0x1009F8507)]
+1006D98DC: LDRB            W8, [X9,#(byte_1009F8503 - 0x1009F84FD)]
+1006D98E0: MOV             W13, #0x6E ; 'n'
+1006D98E4: EOR             W8, W8, W13
+1006D98E8: STRB            W8, [X10,#(byte_1009F850D - 0x1009F8507)]
+1006D98EC: LDRB            W8, [X9,#(byte_1009F8504 - 0x1009F84FD)]
+1006D98F0: EOR             W8, W8, #6
+1006D98F4: STRB            W8, [X10,#(byte_1009F850E - 0x1009F8507)]
+1006D98F8: LDRB            W8, [X9,#(byte_1009F8505 - 0x1009F84FD)]
+1006D98FC: MOV             W11, #9
+1006D9900: EOR             W8, W8, W11
+1006D9904: STRB            W8, [X10,#(byte_1009F850F - 0x1009F8507)]
+1006D9908: LDRB            W8, [X9,#(byte_1009F8506 - 0x1009F84FD)]
+1006D990C: EOR             W8, W8, W0
+1006D9910: STRB            W8, [X10,#(byte_1009F8510 - 0x1009F8507)]
+1006D9914: ADRL            X9, byte_1009F8511
+1006D991C: LDRB            W8, [X9]
+1006D9920: EOR             W8, W8, W27
+1006D9924: MOV             W27, #0xB4
+1006D9928: ADRL            X10, byte_1009F851C
+1006D9930: STRB            W8, [X10]
+1006D9934: LDRB            W8, [X9,#(byte_1009F8512 - 0x1009F8511)]
+1006D9938: MOV             W11, #0xDA
+1006D993C: EOR             W8, W8, W11
+1006D9940: STRB            W8, [X10,#(byte_1009F851D - 0x1009F851C)]
+1006D9944: LDRB            W8, [X9,#(byte_1009F8513 - 0x1009F8511)]
+1006D9948: EOR             W8, W8, #0x40 ; '@'
+1006D994C: STRB            W8, [X10,#(byte_1009F851E - 0x1009F851C)]
+1006D9950: LDRB            W8, [X9,#(byte_1009F8514 - 0x1009F8511)]
+1006D9954: MOV             W11, #0x46 ; 'F'
+1006D9958: EOR             W8, W8, W11
+1006D995C: STRB            W8, [X10,#(byte_1009F851F - 0x1009F851C)]
+1006D9960: LDRB            W8, [X9,#(byte_1009F8515 - 0x1009F8511)]
+1006D9964: EOR             W8, W8, #0xF8
+1006D9968: STRB            W8, [X10,#(byte_1009F8520 - 0x1009F851C)]
+1006D996C: LDRB            W8, [X9,#(byte_1009F8516 - 0x1009F8511)]
+1006D9970: MOV             W11, #0xB
+1006D9974: EOR             W8, W8, W11
+1006D9978: STRB            W8, [X10,#(byte_1009F8521 - 0x1009F851C)]
+1006D997C: LDRB            W8, [X9,#(byte_1009F8517 - 0x1009F8511)]
+1006D9980: MOV             W0, #0x17
+1006D9984: EOR             W8, W8, W0
+1006D9988: STRB            W8, [X10,#(byte_1009F8522 - 0x1009F851C)]
+1006D998C: LDRB            W8, [X9,#(byte_1009F8518 - 0x1009F8511)]
+1006D9990: EOR             W8, W8, #0xCCCCCCCC
+1006D9994: STRB            W8, [X10,#(byte_1009F8523 - 0x1009F851C)]
+1006D9998: LDRB            W8, [X9,#(byte_1009F8519 - 0x1009F8511)]
+1006D999C: MOV             W11, #0xC4
+1006D99A0: EOR             W8, W8, W11
+1006D99A4: STRB            W8, [X10,#(byte_1009F8524 - 0x1009F851C)]
+1006D99A8: LDRB            W8, [X9,#(byte_1009F851A - 0x1009F8511)]
+1006D99AC: EOR             W8, W8, #0x7C ; '|'
+1006D99B0: STRB            W8, [X10,#(byte_1009F8525 - 0x1009F851C)]
+1006D99B4: LDRB            W8, [X9,#(byte_1009F851B - 0x1009F8511)]
+1006D99B8: MOV             W9, #0x27 ; '''
+1006D99BC: EOR             W8, W8, W9
+1006D99C0: STRB            W8, [X10,#(byte_1009F8526 - 0x1009F851C)]
+1006D99C4: ADRL            X9, byte_1009F8527
+1006D99CC: LDRB            W8, [X9]
+1006D99D0: EOR             W8, W8, W15
+1006D99D4: ADRL            X10, byte_1009F8531
+1006D99DC: STRB            W8, [X10]
+1006D99E0: LDRB            W8, [X9,#(byte_1009F8528 - 0x1009F8527)]
+1006D99E4: MOV             W1, #0x56 ; 'V'
+1006D99E8: EOR             W8, W8, W1
+1006D99EC: STRB            W8, [X10,#(byte_1009F8532 - 0x1009F8531)]
+1006D99F0: LDRB            W8, [X9,#(byte_1009F8529 - 0x1009F8527)]
+1006D99F4: EOR             W8, W8, #0x1E
+1006D99F8: STRB            W8, [X10,#(byte_1009F8533 - 0x1009F8531)]
+1006D99FC: LDRB            W8, [X9,#(byte_1009F852A - 0x1009F8527)]
+1006D9A00: EOR             W8, W8, W5
+1006D9A04: STRB            W8, [X10,#(byte_1009F8534 - 0x1009F8531)]
+1006D9A08: LDRB            W8, [X9,#(byte_1009F852B - 0x1009F8527)]
+1006D9A0C: EOR             W8, W8, #0x10
+1006D9A10: STRB            W8, [X10,#(byte_1009F8535 - 0x1009F8531)]
+1006D9A14: LDRB            W8, [X9,#(byte_1009F852C - 0x1009F8527)]
+1006D9A18: EOR             W8, W8, #0x60 ; '`'
+1006D9A1C: STRB            W8, [X10,#(byte_1009F8536 - 0x1009F8531)]
+1006D9A20: LDRB            W8, [X9,#(byte_1009F852D - 0x1009F8527)]
+1006D9A24: EOR             W8, W8, W3
+1006D9A28: STRB            W8, [X10,#(byte_1009F8537 - 0x1009F8531)]
+1006D9A2C: LDRB            W8, [X9,#(byte_1009F852E - 0x1009F8527)]
+1006D9A30: MOV             W1, #0x4F ; 'O'
+1006D9A34: EOR             W8, W8, W1
+1006D9A38: STRB            W8, [X10,#(byte_1009F8538 - 0x1009F8531)]
+1006D9A3C: LDRB            W8, [X9,#(byte_1009F852F - 0x1009F8527)]
+1006D9A40: MOV             W5, #0x26 ; '&'
+1006D9A44: EOR             W8, W8, W5
+1006D9A48: STRB            W8, [X10,#(byte_1009F8539 - 0x1009F8531)]
+1006D9A4C: LDRB            W8, [X9,#(byte_1009F8530 - 0x1009F8527)]
+1006D9A50: EOR             W8, W8, W26
+1006D9A54: STRB            W8, [X10,#(byte_1009F853A - 0x1009F8531)]
+1006D9A58: ADRL            X9, byte_1009F853B
+1006D9A60: LDRB            W8, [X9]
+1006D9A64: MOV             W11, #0x73 ; 's'
+1006D9A68: EOR             W8, W8, W11
+1006D9A6C: ADRL            X10, byte_1009F8546
+1006D9A74: STRB            W8, [X10]
+1006D9A78: LDRB            W8, [X9,#(byte_1009F853C - 0x1009F853B)]
+1006D9A7C: EOR             W8, W8, #0xFFFFFFFD
+1006D9A80: STRB            W8, [X10,#(byte_1009F8547 - 0x1009F8546)]
+1006D9A84: LDRB            W8, [X9,#(byte_1009F853D - 0x1009F853B)]
+1006D9A88: EOR             W8, W8, W12
+1006D9A8C: STRB            W8, [X10,#(byte_1009F8548 - 0x1009F8546)]
+1006D9A90: LDRB            W8, [X9,#(byte_1009F853E - 0x1009F853B)]
+1006D9A94: MOV             W12, #0x1B
+1006D9A98: EOR             W8, W8, W12
+1006D9A9C: STRB            W8, [X10,#(byte_1009F8549 - 0x1009F8546)]
+1006D9AA0: LDRB            W8, [X9,#(byte_1009F853F - 0x1009F853B)]
+1006D9AA4: EOR             W8, W8, W2
+1006D9AA8: STRB            W8, [X10,#(byte_1009F854A - 0x1009F8546)]
+1006D9AAC: LDRB            W8, [X9,#(byte_1009F8540 - 0x1009F853B)]
+1006D9AB0: EOR             W8, W8, #0xFE
+1006D9AB4: STRB            W8, [X10,#(byte_1009F854B - 0x1009F8546)]
+1006D9AB8: LDRB            W8, [X9,#(byte_1009F8541 - 0x1009F853B)]
+1006D9ABC: MOV             W12, #0xE9
+1006D9AC0: EOR             W8, W8, W12
+1006D9AC4: STRB            W8, [X10,#(byte_1009F854C - 0x1009F8546)]
+1006D9AC8: LDRB            W8, [X9,#(byte_1009F8542 - 0x1009F853B)]
+1006D9ACC: EOR             W8, W8, W24
+1006D9AD0: STRB            W8, [X10,#(byte_1009F854D - 0x1009F8546)]
+1006D9AD4: LDRB            W8, [X9,#(byte_1009F8543 - 0x1009F853B)]
+1006D9AD8: EOR             W8, W8, W16
+1006D9ADC: STRB            W8, [X10,#(byte_1009F854E - 0x1009F8546)]
+1006D9AE0: LDRB            W8, [X9,#(byte_1009F8544 - 0x1009F853B)]
+1006D9AE4: EOR             W8, W8, W20
+1006D9AE8: STRB            W8, [X10,#(byte_1009F854F - 0x1009F8546)]
+1006D9AEC: LDRB            W8, [X9,#(byte_1009F8545 - 0x1009F853B)]
+1006D9AF0: MOV             W15, #0xD8
+1006D9AF4: EOR             W8, W8, W15
+1006D9AF8: STRB            W8, [X10,#(byte_1009F8550 - 0x1009F8546)]
+1006D9AFC: ADRL            X9, byte_1009F8551
+1006D9B04: LDRB            W8, [X9]
+1006D9B08: EOR             W8, W8, W17
+1006D9B0C: MOV             W3, #0xA4
+1006D9B10: ADRL            X10, byte_1009F855A
+1006D9B18: STRB            W8, [X10]
+1006D9B1C: LDRB            W8, [X9,#(byte_1009F8552 - 0x1009F8551)]
+1006D9B20: EOR             W8, W8, #0x3F ; '?'
+1006D9B24: STRB            W8, [X10,#(byte_1009F855B - 0x1009F855A)]
+1006D9B28: LDRB            W8, [X9,#(byte_1009F8553 - 0x1009F8551)]
+1006D9B2C: MOV             W20, #0xA2
+1006D9B30: EOR             W8, W8, W20
+1006D9B34: STRB            W8, [X10,#(byte_1009F855C - 0x1009F855A)]
+1006D9B38: LDRB            W8, [X9,#(byte_1009F8554 - 0x1009F8551)]
+1006D9B3C: EOR             W8, W8, W11
+1006D9B40: STRB            W8, [X10,#(byte_1009F855D - 0x1009F855A)]
+1006D9B44: LDRB            W8, [X9,#(byte_1009F8555 - 0x1009F8551)]
+1006D9B48: MOV             W2, #0x36 ; '6'
+1006D9B4C: EOR             W8, W8, W2
+1006D9B50: STRB            W8, [X10,#(byte_1009F855E - 0x1009F855A)]
+1006D9B54: LDRB            W8, [X9,#(byte_1009F8556 - 0x1009F8551)]
+1006D9B58: MOV             W11, #0x67 ; 'g'
+1006D9B5C: EOR             W8, W8, W11
+1006D9B60: STRB            W8, [X10,#(byte_1009F855F - 0x1009F855A)]
+1006D9B64: LDRB            W8, [X9,#(byte_1009F8557 - 0x1009F8551)]
+1006D9B68: EOR             W8, W8, W23
+1006D9B6C: STRB            W8, [X10,#(byte_1009F8560 - 0x1009F855A)]
+1006D9B70: LDRB            W8, [X9,#(byte_1009F8558 - 0x1009F8551)]
+1006D9B74: MOV             W12, #0x45 ; 'E'
+1006D9B78: EOR             W8, W8, W12
+1006D9B7C: STRB            W8, [X10,#(byte_1009F8561 - 0x1009F855A)]
+1006D9B80: LDRB            W8, [X9,#(byte_1009F8559 - 0x1009F8551)]
+1006D9B84: EOR             W8, W8, W11
+1006D9B88: MOV             W14, #0x67 ; 'g'
+1006D9B8C: STRB            W8, [X10,#(byte_1009F8562 - 0x1009F855A)]
+1006D9B90: ADRL            X9, byte_1009F8563
+1006D9B98: LDRB            W8, [X9]
+1006D9B9C: EOR             W8, W8, W0
+1006D9BA0: ADRL            X10, byte_1009F856B
+1006D9BA8: STRB            W8, [X10]
+1006D9BAC: LDRB            W8, [X9,#(byte_1009F8564 - 0x1009F8563)]
+1006D9BB0: MOV             W17, #0x93
+1006D9BB4: EOR             W8, W8, W17
+1006D9BB8: STRB            W8, [X10,#(byte_1009F856C - 0x1009F856B)]
+1006D9BBC: LDRB            W8, [X9,#(byte_1009F8565 - 0x1009F8563)]
+1006D9BC0: MOV             W11, #0xAC
+1006D9BC4: EOR             W8, W8, W11
+1006D9BC8: STRB            W8, [X10,#(byte_1009F856D - 0x1009F856B)]
+1006D9BCC: LDRB            W8, [X9,#(byte_1009F8566 - 0x1009F8563)]
+1006D9BD0: MOV             W12, #0x3D ; '='
+1006D9BD4: EOR             W8, W8, W12
+1006D9BD8: STRB            W8, [X10,#(byte_1009F856E - 0x1009F856B)]
+1006D9BDC: LDRB            W8, [X9,#(byte_1009F8567 - 0x1009F8563)]
+1006D9BE0: MOV             W12, #0xAF
+1006D9BE4: EOR             W8, W8, W12
+1006D9BE8: STRB            W8, [X10,#(byte_1009F856F - 0x1009F856B)]
+1006D9BEC: LDRB            W8, [X9,#(byte_1009F8568 - 0x1009F8563)]
+1006D9BF0: EOR             W8, W8, W11
+1006D9BF4: MOV             W11, #0xAC
+1006D9BF8: STRB            W8, [X10,#(byte_1009F8570 - 0x1009F856B)]
+1006D9BFC: LDRB            W8, [X9,#(byte_1009F8569 - 0x1009F8563)]
+1006D9C00: MOV             W0, #0x4B ; 'K'
+1006D9C04: EOR             W8, W8, W0
+1006D9C08: STRB            W8, [X10,#(byte_1009F8571 - 0x1009F856B)]
+1006D9C0C: LDRB            W8, [X9,#(byte_1009F856A - 0x1009F8563)]
+1006D9C10: MOV             W9, #0x91
+1006D9C14: EOR             W8, W8, W9
+1006D9C18: STRB            W8, [X10,#(byte_1009F8572 - 0x1009F856B)]
+1006D9C1C: ADRL            X9, byte_1009F8580
+1006D9C24: LDRB            W8, [X9]
+1006D9C28: MOV             W10, #0xBC
+1006D9C2C: EOR             W8, W8, W10
+1006D9C30: ADRL            X10, byte_1009F85A0
+1006D9C38: STRB            W8, [X10]
+1006D9C3C: LDRB            W8, [X9,#(byte_1009F8581 - 0x1009F8580)]
+1006D9C40: MOV             W12, #0x8C
+1006D9C44: EOR             W8, W8, W12
+1006D9C48: STRB            W8, [X10,#(byte_1009F85A1 - 0x1009F85A0)]
+1006D9C4C: LDRB            W8, [X9,#(byte_1009F8582 - 0x1009F8580)]
+1006D9C50: EOR             W8, W8, W13
+1006D9C54: STRB            W8, [X10,#(byte_1009F85A2 - 0x1009F85A0)]
+1006D9C58: LDRB            W8, [X9,#(byte_1009F8583 - 0x1009F8580)]
+1006D9C5C: MOV             W12, #0xD6
+1006D9C60: EOR             W8, W8, W12
+1006D9C64: STRB            W8, [X10,#(byte_1009F85A3 - 0x1009F85A0)]
+1006D9C68: LDRB            W8, [X9,#(byte_1009F8584 - 0x1009F8580)]
+1006D9C6C: MOV             W13, #0xAD
+1006D9C70: EOR             W8, W8, W13
+1006D9C74: STRB            W8, [X10,#(byte_1009F85A4 - 0x1009F85A0)]
+1006D9C78: LDRB            W8, [X9,#(byte_1009F8585 - 0x1009F8580)]
+1006D9C7C: EOR             W8, W8, W17
+1006D9C80: STRB            W8, [X10,#(byte_1009F85A5 - 0x1009F85A0)]
+1006D9C84: LDRB            W8, [X9,#(byte_1009F8586 - 0x1009F8580)]
+1006D9C88: MOV             W17, #0x21 ; '!'
+1006D9C8C: EOR             W8, W8, W17
+1006D9C90: STRB            W8, [X10,#(byte_1009F85A6 - 0x1009F85A0)]
+1006D9C94: LDRB            W8, [X9,#(byte_1009F8587 - 0x1009F8580)]
+1006D9C98: EOR             W8, W8, W12
+1006D9C9C: STRB            W8, [X10,#(byte_1009F85A7 - 0x1009F85A0)]
+1006D9CA0: LDRB            W8, [X9,#(byte_1009F8588 - 0x1009F8580)]
+1006D9CA4: EOR             W8, W8, W4
+1006D9CA8: STRB            W8, [X10,#(byte_1009F85A8 - 0x1009F85A0)]
+1006D9CAC: LDRB            W8, [X9,#(byte_1009F8589 - 0x1009F8580)]
+1006D9CB0: MOV             W12, #0x9A
+1006D9CB4: EOR             W8, W8, W12
+1006D9CB8: STRB            W8, [X10,#(byte_1009F85A9 - 0x1009F85A0)]
+1006D9CBC: LDRB            W8, [X9,#(byte_1009F858A - 0x1009F8580)]
+1006D9CC0: EOR             W8, W8, W14
+1006D9CC4: STRB            W8, [X10,#(byte_1009F85AA - 0x1009F85A0)]
+1006D9CC8: LDRB            W8, [X9,#(byte_1009F858B - 0x1009F8580)]
+1006D9CCC: MOV             W12, #0xE5
+1006D9CD0: EOR             W8, W8, W12
+1006D9CD4: STRB            W8, [X10,#(byte_1009F85AB - 0x1009F85A0)]
+1006D9CD8: LDRB            W8, [X9,#(byte_1009F858C - 0x1009F8580)]
+1006D9CDC: MOV             W12, #0x39 ; '9'
+1006D9CE0: EOR             W8, W8, W12
+1006D9CE4: STRB            W8, [X10,#(byte_1009F85AC - 0x1009F85A0)]
+1006D9CE8: LDRB            W8, [X9,#(byte_1009F858D - 0x1009F8580)]
+1006D9CEC: MOV             W12, #0x28 ; '('
+1006D9CF0: EOR             W8, W8, W12
+1006D9CF4: STRB            W8, [X10,#(byte_1009F85AD - 0x1009F85A0)]
+1006D9CF8: LDRB            W8, [X9,#(byte_1009F858E - 0x1009F8580)]
+1006D9CFC: EOR             W8, W8, #0x1C
+1006D9D00: STRB            W8, [X10,#(byte_1009F85AE - 0x1009F85A0)]
+1006D9D04: LDRB            W8, [X9,#(byte_1009F858F - 0x1009F8580)]
+1006D9D08: MOV             W12, #0x89
+1006D9D0C: EOR             W8, W8, W12
+1006D9D10: STRB            W8, [X10,#(byte_1009F85AF - 0x1009F85A0)]
+1006D9D14: LDRB            W8, [X9,#(byte_1009F8590 - 0x1009F8580)]
+1006D9D18: MOV             W9, #0x5A ; 'Z'
+1006D9D1C: EOR             W8, W8, W9
+1006D9D20: STRB            W8, [X10,#(byte_1009F85B0 - 0x1009F85A0)]
+1006D9D24: ADRL            X9, byte_1009F85B1
+1006D9D2C: LDRB            W8, [X9]
+1006D9D30: MOV             W10, #0xDB
+1006D9D34: EOR             W8, W8, W10
+1006D9D38: ADRL            X10, byte_1009F85BF
+1006D9D40: STRB            W8, [X10]
+1006D9D44: LDRB            W8, [X9,#(byte_1009F85B2 - 0x1009F85B1)]
+1006D9D48: MOV             W12, #0xA3
+1006D9D4C: EOR             W8, W8, W12
+1006D9D50: STRB            W8, [X10,#(byte_1009F85C0 - 0x1009F85BF)]
+1006D9D54: LDRB            W8, [X9,#(byte_1009F85B3 - 0x1009F85B1)]
+1006D9D58: EOR             W8, W8, #0xF8
+1006D9D5C: STRB            W8, [X10,#(byte_1009F85C1 - 0x1009F85BF)]
+1006D9D60: LDRB            W8, [X9,#(byte_1009F85B4 - 0x1009F85B1)]
+1006D9D64: EOR             W8, W8, #0xF0
+1006D9D68: STRB            W8, [X10,#(byte_1009F85C2 - 0x1009F85BF)]
+1006D9D6C: LDRB            W8, [X9,#(byte_1009F85B5 - 0x1009F85B1)]
+1006D9D70: EOR             W8, W8, W6
+1006D9D74: STRB            W8, [X10,#(byte_1009F85C3 - 0x1009F85BF)]
+1006D9D78: LDRB            W8, [X9,#(byte_1009F85B6 - 0x1009F85B1)]
+1006D9D7C: MOV             W12, #0x53 ; 'S'
+1006D9D80: EOR             W8, W8, W12
+1006D9D84: STRB            W8, [X10,#(byte_1009F85C4 - 0x1009F85BF)]
+1006D9D88: LDRB            W8, [X9,#(byte_1009F85B7 - 0x1009F85B1)]
+1006D9D8C: MOV             W12, #0x72 ; 'r'
+1006D9D90: EOR             W8, W8, W12
+1006D9D94: STRB            W8, [X10,#(byte_1009F85C5 - 0x1009F85BF)]
+1006D9D98: LDRB            W8, [X9,#(byte_1009F85B8 - 0x1009F85B1)]
+1006D9D9C: STRB            W8, [X10,#(byte_1009F85C6 - 0x1009F85BF)]
+1006D9DA0: LDRB            W8, [X9,#(byte_1009F85B9 - 0x1009F85B1)]
+1006D9DA4: MOV             W12, #0x57 ; 'W'
+1006D9DA8: EOR             W8, W8, W12
+1006D9DAC: STRB            W8, [X10,#(byte_1009F85C7 - 0x1009F85BF)]
+1006D9DB0: LDRB            W8, [X9,#(byte_1009F85BA - 0x1009F85B1)]
+1006D9DB4: MOV             W12, #0x59 ; 'Y'
+1006D9DB8: EOR             W8, W8, W12
+1006D9DBC: STRB            W8, [X10,#(byte_1009F85C8 - 0x1009F85BF)]
+1006D9DC0: LDRB            W8, [X9,#(byte_1009F85BB - 0x1009F85B1)]
+1006D9DC4: EOR             W8, W8, W15
+1006D9DC8: STRB            W8, [X10,#(byte_1009F85C9 - 0x1009F85BF)]
+1006D9DCC: LDRB            W8, [X9,#(byte_1009F85BC - 0x1009F85B1)]
+1006D9DD0: MOV             W12, #0x15
+1006D9DD4: EOR             W8, W8, W12
+1006D9DD8: STRB            W8, [X10,#(byte_1009F85CA - 0x1009F85BF)]
+1006D9DDC: LDRB            W8, [X9,#(byte_1009F85BD - 0x1009F85B1)]
+1006D9DE0: MOV             W12, #0xF5
+1006D9DE4: EOR             W8, W8, W12
+1006D9DE8: STRB            W8, [X10,#(byte_1009F85CB - 0x1009F85BF)]
+1006D9DEC: LDRB            W8, [X9,#(byte_1009F85BE - 0x1009F85B1)]
+1006D9DF0: EOR             W8, W8, W16
+1006D9DF4: STRB            W8, [X10,#(byte_1009F85CC - 0x1009F85BF)]
+1006D9DF8: ADRL            X9, byte_1009F85CD
+1006D9E00: LDRB            W8, [X9]
+1006D9E04: MOV             W10, #0x8E
+1006D9E08: EOR             W8, W8, W10
+1006D9E0C: ADRL            X10, byte_1009F85D9
+1006D9E14: STRB            W8, [X10]
+1006D9E18: LDRB            W8, [X9,#(byte_1009F85CE - 0x1009F85CD)]
+1006D9E1C: MOV             W12, #0x13
+1006D9E20: EOR             W8, W8, W12
+1006D9E24: STRB            W8, [X10,#(byte_1009F85DA - 0x1009F85D9)]
+1006D9E28: LDRB            W8, [X9,#(byte_1009F85CF - 0x1009F85CD)]
+1006D9E2C: EOR             W8, W8, #0x20 ; ' '
+1006D9E30: STRB            W8, [X10,#(byte_1009F85DB - 0x1009F85D9)]
+1006D9E34: LDRB            W8, [X9,#(byte_1009F85D0 - 0x1009F85CD)]
+1006D9E38: MOV             W12, #0x82
+1006D9E3C: EOR             W8, W8, W12
+1006D9E40: STRB            W8, [X10,#(byte_1009F85DC - 0x1009F85D9)]
+1006D9E44: LDRB            W8, [X9,#(byte_1009F85D1 - 0x1009F85CD)]
+1006D9E48: MOV             W12, #0xEA
+1006D9E4C: EOR             W8, W8, W12
+1006D9E50: STRB            W8, [X10,#(byte_1009F85DD - 0x1009F85D9)]
+1006D9E54: LDRB            W8, [X9,#(byte_1009F85D2 - 0x1009F85CD)]
+1006D9E58: EOR             W8, W8, W3
+1006D9E5C: STRB            W8, [X10,#(byte_1009F85DE - 0x1009F85D9)]
+1006D9E60: LDRB            W8, [X9,#(byte_1009F85D3 - 0x1009F85CD)]
+1006D9E64: EOR             W8, W8, #0xFFFFFFE1
+1006D9E68: STRB            W8, [X10,#(byte_1009F85DF - 0x1009F85D9)]
+1006D9E6C: LDRB            W8, [X9,#(byte_1009F85D4 - 0x1009F85CD)]
+1006D9E70: MOV             W12, #0xC6
+1006D9E74: EOR             W8, W8, W12
+1006D9E78: STRB            W8, [X10,#(byte_1009F85E0 - 0x1009F85D9)]
+1006D9E7C: LDRB            W8, [X9,#(byte_1009F85D5 - 0x1009F85CD)]
+1006D9E80: EOR             W8, W8, W30
+1006D9E84: STRB            W8, [X10,#(byte_1009F85E1 - 0x1009F85D9)]
+1006D9E88: LDRB            W8, [X9,#(byte_1009F85D6 - 0x1009F85CD)]
+1006D9E8C: EOR             W8, W8, #0x3F ; '?'
+1006D9E90: STRB            W8, [X10,#(byte_1009F85E2 - 0x1009F85D9)]
+1006D9E94: LDRB            W8, [X9,#(byte_1009F85D7 - 0x1009F85CD)]
+1006D9E98: MOV             W12, #0xB5
+1006D9E9C: EOR             W8, W8, W12
+1006D9EA0: STRB            W8, [X10,#(byte_1009F85E3 - 0x1009F85D9)]
+1006D9EA4: LDRB            W8, [X9,#(byte_1009F85D8 - 0x1009F85CD)]
+1006D9EA8: EOR             W8, W8, #0x3F ; '?'
+1006D9EAC: STRB            W8, [X10,#(byte_1009F85E4 - 0x1009F85D9)]
+1006D9EB0: ADRL            X9, byte_1009F85E5
+1006D9EB8: LDRB            W8, [X9]
+1006D9EBC: EOR             W8, W8, W13
+1006D9EC0: ADRL            X10, byte_1009F85ED
+1006D9EC8: STRB            W8, [X10]
+1006D9ECC: LDRB            W8, [X9,#(byte_1009F85E6 - 0x1009F85E5)]
+1006D9ED0: EOR             W8, W8, W5
+1006D9ED4: STRB            W8, [X10,#(byte_1009F85EE - 0x1009F85ED)]
+1006D9ED8: LDRB            W8, [X9,#(byte_1009F85E7 - 0x1009F85E5)]
+1006D9EDC: MOV             W12, #0xBE
+1006D9EE0: EOR             W8, W8, W12
+1006D9EE4: STRB            W8, [X10,#(byte_1009F85EF - 0x1009F85ED)]
+1006D9EE8: LDRB            W8, [X9,#(byte_1009F85E8 - 0x1009F85E5)]
+1006D9EEC: EOR             W8, W8, W11
+1006D9EF0: STRB            W8, [X10,#(byte_1009F85F0 - 0x1009F85ED)]
+1006D9EF4: LDRB            W8, [X9,#(byte_1009F85E9 - 0x1009F85E5)]
+1006D9EF8: EOR             W8, W8, #0x66666666
+1006D9EFC: STRB            W8, [X10,#(byte_1009F85F1 - 0x1009F85ED)]
+1006D9F00: LDRB            W8, [X9,#(byte_1009F85EA - 0x1009F85E5)]
+1006D9F04: EOR             W8, W8, #7
+1006D9F08: STRB            W8, [X10,#(byte_1009F85F2 - 0x1009F85ED)]
+1006D9F0C: LDRB            W8, [X9,#(byte_1009F85EB - 0x1009F85E5)]
+1006D9F10: MOV             W11, #0xA1
+1006D9F14: EOR             W8, W8, W11
+1006D9F18: STRB            W8, [X10,#(byte_1009F85F3 - 0x1009F85ED)]
+1006D9F1C: LDRB            W8, [X9,#(byte_1009F85EC - 0x1009F85E5)]
+1006D9F20: EOR             W8, W8, #0x1C
+1006D9F24: STRB            W8, [X10,#(byte_1009F85F4 - 0x1009F85ED)]
+1006D9F28: ADRL            X9, byte_1009F85F5
+1006D9F30: LDRB            W8, [X9]
+1006D9F34: EOR             W8, W8, W20
+1006D9F38: ADRL            X10, byte_1009F8602
+1006D9F40: STRB            W8, [X10]
+1006D9F44: LDRB            W8, [X9,#(byte_1009F85F6 - 0x1009F85F5)]
+1006D9F48: EOR             W8, W8, #0xFC
+1006D9F4C: STRB            W8, [X10,#(byte_1009F8603 - 0x1009F8602)]
+1006D9F50: LDRB            W8, [X9,#(byte_1009F85F7 - 0x1009F85F5)]
+1006D9F54: EOR             W8, W8, #0xFFFFFFC1
+1006D9F58: STRB            W8, [X10,#(byte_1009F8604 - 0x1009F8602)]
+1006D9F5C: LDRB            W8, [X9,#(byte_1009F85F8 - 0x1009F85F5)]
+1006D9F60: EOR             W8, W8, W0
+1006D9F64: STRB            W8, [X10,#(byte_1009F8605 - 0x1009F8602)]
+1006D9F68: LDRB            W8, [X9,#(byte_1009F85F9 - 0x1009F85F5)]
+1006D9F6C: EOR             W8, W8, W1
+1006D9F70: STRB            W8, [X10,#(byte_1009F8606 - 0x1009F8602)]
+1006D9F74: LDRB            W8, [X9,#(byte_1009F85FA - 0x1009F85F5)]
+1006D9F78: EOR             W8, W8, W7
+1006D9F7C: STRB            W8, [X10,#(byte_1009F8607 - 0x1009F8602)]
+1006D9F80: LDRB            W8, [X9,#(byte_1009F85FB - 0x1009F85F5)]
+1006D9F84: MOV             W11, #0x41 ; 'A'
+1006D9F88: EOR             W8, W8, W11
+1006D9F8C: STRB            W8, [X10,#(byte_1009F8608 - 0x1009F8602)]
+1006D9F90: LDRB            W8, [X9,#(byte_1009F85FC - 0x1009F85F5)]
+1006D9F94: EOR             W8, W8, #0x3E ; '>'
+1006D9F98: STRB            W8, [X10,#(byte_1009F8609 - 0x1009F8602)]
+1006D9F9C: LDRB            W8, [X9,#(byte_1009F85FD - 0x1009F85F5)]
+1006D9FA0: EOR             W8, W8, #0xFFFFFFDF
+1006D9FA4: STRB            W8, [X10,#(byte_1009F860A - 0x1009F8602)]
+1006D9FA8: LDRB            W8, [X9,#(byte_1009F85FE - 0x1009F85F5)]
+1006D9FAC: MOV             W12, #0xB6
+1006D9FB0: EOR             W8, W8, W12
+1006D9FB4: STRB            W8, [X10,#(byte_1009F860B - 0x1009F8602)]
+1006D9FB8: LDRB            W8, [X9,#(byte_1009F85FF - 0x1009F85F5)]
+1006D9FBC: MOV             W11, #0xE2
+1006D9FC0: EOR             W8, W8, W11
+1006D9FC4: STRB            W8, [X10,#(byte_1009F860C - 0x1009F8602)]
+1006D9FC8: LDRB            W8, [X9,#(byte_1009F8600 - 0x1009F85F5)]
+1006D9FCC: MOV             W11, #0x29 ; ')'
+1006D9FD0: EOR             W8, W8, W11
+1006D9FD4: STRB            W8, [X10,#(byte_1009F860D - 0x1009F8602)]
+1006D9FD8: LDRB            W8, [X9,#(byte_1009F8601 - 0x1009F85F5)]
+1006D9FDC: EOR             W8, W8, W17
+1006D9FE0: STRB            W8, [X10,#(byte_1009F860E - 0x1009F8602)]
+1006D9FE4: ADRL            X9, byte_1009F860F
+1006D9FEC: LDRB            W8, [X9]
+1006D9FF0: EOR             W8, W8, #0xFFFFFFE7
+1006D9FF4: ADRL            X10, byte_1009F861A
+1006D9FFC: STRB            W8, [X10]
+1006DA000: LDRB            W8, [X9,#(byte_1009F8610 - 0x1009F860F)]
+1006DA004: MOV             W11, #0xD7
+1006DA008: EOR             W8, W8, W11
+1006DA00C: STRB            W8, [X10,#(byte_1009F861B - 0x1009F861A)]
+1006DA010: LDRB            W8, [X9,#(byte_1009F8611 - 0x1009F860F)]
+1006DA014: EOR             W8, W8, #0x22222222
+1006DA018: STRB            W8, [X10,#(byte_1009F861C - 0x1009F861A)]
+1006DA01C: LDRB            W8, [X9,#(byte_1009F8612 - 0x1009F860F)]
+1006DA020: EOR             W8, W8, #2
+1006DA024: STRB            W8, [X10,#(byte_1009F861D - 0x1009F861A)]
+1006DA028: LDRB            W8, [X9,#(byte_1009F8613 - 0x1009F860F)]
+1006DA02C: EOR             W8, W8, #0x1F
+1006DA030: STRB            W8, [X10,#(byte_1009F861E - 0x1009F861A)]
+1006DA034: LDRB            W8, [X9,#(byte_1009F8614 - 0x1009F860F)]
+1006DA038: MOV             W11, #0x12
+1006DA03C: EOR             W8, W8, W11
+1006DA040: STRB            W8, [X10,#(byte_1009F861F - 0x1009F861A)]
+1006DA044: LDRB            W8, [X9,#(byte_1009F8615 - 0x1009F860F)]
+1006DA048: EOR             W8, W8, #0xF8
+1006DA04C: STRB            W8, [X10,#(byte_1009F8620 - 0x1009F861A)]
+1006DA050: LDRB            W8, [X9,#(byte_1009F8616 - 0x1009F860F)]
+1006DA054: EOR             W8, W8, W2
+1006DA058: STRB            W8, [X10,#(byte_1009F8621 - 0x1009F861A)]
+1006DA05C: LDRB            W8, [X9,#(byte_1009F8617 - 0x1009F860F)]
+1006DA060: MOV             W11, #0xCA
+1006DA064: EOR             W8, W8, W11
+1006DA068: STRB            W8, [X10,#(byte_1009F8622 - 0x1009F861A)]
+1006DA06C: LDRB            W8, [X9,#(byte_1009F8618 - 0x1009F860F)]
+1006DA070: MOV             W11, #0x9C
+1006DA074: EOR             W8, W8, W11
+1006DA078: STRB            W8, [X10,#(byte_1009F8623 - 0x1009F861A)]
+1006DA07C: LDRB            W8, [X9,#(byte_1009F8619 - 0x1009F860F)]
+1006DA080: MOV             W11, #0xC8
+1006DA084: EOR             W8, W8, W11
+1006DA088: STRB            W8, [X10,#(byte_1009F8624 - 0x1009F861A)]
+1006DA08C: ADRL            X9, byte_1009F8625
+1006DA094: LDRB            W8, [X9]
+1006DA098: MOV             W10, #0x4A ; 'J'
+1006DA09C: EOR             W8, W8, W10
+1006DA0A0: ADRL            X10, byte_1009F862F
+1006DA0A8: STRB            W8, [X10]
+1006DA0AC: LDRB            W8, [X9,#(byte_1009F8626 - 0x1009F8625)]
+1006DA0B0: EOR             W8, W8, #0xAAAAAAAA
+1006DA0B4: STRB            W8, [X10,#(byte_1009F8630 - 0x1009F862F)]
+1006DA0B8: LDRB            W8, [X9,#(byte_1009F8627 - 0x1009F8625)]
+1006DA0BC: EOR             W8, W8, #0xFFFFFFF3
+1006DA0C0: STRB            W8, [X10,#(byte_1009F8631 - 0x1009F862F)]
+1006DA0C4: LDRB            W8, [X9,#(byte_1009F8628 - 0x1009F8625)]
+1006DA0C8: MOV             W14, #0xA0
+1006DA0CC: EOR             W8, W8, W14
+1006DA0D0: STRB            W8, [X10,#(byte_1009F8632 - 0x1009F862F)]
+1006DA0D4: LDRB            W8, [X9,#(byte_1009F8629 - 0x1009F8625)]
+1006DA0D8: MOV             W13, #0xD5
+1006DA0DC: EOR             W8, W8, W13
+1006DA0E0: MOV             W20, #0xD9DA73AA
+1006DA0E8: STRB            W8, [X10,#(byte_1009F8633 - 0x1009F862F)]
+1006DA0EC: LDRB            W8, [X9,#(byte_1009F862A - 0x1009F8625)]
+1006DA0F0: MOV             W14, #0x9E
+1006DA0F4: EOR             W8, W8, W14
+1006DA0F8: STRB            W8, [X10,#(byte_1009F8634 - 0x1009F862F)]
+1006DA0FC: LDRB            W8, [X9,#(byte_1009F862B - 0x1009F8625)]
+1006DA100: EOR             W8, W8, W12
+1006DA104: STRB            W8, [X10,#(byte_1009F8635 - 0x1009F862F)]
+1006DA108: LDRB            W8, [X9,#(byte_1009F862C - 0x1009F8625)]
+1006DA10C: MOV             W12, #0x54 ; 'T'
+1006DA110: EOR             W8, W8, W12
+1006DA114: STRB            W8, [X10,#(byte_1009F8636 - 0x1009F862F)]
+1006DA118: LDRB            W8, [X9,#(byte_1009F862D - 0x1009F8625)]
+1006DA11C: EOR             W8, W8, W27
+1006DA120: STRB            W8, [X10,#(byte_1009F8637 - 0x1009F862F)]
+1006DA124: LDRB            W8, [X9,#(byte_1009F862E - 0x1009F8625)]
+1006DA128: EOR             W8, W8, #0x1C
+1006DA12C: STRB            W8, [X10,#(byte_1009F8638 - 0x1009F862F)]
+1006DA130: ADRL            X9, byte_1009F8639
+1006DA138: LDRB            W8, [X9]
+1006DA13C: MOV             W10, #0xF4
+1006DA140: EOR             W8, W8, W10
+1006DA144: ADRL            X10, byte_1009F8644
+1006DA14C: STRB            W8, [X10]
+1006DA150: LDRB            W8, [X9,#(byte_1009F863A - 0x1009F8639)]
+1006DA154: MOV             W12, #0x79 ; 'y'
+1006DA158: EOR             W8, W8, W12
+1006DA15C: STRB            W8, [X10,#(byte_1009F8645 - 0x1009F8644)]
+1006DA160: LDRB            W8, [X9,#(byte_1009F863B - 0x1009F8639)]
+1006DA164: EOR             W8, W8, #0x3F ; '?'
+1006DA168: STRB            W8, [X10,#(byte_1009F8646 - 0x1009F8644)]
+1006DA16C: LDRB            W8, [X9,#(byte_1009F863C - 0x1009F8639)]
+1006DA170: MOV             W12, #0x4E ; 'N'
+1006DA174: EOR             W8, W8, W12
+1006DA178: STRB            W8, [X10,#(byte_1009F8647 - 0x1009F8644)]
+1006DA17C: LDRB            W8, [X9,#(byte_1009F863D - 0x1009F8639)]
+1006DA180: EOR             W8, W8, W11
+1006DA184: STRB            W8, [X10,#(byte_1009F8648 - 0x1009F8644)]
+1006DA188: LDRB            W8, [X9,#(byte_1009F863E - 0x1009F8639)]
+1006DA18C: MOV             W11, #0xB9
+1006DA190: EOR             W8, W8, W11
+1006DA194: STRB            W8, [X10,#(byte_1009F8649 - 0x1009F8644)]
+1006DA198: LDRB            W8, [X9,#(byte_1009F863F - 0x1009F8639)]
+1006DA19C: EOR             W8, W8, #3
+1006DA1A0: STRB            W8, [X10,#(byte_1009F864A - 0x1009F8644)]
+1006DA1A4: LDRB            W8, [X9,#(byte_1009F8640 - 0x1009F8639)]
+1006DA1A8: MOV             W11, #0x3A ; ':'
+1006DA1AC: EOR             W8, W8, W11
+1006DA1B0: STRB            W8, [X10,#(byte_1009F864B - 0x1009F8644)]
+1006DA1B4: LDRB            W8, [X9,#(byte_1009F8641 - 0x1009F8639)]
+1006DA1B8: EOR             W8, W8, #3
+1006DA1BC: STRB            W8, [X10,#(byte_1009F864C - 0x1009F8644)]
+1006DA1C0: LDRB            W8, [X9,#(byte_1009F8642 - 0x1009F8639)]
+1006DA1C4: EOR             W8, W8, #0xFE
+1006DA1C8: STRB            W8, [X10,#(byte_1009F864D - 0x1009F8644)]
+1006DA1CC: LDRB            W8, [X9,#(byte_1009F8643 - 0x1009F8639)]
+1006DA1D0: EOR             W8, W8, #0xFFFFFF83
+1006DA1D4: STRB            W8, [X10,#(byte_1009F864E - 0x1009F8644)]
+1006DA1D8: LDR             X8, [SP,#arg_8]
+1006DA1DC: STR             W19, [X8]
+1006DA1E0: B               loc_1006D6624
+1006DA1E4: MOV             W8, #0x8539FB9C
+1006DA1EC: CMP             W26, W8
+1006DA1F0: CSET            W8, EQ
+1006DA1F4: ADRL            X9, off_100A05060
+1006DA1FC: LDR             X0, [X9,W8,UXTW#3]
+1006DA200: BL              nullsub_30
+1006DA204: ADRP            X25, #0x1009FE000
+1006DA208: BR              X0
+1006DA20C: ADRP            X8, #dword_1009F9948@PAGE
+1006DA210: LDR             W8, [X8,#dword_1009F9948@PAGEOFF]
+1006DA214: ADRP            X9, #dword_1009F994C@PAGE
+1006DA218: LDR             W9, [X9,#dword_1009F994C@PAGEOFF]
+1006DA21C: MOV             W10, #0xE34DF4CB
+1006DA224: MADD            W8, W8, W9, W10
+1006DA228: MOV             W9, #0x280020B1
+1006DA230: EOR             W8, W8, W9
+1006DA234: MOV             W9, #0x965B9B04
+1006DA23C: ORR             W8, W8, W9
+1006DA240: ADRL            X9, dword_100A224C8
+1006DA248: LDAR            W9, [X9]
+1006DA24C: CMP             W9, #0
+1006DA250: CSET            W9, EQ
+1006DA254: STRB            W9, [SP,#arg_1B]
+1006DA258: MOV             W9, #0xD2F98A28
+1006DA260: CMP             W8, W9
+1006DA264: MOV             W8, #0xF717F25F
+1006DA26C: MOV             W9, #0x8539FB9C
+1006DA274: CSEL            W8, W8, W9, NE
+1006DA278: LDR             X9, [SP,#arg_8]
+1006DA27C: STR             W8, [X9]
+1006DA280: B               loc_1006D6624

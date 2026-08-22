@@ -1,0 +1,17 @@
+/*
+ * func-name: sub_10052F538
+ * func-address: 0x10052f538
+ * export-type: decompile
+ * callers: none
+ * callees: 0x10056b9b8
+ */
+
+__int64 sub_10052F538()
+{
+  int v0; // w20
+  __n128 v1; // q0
+  __int64 (__fastcall *v2)(__n128); // x0
+
+  v1 = nullsub_25(*(&off_10098F1F0 + (v0 < -250237451)));
+  return v2(v1);
+}

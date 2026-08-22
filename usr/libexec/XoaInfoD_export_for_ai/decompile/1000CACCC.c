@@ -1,0 +1,17 @@
+/*
+ * func-name: sub_1000CACCC
+ * func-address: 0x1000caccc
+ * export-type: decompile
+ * callers: none
+ * callees: none
+ */
+
+__int64 __fastcall sub_1000CACCC(__int64 a1)
+{
+  __int64 v1; // x19
+
+  *(_QWORD *)(v1 + 2296) = kSecAttrService;
+  **(_DWORD **)(v1 + 32) = 1443459231;
+  *(_QWORD *)(v1 + 224) = *(_QWORD *)(v1 + 2344);
+  return sub_1000D0204(a1);
+}

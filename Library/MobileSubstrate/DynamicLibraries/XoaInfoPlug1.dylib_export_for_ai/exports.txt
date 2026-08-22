@@ -1,0 +1,25 @@
+# Exports
+# Format: func-addr:func-name
+#============================================================
+
+0x58b8:__Z32OTRApplicationDidFinishLaunchingv
+0x58bc:__Z33hookApplicationDidFinishLaunchingv
+0x5984:__Z8OTRUnameP7utsname
+0x59a8:__Z15OTRsysctlbynamePKcPvPmS1_m
+0x837c:__Z27replaced_didUpdateLocationsP11objc_objectP13objc_selectorP17CLLocationManagerP7NSArray
+0x8728:__Z28replaced_didUpdateToLocationP11objc_objectP13objc_selectorP17CLLocationManagerP10CLLocationS6_
+0xe5a8:_OBJC_CLASS_$_appTweakHelper
+0xe5f8:_OBJC_CLASS_$_OTRAppObject
+0xe648:_OBJC_CLASS_$_OTRAppService
+0xe698:_OBJC_CLASS_$_OTRHook
+0xe5d0:_OBJC_METACLASS_$_appTweakHelper
+0xe620:_OBJC_METACLASS_$_OTRAppObject
+0xe670:_OBJC_METACLASS_$_OTRAppService
+0xe6c0:_OBJC_METACLASS_$_OTRHook
+0xe7b0:_jailbreak_tool_pathes
+0xe838:_original_uname
+0xe840:_original_sysctlbyname
+0xe848:_g_dictDidUpdateLocationsCallBack
+0xe850:_g_dictDidUpdateToLocationCallBack
+0xe858:_g_isSetHook
+0x59ec:InitFunc_0

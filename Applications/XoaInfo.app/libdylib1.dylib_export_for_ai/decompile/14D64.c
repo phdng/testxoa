@@ -1,0 +1,13 @@
+/*
+ * func-name: _pthread_mutex_unlock
+ * func-address: 0x14d64
+ * export-type: decompile
+ * callers: 0x56f0
+ * callees: none
+ */
+
+// attributes: thunk
+int __cdecl pthread_mutex_unlock(pthread_mutex_t *a1)
+{
+  return _pthread_mutex_unlock(a1);
+}

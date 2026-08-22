@@ -1,0 +1,13 @@
+/*
+ * func-name: sub_100620894
+ * func-address: 0x100620894
+ * export-type: decompile
+ * callers: none
+ * callees: none
+ */
+
+// positive sp value has been detected, the output may be wrong!
+void sub_100620894()
+{
+  ;
+}

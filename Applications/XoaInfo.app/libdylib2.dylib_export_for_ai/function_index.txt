@@ -1,0 +1,805 @@
+# Function Index
+# Total exported: 65
+#================================================================================
+
+================================================================================
+Function: __ZN10LockHelperC1Ev
+Address: 0x2aa8
+File: decompile/2AA8.c
+Type: decompile
+
+Called by (12):
+  - 0x30dc (__NSGetExecutablePath) -> decompile/30DC.c
+  - 0x3154 (__dyld_register_func_for_add_image) -> decompile/3154.c
+  - 0x31b4 (__dyld_register_func_for_remove_image) -> decompile/31B4.c
+  - 0x32e0 (__dyld_image_containing_address) -> decompile/32E0.c
+  - 0x3348 (__dyld_get_image_header_containing_address) -> decompile/3348.c
+  - 0x33b0 (__dyld_moninit) -> decompile/33B0.c
+  - 0x3450 (_dlerror) -> decompile/3450.c
+  - 0x34b0 (_dladdr) -> decompile/34B0.c
+  - 0x3528 (_dlclose) -> decompile/3528.c
+  - 0x35e8 (_dlopen_preflight) -> decompile/35E8.c
+  - 0x3650 (_dlsym) -> decompile/3650.c
+  - 0x36c8 (_dyld_register_image_state_change_handler) -> decompile/36C8.c
+
+Calls (1):
+  - 0x3b20 (_pthread_mutex_lock) -> decompile/3B20.c
+
+================================================================================
+Function: __Z21dyldGlobalLockAcquirev
+Address: 0x2ae4
+File: decompile/2AE4.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x3b20 (_pthread_mutex_lock) -> decompile/3B20.c
+
+================================================================================
+Function: __ZN10LockHelperD1Ev
+Address: 0x2b10
+File: decompile/2B10.c
+Type: decompile
+
+Called by (12):
+  - 0x30dc (__NSGetExecutablePath) -> decompile/30DC.c
+  - 0x3154 (__dyld_register_func_for_add_image) -> decompile/3154.c
+  - 0x31b4 (__dyld_register_func_for_remove_image) -> decompile/31B4.c
+  - 0x32e0 (__dyld_image_containing_address) -> decompile/32E0.c
+  - 0x3348 (__dyld_get_image_header_containing_address) -> decompile/3348.c
+  - 0x33b0 (__dyld_moninit) -> decompile/33B0.c
+  - 0x3450 (_dlerror) -> decompile/3450.c
+  - 0x34b0 (_dladdr) -> decompile/34B0.c
+  - 0x3528 (_dlclose) -> decompile/3528.c
+  - 0x35e8 (_dlopen_preflight) -> decompile/35E8.c
+  - 0x3650 (_dlsym) -> decompile/3650.c
+  - 0x36c8 (_dyld_register_image_state_change_handler) -> decompile/36C8.c
+
+Calls (1):
+  - 0x3b2c (_pthread_mutex_unlock) -> decompile/3B2C.c
+
+================================================================================
+Function: __Z21dyldGlobalLockReleasev
+Address: 0x2b4c
+File: decompile/2B4C.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: dyld_stub_binder
+Address: 0x2b68
+File: decompile/2B68.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x37dc (__Z21_dyld_fast_stub_entryPvl) -> decompile/37DC.c
+
+================================================================================
+Function: __dyld_func_lookup
+Address: 0x2bdc
+File: decompile/2BDC.c
+Type: decompile
+
+Called by (27):
+  - 0x2d88 (_NSVersionOfRunTimeLibrary) -> decompile/2D88.c
+  - 0x2e84 (__dyld_image_count) -> decompile/2E84.c
+  - 0x2ec0 (__dyld_get_image_header) -> decompile/2EC0.c
+  - 0x30dc (__NSGetExecutablePath) -> decompile/30DC.c
+  - 0x3154 (__dyld_register_func_for_add_image) -> decompile/3154.c
+  - 0x31b4 (__dyld_register_func_for_remove_image) -> decompile/31B4.c
+  - 0x3214 (__dyld_get_image_vmaddr_slide) -> decompile/3214.c
+  - 0x3258 (__dyld_get_image_name) -> decompile/3258.c
+  - 0x329c (__dyld_get_image_slide) -> decompile/329C.c
+  - 0x32e0 (__dyld_image_containing_address) -> decompile/32E0.c
+  - 0x3348 (__dyld_get_image_header_containing_address) -> decompile/3348.c
+  - 0x33b0 (__dyld_moninit) -> decompile/33B0.c
+  - 0x3410 (__dyld_initializer) -> decompile/3410.c
+  - 0x3450 (_dlerror) -> decompile/3450.c
+  - 0x34b0 (_dladdr) -> decompile/34B0.c
+  - 0x3528 (_dlclose) -> decompile/3528.c
+  - 0x3590 (_dlopen) -> decompile/3590.c
+  - 0x35e8 (_dlopen_preflight) -> decompile/35E8.c
+  - 0x3650 (_dlsym) -> decompile/3650.c
+  - 0x36c8 (_dyld_register_image_state_change_handler) -> decompile/36C8.c
+  - 0x3740 (__dyld_get_all_image_infos) -> decompile/3740.c
+  - 0x377c (__dyld_find_unwind_sections) -> decompile/377C.c
+  - 0x37dc (__Z21_dyld_fast_stub_entryPvl) -> decompile/37DC.c
+  - 0x3830 (_dyld_image_path_containing_address) -> decompile/3830.c
+  - 0x3874 (_dyld_shared_cache_some_image_overridden) -> decompile/3874.c
+  - 0x38b4 (_dyld_process_is_restricted) -> decompile/38B4.c
+  - 0x38f4 (__dyld_fork_child) -> decompile/38F4.c
+
+Calls: none
+
+================================================================================
+Function: _NSVersionOfLinkTimeLibrary
+Address: 0x2bec
+File: decompile/2BEC.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x2ca0 (__ZL11names_matchPcPKc) -> decompile/2CA0.c
+  - 0x3ac0 (__NSGetMachExecuteHeader) -> decompile/3AC0.c
+
+================================================================================
+Function: __ZL11names_matchPcPKc
+Address: 0x2ca0
+File: decompile/2CA0.c
+Type: decompile
+
+Called by (2):
+  - 0x2bec (_NSVersionOfLinkTimeLibrary) -> decompile/2BEC.c
+  - 0x2d88 (_NSVersionOfRunTimeLibrary) -> decompile/2D88.c
+
+Calls (4):
+  - 0x3ad8 (_strcmp) -> decompile/3AD8.c
+  - 0x3ae4 (_strlen) -> decompile/3AE4.c
+  - 0x3af0 (_strncmp) -> decompile/3AF0.c
+  - 0x3afc (_strrchr) -> decompile/3AFC.c
+
+================================================================================
+Function: _NSVersionOfRunTimeLibrary
+Address: 0x2d88
+File: decompile/2D88.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+  - 0x2ca0 (__ZL11names_matchPcPKc) -> decompile/2CA0.c
+
+================================================================================
+Function: __dyld_image_count
+Address: 0x2e84
+File: decompile/2E84.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: __dyld_get_image_header
+Address: 0x2ec0
+File: decompile/2EC0.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: _dyld_get_sdk_version
+Address: 0x2f04
+File: decompile/2F04.c
+Type: decompile
+
+Called by (1):
+  - 0x3038 (_dyld_get_program_sdk_version) -> decompile/3038.c
+
+Calls (1):
+  - 0x3ad8 (_strcmp) -> decompile/3AD8.c
+
+================================================================================
+Function: _dyld_get_program_sdk_version
+Address: 0x3038
+File: decompile/3038.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x3ac0 (__NSGetMachExecuteHeader) -> decompile/3AC0.c
+
+================================================================================
+Function: _dyld_get_min_os_version
+Address: 0x304c
+File: decompile/304C.c
+Type: decompile
+
+Called by (1):
+  - 0x30c8 (_dyld_get_program_min_os_version) -> decompile/30C8.c
+
+Calls: none
+
+================================================================================
+Function: _dyld_get_program_min_os_version
+Address: 0x30c8
+File: decompile/30C8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x3ac0 (__NSGetMachExecuteHeader) -> decompile/3AC0.c
+
+================================================================================
+Function: __NSGetExecutablePath
+Address: 0x30dc
+File: decompile/30DC.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x2aa8 (__ZN10LockHelperC1Ev) -> decompile/2AA8.c
+  - 0x2b10 (__ZN10LockHelperD1Ev) -> decompile/2B10.c
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: __dyld_register_func_for_add_image
+Address: 0x3154
+File: decompile/3154.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x2aa8 (__ZN10LockHelperC1Ev) -> decompile/2AA8.c
+  - 0x2b10 (__ZN10LockHelperD1Ev) -> decompile/2B10.c
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: __dyld_register_func_for_remove_image
+Address: 0x31b4
+File: decompile/31B4.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x2aa8 (__ZN10LockHelperC1Ev) -> decompile/2AA8.c
+  - 0x2b10 (__ZN10LockHelperD1Ev) -> decompile/2B10.c
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: __dyld_get_image_vmaddr_slide
+Address: 0x3214
+File: decompile/3214.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: __dyld_get_image_name
+Address: 0x3258
+File: decompile/3258.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: __dyld_get_image_slide
+Address: 0x329c
+File: decompile/329C.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: __dyld_image_containing_address
+Address: 0x32e0
+File: decompile/32E0.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x2aa8 (__ZN10LockHelperC1Ev) -> decompile/2AA8.c
+  - 0x2b10 (__ZN10LockHelperD1Ev) -> decompile/2B10.c
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: __dyld_get_image_header_containing_address
+Address: 0x3348
+File: decompile/3348.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x2aa8 (__ZN10LockHelperC1Ev) -> decompile/2AA8.c
+  - 0x2b10 (__ZN10LockHelperD1Ev) -> decompile/2B10.c
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: __dyld_moninit
+Address: 0x33b0
+File: decompile/33B0.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x2aa8 (__ZN10LockHelperC1Ev) -> decompile/2AA8.c
+  - 0x2b10 (__ZN10LockHelperD1Ev) -> decompile/2B10.c
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: __dyld_initializer
+Address: 0x3410
+File: decompile/3410.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+  - 0x3a98 (_tlv_initializer) -> decompile/3A98.c
+
+================================================================================
+Function: _dlerror
+Address: 0x3450
+File: decompile/3450.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x2aa8 (__ZN10LockHelperC1Ev) -> decompile/2AA8.c
+  - 0x2b10 (__ZN10LockHelperD1Ev) -> decompile/2B10.c
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: _dladdr
+Address: 0x34b0
+File: decompile/34B0.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x2aa8 (__ZN10LockHelperC1Ev) -> decompile/2AA8.c
+  - 0x2b10 (__ZN10LockHelperD1Ev) -> decompile/2B10.c
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: _dlclose
+Address: 0x3528
+File: decompile/3528.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x2aa8 (__ZN10LockHelperC1Ev) -> decompile/2AA8.c
+  - 0x2b10 (__ZN10LockHelperD1Ev) -> decompile/2B10.c
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: _dlopen
+Address: 0x3590
+File: decompile/3590.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: _dlopen_preflight
+Address: 0x35e8
+File: decompile/35E8.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x2aa8 (__ZN10LockHelperC1Ev) -> decompile/2AA8.c
+  - 0x2b10 (__ZN10LockHelperD1Ev) -> decompile/2B10.c
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: _dlsym
+Address: 0x3650
+File: decompile/3650.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x2aa8 (__ZN10LockHelperC1Ev) -> decompile/2AA8.c
+  - 0x2b10 (__ZN10LockHelperD1Ev) -> decompile/2B10.c
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: _dyld_register_image_state_change_handler
+Address: 0x36c8
+File: decompile/36C8.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x2aa8 (__ZN10LockHelperC1Ev) -> decompile/2AA8.c
+  - 0x2b10 (__ZN10LockHelperD1Ev) -> decompile/2B10.c
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: __dyld_get_all_image_infos
+Address: 0x3740
+File: decompile/3740.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: __dyld_find_unwind_sections
+Address: 0x377c
+File: decompile/377C.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: __Z21_dyld_fast_stub_entryPvl
+Address: 0x37dc
+File: decompile/37DC.c
+Type: decompile
+
+Called by (1):
+  - 0x2b68 (dyld_stub_binder) -> decompile/2B68.c
+
+Calls (1):
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: _dyld_image_path_containing_address
+Address: 0x3830
+File: decompile/3830.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: _dyld_shared_cache_some_image_overridden
+Address: 0x3874
+File: decompile/3874.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: _dyld_process_is_restricted
+Address: 0x38b4
+File: decompile/38B4.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: __dyld_fork_child
+Address: 0x38f4
+File: decompile/38F4.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x2bdc (__dyld_func_lookup) -> decompile/2BDC.c
+
+================================================================================
+Function: __ZL29getPerThreadBufferFor_dlerrorj
+Address: 0x3930
+File: decompile/3930.c
+Type: decompile
+
+Called by: none
+
+Calls (5):
+  - 0x3aa8 (_free) -> decompile/3AA8.c
+  - 0x3ab4 (_malloc) -> decompile/3AB4.c
+  - 0x3b08 (_pthread_getspecific) -> decompile/3B08.c
+  - 0x3b14 (_pthread_key_create) -> decompile/3B14.c
+  - 0x3b38 (_pthread_setspecific) -> decompile/3B38.c
+
+================================================================================
+Function: __ZL20shared_cache_missingv
+Address: 0x39d0
+File: decompile/39D0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __ZL24shared_cache_out_of_datev
+Address: 0x39d4
+File: decompile/39D4.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __ZL29hasPerThreadBufferFor_dlerrorv
+Address: 0x39d8
+File: decompile/39D8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x3b08 (_pthread_getspecific) -> decompile/3B08.c
+
+================================================================================
+Function: __ZL14isLaunchdOwnedv
+Address: 0x3a14
+File: decompile/3A14.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x3b44 (_vproc_swap_integer) -> decompile/3B44.c
+
+================================================================================
+Function: _dyld_register_tlv_state_change_handler
+Address: 0x3a88
+File: decompile/3A88.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _dyld_enumerate_tlv_storage
+Address: 0x3a8c
+File: decompile/3A8C.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __tlv_exit
+Address: 0x3a90
+File: decompile/3A90.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __tlv_atexit
+Address: 0x3a94
+File: decompile/3A94.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _tlv_initializer
+Address: 0x3a98
+File: decompile/3A98.c
+Type: decompile
+
+Called by (1):
+  - 0x3410 (__dyld_initializer) -> decompile/3410.c
+
+Calls: none
+
+================================================================================
+Function: _start
+Address: 0x3aa0
+File: decompile/3AA0.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x3acc (_exit) -> decompile/3ACC.c
+
+================================================================================
+Function: sub_3AA4
+Address: 0x3aa4
+File: decompile/3AA4.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _free
+Address: 0x3aa8
+File: decompile/3AA8.c
+Type: decompile
+
+Called by (1):
+  - 0x3930 (__ZL29getPerThreadBufferFor_dlerrorj) -> decompile/3930.c
+
+Calls: none
+
+================================================================================
+Function: _malloc
+Address: 0x3ab4
+File: decompile/3AB4.c
+Type: decompile
+
+Called by (1):
+  - 0x3930 (__ZL29getPerThreadBufferFor_dlerrorj) -> decompile/3930.c
+
+Calls: none
+
+================================================================================
+Function: __NSGetMachExecuteHeader
+Address: 0x3ac0
+File: decompile/3AC0.c
+Type: decompile
+
+Called by (3):
+  - 0x2bec (_NSVersionOfLinkTimeLibrary) -> decompile/2BEC.c
+  - 0x3038 (_dyld_get_program_sdk_version) -> decompile/3038.c
+  - 0x30c8 (_dyld_get_program_min_os_version) -> decompile/30C8.c
+
+Calls: none
+
+================================================================================
+Function: _exit
+Address: 0x3acc
+File: decompile/3ACC.c
+Type: decompile
+
+Called by (1):
+  - 0x3aa0 (_start) -> decompile/3AA0.c
+
+Calls: none
+
+================================================================================
+Function: _strcmp
+Address: 0x3ad8
+File: decompile/3AD8.c
+Type: decompile
+
+Called by (2):
+  - 0x2ca0 (__ZL11names_matchPcPKc) -> decompile/2CA0.c
+  - 0x2f04 (_dyld_get_sdk_version) -> decompile/2F04.c
+
+Calls: none
+
+================================================================================
+Function: _strlen
+Address: 0x3ae4
+File: decompile/3AE4.c
+Type: decompile
+
+Called by (1):
+  - 0x2ca0 (__ZL11names_matchPcPKc) -> decompile/2CA0.c
+
+Calls: none
+
+================================================================================
+Function: _strncmp
+Address: 0x3af0
+File: decompile/3AF0.c
+Type: decompile
+
+Called by (1):
+  - 0x2ca0 (__ZL11names_matchPcPKc) -> decompile/2CA0.c
+
+Calls: none
+
+================================================================================
+Function: _strrchr
+Address: 0x3afc
+File: decompile/3AFC.c
+Type: decompile
+
+Called by (1):
+  - 0x2ca0 (__ZL11names_matchPcPKc) -> decompile/2CA0.c
+
+Calls: none
+
+================================================================================
+Function: _pthread_getspecific
+Address: 0x3b08
+File: decompile/3B08.c
+Type: decompile
+
+Called by (2):
+  - 0x3930 (__ZL29getPerThreadBufferFor_dlerrorj) -> decompile/3930.c
+  - 0x39d8 (__ZL29hasPerThreadBufferFor_dlerrorv) -> decompile/39D8.c
+
+Calls: none
+
+================================================================================
+Function: _pthread_key_create
+Address: 0x3b14
+File: decompile/3B14.c
+Type: decompile
+
+Called by (1):
+  - 0x3930 (__ZL29getPerThreadBufferFor_dlerrorj) -> decompile/3930.c
+
+Calls: none
+
+================================================================================
+Function: _pthread_mutex_lock
+Address: 0x3b20
+File: decompile/3B20.c
+Type: decompile
+
+Called by (2):
+  - 0x2aa8 (__ZN10LockHelperC1Ev) -> decompile/2AA8.c
+  - 0x2ae4 (__Z21dyldGlobalLockAcquirev) -> decompile/2AE4.c
+
+Calls: none
+
+================================================================================
+Function: _pthread_mutex_unlock
+Address: 0x3b2c
+File: decompile/3B2C.c
+Type: decompile
+
+Called by (2):
+  - 0x2b10 (__ZN10LockHelperD1Ev) -> decompile/2B10.c
+  - 0x2b4c (__Z21dyldGlobalLockReleasev) -> decompile/2B4C.c
+
+Calls: none
+
+================================================================================
+Function: _pthread_setspecific
+Address: 0x3b38
+File: decompile/3B38.c
+Type: decompile
+
+Called by (1):
+  - 0x3930 (__ZL29getPerThreadBufferFor_dlerrorj) -> decompile/3930.c
+
+Calls: none
+
+================================================================================
+Function: _vproc_swap_integer
+Address: 0x3b44
+File: decompile/3B44.c
+Type: decompile
+
+Called by (1):
+  - 0x3a14 (__ZL14isLaunchdOwnedv) -> decompile/3A14.c
+
+Calls: none
+

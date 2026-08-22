@@ -1,0 +1,1766 @@
+# Function Index
+# Total exported: 151
+#================================================================================
+
+================================================================================
+Function: _OSAtomicCompareAndSwap64
+Address: 0x43a0
+File: decompile/43A0.c
+Type: decompile
+
+Called by (1):
+  - 0x43a0 (_OSAtomicCompareAndSwap64) -> decompile/43A0.c
+
+Calls: none
+
+================================================================================
+Function: __OSSpinLockLockSlow
+Address: 0x43c4
+File: decompile/43C4.c
+Type: decompile
+
+Called by (1):
+  - 0x7d8c (sub_7D8C) -> decompile/7D8C.c
+
+Calls: none
+
+================================================================================
+Function: _os_lock_lock
+Address: 0x43f0
+File: decompile/43F0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _os_lock_unlock
+Address: 0x43fc
+File: decompile/43FC.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __platform_memcmp
+Address: 0x4430
+File: decompile/4430.c
+Type: decompile
+
+Called by (1):
+  - 0x4c88 (__simple_getenv) -> decompile/4C88.c
+
+Calls: none
+
+================================================================================
+Function: _os_lock_trylock
+Address: 0x44c4
+File: decompile/44C4.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __platform_strncmp
+Address: 0x44f0
+File: decompile/44F0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __os_semaphore_dispose
+Address: 0x4618
+File: decompile/4618.c
+Type: decompile
+
+Called by (1):
+  - 0x49bc (__os_once) -> decompile/49BC.c
+
+Calls (1):
+  - 0x7d14 (_semaphore_destroy) -> decompile/7D14.c
+
+================================================================================
+Function: __platform_memchr
+Address: 0x4680
+File: decompile/4680.c
+Type: decompile
+
+Called by (11):
+  - 0x4c88 (__simple_getenv) -> decompile/4C88.c
+  - 0x58d0 (__simple_asl_msg_set) -> decompile/58D0.c
+  - 0x5be4 (__simple_sresize) -> decompile/5BE4.c
+  - 0x5c14 (__simple_asl_send) -> decompile/5C14.c
+  - 0x5e04 (__simple_asl_fd_once) -> decompile/5E04.c
+  - 0x5ed8 (_udec) -> decompile/5ED8.c
+  - 0x60b8 (_dec) -> decompile/60B8.c
+  - 0x6500 (___simple_bprintf) -> decompile/6500.c
+  - 0x6f10 (_hex) -> decompile/6F10.c
+  - 0x748c (___pfz_setup) -> decompile/748C.c
+  - 0x7b3c (__platform_memccpy) -> decompile/7B3C.c
+
+Calls: none
+
+================================================================================
+Function: __platform_strcmp
+Address: 0x47b0
+File: decompile/47B0.c
+Type: decompile
+
+Called by (2):
+  - 0x4d2c (__simple_asl_init) -> decompile/4D2C.c
+  - 0x58d0 (__simple_asl_msg_set) -> decompile/58D0.c
+
+Calls: none
+
+================================================================================
+Function: __platform_strchr
+Address: 0x48c0
+File: decompile/48C0.c
+Type: decompile
+
+Called by (1):
+  - 0x6500 (___simple_bprintf) -> decompile/6500.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicTestAndSet
+Address: 0x494c
+File: decompile/494C.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicAdd64Barrier
+Address: 0x49a4
+File: decompile/49A4.c
+Type: decompile
+
+Called by (1):
+  - 0x49a4 (_OSAtomicAdd64Barrier) -> decompile/49A4.c
+
+Calls: none
+
+================================================================================
+Function: __os_once
+Address: 0x49bc
+File: decompile/49BC.c
+Type: decompile
+
+Called by (2):
+  - 0x5078 (__os_alloc_once) -> decompile/5078.c
+  - 0x5c14 (__simple_asl_send) -> decompile/5C14.c
+
+Calls (5):
+  - 0x4618 (__os_semaphore_dispose) -> decompile/4618.c
+  - 0x5344 (__os_semaphore_create) -> decompile/5344.c
+  - 0x53a8 (__os_semaphore_wait) -> decompile/53A8.c
+  - 0x53dc (__os_semaphore_signal) -> decompile/53DC.c
+  - 0x7d44 (_thread_switch) -> decompile/7D44.c
+
+================================================================================
+Function: __setjmp
+Address: 0x4b08
+File: decompile/4B08.c
+Type: decompile
+
+Called by (2):
+  - 0x4b84 (_sigsetjmp) -> decompile/4B84.c
+  - 0x4b94 (_setjmp) -> decompile/4B94.c
+
+Calls: none
+
+================================================================================
+Function: __longjmp
+Address: 0x4b40
+File: decompile/4B40.c
+Type: decompile
+
+Called by (2):
+  - 0x4bc0 (_siglongjmp) -> decompile/4BC0.c
+  - 0x4bd0 (_longjmp) -> decompile/4BD0.c
+
+Calls: none
+
+================================================================================
+Function: _sigsetjmp
+Address: 0x4b84
+File: decompile/4B84.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _setjmp
+Address: 0x4b94
+File: decompile/4B94.c
+Type: decompile
+
+Called by (3):
+  - 0x4b84 (_sigsetjmp) -> decompile/4B84.c
+  - 0x5874 (__simple_vesprintf) -> decompile/5874.c
+  - 0x5afc (__simple_esappend) -> decompile/5AFC.c
+
+Calls: none
+
+================================================================================
+Function: _siglongjmp
+Address: 0x4bc0
+File: decompile/4BC0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _longjmp
+Address: 0x4bd0
+File: decompile/4BD0.c
+Type: decompile
+
+Called by (2):
+  - 0x4bc0 (_siglongjmp) -> decompile/4BC0.c
+  - 0x6d8c (__enlarge) -> decompile/6D8C.c
+
+Calls: none
+
+================================================================================
+Function: _spin_lock
+Address: 0x4c0c
+File: decompile/4C0C.c
+Type: decompile
+
+Called by (1):
+  - 0x765c (__os_lock_spin_lock) -> decompile/765C.c
+
+Calls: none
+
+================================================================================
+Function: _spin_unlock
+Address: 0x4c28
+File: decompile/4C28.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicTestAndSetBarrier
+Address: 0x4c30
+File: decompile/4C30.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __simple_getenv
+Address: 0x4c88
+File: decompile/4C88.c
+Type: decompile
+
+Called by (2):
+  - 0x4d2c (__simple_asl_init) -> decompile/4D2C.c
+  - 0x748c (___pfz_setup) -> decompile/748C.c
+
+Calls (2):
+  - 0x4430 (__platform_memcmp) -> decompile/4430.c
+  - 0x4680 (__platform_memchr) -> decompile/4680.c
+
+================================================================================
+Function: __simple_asl_init
+Address: 0x4d2c
+File: decompile/4D2C.c
+Type: decompile
+
+Called by (1):
+  - 0x643c (___libplatform_init) -> decompile/643C.c
+
+Calls (2):
+  - 0x47b0 (__platform_strcmp) -> decompile/47B0.c
+  - 0x4c88 (__simple_getenv) -> decompile/4C88.c
+
+================================================================================
+Function: __platform_memmove
+Address: 0x4da0
+File: decompile/4DA0.c
+Type: decompile
+
+Called by (3):
+  - 0x5e04 (__simple_asl_fd_once) -> decompile/5E04.c
+  - 0x6d8c (__enlarge) -> decompile/6D8C.c
+  - 0x7b3c (__platform_memccpy) -> decompile/7B3C.c
+
+Calls: none
+
+================================================================================
+Function: ___bzero
+Address: 0x4f40
+File: decompile/4F40.c
+Type: decompile
+
+Called by (1):
+  - 0x748c (___pfz_setup) -> decompile/748C.c
+
+Calls: none
+
+================================================================================
+Function: __platform_memset
+Address: 0x4fb0
+File: decompile/4FB0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _OSMemoryBarrier
+Address: 0x504c
+File: decompile/504C.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicCompareAndSwap64Barrier
+Address: 0x5054
+File: decompile/5054.c
+Type: decompile
+
+Called by (1):
+  - 0x5054 (_OSAtomicCompareAndSwap64Barrier) -> decompile/5054.c
+
+Calls: none
+
+================================================================================
+Function: __os_alloc_once
+Address: 0x5078
+File: decompile/5078.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x49bc (__os_once) -> decompile/49BC.c
+
+================================================================================
+Function: __os_alloc
+Address: 0x50bc
+File: decompile/50BC.c
+Type: decompile
+
+Called by (1):
+  - 0x5078 (__os_alloc_once) -> decompile/5078.c
+
+Calls (1):
+  - 0x5154 (__os_alloc_slow) -> decompile/5154.c
+
+================================================================================
+Function: __os_alloc_slow
+Address: 0x5154
+File: decompile/5154.c
+Type: decompile
+
+Called by (1):
+  - 0x50bc (__os_alloc) -> decompile/50BC.c
+
+Calls (2):
+  - 0x7cf0 (_mach_vm_deallocate) -> decompile/7CF0.c
+  - 0x7cfc (_mach_vm_map) -> decompile/7CFC.c
+
+================================================================================
+Function: _OSAtomicCompareAndSwap32Barrier
+Address: 0x52a8
+File: decompile/52A8.c
+Type: decompile
+
+Called by (1):
+  - 0x52a8 (_OSAtomicCompareAndSwap32Barrier) -> decompile/52A8.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicOr32Barrier
+Address: 0x52cc
+File: decompile/52CC.c
+Type: decompile
+
+Called by (1):
+  - 0x52cc (_OSAtomicOr32Barrier) -> decompile/52CC.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicAdd32Barrier
+Address: 0x52e4
+File: decompile/52E4.c
+Type: decompile
+
+Called by (1):
+  - 0x52e4 (_OSAtomicAdd32Barrier) -> decompile/52E4.c
+
+Calls: none
+
+================================================================================
+Function: __os_lock_handoff_trylock
+Address: 0x52fc
+File: decompile/52FC.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __os_lock_handoff_unlock
+Address: 0x5338
+File: decompile/5338.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __os_semaphore_create
+Address: 0x5344
+File: decompile/5344.c
+Type: decompile
+
+Called by (1):
+  - 0x49bc (__os_once) -> decompile/49BC.c
+
+Calls (2):
+  - 0x7d08 (_semaphore_create) -> decompile/7D08.c
+  - 0x7d44 (_thread_switch) -> decompile/7D44.c
+
+================================================================================
+Function: __os_semaphore_wait
+Address: 0x53a8
+File: decompile/53A8.c
+Type: decompile
+
+Called by (1):
+  - 0x49bc (__os_once) -> decompile/49BC.c
+
+Calls (1):
+  - 0x7d2c (_semaphore_wait) -> decompile/7D2C.c
+
+================================================================================
+Function: __os_semaphore_signal
+Address: 0x53dc
+File: decompile/53DC.c
+Type: decompile
+
+Called by (2):
+  - 0x49bc (__os_once) -> decompile/49BC.c
+  - 0x7864 (___os_once_reset) -> decompile/7864.c
+
+Calls (1):
+  - 0x7d20 (_semaphore_signal) -> decompile/7D20.c
+
+================================================================================
+Function: __os_lock_handoff_lock
+Address: 0x53f8
+File: decompile/53F8.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicEnqueue
+Address: 0x542c
+File: decompile/542C.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicDequeue
+Address: 0x5450
+File: decompile/5450.c
+Type: decompile
+
+Called by (1):
+  - 0x5450 (_OSAtomicDequeue) -> decompile/5450.c
+
+Calls: none
+
+================================================================================
+Function: __platform_memset_pattern4
+Address: 0x5480
+File: decompile/5480.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __platform_memset_pattern8
+Address: 0x54a0
+File: decompile/54A0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __platform_memset_pattern16
+Address: 0x54c0
+File: decompile/54C0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _OSSpinLockTry
+Address: 0x558c
+File: decompile/558C.c
+Type: decompile
+
+Called by (1):
+  - 0x558c (_OSSpinLockTry) -> decompile/558C.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicXor32Barrier
+Address: 0x55ac
+File: decompile/55AC.c
+Type: decompile
+
+Called by (1):
+  - 0x55ac (_OSAtomicXor32Barrier) -> decompile/55AC.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicTestAndClear
+Address: 0x55c4
+File: decompile/55C4.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _sys_icache_invalidate
+Address: 0x5620
+File: decompile/5620.c
+Type: decompile
+
+Called by (1):
+  - 0x5640 (_sys_cache_control) -> decompile/5640.c
+
+Calls: none
+
+================================================================================
+Function: _sys_dcache_flush
+Address: 0x5630
+File: decompile/5630.c
+Type: decompile
+
+Called by (1):
+  - 0x5640 (_sys_cache_control) -> decompile/5640.c
+
+Calls: none
+
+================================================================================
+Function: _sys_cache_control
+Address: 0x5640
+File: decompile/5640.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x5620 (_sys_icache_invalidate) -> decompile/5620.c
+  - 0x5630 (_sys_dcache_flush) -> decompile/5630.c
+
+================================================================================
+Function: __simple_asl_log
+Address: 0x5690
+File: decompile/5690.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __simple_asl_log_prog
+Address: 0x56a0
+File: decompile/56A0.c
+Type: decompile
+
+Called by (1):
+  - 0x5690 (__simple_asl_log) -> decompile/5690.c
+
+Calls (4):
+  - 0x5770 (__simple_asl_msg_new) -> decompile/5770.c
+  - 0x58d0 (__simple_asl_msg_set) -> decompile/58D0.c
+  - 0x5c14 (__simple_asl_send) -> decompile/5C14.c
+  - 0x63bc (__simple_sfree) -> decompile/63BC.c
+
+================================================================================
+Function: __simple_asl_msg_new
+Address: 0x5770
+File: decompile/5770.c
+Type: decompile
+
+Called by (1):
+  - 0x56a0 (__simple_asl_log_prog) -> decompile/56A0.c
+
+Calls (3):
+  - 0x57cc (__simple_salloc) -> decompile/57CC.c
+  - 0x5844 (__simple_sprintf) -> decompile/5844.c
+  - 0x63bc (__simple_sfree) -> decompile/63BC.c
+
+================================================================================
+Function: __simple_salloc
+Address: 0x57cc
+File: decompile/57CC.c
+Type: decompile
+
+Called by (1):
+  - 0x5770 (__simple_asl_msg_new) -> decompile/5770.c
+
+Calls (1):
+  - 0x7d50 (_vm_allocate) -> decompile/7D50.c
+
+================================================================================
+Function: __simple_sprintf
+Address: 0x5844
+File: decompile/5844.c
+Type: decompile
+
+Called by (3):
+  - 0x5770 (__simple_asl_msg_new) -> decompile/5770.c
+  - 0x58d0 (__simple_asl_msg_set) -> decompile/58D0.c
+  - 0x5c14 (__simple_asl_send) -> decompile/5C14.c
+
+Calls (1):
+  - 0x5874 (__simple_vesprintf) -> decompile/5874.c
+
+================================================================================
+Function: __simple_vesprintf
+Address: 0x5874
+File: decompile/5874.c
+Type: decompile
+
+Called by (3):
+  - 0x5844 (__simple_sprintf) -> decompile/5844.c
+  - 0x59f4 (__simple_esprintf) -> decompile/59F4.c
+  - 0x6eac (__simple_vsprintf) -> decompile/6EAC.c
+
+Calls (2):
+  - 0x4b94 (_setjmp) -> decompile/4B94.c
+  - 0x6500 (___simple_bprintf) -> decompile/6500.c
+
+================================================================================
+Function: __simple_asl_msg_set
+Address: 0x58d0
+File: decompile/58D0.c
+Type: decompile
+
+Called by (1):
+  - 0x56a0 (__simple_asl_log_prog) -> decompile/56A0.c
+
+Calls (6):
+  - 0x4680 (__platform_memchr) -> decompile/4680.c
+  - 0x47b0 (__platform_strcmp) -> decompile/47B0.c
+  - 0x5844 (__simple_sprintf) -> decompile/5844.c
+  - 0x59f4 (__simple_esprintf) -> decompile/59F4.c
+  - 0x5bd4 (__simple_string) -> decompile/5BD4.c
+  - 0x5be4 (__simple_sresize) -> decompile/5BE4.c
+
+================================================================================
+Function: __simple_esprintf
+Address: 0x59f4
+File: decompile/59F4.c
+Type: decompile
+
+Called by (2):
+  - 0x58d0 (__simple_asl_msg_set) -> decompile/58D0.c
+  - 0x5c14 (__simple_asl_send) -> decompile/5C14.c
+
+Calls (1):
+  - 0x5874 (__simple_vesprintf) -> decompile/5874.c
+
+================================================================================
+Function: __simple_asl_escape_key
+Address: 0x5a18
+File: decompile/5A18.c
+Type: decompile
+
+Called by (1):
+  - 0x58d0 (__simple_asl_msg_set) -> decompile/58D0.c
+
+Calls: none
+
+================================================================================
+Function: __simple_asl_escape_val
+Address: 0x5a8c
+File: decompile/5A8C.c
+Type: decompile
+
+Called by (2):
+  - 0x58d0 (__simple_asl_msg_set) -> decompile/58D0.c
+  - 0x5c14 (__simple_asl_send) -> decompile/5C14.c
+
+Calls: none
+
+================================================================================
+Function: __simple_sappend
+Address: 0x5aec
+File: decompile/5AEC.c
+Type: decompile
+
+Called by (2):
+  - 0x58d0 (__simple_asl_msg_set) -> decompile/58D0.c
+  - 0x5c14 (__simple_asl_send) -> decompile/5C14.c
+
+Calls: none
+
+================================================================================
+Function: __simple_esappend
+Address: 0x5afc
+File: decompile/5AFC.c
+Type: decompile
+
+Called by (1):
+  - 0x5aec (__simple_sappend) -> decompile/5AEC.c
+
+Calls (1):
+  - 0x4b94 (_setjmp) -> decompile/4B94.c
+
+================================================================================
+Function: __simple_string
+Address: 0x5bd4
+File: decompile/5BD4.c
+Type: decompile
+
+Called by (2):
+  - 0x58d0 (__simple_asl_msg_set) -> decompile/58D0.c
+  - 0x5c14 (__simple_asl_send) -> decompile/5C14.c
+
+Calls: none
+
+================================================================================
+Function: __simple_sresize
+Address: 0x5be4
+File: decompile/5BE4.c
+Type: decompile
+
+Called by (1):
+  - 0x58d0 (__simple_asl_msg_set) -> decompile/58D0.c
+
+Calls (1):
+  - 0x4680 (__platform_memchr) -> decompile/4680.c
+
+================================================================================
+Function: __simple_asl_send
+Address: 0x5c14
+File: decompile/5C14.c
+Type: decompile
+
+Called by (1):
+  - 0x56a0 (__simple_asl_log_prog) -> decompile/56A0.c
+
+Calls (11):
+  - 0x4680 (__platform_memchr) -> decompile/4680.c
+  - 0x49bc (__os_once) -> decompile/49BC.c
+  - 0x5844 (__simple_sprintf) -> decompile/5844.c
+  - 0x59f4 (__simple_esprintf) -> decompile/59F4.c
+  - 0x5aec (__simple_sappend) -> decompile/5AEC.c
+  - 0x5bd4 (__simple_string) -> decompile/5BD4.c
+  - 0x7c84 (___gettimeofday) -> decompile/7C84.c
+  - 0x7c90 (___sendto) -> decompile/7C90.c
+  - 0x7ccc (_getgid) -> decompile/7CCC.c
+  - 0x7cd8 (_getpid) -> decompile/7CD8.c
+  - 0x7ce4 (_getuid) -> decompile/7CE4.c
+
+================================================================================
+Function: __simple_asl_fd_once
+Address: 0x5e04
+File: decompile/5E04.c
+Type: decompile
+
+Called by (1):
+  - 0x5c14 (__simple_asl_send) -> decompile/5C14.c
+
+Calls (6):
+  - 0x4680 (__platform_memchr) -> decompile/4680.c
+  - 0x4da0 (__platform_memmove) -> decompile/4DA0.c
+  - 0x7ca8 (_close) -> decompile/7CA8.c
+  - 0x7cb4 (_connect) -> decompile/7CB4.c
+  - 0x7cc0 (_fcntl) -> decompile/7CC0.c
+  - 0x7d38 (_socket) -> decompile/7D38.c
+
+================================================================================
+Function: _udec
+Address: 0x5ed8
+File: decompile/5ED8.c
+Type: decompile
+
+Called by (2):
+  - 0x6500 (___simple_bprintf) -> decompile/6500.c
+  - 0x7250 (_ydec) -> decompile/7250.c
+
+Calls (1):
+  - 0x4680 (__platform_memchr) -> decompile/4680.c
+
+================================================================================
+Function: _dec
+Address: 0x60b8
+File: decompile/60B8.c
+Type: decompile
+
+Called by (1):
+  - 0x6500 (___simple_bprintf) -> decompile/6500.c
+
+Calls (1):
+  - 0x4680 (__platform_memchr) -> decompile/4680.c
+
+================================================================================
+Function: __simple_sfree
+Address: 0x63bc
+File: decompile/63BC.c
+Type: decompile
+
+Called by (2):
+  - 0x56a0 (__simple_asl_log_prog) -> decompile/56A0.c
+  - 0x5770 (__simple_asl_msg_new) -> decompile/5770.c
+
+Calls (1):
+  - 0x7d5c (_vm_deallocate) -> decompile/7D5C.c
+
+================================================================================
+Function: ___libplatform_init
+Address: 0x643c
+File: decompile/643C.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x748c (___pfz_setup) -> decompile/748C.c
+
+================================================================================
+Function: __simple_vdprintf
+Address: 0x646c
+File: decompile/646C.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x6500 (___simple_bprintf) -> decompile/6500.c
+  - 0x6c98 (__flush) -> decompile/6C98.c
+
+================================================================================
+Function: __flush_reset
+Address: 0x64d8
+File: decompile/64D8.c
+Type: decompile
+
+Called by (2):
+  - 0x646c (__simple_vdprintf) -> decompile/646C.c
+  - 0x6d20 (__simple_dprintf) -> decompile/6D20.c
+
+Calls (1):
+  - 0x6c98 (__flush) -> decompile/6C98.c
+
+================================================================================
+Function: ___simple_bprintf
+Address: 0x6500
+File: decompile/6500.c
+Type: decompile
+
+Called by (3):
+  - 0x5874 (__simple_vesprintf) -> decompile/5874.c
+  - 0x646c (__simple_vdprintf) -> decompile/646C.c
+  - 0x6d20 (__simple_dprintf) -> decompile/6D20.c
+
+Calls (6):
+  - 0x4680 (__platform_memchr) -> decompile/4680.c
+  - 0x48c0 (__platform_strchr) -> decompile/48C0.c
+  - 0x5ed8 (_udec) -> decompile/5ED8.c
+  - 0x60b8 (_dec) -> decompile/60B8.c
+  - 0x6f10 (_hex) -> decompile/6F10.c
+  - 0x7250 (_ydec) -> decompile/7250.c
+
+================================================================================
+Function: __flush
+Address: 0x6c98
+File: decompile/6C98.c
+Type: decompile
+
+Called by (5):
+  - 0x646c (__simple_vdprintf) -> decompile/646C.c
+  - 0x64d8 (__flush_reset) -> decompile/64D8.c
+  - 0x6d20 (__simple_dprintf) -> decompile/6D20.c
+  - 0x6ec4 (__simple_put) -> decompile/6EC4.c
+  - 0x6ecc (__simple_putline) -> decompile/6ECC.c
+
+Calls (2):
+  - 0x7c78 (___error) -> decompile/7C78.c
+  - 0x7d68 (_write) -> decompile/7D68.c
+
+================================================================================
+Function: __simple_dprintf
+Address: 0x6d20
+File: decompile/6D20.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x6500 (___simple_bprintf) -> decompile/6500.c
+  - 0x6c98 (__flush) -> decompile/6C98.c
+
+================================================================================
+Function: __enlarge
+Address: 0x6d8c
+File: decompile/6D8C.c
+Type: decompile
+
+Called by (1):
+  - 0x57cc (__simple_salloc) -> decompile/57CC.c
+
+Calls (4):
+  - 0x4bd0 (_longjmp) -> decompile/4BD0.c
+  - 0x4da0 (__platform_memmove) -> decompile/4DA0.c
+  - 0x7d50 (_vm_allocate) -> decompile/7D50.c
+  - 0x7d5c (_vm_deallocate) -> decompile/7D5C.c
+
+================================================================================
+Function: __simple_vsprintf
+Address: 0x6eac
+File: decompile/6EAC.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __simple_put
+Address: 0x6ec4
+File: decompile/6EC4.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __simple_putline
+Address: 0x6ecc
+File: decompile/6ECC.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x6c98 (__flush) -> decompile/6C98.c
+
+================================================================================
+Function: _hex
+Address: 0x6f10
+File: decompile/6F10.c
+Type: decompile
+
+Called by (1):
+  - 0x6500 (___simple_bprintf) -> decompile/6500.c
+
+Calls (1):
+  - 0x4680 (__platform_memchr) -> decompile/4680.c
+
+================================================================================
+Function: _ydec
+Address: 0x7250
+File: decompile/7250.c
+Type: decompile
+
+Called by (1):
+  - 0x6500 (___simple_bprintf) -> decompile/6500.c
+
+Calls (1):
+  - 0x5ed8 (_udec) -> decompile/5ED8.c
+
+================================================================================
+Function: ___pfz_setup
+Address: 0x748c
+File: decompile/748C.c
+Type: decompile
+
+Called by (1):
+  - 0x643c (___libplatform_init) -> decompile/643C.c
+
+Calls (3):
+  - 0x4680 (__platform_memchr) -> decompile/4680.c
+  - 0x4c88 (__simple_getenv) -> decompile/4C88.c
+  - 0x4f40 (___bzero) -> decompile/4F40.c
+
+================================================================================
+Function: __OSSpinLockLockSlow$VARIANT$mp
+Address: 0x7590
+File: decompile/7590.c
+Type: decompile
+
+Called by (1):
+  - 0x43c4 (__OSSpinLockLockSlow) -> decompile/43C4.c
+
+Calls (2):
+  - 0x7638 (__os_lock_corruption_abort) -> decompile/7638.c
+  - 0x7d44 (_thread_switch) -> decompile/7D44.c
+
+================================================================================
+Function: __os_lock_corruption_abort
+Address: 0x7638
+File: decompile/7638.c
+Type: decompile
+
+Called by (1):
+  - 0x7590 (__OSSpinLockLockSlow$VARIANT$mp) -> decompile/7590.c
+
+Calls: none
+
+================================================================================
+Function: _spin_lock_try
+Address: 0x763c
+File: decompile/763C.c
+Type: decompile
+
+Called by (1):
+  - 0x763c (_spin_lock_try) -> decompile/763C.c
+
+Calls: none
+
+================================================================================
+Function: __os_lock_spin_lock
+Address: 0x765c
+File: decompile/765C.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __os_lock_spin_trylock
+Address: 0x7664
+File: decompile/7664.c
+Type: decompile
+
+Called by (1):
+  - 0x7664 (__os_lock_spin_trylock) -> decompile/7664.c
+
+Calls: none
+
+================================================================================
+Function: __os_lock_spin_unlock
+Address: 0x7688
+File: decompile/7688.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __os_lock_handoff_lock_slow
+Address: 0x7694
+File: decompile/7694.c
+Type: decompile
+
+Called by (1):
+  - 0x53f8 (__os_lock_handoff_lock) -> decompile/53F8.c
+
+Calls (1):
+  - 0x7d44 (_thread_switch) -> decompile/7D44.c
+
+================================================================================
+Function: _OSAtomicAdd32
+Address: 0x7720
+File: decompile/7720.c
+Type: decompile
+
+Called by (1):
+  - 0x7720 (_OSAtomicAdd32) -> decompile/7720.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicIncrement32
+Address: 0x7738
+File: decompile/7738.c
+Type: decompile
+
+Called by (1):
+  - 0x7738 (_OSAtomicIncrement32) -> decompile/7738.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicDecrement32
+Address: 0x7750
+File: decompile/7750.c
+Type: decompile
+
+Called by (1):
+  - 0x7750 (_OSAtomicDecrement32) -> decompile/7750.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicAdd64
+Address: 0x7768
+File: decompile/7768.c
+Type: decompile
+
+Called by (1):
+  - 0x7768 (_OSAtomicAdd64) -> decompile/7768.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicIncrement64
+Address: 0x7780
+File: decompile/7780.c
+Type: decompile
+
+Called by (1):
+  - 0x7780 (_OSAtomicIncrement64) -> decompile/7780.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicDecrement64
+Address: 0x7798
+File: decompile/7798.c
+Type: decompile
+
+Called by (1):
+  - 0x7798 (_OSAtomicDecrement64) -> decompile/7798.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicAnd32
+Address: 0x77b0
+File: decompile/77B0.c
+Type: decompile
+
+Called by (1):
+  - 0x77b0 (_OSAtomicAnd32) -> decompile/77B0.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicAnd32Orig
+Address: 0x77c8
+File: decompile/77C8.c
+Type: decompile
+
+Called by (1):
+  - 0x77c8 (_OSAtomicAnd32Orig) -> decompile/77C8.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicOr32
+Address: 0x77e0
+File: decompile/77E0.c
+Type: decompile
+
+Called by (1):
+  - 0x77e0 (_OSAtomicOr32) -> decompile/77E0.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicOr32Orig
+Address: 0x77f8
+File: decompile/77F8.c
+Type: decompile
+
+Called by (1):
+  - 0x77f8 (_OSAtomicOr32Orig) -> decompile/77F8.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicXor32
+Address: 0x7810
+File: decompile/7810.c
+Type: decompile
+
+Called by (1):
+  - 0x7810 (_OSAtomicXor32) -> decompile/7810.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicXor32Orig
+Address: 0x7828
+File: decompile/7828.c
+Type: decompile
+
+Called by (1):
+  - 0x7828 (_OSAtomicXor32Orig) -> decompile/7828.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicCompareAndSwap32
+Address: 0x7840
+File: decompile/7840.c
+Type: decompile
+
+Called by (1):
+  - 0x7840 (_OSAtomicCompareAndSwap32) -> decompile/7840.c
+
+Calls: none
+
+================================================================================
+Function: ___os_once_reset
+Address: 0x7864
+File: decompile/7864.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x53dc (__os_semaphore_signal) -> decompile/53DC.c
+  - 0x7d44 (_thread_switch) -> decompile/7D44.c
+
+================================================================================
+Function: __OSSpinLockLockSlow$VARIANT$wfe
+Address: 0x78f4
+File: decompile/78F4.c
+Type: decompile
+
+Called by (1):
+  - 0x43c4 (__OSSpinLockLockSlow) -> decompile/43C4.c
+
+Calls (2):
+  - 0x7998 (__os_lock_corruption_abort_0) -> decompile/7998.c
+  - 0x7d44 (_thread_switch) -> decompile/7D44.c
+
+================================================================================
+Function: __os_lock_corruption_abort_0
+Address: 0x7998
+File: decompile/7998.c
+Type: decompile
+
+Called by (1):
+  - 0x78f4 (__OSSpinLockLockSlow$VARIANT$wfe) -> decompile/78F4.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicIncrement32Barrier
+Address: 0x799c
+File: decompile/799C.c
+Type: decompile
+
+Called by (1):
+  - 0x799c (_OSAtomicIncrement32Barrier) -> decompile/799C.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicDecrement32Barrier
+Address: 0x79b4
+File: decompile/79B4.c
+Type: decompile
+
+Called by (1):
+  - 0x79b4 (_OSAtomicDecrement32Barrier) -> decompile/79B4.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicIncrement64Barrier
+Address: 0x79cc
+File: decompile/79CC.c
+Type: decompile
+
+Called by (1):
+  - 0x79cc (_OSAtomicIncrement64Barrier) -> decompile/79CC.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicDecrement64Barrier
+Address: 0x79e4
+File: decompile/79E4.c
+Type: decompile
+
+Called by (1):
+  - 0x79e4 (_OSAtomicDecrement64Barrier) -> decompile/79E4.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicAnd32Barrier
+Address: 0x79fc
+File: decompile/79FC.c
+Type: decompile
+
+Called by (1):
+  - 0x79fc (_OSAtomicAnd32Barrier) -> decompile/79FC.c
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicAnd32OrigBarrier
+Address: 0x7a14
+File: decompile/7A14.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicOr32OrigBarrier
+Address: 0x7a2c
+File: decompile/7A2C.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicXor32OrigBarrier
+Address: 0x7a44
+File: decompile/7A44.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _OSAtomicTestAndClearBarrier
+Address: 0x7a5c
+File: decompile/7A5C.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __sigunaltstack
+Address: 0x7ab8
+File: decompile/7AB8.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __sigtramp
+Address: 0x7ad4
+File: decompile/7AD4.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __platform_memccpy
+Address: 0x7b3c
+File: decompile/7B3C.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x4680 (__platform_memchr) -> decompile/4680.c
+  - 0x4da0 (__platform_memmove) -> decompile/4DA0.c
+
+================================================================================
+Function: _ffs
+Address: 0x7bb8
+File: decompile/7BB8.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _ffsll
+Address: 0x7bd0
+File: decompile/7BD0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _fls
+Address: 0x7be8
+File: decompile/7BE8.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _flsll
+Address: 0x7bf8
+File: decompile/7BF8.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _swapcontext
+Address: 0x7c08
+File: decompile/7C08.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x7c78 (___error) -> decompile/7C78.c
+
+================================================================================
+Function: _makecontext
+Address: 0x7c28
+File: decompile/7C28.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: _getcontext
+Address: 0x7c2c
+File: decompile/7C2C.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x7c78 (___error) -> decompile/7C78.c
+
+================================================================================
+Function: _setcontext
+Address: 0x7c4c
+File: decompile/7C4C.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x7c78 (___error) -> decompile/7C78.c
+
+================================================================================
+Function: j___OSSpinLockLockSlow
+Address: 0x7c6c
+File: decompile/7C6C.c
+Type: decompile
+
+Called by (1):
+  - 0x4c0c (_spin_lock) -> decompile/4C0C.c
+
+Calls: none
+
+================================================================================
+Function: ___error
+Address: 0x7c78
+File: decompile/7C78.c
+Type: decompile
+
+Called by (4):
+  - 0x6c98 (__flush) -> decompile/6C98.c
+  - 0x7c08 (_swapcontext) -> decompile/7C08.c
+  - 0x7c2c (_getcontext) -> decompile/7C2C.c
+  - 0x7c4c (_setcontext) -> decompile/7C4C.c
+
+Calls: none
+
+================================================================================
+Function: ___gettimeofday
+Address: 0x7c84
+File: decompile/7C84.c
+Type: decompile
+
+Called by (1):
+  - 0x5c14 (__simple_asl_send) -> decompile/5C14.c
+
+Calls: none
+
+================================================================================
+Function: ___sendto
+Address: 0x7c90
+File: decompile/7C90.c
+Type: decompile
+
+Called by (1):
+  - 0x5c14 (__simple_asl_send) -> decompile/5C14.c
+
+Calls: none
+
+================================================================================
+Function: ___sigreturn
+Address: 0x7c9c
+File: decompile/7C9C.c
+Type: decompile
+
+Called by (2):
+  - 0x7ab8 (__sigunaltstack) -> decompile/7AB8.c
+  - 0x7ad4 (__sigtramp) -> decompile/7AD4.c
+
+Calls: none
+
+================================================================================
+Function: _close
+Address: 0x7ca8
+File: decompile/7CA8.c
+Type: decompile
+
+Called by (1):
+  - 0x5e04 (__simple_asl_fd_once) -> decompile/5E04.c
+
+Calls: none
+
+================================================================================
+Function: _connect
+Address: 0x7cb4
+File: decompile/7CB4.c
+Type: decompile
+
+Called by (1):
+  - 0x5e04 (__simple_asl_fd_once) -> decompile/5E04.c
+
+Calls: none
+
+================================================================================
+Function: _fcntl
+Address: 0x7cc0
+File: decompile/7CC0.c
+Type: decompile
+
+Called by (1):
+  - 0x5e04 (__simple_asl_fd_once) -> decompile/5E04.c
+
+Calls: none
+
+================================================================================
+Function: _getgid
+Address: 0x7ccc
+File: decompile/7CCC.c
+Type: decompile
+
+Called by (1):
+  - 0x5c14 (__simple_asl_send) -> decompile/5C14.c
+
+Calls: none
+
+================================================================================
+Function: _getpid
+Address: 0x7cd8
+File: decompile/7CD8.c
+Type: decompile
+
+Called by (1):
+  - 0x5c14 (__simple_asl_send) -> decompile/5C14.c
+
+Calls: none
+
+================================================================================
+Function: _getuid
+Address: 0x7ce4
+File: decompile/7CE4.c
+Type: decompile
+
+Called by (1):
+  - 0x5c14 (__simple_asl_send) -> decompile/5C14.c
+
+Calls: none
+
+================================================================================
+Function: _mach_vm_deallocate
+Address: 0x7cf0
+File: decompile/7CF0.c
+Type: decompile
+
+Called by (1):
+  - 0x5154 (__os_alloc_slow) -> decompile/5154.c
+
+Calls: none
+
+================================================================================
+Function: _mach_vm_map
+Address: 0x7cfc
+File: decompile/7CFC.c
+Type: decompile
+
+Called by (1):
+  - 0x5154 (__os_alloc_slow) -> decompile/5154.c
+
+Calls: none
+
+================================================================================
+Function: _semaphore_create
+Address: 0x7d08
+File: decompile/7D08.c
+Type: decompile
+
+Called by (1):
+  - 0x5344 (__os_semaphore_create) -> decompile/5344.c
+
+Calls: none
+
+================================================================================
+Function: _semaphore_destroy
+Address: 0x7d14
+File: decompile/7D14.c
+Type: decompile
+
+Called by (1):
+  - 0x4618 (__os_semaphore_dispose) -> decompile/4618.c
+
+Calls: none
+
+================================================================================
+Function: _semaphore_signal
+Address: 0x7d20
+File: decompile/7D20.c
+Type: decompile
+
+Called by (1):
+  - 0x53dc (__os_semaphore_signal) -> decompile/53DC.c
+
+Calls: none
+
+================================================================================
+Function: _semaphore_wait
+Address: 0x7d2c
+File: decompile/7D2C.c
+Type: decompile
+
+Called by (1):
+  - 0x53a8 (__os_semaphore_wait) -> decompile/53A8.c
+
+Calls: none
+
+================================================================================
+Function: _socket
+Address: 0x7d38
+File: decompile/7D38.c
+Type: decompile
+
+Called by (1):
+  - 0x5e04 (__simple_asl_fd_once) -> decompile/5E04.c
+
+Calls: none
+
+================================================================================
+Function: _thread_switch
+Address: 0x7d44
+File: decompile/7D44.c
+Type: decompile
+
+Called by (6):
+  - 0x49bc (__os_once) -> decompile/49BC.c
+  - 0x5344 (__os_semaphore_create) -> decompile/5344.c
+  - 0x7590 (__OSSpinLockLockSlow$VARIANT$mp) -> decompile/7590.c
+  - 0x7694 (__os_lock_handoff_lock_slow) -> decompile/7694.c
+  - 0x7864 (___os_once_reset) -> decompile/7864.c
+  - 0x78f4 (__OSSpinLockLockSlow$VARIANT$wfe) -> decompile/78F4.c
+
+Calls: none
+
+================================================================================
+Function: _vm_allocate
+Address: 0x7d50
+File: decompile/7D50.c
+Type: decompile
+
+Called by (2):
+  - 0x57cc (__simple_salloc) -> decompile/57CC.c
+  - 0x6d8c (__enlarge) -> decompile/6D8C.c
+
+Calls: none
+
+================================================================================
+Function: _vm_deallocate
+Address: 0x7d5c
+File: decompile/7D5C.c
+Type: decompile
+
+Called by (2):
+  - 0x63bc (__simple_sfree) -> decompile/63BC.c
+  - 0x6d8c (__enlarge) -> decompile/6D8C.c
+
+Calls: none
+
+================================================================================
+Function: _write
+Address: 0x7d68
+File: decompile/7D68.c
+Type: decompile
+
+Called by (1):
+  - 0x6c98 (__flush) -> decompile/6C98.c
+
+Calls: none
+
+================================================================================
+Function: sub_7D8C
+Address: 0x7d8c
+File: decompile/7D8C.c
+Type: decompile
+
+Called by (2):
+  - 0x7c6c (j___OSSpinLockLockSlow) -> decompile/7C6C.c
+  - 0x7d8c (sub_7D8C) -> decompile/7D8C.c
+
+Calls (1):
+  - 0x43c4 (__OSSpinLockLockSlow) -> decompile/43C4.c
+

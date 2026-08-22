@@ -1,0 +1,12 @@
+/*
+ * func-name: sub_AAD4
+ * func-address: 0xaad4
+ * export-type: decompile
+ * callers: none
+ * callees: 0x3d04
+ */
+
+bool sub_AAD4()
+{
+  return (unsigned int)sub_3D04() == 1;
+}

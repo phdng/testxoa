@@ -1,0 +1,112 @@
+# Fallback to disassembly for 108 functions
+# Format: address | function_name | reason | output_file
+#================================================================================
+
+0x10000fbec | sub_10000FBEC | function too large (19100 bytes, limit 16384 bytes) | disassembly/10000FBEC.asm
+0x100016ff4 | sub_100016FF4 | function too large (16612 bytes, limit 16384 bytes) | disassembly/100016FF4.asm
+0x10001b4b8 | sub_10001B4B8 | function too large (17940 bytes, limit 16384 bytes) | disassembly/10001B4B8.asm
+0x1000249dc | sub_1000249DC | function too large (24356 bytes, limit 16384 bytes) | disassembly/1000249DC.asm
+0x10002d990 | sub_10002D990 | function too large (18880 bytes, limit 16384 bytes) | disassembly/10002D990.asm
+0x10004de90 | sub_10004DE90 | too many instructions (>3000, limit 3000) | disassembly/10004DE90.asm
+0x100060150 | sub_100060150 | function too large (17356 bytes, limit 16384 bytes) | disassembly/100060150.asm
+0x10007a1f8 | sub_10007A1F8 | function too large (23100 bytes, limit 16384 bytes) | disassembly/10007A1F8.asm
+0x1000912a8 | sub_1000912A8 | too many instructions (>3000, limit 3000) | disassembly/1000912A8.asm
+0x100098340 | sub_100098340 | too many instructions (>3000, limit 3000) | disassembly/100098340.asm
+0x1000aa158 | sub_1000AA158 | function too large (30092 bytes, limit 16384 bytes) | disassembly/1000AA158.asm
+0x1000bcca4 | sub_1000BCCA4 | function too large (28636 bytes, limit 16384 bytes) | disassembly/1000BCCA4.asm
+0x1000d01bc | sub_1000D01BC | too many instructions (>3000, limit 3000) | disassembly/1000D01BC.asm
+0x1000d5f34 | sub_1000D5F34 | function too large (18976 bytes, limit 16384 bytes) | disassembly/1000D5F34.asm
+0x100101d74 | sub_100101D74 | function too large (56476 bytes, limit 16384 bytes) | disassembly/100101D74.asm
+0x10010fbec | sub_10010FBEC | function too large (56452 bytes, limit 16384 bytes) | disassembly/10010FBEC.asm
+0x1001225fc | sub_1001225FC | function too large (17516 bytes, limit 16384 bytes) | disassembly/1001225FC.asm
+0x100126c18 | sub_100126C18 | function too large (19048 bytes, limit 16384 bytes) | disassembly/100126C18.asm
+0x10013a50c | sub_10013A50C | function too large (29096 bytes, limit 16384 bytes) | disassembly/10013A50C.asm
+0x100148be0 | sub_100148BE0 | function too large (22084 bytes, limit 16384 bytes) | disassembly/100148BE0.asm
+0x10014f720 | sub_10014F720 | function too large (22068 bytes, limit 16384 bytes) | disassembly/10014F720.asm
+0x1001559ec | sub_1001559EC | function too large (23388 bytes, limit 16384 bytes) | disassembly/1001559EC.asm
+0x100160c10 | sub_100160C10 | function too large (24372 bytes, limit 16384 bytes) | disassembly/100160C10.asm
+0x100187940 | sub_100187940 | too many instructions (>3000, limit 3000) | disassembly/100187940.asm
+0x10018c044 | sub_10018C044 | function too large (21316 bytes, limit 16384 bytes) | disassembly/10018C044.asm
+0x1001922f4 | sub_1001922F4 | too many instructions (>3000, limit 3000) | disassembly/1001922F4.asm
+0x1001959fc | sub_1001959FC | function too large (25916 bytes, limit 16384 bytes) | disassembly/1001959FC.asm
+0x1001a3398 | sub_1001A3398 | function too large (34060 bytes, limit 16384 bytes) | disassembly/1001A3398.asm
+0x1001bc380 | sub_1001BC380 | function too large (35268 bytes, limit 16384 bytes) | disassembly/1001BC380.asm
+0x1001c5c1c | sub_1001C5C1C | function too large (35140 bytes, limit 16384 bytes) | disassembly/1001C5C1C.asm
+0x1001d8ec8 | sub_1001D8EC8 | too many instructions (>3000, limit 3000) | disassembly/1001D8EC8.asm
+0x1001dcb94 | sub_1001DCB94 | too many instructions (>3000, limit 3000) | disassembly/1001DCB94.asm
+0x1001fcab4 | sub_1001FCAB4 | function too large (17388 bytes, limit 16384 bytes) | disassembly/1001FCAB4.asm
+0x10020108c | sub_10020108C | function too large (17712 bytes, limit 16384 bytes) | disassembly/10020108C.asm
+0x100208428 | sub_100208428 | function too large (24612 bytes, limit 16384 bytes) | disassembly/100208428.asm
+0x100213168 | sub_100213168 | function too large (23232 bytes, limit 16384 bytes) | disassembly/100213168.asm
+0x100219e74 | sub_100219E74 | function too large (19756 bytes, limit 16384 bytes) | disassembly/100219E74.asm
+0x10023a674 | sub_10023A674 | function too large (16912 bytes, limit 16384 bytes) | disassembly/10023A674.asm
+0x10023f5e8 | sub_10023F5E8 | function too large (32672 bytes, limit 16384 bytes) | disassembly/10023F5E8.asm
+0x1002488b8 | sub_1002488B8 | too many instructions (>3000, limit 3000) | disassembly/1002488B8.asm
+0x10024c8ec | sub_10024C8EC | too many instructions (>3000, limit 3000) | disassembly/10024C8EC.asm
+0x100250a1c | sub_100250A1C | too many instructions (>3000, limit 3000) | disassembly/100250A1C.asm
+0x100257420 | sub_100257420 | function too large (38844 bytes, limit 16384 bytes) | disassembly/100257420.asm
+0x100266e3c | sub_100266E3C | function too large (38944 bytes, limit 16384 bytes) | disassembly/100266E3C.asm
+0x100284938 | sub_100284938 | function too large (16832 bytes, limit 16384 bytes) | disassembly/100284938.asm
+0x10028a3e4 | sub_10028A3E4 | function too large (25208 bytes, limit 16384 bytes) | disassembly/10028A3E4.asm
+0x100290680 | sub_100290680 | function too large (25136 bytes, limit 16384 bytes) | disassembly/100290680.asm
+0x10029ad00 | sub_10029AD00 | function too large (24892 bytes, limit 16384 bytes) | disassembly/10029AD00.asm
+0x1002d76d8 | sub_1002D76D8 | function too large (24796 bytes, limit 16384 bytes) | disassembly/1002D76D8.asm
+0x1002dd8c8 | sub_1002DD8C8 | function too large (24788 bytes, limit 16384 bytes) | disassembly/1002DD8C8.asm
+0x1002e8394 | sub_1002E8394 | function too large (38516 bytes, limit 16384 bytes) | disassembly/1002E8394.asm
+0x1002f7a38 | sub_1002F7A38 | function too large (21300 bytes, limit 16384 bytes) | disassembly/1002F7A38.asm
+0x1003058b8 | sub_1003058B8 | too many instructions (>3000, limit 3000) | disassembly/1003058B8.asm
+0x10030bcb4 | sub_10030BCB4 | too many instructions (>3000, limit 3000) | disassembly/10030BCB4.asm
+0x10031033c | sub_10031033C | too many instructions (>3000, limit 3000) | disassembly/10031033C.asm
+0x1003195cc | sub_1003195CC | function too large (18608 bytes, limit 16384 bytes) | disassembly/1003195CC.asm
+0x100339ac8 | sub_100339AC8 | too many instructions (>3000, limit 3000) | disassembly/100339AC8.asm
+0x1003400a0 | sub_1003400A0 | function too large (26036 bytes, limit 16384 bytes) | disassembly/1003400A0.asm
+0x1003470c0 | sub_1003470C0 | function too large (29652 bytes, limit 16384 bytes) | disassembly/1003470C0.asm
+0x10035a1e0 | sub_10035A1E0 | function too large (32288 bytes, limit 16384 bytes) | disassembly/10035A1E0.asm
+0x10036b5dc | sub_10036B5DC | function too large (35872 bytes, limit 16384 bytes) | disassembly/10036B5DC.asm
+0x100389950 | sub_100389950 | too many instructions (>3000, limit 3000) | disassembly/100389950.asm
+0x1003962c0 | sub_1003962C0 | function too large (18028 bytes, limit 16384 bytes) | disassembly/1003962C0.asm
+0x10039ed7c | sub_10039ED7C | function too large (22656 bytes, limit 16384 bytes) | disassembly/10039ED7C.asm
+0x1003a73cc | sub_1003A73CC | function too large (20292 bytes, limit 16384 bytes) | disassembly/1003A73CC.asm
+0x1003c9210 | sub_1003C9210 | function too large (19312 bytes, limit 16384 bytes) | disassembly/1003C9210.asm
+0x1003d0f00 | sub_1003D0F00 | function too large (24800 bytes, limit 16384 bytes) | disassembly/1003D0F00.asm
+0x1003dc1e4 | sub_1003DC1E4 | function too large (36624 bytes, limit 16384 bytes) | disassembly/1003DC1E4.asm
+0x1003e9438 | sub_1003E9438 | function too large (22316 bytes, limit 16384 bytes) | disassembly/1003E9438.asm
+0x100440a68 | sub_100440A68 | function too large (16756 bytes, limit 16384 bytes) | disassembly/100440A68.asm
+0x10044d2c8 | sub_10044D2C8 | function too large (16628 bytes, limit 16384 bytes) | disassembly/10044D2C8.asm
+0x1004599f8 | sub_1004599F8 | function too large (16716 bytes, limit 16384 bytes) | disassembly/1004599F8.asm
+0x100465bd0 | sub_100465BD0 | too many instructions (>3000, limit 3000) | disassembly/100465BD0.asm
+0x10047173c | sub_10047173C | function too large (16852 bytes, limit 16384 bytes) | disassembly/10047173C.asm
+0x100489030 | sub_100489030 | function too large (16880 bytes, limit 16384 bytes) | disassembly/100489030.asm
+0x1004966ec | sub_1004966EC | too many instructions (>3000, limit 3000) | disassembly/1004966EC.asm
+0x1004a33d8 | sub_1004A33D8 | function too large (18380 bytes, limit 16384 bytes) | disassembly/1004A33D8.asm
+0x1004b0e50 | sub_1004B0E50 | too many instructions (>3000, limit 3000) | disassembly/1004B0E50.asm
+0x1004c06d8 | sub_1004C06D8 | function too large (16764 bytes, limit 16384 bytes) | disassembly/1004C06D8.asm
+0x10050c8c0 | sub_10050C8C0 | too many instructions (>3000, limit 3000) | disassembly/10050C8C0.asm
+0x100524ea0 | sub_100524EA0 | function too large (41808 bytes, limit 16384 bytes) | disassembly/100524EA0.asm
+0x1005308bc | sub_1005308BC | function too large (42012 bytes, limit 16384 bytes) | disassembly/1005308BC.asm
+0x10053df44 | sub_10053DF44 | function too large (41812 bytes, limit 16384 bytes) | disassembly/10053DF44.asm
+0x100548688 | sub_100548688 | function too large (41784 bytes, limit 16384 bytes) | disassembly/100548688.asm
+0x100552c58 | sub_100552C58 | function too large (28644 bytes, limit 16384 bytes) | disassembly/100552C58.asm
+0x10055a0fc | sub_10055A0FC | function too large (19128 bytes, limit 16384 bytes) | disassembly/10055A0FC.asm
+0x100560e84 | sub_100560E84 | function too large (26240 bytes, limit 16384 bytes) | disassembly/100560E84.asm
+0x100578ec0 | sub_100578EC0 | function too large (31440 bytes, limit 16384 bytes) | disassembly/100578EC0.asm
+0x1005b5198 | sub_1005B5198 | function too large (29484 bytes, limit 16384 bytes) | disassembly/1005B5198.asm
+0x1005c0778 | sub_1005C0778 | function too large (21276 bytes, limit 16384 bytes) | disassembly/1005C0778.asm
+0x1005c8e78 | sub_1005C8E78 | function too large (24828 bytes, limit 16384 bytes) | disassembly/1005C8E78.asm
+0x1005cf150 | sub_1005CF150 | too many instructions (>3000, limit 3000) | disassembly/1005CF150.asm
+0x1006163fc | sub_1006163FC | function too large (20280 bytes, limit 16384 bytes) | disassembly/1006163FC.asm
+0x100627174 | sub_100627174 | function too large (21284 bytes, limit 16384 bytes) | disassembly/100627174.asm
+0x10063e314 | sub_10063E314 | function too large (24212 bytes, limit 16384 bytes) | disassembly/10063E314.asm
+0x100652130 | sub_100652130 | function too large (21188 bytes, limit 16384 bytes) | disassembly/100652130.asm
+0x1006581d8 | sub_1006581D8 | function too large (21104 bytes, limit 16384 bytes) | disassembly/1006581D8.asm
+0x1006a0074 | sub_1006A0074 | function too large (29620 bytes, limit 16384 bytes) | disassembly/1006A0074.asm
+0x1006a8df0 | sub_1006A8DF0 | too many instructions (>3000, limit 3000) | disassembly/1006A8DF0.asm
+0x1006b9900 | sub_1006B9900 | function too large (17828 bytes, limit 16384 bytes) | disassembly/1006B9900.asm
+0x1006be0f0 | sub_1006BE0F0 | function too large (26432 bytes, limit 16384 bytes) | disassembly/1006BE0F0.asm
+0x1006c4994 | sub_1006C4994 | too many instructions (>3000, limit 3000) | disassembly/1006C4994.asm
+0x1006caacc | sub_1006CAACC | function too large (17060 bytes, limit 16384 bytes) | disassembly/1006CAACC.asm
+0x1006d66ec | sub_1006D66EC | too many instructions (>3000, limit 3000) | disassembly/1006D66EC.asm
+0x1006da2a8 | sub_1006DA2A8 | too many instructions (>3000, limit 3000) | disassembly/1006DA2A8.asm
+0x1006eeae0 | -[AppDelegate application:didFinishLaunchingWithOptions:] | function too large (381452 bytes, limit 16384 bytes) | disassembly/1006EEAE0.asm
+0x100752afc | sub_100752AFC | function too large (32124 bytes, limit 16384 bytes) | disassembly/100752AFC.asm
+0x10078ab08 | sub_10078AB08 | too many instructions (>3000, limit 3000) | disassembly/10078AB08.asm

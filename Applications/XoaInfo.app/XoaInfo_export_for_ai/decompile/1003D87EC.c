@@ -1,0 +1,92 @@
+/*
+ * func-name: sub_1003D87EC
+ * func-address: 0x1003d87ec
+ * export-type: decompile
+ * callers: none
+ * callees: 0x100798e78, 0x100798e90, 0x100798ec0
+ */
+
+__int64 __fastcall sub_1003D87EC(
+        double a1,
+        __int64 a2,
+        __int64 a3,
+        __int64 a4,
+        __int64 a5,
+        __int64 a6,
+        __int64 a7,
+        __int64 a8,
+        __int64 a9,
+        __int64 a10,
+        __int64 a11,
+        __int64 a12,
+        __int64 a13,
+        __int64 a14,
+        __int64 a15,
+        __int64 a16,
+        __int64 a17,
+        __int64 a18,
+        __int64 a19,
+        __int64 a20,
+        __int64 a21,
+        __int64 a22,
+        __int64 a23,
+        __int64 a24,
+        __int64 a25,
+        __int64 a26,
+        __int64 a27,
+        __int64 a28,
+        __int64 a29,
+        __int64 a30,
+        __int64 a31,
+        __int64 a32,
+        __int64 a33,
+        __int64 a34,
+        __int64 a35,
+        __int64 a36,
+        __int64 a37,
+        __int64 a38,
+        __int64 a39,
+        __int64 a40,
+        __int64 a41,
+        __int64 a42,
+        __int64 a43,
+        __int64 a44,
+        __int64 a45,
+        __int64 a46,
+        __int64 a47,
+        __int64 a48,
+        __int64 a49,
+        __int64 a50,
+        __int64 a51,
+        __int64 a52,
+        __int64 a53,
+        __int64 a54,
+        __int64 a55,
+        __int64 a56,
+        __int64 a57,
+        __int64 a58,
+        __int64 a59,
+        __int64 a60,
+        __int64 a61,
+        __int64 a62,
+        __int64 a63)
+{
+  _DWORD *a65; // [xsp+1B8h] [xbp+1B8h]
+  __int64 v65; // x29
+  int v66; // s8
+  double v67; // d0
+  id v68; // x21
+  __int64 v69; // x0
+
+  LODWORD(a1) = v66;
+  objc_msgSend(*(id *)(v65 - 256), "setContentCompressionResistancePriority:forAxis:", 0, a1);
+  LODWORD(v67) = v66;
+  objc_msgSend(*(id *)(v65 - 256), "setContentCompressionResistancePriority:forAxis:", 1, v67);
+  v68 = objc_retainAutoreleasedReturnValue(objc_msgSend(*(id *)(v65 - 120), "contentColor"));
+  objc_msgSend(*(id *)(v65 - 120), "updateViewsForColor:", v68);
+  objc_release(v68);
+  objc_msgSend(*(id *)(v65 - 120), "setNeedsUpdateConstraints");
+  objc_release(*(id *)(v65 - 256));
+  *a65 = 1264394942;
+  return sub_1003D9D68(v69);
+}

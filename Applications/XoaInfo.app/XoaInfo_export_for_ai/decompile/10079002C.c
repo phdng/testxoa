@@ -1,0 +1,16 @@
+/*
+ * func-name: sub_10079002C
+ * func-address: 0x10079002c
+ * export-type: decompile
+ * callers: none
+ * callees: 0x100794314
+ */
+
+__int64 sub_10079002C()
+{
+  int v0; // w25
+  __int64 (*v1)(void); // x0
+
+  v1 = (__int64 (*)(void))nullsub_33(*(&off_100A21840 + (v0 < 1273331221)));
+  return v1();
+}

@@ -1,0 +1,270 @@
+/*
+ * func-name: sub_D8820
+ * func-address: 0xd8820
+ * export-type: decompile
+ * callers: none
+ * callees: 0x2016c0
+ */
+
+__int64 sub_D8820()
+{
+  _BYTE *v0; // x19
+  _BYTE *v1; // x20
+  _BYTE *v2; // x22
+  _BYTE *v3; // x23
+  _BYTE *v4; // x24
+  _BYTE *v5; // x25
+  _BYTE *v6; // x26
+  _BYTE *v7; // x27
+  _BYTE *v8; // x28
+  int v9; // w8
+  int v10; // w9
+  unsigned int v11; // kr00_4
+  char v12; // w10
+  __int64 (*v13)(void); // x0
+
+  asc_25CE44[0] = byte_25CE40 ^ 0x33;
+  asc_25CE44[1] = byte_25CE41 ^ 0xA0;
+  asc_25CE44[2] = byte_25CE42 - 2 * (byte_25CE42 & 0x23) - 93;
+  asc_25CE44[3] = byte_25CE43 ^ 0xDE;
+  *v5 = *v4 - 2 * (*v4 & 0x6D) + 109;
+  v5[1] = v4[1] ^ 0xA8;
+  v5[2] = v4[2] ^ 0x5B;
+  v5[3] = v4[3] ^ 0x6F;
+  v5[4] = v4[4] - 2 * (v4[4] & 0x58) - 40;
+  v5[5] = v4[5] ^ 0xC6;
+  v5[6] = ~(v4[6] & 0xD3 | ~v4[6] & 0x2C);
+  v5[7] = v4[7] - 2 * (v4[7] & 0x58) + 88;
+  v5[8] = v4[8] ^ 0x7E;
+  v5[9] = v4[9] ^ 0xEF;
+  v5[10] = v4[10] - 2 * (v4[10] & 0x29) + 41;
+  v5[11] = v4[11] ^ 0x24;
+  v5[12] = v4[12] ^ 0x47;
+  v5[13] = v4[13] - 2 * (v4[13] & 0x65) + 101;
+  v5[14] = ~v4[14] & 0xCD | v4[14] & 0x32;
+  asc_25CE68[0] = byte_25CE66 ^ 0xAE;
+  asc_25CE68[1] = byte_25CE67 ^ 0x5A;
+  asc_25CE6C[0] = ~byte_25CE6A & 0x20 | byte_25CE6A & 0xDF;
+  asc_25CE6C[1] = ~((byte_25CE6B | 0x31) & (~byte_25CE6B | 0xCE));
+  *v1 = byte_25CE6E ^ 0xDD;
+  v1[1] = byte_25CE6F ^ 0xA9;
+  v1[2] = byte_25CE70 ^ 0xA6;
+  v1[3] = (~byte_25CE71 | 0xA7) & (byte_25CE71 | 0x58);
+  v1[4] = byte_25CE72 - 2 * (byte_25CE72 & 0x99) - 103;
+  v1[5] = (~byte_25CE73 & 0xAA | byte_25CE73 & 0x55) ^ 0x3B;
+  v1[6] = (~byte_25CE74 & 0x2F | byte_25CE74 & 0xD0) ^ 0x98;
+  v1[7] = byte_25CE75 ^ 0xA;
+  v1[8] = byte_25CE76 ^ 0xAD;
+  v1[9] = byte_25CE77 ^ 0x57;
+  v1[10] = ~byte_25CE78 & 0x46 | byte_25CE78 & 0xB9;
+  v1[11] = ~byte_25CE79 & 0x70 | byte_25CE79 & 0x8F;
+  v1[12] = (~byte_25CE7A | 0x48) & (byte_25CE7A | 0xB7);
+  asc_25CE8A[0] = byte_25CE88 ^ 0x31;
+  asc_25CE8A[1] = byte_25CE89 ^ 0x1E;
+  asc_25CE97[0] = byte_25CE8C ^ 0x1B;
+  asc_25CE97[1] = byte_25CE8D - 2 * (byte_25CE8D & 0xDD) + 93;
+  asc_25CE97[2] = byte_25CE8E ^ 0x65;
+  asc_25CE97[3] = byte_25CE8F - 2 * (byte_25CE8F & 5) + 5;
+  asc_25CE97[4] = (~byte_25CE90 & 0x61 | byte_25CE90 & 0x9E) ^ 0x4C;
+  asc_25CE97[5] = byte_25CE91 ^ 0x8C;
+  asc_25CE97[6] = byte_25CE92 - 2 * (byte_25CE92 & 0x37) - 73;
+  asc_25CE97[7] = (~byte_25CE93 | 0x7E) & (byte_25CE93 | 0x81);
+  asc_25CE97[8] = byte_25CE94 - 2 * (byte_25CE94 & 0x99) + 25;
+  asc_25CE97[9] = (~byte_25CE95 & 0x68 | byte_25CE95 & 0x97) ^ 0x14;
+  asc_25CE97[10] = byte_25CE96 ^ 0x3A;
+  asc_25CEA9[0] = ~byte_25CEA2 & 0x5A | byte_25CEA2 & 0xA5;
+  asc_25CEA9[1] = byte_25CEA3 - 2 * (byte_25CEA3 & 0x14) - 108;
+  asc_25CEA9[2] = (~byte_25CEA4 & 0xF3 | byte_25CEA4 & 0xC) ^ 0xFE;
+  asc_25CEA9[3] = byte_25CEA5 ^ 0xC2;
+  asc_25CEA9[4] = byte_25CEA6 ^ 0xC1;
+  asc_25CEA9[5] = ~byte_25CEA7 & 0xC9 | byte_25CEA7 & 0x36;
+  asc_25CEA9[6] = byte_25CEA8 - 2 * (byte_25CEA8 & 0xEF) - 17;
+  *v3 = (~*v2 | 0x85) & (*v2 | 0x7A);
+  v3[1] = ~v2[1] & 0xB9 | v2[1] & 0x46;
+  v3[2] = v2[2] - 2 * (v2[2] & 0x5A) - 38;
+  v3[3] = (~v2[3] | 0x21) & (v2[3] | 0xDE);
+  v3[4] = v2[4] ^ 0xC9;
+  v3[5] = v2[5] ^ 0x25;
+  v3[6] = ~(v2[6] & 0xC5 | ~v2[6] & 0x3A);
+  v3[7] = v2[7] ^ 0x28;
+  v3[8] = (~v2[8] | 0xAB) & (v2[8] | 0x54);
+  v3[9] = v2[9] ^ 0xB1;
+  v3[10] = v2[10] ^ 0xE5;
+  v3[11] = v2[11] ^ 0xA9;
+  v3[12] = v2[12] ^ 0xD2;
+  v3[13] = v2[13] ^ 0x60;
+  v3[14] = (~v2[14] | 0xBC) & (v2[14] | 0x43);
+  v3[15] = v2[15] ^ 0x11;
+  *v7 = ~*v6 & 0x71 | *v6 & 0x8E;
+  v7[1] = v6[1] - 2 * (v6[1] & 0x49) + 73;
+  v7[2] = ~v6[2] & 0xE | v6[2] & 0xF1;
+  v7[3] = ~(v6[3] & 2 | ~v6[3] & 0xFD);
+  v7[4] = v6[4] ^ 5;
+  v7[5] = v6[5] ^ 0x3E;
+  v7[6] = v6[6] ^ 0x56;
+  v7[7] = v6[7] ^ 0xB9;
+  v7[8] = v6[8] ^ 0x95;
+  v7[9] = (~v6[9] & 0x32 | v6[9] & 0xCD) ^ 0x79;
+  v7[10] = (~v6[10] | 0xEB) & (v6[10] | 0x14);
+  v7[11] = v6[11] - 2 * (v6[11] & 0x31) - 79;
+  v7[12] = v6[12] ^ 0x65;
+  v7[13] = v6[13] ^ 0x99;
+  v7[14] = ~v6[14] & 0x30 | v6[14] & 0xCF;
+  v7[15] = (~v6[15] & 0x12 | v6[15] & 0xED) ^ 0x40;
+  v7[16] = v6[16] - 2 * (v6[16] & 0xF3) - 13;
+  v7[17] = v6[17] ^ 0xFC;
+  v7[18] = v6[18] - 2 * (v6[18] & 0x2D) + 45;
+  v7[19] = v6[19] - 2 * (v6[19] & 0x59) - 39;
+  v7[20] = v6[20] ^ 0x8F;
+  v7[21] = v6[21] ^ 0xCC;
+  asc_25CF11[0] = byte_25CF06 ^ 0x95;
+  asc_25CF11[1] = byte_25CF07 ^ 0x54;
+  asc_25CF11[2] = byte_25CF08 ^ 0x52;
+  asc_25CF11[3] = byte_25CF09 - 2 * (byte_25CF09 & 0x12) + 18;
+  asc_25CF11[4] = ~((byte_25CF0A | 0xC5) & (~byte_25CF0A | 0x3A));
+  asc_25CF11[5] = byte_25CF0B ^ 0x7D;
+  asc_25CF11[6] = byte_25CF0C ^ 0xD3;
+  asc_25CF11[7] = byte_25CF0D ^ 0x14;
+  asc_25CF11[8] = (~byte_25CF0E | 0xAD) & (byte_25CF0E | 0x52);
+  asc_25CF11[9] = (~byte_25CF0F & 0xE2 | byte_25CF0F & 0x1D) ^ 0x4F;
+  asc_25CF11[10] = ~((byte_25CF10 | 0xD4) & (~byte_25CF10 | 0x2B));
+  *v0 = *v8 - 2 * (*v8 & 0x72) - 14;
+  v0[1] = ~((v8[1] | 0xC7) & (~v8[1] | 0x38));
+  v0[2] = v8[2] ^ 0x79;
+  v0[3] = v8[3] ^ 0xBA;
+  v0[4] = v8[4] ^ 0x6F;
+  v0[5] = ~v8[5] & 0x55 | v8[5] & 0xAA;
+  v0[6] = v8[6] ^ 0xCA;
+  v0[7] = (~v8[7] & 0x8C | v8[7] & 0x73) ^ 0xE3;
+  v0[8] = v8[8] - 2 * (v8[8] & 0x1C) + 28;
+  v0[9] = (~v8[9] & 0xAE | v8[9] & 0x51) ^ 0xCA;
+  v0[10] = v8[10] ^ 0x3B;
+  v0[11] = (~v8[11] & 0xF0 | v8[11] & 0xF) ^ 0x55;
+  v0[12] = v8[12] - 2 * (v8[12] & 7) + 7;
+  nullsub_7(off_2809C0);
+  v9 = dword_26B078;
+  v10 = dword_26B07C;
+  asc_25CE44[0] = byte_25CE40 ^ 0x33;
+  asc_25CE44[1] = byte_25CE41 ^ 0xA0;
+  asc_25CE44[2] = byte_25CE42 ^ 0xA3;
+  asc_25CE44[3] = byte_25CE43 - 2 * (byte_25CE43 & 0x5E) - 34;
+  *v5 = ~((*v4 | 0x92) & (~*v4 | 0x6D));
+  v5[1] = v4[1] ^ 0xA8;
+  v5[2] = (~v4[2] & 0xCB | v4[2] & 0x34) ^ 0x90;
+  v5[3] = v4[3] - 2 * (v4[3] & 0xEF) + 111;
+  v5[4] = ~(v4[4] & 0xD8 | ~v4[4] & 0x27);
+  v5[5] = v4[5] - 2 * (v4[5] & 0x46) - 58;
+  v5[6] = ~v4[6] & 0xD3 | v4[6] & 0x2C;
+  v5[7] = v4[7] ^ 0x58;
+  v5[8] = v4[8] ^ 0x7E;
+  v5[9] = (~v4[9] & 0xBE | v4[9] & 0x41) ^ 0x51;
+  v5[10] = v4[10] ^ 0x29;
+  v5[11] = ~(v4[11] & 0x24 | ~v4[11] & 0xDB);
+  v5[12] = v4[12] ^ 0x47;
+  v5[13] = v4[13] - 2 * (v4[13] & 0x65) + 101;
+  v5[14] = ~((v4[14] | 0x32) & (~v4[14] | 0xCD));
+  asc_25CE68[0] = byte_25CE66 ^ 0xAE;
+  asc_25CE68[1] = ~byte_25CE67 & 0x5A | byte_25CE67 & 0xA5;
+  asc_25CE6C[0] = byte_25CE6A ^ 0x20;
+  asc_25CE6C[1] = byte_25CE6B ^ 0xCE;
+  *v1 = (byte_25CE6E & 0xF0 | ~byte_25CE6E & 0xF) ^ 0xD2;
+  v1[1] = byte_25CE6F - 2 * (byte_25CE6F & 0x29) - 87;
+  v1[2] = byte_25CE70 ^ 0xA6;
+  v1[3] = (~byte_25CE71 | 0xA7) & (byte_25CE71 | 0x58);
+  v1[4] = byte_25CE72 - 2 * (byte_25CE72 & 0x99) - 103;
+  v1[5] = byte_25CE73 ^ 0x91;
+  v1[6] = ~(byte_25CE74 & 0xB7 | ~byte_25CE74 & 0x48);
+  v11 = ((((v9 & ~v10) - (v10 & ~v9)) | 0xD5A9016C) & ~(((v9 & ~v10) - (v10 & ~v9)) ^ 0xD5A9016C)) + 1248503838;
+  v1[7] = byte_25CE75 ^ 0xA;
+  v1[8] = byte_25CE76 ^ 0xAD;
+  v1[9] = (~byte_25CE77 | 0xA8) & (byte_25CE77 | 0x57);
+  v1[10] = (~byte_25CE78 | 0xB9) & (byte_25CE78 | 0x46);
+  v1[11] = (~byte_25CE79 & 0x1C | byte_25CE79 & 0xE3) ^ 0x6C;
+  v1[12] = ~byte_25CE7A & 0xB7 | byte_25CE7A & 0x48;
+  asc_25CE8A[0] = byte_25CE88 ^ 0x31;
+  asc_25CE8A[1] = byte_25CE89 ^ 0x1E;
+  asc_25CE97[0] = ~byte_25CE8C & 0x1B | byte_25CE8C & 0xE4;
+  asc_25CE97[1] = byte_25CE8D ^ 0x5D;
+  asc_25CE97[2] = byte_25CE8E ^ 0x65;
+  asc_25CE97[3] = byte_25CE8F ^ 5;
+  asc_25CE97[4] = ~((byte_25CE90 | 0xD2) & (~byte_25CE90 | 0x2D));
+  asc_25CE97[5] = byte_25CE91 ^ 0x8C;
+  asc_25CE97[6] = ~byte_25CE92 & 0xB7 | byte_25CE92 & 0x48;
+  asc_25CE97[7] = ~((byte_25CE93 | 0x7E) & (~byte_25CE93 | 0x81));
+  asc_25CE97[8] = byte_25CE94 ^ 0x19;
+  asc_25CE97[9] = ~byte_25CE95 & 0x7C | byte_25CE95 & 0x83;
+  asc_25CE97[10] = byte_25CE96 - 2 * (byte_25CE96 & 0x3A) + 58;
+  asc_25CEA9[0] = ~byte_25CEA2 & 0x5A | byte_25CEA2 & 0xA5;
+  asc_25CEA9[1] = byte_25CEA3 ^ 0x94;
+  asc_25CEA9[2] = ~(byte_25CEA4 & 0xD | ~byte_25CEA4 & 0xF2);
+  asc_25CEA9[3] = ~((byte_25CEA5 | 0x3D) & (~byte_25CEA5 | 0xC2));
+  asc_25CEA9[4] = byte_25CEA6 ^ 0xC1;
+  asc_25CEA9[5] = byte_25CEA7 - 2 * (byte_25CEA7 & 0x49) - 55;
+  asc_25CEA9[6] = byte_25CEA8 ^ 0xEF;
+  *v3 = *v2 ^ 0x7A;
+  v3[1] = v2[1] ^ 0xB9;
+  v3[2] = v2[2] ^ 0xDA;
+  v3[3] = ~v2[3] & 0xDE | v2[3] & 0x21;
+  v3[4] = v2[4] ^ 0xC9;
+  v3[5] = v2[5] ^ 0x25;
+  v3[6] = ~v2[6] & 0xC5 | v2[6] & 0x3A;
+  v3[7] = (~v2[7] & 0x88 | v2[7] & 0x77) ^ 0xA0;
+  v3[8] = v2[8] - 2 * (v2[8] & 0x54) + 84;
+  v3[9] = v2[9] ^ 0xB1;
+  v3[10] = v2[10] ^ 0xE5;
+  v3[11] = ~v2[11] & 0xA9 | v2[11] & 0x56;
+  v3[12] = v2[12] ^ 0xD2;
+  v3[13] = (~v2[13] & 0x94 | v2[13] & 0x6B) ^ 0xF4;
+  v3[14] = v2[14] ^ 0x43;
+  v3[15] = ~v2[15] & 0x11 | v2[15] & 0xEE;
+  *v7 = *v6 ^ 0x71;
+  v7[1] = v6[1] - 2 * (v6[1] & 0x49) + 73;
+  v7[2] = v6[2] ^ 0xE;
+  v7[3] = ~v6[3] & 2 | v6[3] & 0xFD;
+  v7[4] = (~v6[4] & 0x98 | v6[4] & 0x67) ^ 0x9D;
+  v7[5] = v6[5] ^ 0x3E;
+  v7[6] = ~((v6[6] | 0xA9) & (~v6[6] | 0x56));
+  v7[7] = v6[7] - 2 * (v6[7] & 0x39) - 71;
+  v7[8] = v6[8] ^ 0x95;
+  v7[9] = (~v6[9] | 0xB4) & (v6[9] | 0x4B);
+  v7[10] = v6[10] - 2 * (v6[10] & 0x14) + 20;
+  v7[11] = v6[11] ^ 0xB1;
+  v7[12] = ~(v6[12] & 0x65 | ~v6[12] & 0x9A);
+  v7[13] = (~v6[13] & 0x4C | v6[13] & 0xB3) ^ 0xD5;
+  v7[14] = v6[14] ^ 0x30;
+  v7[15] = v6[15] - 2 * (v6[15] & 0x52) + 82;
+  v7[16] = v6[16] ^ 0xF3;
+  v7[17] = v6[17] ^ 0xFC;
+  v7[18] = ~((v6[18] | 0xD2) & (~v6[18] | 0x2D));
+  v7[19] = ~v6[19] & 0xD9 | v6[19] & 0x26;
+  v7[20] = (~v6[20] | 0x70) & (v6[20] | 0x8F);
+  v7[21] = v6[21] ^ 0xCC;
+  asc_25CF11[0] = byte_25CF06 ^ 0x95;
+  asc_25CF11[1] = ~byte_25CF07 & 0x54 | byte_25CF07 & 0xAB;
+  asc_25CF11[2] = (~byte_25CF08 | 0xAD) & (byte_25CF08 | 0x52);
+  asc_25CF11[3] = byte_25CF09 - 2 * (byte_25CF09 & 0x12) + 18;
+  asc_25CF11[4] = byte_25CF0A ^ 0x3A;
+  asc_25CF11[5] = byte_25CF0B ^ 0x7D;
+  asc_25CF11[6] = ~(byte_25CF0C & 0xD3 | ~byte_25CF0C & 0x2C);
+  asc_25CF11[7] = byte_25CF0D ^ 0x14;
+  asc_25CF11[8] = byte_25CF0E - 2 * (byte_25CF0E & 0x52) + 82;
+  asc_25CF11[9] = byte_25CF0F ^ 0xAD;
+  asc_25CF11[10] = ~byte_25CF10 & 0x2B | byte_25CF10 & 0xD4;
+  *v0 = (~*v8 & 0xDB | *v8 & 0x24) ^ 0x29;
+  v0[1] = v8[1] ^ 0x38;
+  v0[2] = (~v8[2] & 0x6B | v8[2] & 0x94) ^ 0x12;
+  v0[3] = v8[3] - 2 * (v8[3] & 0x3A) - 70;
+  v0[4] = v8[4] ^ 0x6F;
+  v0[5] = ~((v8[5] | 0xAA) & (~v8[5] | 0x55));
+  v0[6] = v8[6] ^ 0xCA;
+  v0[7] = v8[7] - 2 * (v8[7] & 0xEF) + 111;
+  v0[8] = ~(v8[8] & 0x1C | ~v8[8] & 0xE3);
+  v0[9] = v8[9] ^ 0x64;
+  LOBYTE(v10) = ~v8[11] & 0xA5 | v8[11] & 0x5A;
+  v0[10] = v8[10] ^ 0x3B;
+  v12 = ~v8[12] & 0xC0 | v8[12] & 0x3F;
+  v0[11] = v10;
+  v0[12] = v12 ^ 0xC7;
+  v13 = (__int64 (*)(void))nullsub_7(*(&off_2A78D0 + (v11 / 0x69A8CD48 != -2014740875)));
+  return v13();
+}

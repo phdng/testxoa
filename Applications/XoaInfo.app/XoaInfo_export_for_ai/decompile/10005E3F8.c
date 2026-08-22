@@ -1,0 +1,12 @@
+/*
+ * func-name: sub_10005E3F8
+ * func-address: 0x10005e3f8
+ * export-type: decompile
+ * callers: 0x10004776c, 0x10004a840, 0x10004de90, 0x10005678c, 0x100058408, 0x1000584a0, 0x1000589b0, 0x100059130, 0x100059320, 0x100059410, 0x100059590, 0x10005b714, 0x10005e570, 0x10005e6e0
+ * callees: none
+ */
+
+void sub_10005E3F8()
+{
+  JUMPOUT(0x10005E404LL);
+}

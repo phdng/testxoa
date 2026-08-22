@@ -1,0 +1,16 @@
+# Fallback to disassembly for 12 functions
+# Format: address | function_name | reason | output_file
+#================================================================================
+
+0x3a780 | sub_3A780 | too many instructions (>3000, limit 3000) | disassembly/3A780.asm
+0x62c0c | sub_62C0C | too many instructions (>3000, limit 3000) | disassembly/62C0C.asm
+0x835a8 | sub_835A8 | function too large (21612 bytes, limit 16384 bytes) | disassembly/835A8.asm
+0x8af20 | sub_8AF20 | function too large (75268 bytes, limit 16384 bytes) | disassembly/8AF20.asm
+0xc44dc | sub_C44DC | function too large (16900 bytes, limit 16384 bytes) | disassembly/C44DC.asm
+0xcc418 | sub_CC418 | function too large (16924 bytes, limit 16384 bytes) | disassembly/CC418.asm
+0xe9858 | sub_E9858 | function too large (54540 bytes, limit 16384 bytes) | disassembly/E9858.asm
+0x11776c | sub_11776C | function too large (202408 bytes, limit 16384 bytes) | disassembly/11776C.asm
+0x172374 | sub_172374 | too many instructions (>3000, limit 3000) | disassembly/172374.asm
+0x1f43b4 | sub_1F43B4 | function too large (17964 bytes, limit 16384 bytes) | disassembly/1F43B4.asm
+0x217608 | sub_217608 | function too large (17540 bytes, limit 16384 bytes) | disassembly/217608.asm
+0x21cb78 | sub_21CB78 | too many instructions (>3000, limit 3000) | disassembly/21CB78.asm

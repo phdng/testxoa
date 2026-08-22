@@ -1,0 +1,23 @@
+/*
+ * func-name: sub_100179588
+ * func-address: 0x100179588
+ * export-type: decompile
+ * callers: none
+ * callees: 0x1001e515c, 0x1001e5174
+ */
+
+__int64 sub_100179588()
+{
+  __int64 v0; // x19
+  __int64 v1; // x0
+
+  objc_msgSend(
+    *(id *)(v0 + 960),
+    *(SEL *)(v0 + 80),
+    *(_QWORD *)(v0 + 840),
+    CFSTR("l>ߢ\n\xABG>\x8Cuk+\xB3?\xF6\xD0\x44\x5F\x19K\xB6"));
+  objc_release(*(id *)(v0 + 840));
+  objc_release(*(id *)(v0 + 848));
+  **(_DWORD **)(v0 + 32) = -1606853020;
+  return sub_10017BC0C(v1);
+}

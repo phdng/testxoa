@@ -1,0 +1,1060 @@
+# Total Pointers Found: 1054
+# Format: Source_Address | Segment | Points_To_Address | Target_Name | Target_Type | Target_Detail
+# Pointer size: 8
+# Data xref hits: 1054
+# Raw pointer hits: 0
+------------------------------------------------------------------------------------------------------------------------
+1E44 | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+1E48 | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+1F90 | __text | 22084 | __task_reply_port | data_pointer | data_item_size=4
+1F94 | __text | 22084 | __task_reply_port | data_pointer | data_item_size=4
+1FAC | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+1FB4 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+1FD0 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+20A0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+20A8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+23A8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+23B0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+24CC | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+24D4 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+2548 | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+2550 | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+256C | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+2574 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+25A8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+25B0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+277C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+2784 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+28DC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+28E4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+2B04 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+2B0C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+2C94 | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+2C9C | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+2CA4 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+2CAC | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+2D94 | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+2D98 | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+2EC8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+2EE4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+30B4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+30BC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+3220 | __text | 32F8 | jpt_324C | data_pointer | data_item_size=4
+322C | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+32C8 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+32F8 | __text | 3250 | loc_3250 | code_pointer | inside__mach_msg_destroy
+32FC | __text | 3260 | loc_3260 | code_pointer | inside__mach_msg_destroy
+3300 | __text | 3278 | loc_3278 | code_pointer | inside__mach_msg_destroy
+3304 | __text | 32D0 | loc_32D0 | code_pointer | inside__mach_msg_destroy
+333C | __text | 33D0 | jpt_334C | data_pointer | data_item_size=4
+3350 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+3358 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+3360 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+3368 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+337C | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+3384 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+3398 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+33A0 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+33B4 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+33D0 | __text | 3360 | loc_3360 | code_pointer | inside__mach_msg_destroy_port
+33D4 | __text | 3350 | loc_3350 | code_pointer | inside__mach_msg_destroy_port
+33D8 | __text | 3350 | loc_3350 | code_pointer | inside__mach_msg_destroy_port
+33DC | __text | 33C0 | def_334C | code_pointer | inside__mach_msg_destroy_port
+33E0 | __text | 337C | loc_337C | code_pointer | inside__mach_msg_destroy_port
+33E4 | __text | 3398 | loc_3398 | code_pointer | inside__mach_msg_destroy_port
+33E8 | __text | 22090 | _errno | data_pointer | data_item_size=4
+33EC | __text | 22090 | _errno | data_pointer | data_item_size=4
+350C | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+3510 | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+3788 | __text | 22050 | _important_boost_assertion_token | unknown_pointer | 
+39A8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+39B0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+3AF4 | __text | 22098 | __libkernel_functions | data_pointer | data_item_size=8
+3AFC | __text | 22098 | __libkernel_functions | data_pointer | data_item_size=8
+3B30 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+3B38 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+3E38 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+3E40 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+4280 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+4288 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+43CC | __text | 226F8 | _mach_init.mach_init_inited | data_pointer | data_item_size=1
+43D4 | __text | 226F8 | _mach_init.mach_init_inited | data_pointer | data_item_size=1
+43E4 | __text | 226F8 | _mach_init.mach_init_inited | data_pointer | data_item_size=1
+4404 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+4408 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+4410 | __text | 22084 | __task_reply_port | data_pointer | data_item_size=4
+4418 | __text | 22084 | __task_reply_port | data_pointer | data_item_size=4
+4454 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+445C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+4610 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+4618 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+4790 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+4798 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+4BEC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+4BF4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+4CE4 | __text | 22700 | __gethostuuid_callback | data_pointer | data_item_size=8
+4CEC | __text | 22700 | __gethostuuid_callback | data_pointer | data_item_size=8
+4CF8 | __text | 22700 | __gethostuuid_callback | data_pointer | data_item_size=8
+4D3C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+4D44 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+4FD8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+4FE4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+5140 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+514C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+52A4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+52AC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+5464 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+546C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+57A8 | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+57AC | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+580C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+5824 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+5998 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+59A0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+5BB0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+5BC8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+5D44 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+5D4C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+5EC8 | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+5ECC | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+5F40 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+5F48 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+62AC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+62B4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+6560 | __text | 22098 | __libkernel_functions | data_pointer | data_item_size=8
+6568 | __text | 22098 | __libkernel_functions | data_pointer | data_item_size=8
+6574 | __text | 22098 | __libkernel_functions | data_pointer | data_item_size=8
+657C | __text | 22098 | __libkernel_functions | data_pointer | data_item_size=8
+6588 | __text | 22098 | __libkernel_functions | data_pointer | data_item_size=8
+6590 | __text | 22098 | __libkernel_functions | data_pointer | data_item_size=8
+65B0 | __text | 22098 | __libkernel_functions | data_pointer | data_item_size=8
+65B8 | __text | 22098 | __libkernel_functions | data_pointer | data_item_size=8
+65D4 | __text | 22098 | __libkernel_functions | data_pointer | data_item_size=8
+67A4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+67AC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+68A4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+68B0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+69D8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+69E0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+6B6C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+6B74 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+6D28 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+6D30 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+6E50 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+6E5C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+6FAC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+6FB8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+71C4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+71D0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+73C0 | __text | 20000 | _internal_catch_exc_subsystem | data_pointer | data_item_size=8
+74AC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+74B4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+75C4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+75CC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+75E4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+75EC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+7764 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+776C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+7784 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+778C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+77FC | __text | 20000 | _internal_catch_exc_subsystem | data_pointer | data_item_size=8
+7820 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+7828 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+79B8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+79C0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+7AC4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+7ACC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+7C94 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+7C9C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+7E04 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+7E0C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+7F24 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+7F2C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+803C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+8044 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+82CC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+82D4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+8430 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+8438 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+855C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+8564 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+8680 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+8688 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+87E0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+87E8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+8954 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+895C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+8A68 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+8A70 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+8B98 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+8BA0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+8E04 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+8E0C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+9060 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+9068 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+98F0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+98F8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+9A74 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+9A9C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+9C20 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+9C2C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+9D40 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+9D48 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+9E4C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+9E54 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+9F58 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+9F60 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+A064 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+A06C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+A170 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+A178 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+A27C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+A284 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+A608 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+A620 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+A798 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+A7A0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+AFD4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+AFEC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+B2AC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+B2B4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+B840 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+B848 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+B940 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+B948 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+BA44 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+BA4C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+BB74 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+BB7C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+BC74 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+BC7C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+BD70 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+BD78 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+BE94 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+BE9C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C060 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C068 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C160 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C168 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C270 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C278 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C388 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C390 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C4D8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C4E0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C5E0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C5E8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C73C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C748 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C894 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C89C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C998 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+C9A0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+CC5C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+CC64 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+CDA4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+CDAC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+CEE4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+CEEC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+CFE4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+CFEC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D0EC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D0F4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D248 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D250 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D37C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D384 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D480 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D488 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D58C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D594 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D690 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D698 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D7D0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D7D8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D8D4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D8DC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D9D8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+D9E0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+DAF0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+DAF8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+DC60 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+DC68 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+DDC4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+DDCC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+DED4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+DEDC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+DFE0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+DFE8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+E110 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+E118 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+E218 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+E220 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+E328 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+E330 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+E46C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+E484 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+E5E8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+E5F0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+E744 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+E74C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+E940 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+E948 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+EB44 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+EB5C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+ECD4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+ECDC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+EE24 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+EE2C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+EFD8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+EFE0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+F0A0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+F0A8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+F154 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+F15C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+F1C4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+F1CC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+F470 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+F478 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+F574 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+F57C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+F678 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+F680 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+FA28 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+FA34 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+FCE4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+FCEC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+100B4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+100BC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+10294 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+1029C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+103CC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+103D4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+10640 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+10648 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+10778 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+10780 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+10934 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+1093C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+10BC8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+10BD0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+10E34 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+10E3C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+10F44 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+10F50 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+1126C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+11274 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+114D0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+114DC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+11674 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+1167C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+117AC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+117B4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+119FC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+11A04 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+11C68 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+11C74 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+11DB4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+11DBC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+12090 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+1209C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+121D0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+121D8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+12440 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+12448 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+1254C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+12554 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+127D4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+127DC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+128DC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+128E4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+12B50 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+12B60 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+12CDC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+12CE4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+12E98 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+12EA4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+12FD4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+12FDC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+13570 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+13578 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+1372C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+13738 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+1386C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+13878 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+13C78 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+13C80 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+13DE8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+13DF0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+13EFC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+13F04 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+1402C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+14034 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+14298 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+142A0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+145EC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+145F4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+14A54 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+14A60 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+14BC0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+14BC8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+14CD8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+14CE0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+14E48 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+14E50 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+14FAC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+14FB4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+150C4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+150CC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+151F4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+151FC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+152FC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+15304 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+1540C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+15414 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+15554 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+1555C | __text | 22018 | _NDR_record | struct_pointer | struct_data
+156B0 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+156B8 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+158AC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+158B4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+15AE4 | __text | 22000 | _internal_catch_exception_raise_state_identity.exc_raise_state_identity_func | data_pointer | data_item_size=8
+15AE8 | __text | 22000 | _internal_catch_exception_raise_state_identity.exc_raise_state_identity_func | data_pointer | data_item_size=8
+15AF4 | __text | 220A0 | __dlsym | data_pointer | data_item_size=8
+15AFC | __text | 220A0 | __dlsym | data_pointer | data_item_size=8
+15B00 | __text | 1FF0A | aCatchException | string_pointer | "catch_exception_raise_state_identity"
+15B14 | __text | 22000 | _internal_catch_exception_raise_state_identity.exc_raise_state_identity_func | data_pointer | data_item_size=8
+15BC8 | __text | 22008 | _internal_catch_exception_raise_state.exc_raise_state_func | data_pointer | data_item_size=8
+15BCC | __text | 22008 | _internal_catch_exception_raise_state.exc_raise_state_func | data_pointer | data_item_size=8
+15BD8 | __text | 220A0 | __dlsym | data_pointer | data_item_size=8
+15BE0 | __text | 220A0 | __dlsym | data_pointer | data_item_size=8
+15BE4 | __text | 1FF2F | aCatchException_0 | string_pointer | "catch_exception_raise_state"
+15BF8 | __text | 22008 | _internal_catch_exception_raise_state.exc_raise_state_func | data_pointer | data_item_size=8
+15C94 | __text | 22010 | _internal_catch_exception_raise.exc_raise_func | data_pointer | data_item_size=8
+15C98 | __text | 22010 | _internal_catch_exception_raise.exc_raise_func | data_pointer | data_item_size=8
+15CA4 | __text | 220A0 | __dlsym | data_pointer | data_item_size=8
+15CAC | __text | 220A0 | __dlsym | data_pointer | data_item_size=8
+15CB0 | __text | 1FF4B | aCatchException_1 | string_pointer | "catch_exception_raise"
+15CC4 | __text | 22010 | _internal_catch_exception_raise.exc_raise_func | data_pointer | data_item_size=8
+15D34 | __text | 22070 | _vprintf_stderr_func | data_pointer | data_item_size=8
+15D38 | __text | 22070 | _vprintf_stderr_func | data_pointer | data_item_size=8
+15DC8 | __text | 20098 | __mach_errors | unknown_pointer | 
+15DEC | __text | 1FF61 | asc_1FF61 | string_pointer | "(?/?)"
+15F78 | __text | 20098 | __mach_errors | unknown_pointer | 
+15FE0 | __text | 1CB5A | aUnknownErrorCo | string_pointer | "unknown error code"
+15FF0 | __text | 22078 | _mach_error_full_diag | data_pointer | data_item_size=4
+15FF4 | __text | 22078 | _mach_error_full_diag | data_pointer | data_item_size=4
+160A4 | __text | 1FF67 | aSSX | string_pointer | "%s %s (%x)"
+160C0 | __text | 1FF72 | aSS | string_pointer | "%s %s"
+16298 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+162A0 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+162EC | __text | 22038 | _vm_page_size | data_pointer | data_item_size=8
+162F4 | __text | 22038 | _vm_page_size | data_pointer | data_item_size=8
+163D8 | __text | 22038 | _vm_page_size | data_pointer | data_item_size=8
+16558 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+16560 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+16570 | __text | 22038 | _vm_page_size | data_pointer | data_item_size=8
+16578 | __text | 22038 | _vm_page_size | data_pointer | data_item_size=8
+16618 | __text | 22038 | _vm_page_size | data_pointer | data_item_size=8
+16650 | __text | 22038 | _vm_page_size | data_pointer | data_item_size=8
+16658 | __text | 22038 | _vm_page_size | data_pointer | data_item_size=8
+16854 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+1685C | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+1686C | __text | 22038 | _vm_page_size | data_pointer | data_item_size=8
+16874 | __text | 22038 | _vm_page_size | data_pointer | data_item_size=8
+16908 | __text | 22038 | _vm_page_size | data_pointer | data_item_size=8
+1693C | __text | 22038 | _vm_page_size | data_pointer | data_item_size=8
+16944 | __text | 22038 | _vm_page_size | data_pointer | data_item_size=8
+16B0C | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+16B14 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+16CB4 | __text | 22018 | _NDR_record | struct_pointer | struct_data
+16CBC | __text | 22018 | _NDR_record | struct_pointer | struct_data
+16CC8 | __text | 226FC | _master_host_port | data_pointer | data_item_size=4
+16CCC | __text | 226FC | _master_host_port | data_pointer | data_item_size=4
+16CEC | __text | 1FF79 | aPanicS | string_pointer | "panic: %s"
+16D10 | __text | 226FC | _master_host_port | data_pointer | data_item_size=4
+16D14 | __text | 226FC | _master_host_port | data_pointer | data_item_size=4
+16D44 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+16D4C | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+16D58 | __text | 22088 | _port_obj_table | data_pointer | data_item_size=8
+16D6C | __text | 1FF84 | aPortObjInitCan | string_pointer | "port_obj_init: can't vm_allocate"
+16DAC | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+16DB4 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+16DDC | __text | 1FFA5 | _hex | string_pointer | "0123456789abcdef"
+17034 | __text | 22090 | _errno | data_pointer | data_item_size=4
+17C14 | __text | 22050 | _important_boost_assertion_token | unknown_pointer | 
+17C68 | __text | 22098 | __libkernel_functions | data_pointer | data_item_size=8
+17C6C | __text | 22098 | __libkernel_functions | data_pointer | data_item_size=8
+17C78 | __text | 220A0 | __dlsym | data_pointer | data_item_size=8
+17C7C | __text | 220A0 | __dlsym | data_pointer | data_item_size=8
+17CB8 | __text | 22700 | __gethostuuid_callback | data_pointer | data_item_size=8
+17CBC | __text | 22700 | __gethostuuid_callback | data_pointer | data_item_size=8
+18B30 | __text | 22708 | ___remove_counter | data_pointer | data_item_size=4
+18B38 | __text | 22708 | ___remove_counter | data_pointer | data_item_size=4
+18B40 | __text | 22708 | ___remove_counter | data_pointer | data_item_size=4
+18B54 | __text | 22708 | ___remove_counter | data_pointer | data_item_size=4
+18B5C | __text | 22708 | ___remove_counter | data_pointer | data_item_size=4
+18B64 | __text | 22708 | ___remove_counter | data_pointer | data_item_size=4
+18B70 | __text | 18B7C | off_18B7C | data_pointer | data_item_size=8
+193AC | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+193B0 | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+19418 | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+1941C | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+1942C | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+19434 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+1947C | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+19480 | __text | 220B0 | ___syscall_logger | data_pointer | data_item_size=8
+19490 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+19498 | __text | 22080 | _mach_task_self_ | data_pointer | data_item_size=4
+19920 | __text | 22068 | __current_pid | data_pointer | data_item_size=4
+1992C | __text | 22068 | __current_pid | data_pointer | data_item_size=4
+19AB8 | __text | 22068 | __current_pid | data_pointer | data_item_size=4
+19AC0 | __text | 22068 | __current_pid | data_pointer | data_item_size=4
+1A5F0 | __text | 22090 | _errno | data_pointer | data_item_size=4
+1A5F8 | __text | 22090 | _errno | data_pointer | data_item_size=4
+1ADA4 | __text | 22068 | __current_pid | data_pointer | data_item_size=4
+1ADAC | __text | 22068 | __current_pid | data_pointer | data_item_size=4
+1ADBC | __text | 22068 | __current_pid | data_pointer | data_item_size=4
+1ADE4 | __text | 22068 | __current_pid | data_pointer | data_item_size=4
+1ADEC | __text | 22068 | __current_pid | data_pointer | data_item_size=4
+1ADF4 | __text | 22068 | __current_pid | data_pointer | data_item_size=4
+20000 | __const | 73A0 | _exc_server_routine | function_pointer | function_start
+20028 | __const | 73D4 | __Xexception_raise | function_pointer | function_start
+20050 | __const | 74C8 | __Xexception_raise_state | function_pointer | function_start
+20078 | __const | 7610 | __Xexception_raise_state_identity | function_pointer | function_start
+200A0 | __const | 1C278 | aOperatingSyste | string_pointer | "(operating system/?) unknown subsystem error"
+200A8 | __const | 21E18 | _err_os_sub | data_pointer | data_item_size=8
+200C8 | __const | 1C2A5 | aUserSpaceUnkno | string_pointer | "(user space/?) unknown subsystem error"
+200D0 | __const | 1C210 | _err_us_sub | unknown_pointer | 
+200F0 | __const | 1C2CC | aServerUnknownS | string_pointer | "(server/?) unknown subsystem error"
+200F8 | __const | 217E8 | _err_server_sub | data_pointer | data_item_size=8
+20118 | __const | 1C2EF | aIpcUnknownSubs | string_pointer | "(ipc/?) unknown subsystem error"
+20120 | __const | 21258 | _err_ipc_sub | data_pointer | data_item_size=8
+20140 | __const | 1C2EF | aIpcUnknownSubs | string_pointer | "(ipc/?) unknown subsystem error"
+20148 | __const | 210F8 | _err_mach_ipc_sub | data_pointer | data_item_size=8
+20938 | __const | 1C30F | aLibkernUnknown | string_pointer | "(libkern/?) unknown subsystem error"
+20940 | __const | 20EF8 | _err_libkern_sub | data_pointer | data_item_size=8
+20960 | __const | 1C333 | aIokitUnknownSu | string_pointer | "(iokit/?) unknown subsystem error"
+20968 | __const | 20C48 | _err_iokit_sub | data_pointer | data_item_size=8
+20970 | __const | 1C1F0 | _err_iokit_sub_map | unknown_pointer | 
+20A98 | __const | 1C3BD | aIokitCommonInv | string_pointer | "(iokit/common) invalid - should never be seen"
+20AA0 | __const | 1C3EB | aIokitCommonGen | string_pointer | "(iokit/common) general error"
+20AA8 | __const | 1C408 | aIokitCommonCan | string_pointer | "(iokit/common) can't allocate memory"
+20AB0 | __const | 1C42D | aIokitCommonRes | string_pointer | "(iokit/common) resource shortage"
+20AB8 | __const | 1C44E | aIokitCommonErr | string_pointer | "(iokit/common) error during IPC"
+20AC0 | __const | 1C46E | aIokitCommonNoS | string_pointer | "(iokit/common) no such device"
+20AC8 | __const | 1C48C | aIokitCommonPri | string_pointer | "(iokit/common) privilege violation"
+20AD0 | __const | 1C4AF | aIokitCommonInv_0 | string_pointer | "(iokit/common) invalid argument"
+20AD8 | __const | 1C4CF | aIokitCommonDev | string_pointer | "(iokit/common) device read locked"
+20AE0 | __const | 1C4F1 | aIokitCommonDev_0 | string_pointer | "(iokit/common) device write locked"
+20AE8 | __const | 1C514 | aIokitCommonExc | string_pointer | "(iokit/common) exclusive access and device already open"
+20AF0 | __const | 1C54C | aIokitCommonSen | string_pointer | "(iokit/common) sent/received messages had different msg_id"
+20AF8 | __const | 1C587 | aIokitCommonUns | string_pointer | "(iokit/common) unsupported function"
+20B00 | __const | 1C5AB | aIokitCommonMis | string_pointer | "(iokit/common) misc. VM failure"
+20B08 | __const | 1C5CB | aIokitCommonInt | string_pointer | "(iokit/common) internal error"
+20B10 | __const | 1C5E9 | aIokitCommonGen_0 | string_pointer | "(iokit/common) General I/O error"
+20B18 | __const | 1C60A | aIokitCommon_0 | string_pointer | "(iokit/common) ???"
+20B20 | __const | 1C61D | aIokitCommonCan_0 | string_pointer | "(iokit/common) can't acquire lock"
+20B28 | __const | 1C63F | aIokitCommonDev_1 | string_pointer | "(iokit/common) device not open"
+20B30 | __const | 1C65E | aIokitCommonRea | string_pointer | "(iokit/common) read not supported"
+20B38 | __const | 1C680 | aIokitCommonWri | string_pointer | "(iokit/common) write not supported"
+20B40 | __const | 1C6A3 | aIokitCommonAli | string_pointer | "(iokit/common) alignment error"
+20B48 | __const | 1C6C2 | aIokitCommonMed | string_pointer | "(iokit/common) Media Error"
+20B50 | __const | 1C6DD | aIokitCommonDev_2 | string_pointer | "(iokit/common) device(s) still open"
+20B58 | __const | 1C701 | aIokitCommonRld | string_pointer | "(iokit/common) rld failure"
+20B60 | __const | 1C71C | aIokitCommonDma | string_pointer | "(iokit/common) DMA failure"
+20B68 | __const | 1C737 | aIokitCommonDev_3 | string_pointer | "(iokit/common) Device Busy"
+20B70 | __const | 1C752 | aIokitCommonIOT | string_pointer | "(iokit/common) I/O Timeout"
+20B78 | __const | 1C76D | aIokitCommonDev_4 | string_pointer | "(iokit/common) device offline"
+20B80 | __const | 1C78B | aIokitCommonNot | string_pointer | "(iokit/common) not ready"
+20B88 | __const | 1C7A4 | aIokitCommonDev_5 | string_pointer | "(iokit/common) device not attached"
+20B90 | __const | 1C7C7 | aIokitCommonNoD | string_pointer | "(iokit/common) no DMA channels left"
+20B98 | __const | 1C7EB | aIokitCommonNoS_0 | string_pointer | "(iokit/common) no space for data"
+20BA0 | __const | 1C60A | aIokitCommon_0 | string_pointer | "(iokit/common) ???"
+20BA8 | __const | 1C80C | aIokitCommonPor | string_pointer | "(iokit/common) port already exists"
+20BB0 | __const | 1C82F | aIokitCommonCan_1 | string_pointer | "(iokit/common) can't wire down physical memory"
+20BB8 | __const | 1C85E | aIokitCommonNoI | string_pointer | "(iokit/common) no interrupt attached"
+20BC0 | __const | 1C883 | aIokitCommonNoD_0 | string_pointer | "(iokit/common) no DMA frames enqueued"
+20BC8 | __const | 1C8A9 | aIokitCommonOve | string_pointer | "(iokit/common) oversized msg received on interrupt port"
+20BD0 | __const | 1C8E1 | aIokitCommonNot_0 | string_pointer | "(iokit/common) not permitted"
+20BD8 | __const | 1C8FE | aIokitCommonNoP | string_pointer | "(iokit/common) no power to device"
+20BE0 | __const | 1C920 | aIokitCommonMed_0 | string_pointer | "(iokit/common) media not present"
+20BE8 | __const | 1C941 | aIokitCommonMed_1 | string_pointer | "(iokit/common) media not formatted"
+20BF0 | __const | 1C964 | aIokitCommonNoS_1 | string_pointer | "(iokit/common) no such mode"
+20BF8 | __const | 1C980 | aIokitCommonDat | string_pointer | "(iokit/common) data underrun"
+20C00 | __const | 1C99D | aIokitCommonDat_0 | string_pointer | "(iokit/common) data overrun"
+20C08 | __const | 1C9B9 | aIokitCommonThe | string_pointer | "(iokit/common) the device is not working properly!"
+20C10 | __const | 1C9EC | aIokitCommonACo | string_pointer | "(iokit/common) a completion routine is required"
+20C18 | __const | 1CA1C | aIokitCommonOpe | string_pointer | "(iokit/common) operation aborted"
+20C20 | __const | 1CA3D | aIokitCommonBus | string_pointer | "(iokit/common) bus bandwidth would be exceeded"
+20C28 | __const | 1CA6C | aIokitCommonDev_6 | string_pointer | "(iokit/common) device not responding"
+20C30 | __const | 1CA91 | aIokitCommonIso | string_pointer | "(iokit/common) isochronous I/O request for distant past!"
+20C38 | __const | 1CACA | aIokitCommonIso_0 | string_pointer | "(iokit/common) isochronous I/O request for distant future"
+20C40 | __const | 1CB04 | aIokitCommonDat_1 | string_pointer | "(iokit/common) data was not found"
+20C48 | __const | 1C355 | aIokitCommon | string_pointer | "(iokit/common)"
+20C58 | __const | 20A98 | _err_codes_iokit_common | data_pointer | data_item_size=8
+20C60 | __const | 1C200 | _err_codes_iokit_common_map | unknown_pointer | 
+20C70 | __const | 1C364 | aIokit | string_pointer | "(iokit/?"
+20C98 | __const | 1C36D | aIokitBlkstorag | string_pointer | "(iokit/blkstorage)"
+20CC0 | __const | 1C380 | aIokitGraphics | string_pointer | "(iokit/graphics)"
+20CE8 | __const | 1C364 | aIokit | string_pointer | "(iokit/?"
+20D10 | __const | 1C364 | aIokit | string_pointer | "(iokit/?"
+20D38 | __const | 1C391 | aIokitPmu | string_pointer | "(iokit/pmu)"
+20D60 | __const | 1C39D | aIokitVendor | string_pointer | "(iokit/vendor)"
+20D88 | __const | 1C3AC | aIokitReserved | string_pointer | "(iokit/reserved)"
+20DB0 | __const | 1CB5A | aUnknownErrorCo | string_pointer | "unknown error code"
+20DB8 | __const | 1D261 | aLibkernCommonG | string_pointer | "(libkern/common) general/unspecified error"
+20DC0 | __const | 1CB5A | aUnknownErrorCo | string_pointer | "unknown error code"
+20DC8 | __const | 1CFE8 | aLibkernMetacla_0 | string_pointer | "(libkern/metaclass) runtime internal error"
+20DD0 | __const | 1D013 | aLibkernMetacla_1 | string_pointer | "(libkern/metaclass) class has instances"
+20DD8 | __const | 1D03B | aLibkernMetacla_2 | string_pointer | "(libkern/metaclass) OSMetaClass::preModLoad() not called, runtime internal error"
+20DE0 | __const | 1D08C | aLibkernMetacla_3 | string_pointer | "(libkern/metaclass) allocation failure, internal data"
+20DE8 | __const | 1D0C2 | aLibkernMetacla_4 | string_pointer | "(libkern/metaclass) allocation failure, class tracking dictionaries"
+20DF0 | __const | 1D106 | aLibkernMetacla_5 | string_pointer | "(libkern/metaclass) allocation failure, no kext/class set"
+20DF8 | __const | 1D140 | aLibkernMetacla_6 | string_pointer | "(libkern/metaclass) failed to insert class into class dictionary"
+20E00 | __const | 1D181 | aLibkernMetacla_7 | string_pointer | "(libkern/metaclass) can't associate class with its superclass"
+20E08 | __const | 1D1BF | aLibkernMetacla_8 | string_pointer | "(libkern/metaclass) can't find superclass during instance creation"
+20E10 | __const | 1D202 | aLibkernMetacla_9 | string_pointer | "(libkern/metaclass) duplicate class name encountered"
+20E18 | __const | 1D237 | aLibkernMetacla_10 | string_pointer | "(libkern/metaclass) no kext for metaclass"
+20E20 | __const | 1CB5A | aUnknownErrorCo | string_pointer | "unknown error code"
+20E28 | __const | 1CB6D | aLibkernKextInt | string_pointer | "(libkern/kext) internal error"
+20E30 | __const | 1CB8B | aLibkernKextAll | string_pointer | "(libkern/kext) allocation failure"
+20E38 | __const | 1CBAD | aLibkernKextRes | string_pointer | "(libkern/kext) resource shortage"
+20E40 | __const | 1CBCE | aLibkernKextNot | string_pointer | "(libkern/kext) not privileged"
+20E48 | __const | 1CBEC | aLibkernKextInv | string_pointer | "(libkern/kext) invalid argument"
+20E50 | __const | 1CC0C | aLibkernKextNot_0 | string_pointer | "(libkern/kext) not found"
+20E58 | __const | 1CC25 | aLibkernKextBad | string_pointer | "(libkern/kext) bad data (mkext/other)"
+20E60 | __const | 1CC4B | aLibkernKextXml | string_pointer | "(libkern/kext) XML (un)serialization error"
+20E68 | __const | 1CC76 | aLibkernKextFun | string_pointer | "(libkern/kext) function/version unsupported"
+20E70 | __const | 1CCA2 | aLibkernKextFun_0 | string_pointer | "(libkern/kext) function disabled"
+20E78 | __const | 1CCC3 | aLibkernKextMal | string_pointer | "(libkern/kext) malformed kext (bundle layout/missing plist)"
+20E80 | __const | 1CCFF | aLibkernKextVal | string_pointer | "(libkern/kext) validation failure (plist/executable)"
+20E88 | __const | 1CD34 | aLibkernKextAut | string_pointer | "(libkern/kext) authentication failure (file ownership/permissions)"
+20E90 | __const | 1CD77 | aLibkernKextDep | string_pointer | "(libkern/kext) dependency resolution failure"
+20E98 | __const | 1CDA4 | aLibkernKextReq | string_pointer | "(libkern/kext) requested architecture/executable not found"
+20EA0 | __const | 1CDDF | aLibkernKextCac | string_pointer | "(libkern/kext) cache error"
+20EA8 | __const | 1CDFA | aLibkernKextOpe | string_pointer | "(libkern/kext) operation deferred (queued to user space)"
+20EB0 | __const | 1CE33 | aLibkernKextOpe_0 | string_pointer | "(libkern/kext) operation/kext not allowed at current boot level"
+20EB8 | __const | 1CE73 | aLibkernKextNot_1 | string_pointer | "(libkern/kext) not loadable (reason unspecified)"
+20EC0 | __const | 1CEA4 | aLibkernKextDif | string_pointer | "(libkern/kext) different version/uuid already loaded"
+20EC8 | __const | 1CED9 | aLibkernKextDep_0 | string_pointer | "(libkern/kext) dependency load failed"
+20ED0 | __const | 1CEFF | aLibkernKextLin | string_pointer | "(libkern/kext) link error"
+20ED8 | __const | 1CF19 | aLibkernKextKex | string_pointer | "(libkern/kext) kext (kmod) start/stop routine failed"
+20EE0 | __const | 1CF4E | aLibkernKextKex_0 | string_pointer | "(libkern/kext) kext is in use or retained (cannot unload)"
+20EE8 | __const | 1CF88 | aLibkernKextKex_1 | string_pointer | "(libkern/kext) kext request timed out"
+20EF0 | __const | 1CFAE | aLibkernKextKex_2 | string_pointer | "(libkern/kext) kext is stopping and cannot issue requests"
+20EF8 | __const | 1CB26 | aLibkernCommon | string_pointer | "(libkern/common)"
+20F08 | __const | 20DB0 | _err_codes_libkern_common | data_pointer | data_item_size=8
+20F20 | __const | 1CB37 | aLibkernMetacla | string_pointer | "(libkern/metaclass)"
+20F30 | __const | 20DC0 | _err_codes_libkern_metaclass | data_pointer | data_item_size=8
+20F48 | __const | 1CB4B | aLibkernKext | string_pointer | "(libkern/kext)"
+20F58 | __const | 20E20 | _err_codes_libkern_kext | data_pointer | data_item_size=8
+20F70 | __const | 1D5A4 | aIpcSendNoError | string_pointer | "(ipc/send) no error"
+20F78 | __const | 1D5B8 | aIpcSendSendInP | string_pointer | "(ipc/send) send in progress"
+20F80 | __const | 1D5D4 | aIpcSendInvalid | string_pointer | "(ipc/send) invalid data"
+20F88 | __const | 1D5EC | aIpcSendInvalid_0 | string_pointer | "(ipc/send) invalid destination port"
+20F90 | __const | 1D610 | aIpcSendTimedOu | string_pointer | "(ipc/send) timed out"
+20F98 | __const | 1D625 | aIpcSendWillNot | string_pointer | "(ipc/send) will notify"
+20FA0 | __const | 1D63C | aIpcSendNotifyI | string_pointer | "(ipc/send) notify in progress"
+20FA8 | __const | 1D65A | aIpcSendInterru | string_pointer | "(ipc/send) interrupted"
+20FB0 | __const | 1D671 | aIpcSendMsgTooS | string_pointer | "(ipc/send) msg too small"
+20FB8 | __const | 1D68A | aIpcSendInvalid_1 | string_pointer | "(ipc/send) invalid reply port"
+20FC0 | __const | 1D6A8 | aIpcSendInvalid_2 | string_pointer | "(ipc/send) invalid port right"
+20FC8 | __const | 1D6C6 | aIpcSendInvalid_3 | string_pointer | "(ipc/send) invalid notify port"
+20FD0 | __const | 1D6E5 | aIpcSendInvalid_4 | string_pointer | "(ipc/send) invalid memory"
+20FD8 | __const | 1D6FF | aIpcSendNoMsgBu | string_pointer | "(ipc/send) no msg buffer"
+20FE0 | __const | 1D718 | aIpcSendNoNotif | string_pointer | "(ipc/send) no notify possible"
+20FE8 | __const | 1D736 | aIpcSendInvalid_5 | string_pointer | "(ipc/send) invalid msg-type"
+20FF0 | __const | 1D752 | aIpcSendInvalid_6 | string_pointer | "(ipc/send) invalid msg-header"
+20FF8 | __const | 1D770 | aIpcSendInvalid_7 | string_pointer | "(ipc/send) invalid msg-trailer"
+21000 | __const | 1D78F | aIpcSendDipcTra | string_pointer | "(ipc/send) DIPC transport failure"
+21008 | __const | 1D7B1 | aIpcSendDipcPor | string_pointer | "(ipc/send) DIPC port migrated"
+21010 | __const | 1D7CF | aIpcSendDipcRes | string_pointer | "(ipc/send) DIPC resend failed"
+21018 | __const | 1D7ED | aIpcSendOutOfLi | string_pointer | "(ipc/send) out-of-line buffer too large"
+21020 | __const | 1D3F1 | aIpcRcvNoError | string_pointer | "(ipc/rcv) no error"
+21028 | __const | 1D404 | aIpcRcvReceiveI | string_pointer | "(ipc/rcv) receive in progress"
+21030 | __const | 1D422 | aIpcRcvInvalidN | string_pointer | "(ipc/rcv) invalid name"
+21038 | __const | 1D439 | aIpcRcvTimedOut | string_pointer | "(ipc/rcv) timed out"
+21040 | __const | 1D44D | aIpcRcvMsgTooLa | string_pointer | "(ipc/rcv) msg too large"
+21048 | __const | 1D465 | aIpcRcvInterrup | string_pointer | "(ipc/rcv) interrupted"
+21050 | __const | 1D47B | aIpcRcvPortChan | string_pointer | "(ipc/rcv) port changed"
+21058 | __const | 1D492 | aIpcRcvInvalidN_0 | string_pointer | "(ipc/rcv) invalid notify port"
+21060 | __const | 1D4B0 | aIpcRcvInvalidD | string_pointer | "(ipc/rcv) invalid data"
+21068 | __const | 1D4C7 | aIpcRcvPortDied | string_pointer | "(ipc/rcv) port died"
+21070 | __const | 1D4DB | aIpcRcvPortInSe | string_pointer | "(ipc/rcv) port in set"
+21078 | __const | 1D4F1 | aIpcRcvHeaderEr | string_pointer | "(ipc/rcv) header error"
+21080 | __const | 1D508 | aIpcRcvBodyErro | string_pointer | "(ipc/rcv) body error"
+21088 | __const | 1D51D | aIpcRcvInvalidS | string_pointer | "(ipc/rcv) invalid scatter list entry"
+21090 | __const | 1D542 | aIpcRcvOverwrit | string_pointer | "(ipc/rcv) overwrite region too small"
+21098 | __const | 1D567 | aIpcRcvInvalidM | string_pointer | "(ipc/rcv) invalid msg-trailer"
+210A0 | __const | 1D585 | aIpcRcvDipcTran | string_pointer | "(ipc/rcv) DIPC transport error"
+210A8 | __const | 1D2AB | aIpcMigClientTy | string_pointer | "(ipc/mig) client type check failure"
+210B0 | __const | 1D2CF | aIpcMigWrongRep | string_pointer | "(ipc/mig) wrong reply message ID"
+210B8 | __const | 1D2F0 | aIpcMigServerDe | string_pointer | "(ipc/mig) server detected error"
+210C0 | __const | 1D310 | aIpcMigBadReque | string_pointer | "(ipc/mig) bad request message ID"
+210C8 | __const | 1D331 | aIpcMigServerTy | string_pointer | "(ipc/mig) server type check failure"
+210D0 | __const | 1D355 | aIpcMigNoReplyS | string_pointer | "(ipc/mig) no reply should be sent"
+210D8 | __const | 1D377 | aIpcMigServerRa | string_pointer | "(ipc/mig) server raised exception"
+210E0 | __const | 1D399 | aIpcMigArrayNot | string_pointer | "(ipc/mig) array not large enough"
+210E8 | __const | 1D3BA | aIpcMigServerDi | string_pointer | "(ipc/mig) server died"
+210F0 | __const | 1D3D0 | aIpcMigUnknownT | string_pointer | "(ipc/mig) unknown trailer format"
+210F8 | __const | 1D28C | aIpcSend | string_pointer | "(ipc/send)"
+21108 | __const | 20F70 | _err_codes_mach_send | data_pointer | data_item_size=8
+21120 | __const | 1D297 | aIpcRcv | string_pointer | "(ipc/rcv)"
+21130 | __const | 21020 | _err_codes_mach_rcv | data_pointer | data_item_size=8
+21148 | __const | 1D2A1 | aIpcMig | string_pointer | "(ipc/mig)"
+21158 | __const | 210A8 | _err_codes_mach_mig | data_pointer | data_item_size=8
+21170 | __const | 1DA02 | aIpcSendUnknown | string_pointer | "(ipc/send) unknown error"
+21178 | __const | 1D6E5 | aIpcSendInvalid_4 | string_pointer | "(ipc/send) invalid memory"
+21180 | __const | 1DA1B | aIpcSendInvalid_8 | string_pointer | "(ipc/send) invalid port"
+21188 | __const | 1D610 | aIpcSendTimedOu | string_pointer | "(ipc/send) timed out"
+21190 | __const | 1DA33 | aIpcSendUnusedE | string_pointer | "(ipc/send) unused error"
+21198 | __const | 1D625 | aIpcSendWillNot | string_pointer | "(ipc/send) will notify"
+211A0 | __const | 1D63C | aIpcSendNotifyI | string_pointer | "(ipc/send) notify in progress"
+211A8 | __const | 1DA4B | aIpcSendKernelR | string_pointer | "(ipc/send) kernel refused message"
+211B0 | __const | 1DA6D | aIpcSendSendInt | string_pointer | "(ipc/send) send interrupted"
+211B8 | __const | 1DA89 | aIpcSendSendMes | string_pointer | "(ipc/send) send message too large"
+211C0 | __const | 1DAAB | aIpcSendSendMes_0 | string_pointer | "(ipc/send) send message too small"
+211C8 | __const | 1DACD | aIpcSendMessage | string_pointer | "(ipc/send) message size changed while being copied"
+211D0 | __const | 1D8E9 | aIpcRcvUnknownE | string_pointer | "(ipc/rcv) unknown error"
+211D8 | __const | 1D901 | aIpcRcvInvalidM_0 | string_pointer | "(ipc/rcv) invalid memory"
+211E0 | __const | 1D91A | aIpcRcvInvalidP | string_pointer | "(ipc/rcv) invalid port"
+211E8 | __const | 1D931 | aIpcRcvReceiveT | string_pointer | "(ipc/rcv) receive timed out"
+211F0 | __const | 1D94D | aIpcRcvMessageT | string_pointer | "(ipc/rcv) message too large"
+211F8 | __const | 1D969 | aIpcRcvNoSpaceF | string_pointer | "(ipc/rcv) no space for message data"
+21200 | __const | 1D98D | aIpcRcvOnlySend | string_pointer | "(ipc/rcv) only sender remaining"
+21208 | __const | 1D9AD | aIpcRcvReceiveI_0 | string_pointer | "(ipc/rcv) receive interrupted"
+21210 | __const | 1D9CB | aIpcRcvPortRece | string_pointer | "(ipc/rcv) port receiver changed or port became enabled"
+21218 | __const | 1D815 | aIpcMigTypeChec | string_pointer | "(ipc/mig) type check failure in message interface"
+21220 | __const | 1D847 | aIpcMigWrongRet | string_pointer | "(ipc/mig) wrong return message ID"
+21228 | __const | 1D2F0 | aIpcMigServerDe | string_pointer | "(ipc/mig) server detected error"
+21230 | __const | 1D869 | aIpcMigBadMessa | string_pointer | "(ipc/mig) bad message ID"
+21238 | __const | 1D882 | aIpcMigServerFo | string_pointer | "(ipc/mig) server found wrong arguments"
+21240 | __const | 1D355 | aIpcMigNoReplyS | string_pointer | "(ipc/mig) no reply should be sent"
+21248 | __const | 1D377 | aIpcMigServerRa | string_pointer | "(ipc/mig) server raised exception"
+21250 | __const | 1D8A9 | aIpcMigUserSpec | string_pointer | "(ipc/mig) user specified array not large enough for return info"
+21258 | __const | 1D28C | aIpcSend | string_pointer | "(ipc/send)"
+21268 | __const | 21170 | _err_codes_send | data_pointer | data_item_size=8
+21280 | __const | 1D297 | aIpcRcv | string_pointer | "(ipc/rcv)"
+21290 | __const | 211D0 | _err_codes_rcv | data_pointer | data_item_size=8
+212A8 | __const | 1D2A1 | aIpcMig | string_pointer | "(ipc/mig)"
+212B8 | __const | 21218 | _err_codes_mig | data_pointer | data_item_size=8
+212D0 | __const | 1EFBC | aServerNetnameN | string_pointer | "(server/netname) name is not yours"
+212D8 | __const | 1EFDF | aServerNetnameN_0 | string_pointer | "(server/netname) name not checked in"
+212E0 | __const | 1F004 | aServerNetnameN_1 | string_pointer | "(server/netname) no such host"
+212E8 | __const | 1F022 | aServerNetnameH | string_pointer | "(server/netname) host not found"
+212F0 | __const | 1CB5A | aUnknownErrorCo | string_pointer | "unknown error code"
+212F8 | __const | 1EEA9 | aServerEnvMgrVa | string_pointer | "(server/env_mgr) variable not found"
+21300 | __const | 1EECD | aServerEnvMgrWr | string_pointer | "(server/env_mgr) wrong type of variable"
+21308 | __const | 1EEF5 | aServerEnvMgrUn | string_pointer | "(server/env_mgr) unknown port"
+21310 | __const | 1EF13 | aServerEnvMgrRe | string_pointer | "(server/env_mgr) read only environment"
+21318 | __const | 1EF3A | aServerEnvMgrNo | string_pointer | "(server/env_mgr) no more connections available"
+21320 | __const | 1EF69 | aServerEnvMgrPo | string_pointer | "(server/env_mgr) port table full"
+21328 | __const | 1EF8A | aServerEnvMgrAt | string_pointer | "(server/env_mgr) attempting to enter a null port"
+21330 | __const | 1CB5A | aUnknownErrorCo | string_pointer | "unknown error code"
+21338 | __const | 1EE38 | aServerExecdCou | string_pointer | "(server/execd) could not find file to run"
+21340 | __const | 1EE62 | aServerExecdUse | string_pointer | "(server/execd) userid or password incorrect"
+21348 | __const | 1EE8E | aServerExecdFor | string_pointer | "(server/execd) fork failed"
+21350 | __const | 1EDD1 | aServerNetmemor_0 | string_pointer | "(server/netmemory) successful"
+21358 | __const | 1EDEF | aServerNetmemor_1 | string_pointer | "(server/netmemory) invalid argument"
+21360 | __const | 1EE13 | aServerNetmemor_2 | string_pointer | "(server/netmemory) resource shortage"
+21368 | __const | 1CB5A | aUnknownErrorCo | string_pointer | "unknown error code"
+21370 | __const | 1ECEB | aServerTaskMast_0 | string_pointer | "(server/task_master) GENERIC ERROR"
+21378 | __const | 1ED0E | aServerTaskMast_1 | string_pointer | "(server/task_master) invalid tm_task port"
+21380 | __const | 1ED38 | aServerTaskMast_2 | string_pointer | "(server/task_master) invalid task id"
+21388 | __const | 1ED5D | aServerTaskMast_3 | string_pointer | "(server/task_master) invalid kernel port"
+21390 | __const | 1ED86 | aServerTaskMast_4 | string_pointer | "(server/task_master) invalid job group"
+21398 | __const | 1EDAD | aServerTaskMast_5 | string_pointer | "(server/task_master) invalid action"
+213A0 | __const | 1EABB | aServerNsGeneri | string_pointer | "(server/ns) GENERIC ERROR"
+213A8 | __const | 1EAD5 | aServerNsInvali | string_pointer | "(server/ns) invalid handle"
+213B0 | __const | 1EAF0 | aServerNsNameNo | string_pointer | "(server/ns) name not found"
+213B8 | __const | 1EB0B | aServerNsNameAl | string_pointer | "(server/ns) name already exists"
+213C0 | __const | 1EB2B | aServerNsNameTo | string_pointer | "(server/ns) name too long"
+213C8 | __const | 1EB45 | aServerNsPathTo | string_pointer | "(server/ns) path too long"
+213D0 | __const | 1EB5F | aServerNsInvali_0 | string_pointer | "(server/ns) invalid name"
+213D8 | __const | 1EB78 | aServerNsNotADi | string_pointer | "(server/ns) not a directory"
+213E0 | __const | 1EB94 | aServerNsIsADir | string_pointer | "(server/ns) is a directory"
+213E8 | __const | 1EBAF | aServerNsDirect | string_pointer | "(server/ns) directory not empty"
+213F0 | __const | 1EBCF | aServerNsInfini | string_pointer | "(server/ns) infinite retry loop in resolver"
+213F8 | __const | 1EBFB | aServerNsInfini_0 | string_pointer | "(server/ns) infinite forwarding loop in resolver"
+21400 | __const | 1EC2C | aServerNsInvali_1 | string_pointer | "(server/ns) invalid prefix"
+21408 | __const | 1EC47 | aServerNsPrefix | string_pointer | "(server/ns) prefix table overflow"
+21410 | __const | 1EC69 | aServerNsBadFor | string_pointer | "(server/ns) bad format for directory"
+21418 | __const | 1EC8E | aServerNsUnknow | string_pointer | "(server/ns) unknown entry type"
+21420 | __const | 1ECAD | aServerNsInvali_2 | string_pointer | "(server/ns) invalid generation"
+21428 | __const | 1ECCC | aServerNsEntryN | string_pointer | "(server/ns) entry not reserved"
+21430 | __const | 1E9FD | aServerIoGeneri | string_pointer | "(server/io) GENERIC ERROR"
+21438 | __const | 1EA17 | aServerIoInvali | string_pointer | "(server/io) invalid offset"
+21440 | __const | 1EA32 | aServerIoInvali_0 | string_pointer | "(server/io) invalid size"
+21448 | __const | 1EA4B | aServerIoInvali_1 | string_pointer | "(server/io) invalid mode"
+21450 | __const | 1EA64 | aServerIoInvali_2 | string_pointer | "(server/io) invalid strategy"
+21458 | __const | 1EA81 | aServerIoOperat | string_pointer | "(server/io) operation rejected under current I/O strategy"
+21460 | __const | 1E908 | aServerAuthGene | string_pointer | "(server/auth) GENERIC ERROR"
+21468 | __const | 1E924 | aServerAuthBadP | string_pointer | "(server/auth) bad private port"
+21470 | __const | 1E943 | aServerAuthBadN | string_pointer | "(server/auth) bad name"
+21478 | __const | 1E95A | aServerAuthNotP | string_pointer | "(server/auth) not primary"
+21480 | __const | 1E974 | aServerAuthBadP_0 | string_pointer | "(server/auth) bad pauthsword"
+21488 | __const | 1E991 | aServerAuthBadG | string_pointer | "(server/auth) bad group"
+21490 | __const | 1E9A9 | aServerAuthDupl | string_pointer | "(server/auth) duplicate id"
+21498 | __const | 1E9C4 | aServerAuthDupl_0 | string_pointer | "(server/auth) duplicate name"
+214A0 | __const | 1E9E1 | aServerAuthNotS | string_pointer | "(server/auth) not secondary"
+214A8 | __const | 1E67A | aServerUsGeneri | string_pointer | "(server/us) GENERIC ERROR"
+214B0 | __const | 1E694 | aServerUsUnknow | string_pointer | "(server/us) unknown error"
+214B8 | __const | 1E6AE | aServerUsObject | string_pointer | "(server/us) object not found"
+214C0 | __const | 1E6CB | aServerUsObject_0 | string_pointer | "(server/us) object exists"
+214C8 | __const | 1E6E5 | aServerUsObject_1 | string_pointer | "(server/us) object busy"
+214D0 | __const | 1E6FD | aServerUsObject_2 | string_pointer | "(server/us) object not started"
+214D8 | __const | 1E71C | aServerUsObject_3 | string_pointer | "(server/us) object dead"
+214E0 | __const | 1E734 | aServerUsInvali | string_pointer | "(server/us) invalid args"
+214E8 | __const | 1E74D | aServerUsInvali_0 | string_pointer | "(server/us) invalid access"
+214F0 | __const | 1E768 | aServerUsInvali_1 | string_pointer | "(server/us) invalid format"
+214F8 | __const | 1E783 | aServerUsInvali_2 | string_pointer | "(server/us) invalid buffer size"
+21500 | __const | 1E7A3 | aServerUsAccess | string_pointer | "(server/us) access denied"
+21508 | __const | 1E7BD | aServerUsResour | string_pointer | "(server/us) resource exhausted"
+21510 | __const | 1E7DC | aServerUsQuotaE | string_pointer | "(server/us) quota exceeded"
+21518 | __const | 1E7F7 | aServerUsLimitE | string_pointer | "(server/us) limit exceeded"
+21520 | __const | 1E812 | aServerUsNotImp | string_pointer | "(server/us) not implemented"
+21528 | __const | 1E82E | aServerUsNotSup | string_pointer | "(server/us) not supported"
+21530 | __const | 1E848 | aServerUsHardwa | string_pointer | "(server/us) hardware error"
+21538 | __const | 1E863 | aServerUsRetryR | string_pointer | "(server/us) retry required"
+21540 | __const | 1E87E | aServerUsNotAut | string_pointer | "(server/us) not authenticated"
+21548 | __const | 1E89C | aServerUsExclus | string_pointer | "(server/us) exclusive access"
+21550 | __const | 1E8B9 | aServerUsTimeou | string_pointer | "(server/us) timeout"
+21558 | __const | 1E8CD | aServerUsBadRef | string_pointer | "(server/us) bad reference count"
+21560 | __const | 1E8ED | aServerUsIntern | string_pointer | "(server/us) internal error"
+21568 | __const | 1E3D1 | aServerSunrpcGe | string_pointer | "(server/sunrpc) GENERIC ERROR"
+21570 | __const | 1E3EF | aServerSunrpcCa | string_pointer | "(server/sunrpc) cannot encode arguments"
+21578 | __const | 1E417 | aServerSunrpcCa_0 | string_pointer | "(server/sunrpc) cannot decode results"
+21580 | __const | 1E43D | aServerSunrpcFa | string_pointer | "(server/sunrpc) failure in sending call"
+21588 | __const | 1E465 | aServerSunrpcFa_0 | string_pointer | "(server/sunrpc) failure in receiving result"
+21590 | __const | 1E491 | aServerSunrpcCa_1 | string_pointer | "(server/sunrpc) call timed out"
+21598 | __const | 1E4B0 | aServerSunrpcRp | string_pointer | "(server/sunrpc) rpc versions not compatible"
+215A0 | __const | 1E4DC | aServerSunrpcAu | string_pointer | "(server/sunrpc) authentication error"
+215A8 | __const | 1E501 | aServerSunrpcPr | string_pointer | "(server/sunrpc) program not available"
+215B0 | __const | 1E527 | aServerSunrpcPr_0 | string_pointer | "(server/sunrpc) program version mismatched"
+215B8 | __const | 1E552 | aServerSunrpcPr_1 | string_pointer | "(server/sunrpc) procedure unavailable"
+215C0 | __const | 1E578 | aServerSunrpcDe | string_pointer | "(server/sunrpc) decode arguments error"
+215C8 | __const | 1E59F | aServerSunrpcGe_0 | string_pointer | "(server/sunrpc) generic other problem"
+215D0 | __const | 1E5C5 | aServerSunrpcUn | string_pointer | "(server/sunrpc) unknown host name"
+215D8 | __const | 1E5E7 | aServerSunrpcPo | string_pointer | "(server/sunrpc) portmapper failed"
+215E0 | __const | 1E609 | aServerSunrpcRe | string_pointer | "(server/sunrpc) remote program not registered"
+215E8 | __const | 1E637 | aServerSunrpcUn_0 | string_pointer | "(server/sunrpc) unspecified error"
+215F0 | __const | 1E659 | aServerSunrpcUn_1 | string_pointer | "(server/sunrpc) unknown protocol"
+215F8 | __const | 1E2C3 | aServerObjectSy_0 | string_pointer | "(server/object system) GENERIC ERROR"
+21600 | __const | 1E2E8 | aServerObjectSy_1 | string_pointer | "(server/object system) object not found"
+21608 | __const | 1E310 | aServerObjectSy_2 | string_pointer | "(server/object system) no such operation"
+21610 | __const | 1E339 | aServerObjectSy_3 | string_pointer | "(server/object system) undefined ipc method arguments"
+21618 | __const | 1E36F | aServerObjectSy_4 | string_pointer | "(server/object system) too many arguments to method"
+21620 | __const | 1E3A3 | aServerObjectSy_5 | string_pointer | "(server/object system) bad ipc message format"
+21628 | __const | 1E1EA | aServerLoaderGe | string_pointer | "(server/loader) GENERIC ERROR"
+21630 | __const | 1E208 | aServerLoaderOb | string_pointer | "(server/loader) object file not relocated"
+21638 | __const | 1E232 | aServerLoaderUn | string_pointer | "(server/loader) unknown file type"
+21640 | __const | 1E254 | aServerLoaderSy | string_pointer | "(server/loader) symbol not found"
+21648 | __const | 1E275 | aServerLoaderSy_0 | string_pointer | "(server/loader) symbol multiply defined"
+21650 | __const | 1E29D | aServerLoaderMe | string_pointer | "(server/loader) memory region overlap"
+21658 | __const | 1E0E3 | aServerExceptio_0 | string_pointer | "(server/exception) GENERIC ERROR"
+21660 | __const | 1E104 | aServerExceptio_1 | string_pointer | "(server/exception) invalid access"
+21668 | __const | 1E126 | aServerExceptio_2 | string_pointer | "(server/exception) invalid instruction"
+21670 | __const | 1E14D | aServerExceptio_3 | string_pointer | "(server/exception) arithmetic exception"
+21678 | __const | 1E175 | aServerExceptio_4 | string_pointer | "(server/exception) emulation exception"
+21680 | __const | 1E19C | aServerExceptio_5 | string_pointer | "(server/exception) software exception"
+21688 | __const | 1E1C2 | aServerExceptio_6 | string_pointer | "(server/exception) breakpoint exception"
+21690 | __const | 1DDA0 | aServerUnixSign_0 | string_pointer | "(server/unix-signal) GENERIC ERROR"
+21698 | __const | 1DDC3 | aServerUnixSign_1 | string_pointer | "(server/unix-signal) hangup"
+216A0 | __const | 1DDDF | aServerUnixSign_2 | string_pointer | "(server/unix-signal) interrupt"
+216A8 | __const | 1DDFE | aServerUnixSign_3 | string_pointer | "(server/unix-signal) quit"
+216B0 | __const | 1DE18 | aServerUnixSign_4 | string_pointer | "(server/unix-signal) undefined"
+216B8 | __const | 1DE18 | aServerUnixSign_4 | string_pointer | "(server/unix-signal) undefined"
+216C0 | __const | 1DE18 | aServerUnixSign_4 | string_pointer | "(server/unix-signal) undefined"
+216C8 | __const | 1DE18 | aServerUnixSign_4 | string_pointer | "(server/unix-signal) undefined"
+216D0 | __const | 1DE37 | aServerUnixSign_5 | string_pointer | "(server/unix-signal) kill"
+216D8 | __const | 1DE18 | aServerUnixSign_4 | string_pointer | "(server/unix-signal) undefined"
+216E0 | __const | 1DE18 | aServerUnixSign_4 | string_pointer | "(server/unix-signal) undefined"
+216E8 | __const | 1DE51 | aServerUnixSign_6 | string_pointer | "(server/unix-signal) system error"
+216F0 | __const | 1DE73 | aServerUnixSign_7 | string_pointer | "(server/unix-signal) pipe signal"
+216F8 | __const | 1DE94 | aServerUnixSign_8 | string_pointer | "(server/unix-signal) alarm"
+21700 | __const | 1DEAF | aServerUnixSign_9 | string_pointer | "(server/unix-signal) terminate"
+21708 | __const | 1DECE | aServerUnixSign_10 | string_pointer | "(server/unix-signal) urgent i/o"
+21710 | __const | 1DEEE | aServerUnixSign_11 | string_pointer | "(server/unix-signal) stop"
+21718 | __const | 1DF08 | aServerUnixSign_12 | string_pointer | "(server/unix-signal) terminal stop"
+21720 | __const | 1DF2B | aServerUnixSign_13 | string_pointer | "(server/unix-signal) continue"
+21728 | __const | 1DF49 | aServerUnixSign_14 | string_pointer | "(server/unix-signal) child death"
+21730 | __const | 1DF6A | aServerUnixSign_15 | string_pointer | "(server/unix-signal) tty input"
+21738 | __const | 1DF89 | aServerUnixSign_16 | string_pointer | "(server/unix-signal) tty output"
+21740 | __const | 1DFA9 | aServerUnixSign_17 | string_pointer | "(server/unix-signal) i/o signal"
+21748 | __const | 1DFC9 | aServerUnixSign_18 | string_pointer | "(server/unix-signal) cpu time limit exceeded"
+21750 | __const | 1DFF6 | aServerUnixSign_19 | string_pointer | "(server/unix-signal) file size exceeded"
+21758 | __const | 1E01E | aServerUnixSign_20 | string_pointer | "(server/unix-signal) virtual alarm"
+21760 | __const | 1E041 | aServerUnixSign_21 | string_pointer | "(server/unix-signal) profile signal"
+21768 | __const | 1E065 | aServerUnixSign_22 | string_pointer | "(server/unix-signal) window size change"
+21770 | __const | 1E08D | aServerUnixSign_23 | string_pointer | "(server/unix-signal) user-defined signal 1"
+21778 | __const | 1E0B8 | aServerUnixSign_24 | string_pointer | "(server/unix-signal) user-defined signal 2"
+21780 | __const | 1DC08 | aServerXkernelG | string_pointer | "(server/xkernel) GENERIC ERROR"
+21788 | __const | 1DC27 | aServerXkernelM | string_pointer | "(server/xkernel) map full"
+21790 | __const | 1DC41 | aServerXkernelI | string_pointer | "(server/xkernel) inconsistent bind"
+21798 | __const | 1DC64 | aServerXkernelC | string_pointer | "(server/xkernel) cannot resolve"
+217A0 | __const | 1DC84 | aServerXkernelC_0 | string_pointer | "(server/xkernel) cannot unbind"
+217A8 | __const | 1DCA3 | aServerXkernelI_0 | string_pointer | "(server/xkernel) invalid type"
+217B0 | __const | 1DCC1 | aServerXkernelI_1 | string_pointer | "(server/xkernel) invalid opcode"
+217B8 | __const | 1DCE1 | aServerXkernelB | string_pointer | "(server/xkernel) buffer too small"
+217C0 | __const | 1DD03 | aServerXkernelI_2 | string_pointer | "(server/xkernel) invalid ev code"
+217C8 | __const | 1DD24 | aServerXkernelE | string_pointer | "(server/xkernel) event not registered"
+217D0 | __const | 1DD4A | aServerXkernelI_3 | string_pointer | "(server/xkernel) invalid open"
+217D8 | __const | 1DD68 | aServerXkernelA | string_pointer | "(server/xkernel) already open"
+217E0 | __const | 1DD86 | aServerXkernelB_0 | string_pointer | "(server/xkernel) bad addr"
+217E8 | __const | 1DB00 | aServerNetname | string_pointer | "(server/netname)"
+217F8 | __const | 212D0 | _err_codes_netname | data_pointer | data_item_size=8
+21810 | __const | 1DB11 | aServerEnvMgr | string_pointer | "(server/env_mgr)"
+21820 | __const | 212F0 | _err_codes_env_mgr | data_pointer | data_item_size=8
+21838 | __const | 1DB22 | aServerExecd | string_pointer | "(server/execd)"
+21848 | __const | 21330 | _err_codes_execd | data_pointer | data_item_size=8
+21860 | __const | 1DB31 | aServerNetmemor | string_pointer | "(server/netmemory)"
+21870 | __const | 21350 | _err_codes_netmemory | data_pointer | data_item_size=8
+21888 | __const | 1DB44 | aServerUfs | string_pointer | "(server/ufs)"
+21898 | __const | 21368 | _err_codes_ufs | data_pointer | data_item_size=8
+218B0 | __const | 1DB51 | aServerTaskMast | string_pointer | "(server/task_master)"
+218C0 | __const | 21370 | _err_codes_task_master | data_pointer | data_item_size=8
+218D8 | __const | 1DB66 | aServerNs | string_pointer | "(server/ns)"
+218E8 | __const | 213A0 | _err_codes_ns | data_pointer | data_item_size=8
+21900 | __const | 1DB72 | aServerIo | string_pointer | "(server/io)"
+21910 | __const | 21430 | _err_codes_io | data_pointer | data_item_size=8
+21928 | __const | 1DB7E | aServerAuth | string_pointer | "(server/auth)"
+21938 | __const | 21460 | _err_codes_auth | data_pointer | data_item_size=8
+21950 | __const | 1DB8C | aServerUs | string_pointer | "(server/us)"
+21960 | __const | 214A8 | _err_codes_us | data_pointer | data_item_size=8
+21978 | __const | 1DB98 | aServerSunrpc | string_pointer | "(server/sunrpc)"
+21988 | __const | 21568 | _err_codes_sunrpc | data_pointer | data_item_size=8
+219A0 | __const | 1DBA8 | aServerObjectSy | string_pointer | "(server/object system)"
+219B0 | __const | 215F8 | _err_codes_machobj | data_pointer | data_item_size=8
+219C8 | __const | 1DBBF | aServerLoader | string_pointer | "(server/loader)"
+219D8 | __const | 21628 | _err_codes_loader | data_pointer | data_item_size=8
+219F0 | __const | 1DBCF | aServerExceptio | string_pointer | "(server/exception)"
+21A00 | __const | 21658 | _err_codes_exception | data_pointer | data_item_size=8
+21A18 | __const | 1DBE2 | aServerUnixSign | string_pointer | "(server/unix-signal)"
+21A28 | __const | 21690 | _err_codes_ux_signal | data_pointer | data_item_size=8
+21A40 | __const | 1DBF7 | aServerXkernel | string_pointer | "(server/xkernel)"
+21A50 | __const | 21780 | _err_codes_xkernel | data_pointer | data_item_size=8
+21A68 | __const | 1FA35 | aOsKernSuccessf | string_pointer | "(os/kern) successful"
+21A70 | __const | 1FA4A | aOsKernInvalidA | string_pointer | "(os/kern) invalid address"
+21A78 | __const | 1FA64 | aOsKernProtecti | string_pointer | "(os/kern) protection failure"
+21A80 | __const | 1FA81 | aOsKernNoSpaceA | string_pointer | "(os/kern) no space available"
+21A88 | __const | 1FA9E | aOsKernInvalidA_0 | string_pointer | "(os/kern) invalid argument"
+21A90 | __const | 1FAB9 | aOsKernFailure | string_pointer | "(os/kern) failure"
+21A98 | __const | 1FACB | aOsKernResource | string_pointer | "(os/kern) resource shortage"
+21AA0 | __const | 1FAE7 | aOsKernNotRecei | string_pointer | "(os/kern) not receiver"
+21AA8 | __const | 1FAFE | aOsKernNoAccess | string_pointer | "(os/kern) no access"
+21AB0 | __const | 1FB12 | aOsKernMemoryFa | string_pointer | "(os/kern) memory failure"
+21AB8 | __const | 1FB2B | aOsKernMemoryEr | string_pointer | "(os/kern) memory error"
+21AC0 | __const | 1FB42 | aOsKernAlreadyI | string_pointer | "(os/kern) already in set"
+21AC8 | __const | 1FB5B | aOsKernNotInSet | string_pointer | "(os/kern) not in set"
+21AD0 | __const | 1FB70 | aOsKernNameExis | string_pointer | "(os/kern) name exists"
+21AD8 | __const | 1FB86 | aOsKernAborted | string_pointer | "(os/kern) aborted"
+21AE0 | __const | 1FB98 | aOsKernInvalidN | string_pointer | "(os/kern) invalid name"
+21AE8 | __const | 1FBAF | aOsKernInvalidT | string_pointer | "(os/kern) invalid task"
+21AF0 | __const | 1FBC6 | aOsKernInvalidR | string_pointer | "(os/kern) invalid right"
+21AF8 | __const | 1FBDE | aOsKernInvalidV | string_pointer | "(os/kern) invalid value"
+21B00 | __const | 1FBF6 | aOsKernUrefsOve | string_pointer | "(os/kern) urefs overflow"
+21B08 | __const | 1FC0F | aOsKernInvalidC | string_pointer | "(os/kern) invalid capability"
+21B10 | __const | 1FC2C | aOsKernRightExi | string_pointer | "(os/kern) right exists"
+21B18 | __const | 1FC43 | aOsKernInvalidH | string_pointer | "(os/kern) invalid host"
+21B20 | __const | 1FC5A | aOsKernMemoryPr | string_pointer | "(os/kern) memory present"
+21B28 | __const | 1FC73 | aOsKernMemoryDa | string_pointer | "(os/kern) memory data moved"
+21B30 | __const | 1FC8F | aOsKernMemoryRe | string_pointer | "(os/kern) memory restart copy"
+21B38 | __const | 1FCAD | aOsKernInvalidP | string_pointer | "(os/kern) invalid processor set"
+21B40 | __const | 1FCCD | aOsKernPolicyLi | string_pointer | "(os/kern) policy limit"
+21B48 | __const | 1FCE4 | aOsKernInvalidP_0 | string_pointer | "(os/kern) invalid policy"
+21B50 | __const | 1FCFD | aOsKernInvalidO | string_pointer | "(os/kern) invalid object"
+21B58 | __const | 1FD16 | aOsKernAlreadyW | string_pointer | "(os/kern) already waiting"
+21B60 | __const | 1FD30 | aOsKernDefaultS | string_pointer | "(os/kern) default set"
+21B68 | __const | 1FD46 | aOsKernExceptio | string_pointer | "(os/kern) exception protected"
+21B70 | __const | 1FD64 | aOsKernInvalidL | string_pointer | "(os/kern) invalid ledger"
+21B78 | __const | 1FD7D | aOsKernInvalidM | string_pointer | "(os/kern) invalid memory control"
+21B80 | __const | 1FD9E | aOsKernInvalidS | string_pointer | "(os/kern) invalid security"
+21B88 | __const | 1FDB9 | aOsKernNotDepre | string_pointer | "(os/kern) not depressed"
+21B90 | __const | 1FDD1 | aOsKernObjectTe | string_pointer | "(os/kern) object terminated"
+21B98 | __const | 1FDED | aOsKernLockSetD | string_pointer | "(os/kern) lock set destroyed"
+21BA0 | __const | 1FE0A | aOsKernLockUnst | string_pointer | "(os/kern) lock unstable"
+21BA8 | __const | 1FE22 | aOsKernLockOwne | string_pointer | "(os/kern) lock owned by another"
+21BB0 | __const | 1FE42 | aOsKernLockOwne_0 | string_pointer | "(os/kern) lock owned by self"
+21BB8 | __const | 1FE5F | aOsKernSemaphor | string_pointer | "(os/kern) semaphore destroyed"
+21BC0 | __const | 1FE7D | aOsKernRpcTermi | string_pointer | "(os/kern) RPC terminated"
+21BC8 | __const | 1FE96 | aOsKernTerminat | string_pointer | "(os/kern) terminate orphan"
+21BD0 | __const | 1FEB1 | aOsKernLetOrpha | string_pointer | "(os/kern) let orphan continue"
+21BD8 | __const | 1FECF | aOsKernServiceN | string_pointer | "(os/kern) service not supported"
+21BE0 | __const | 1FEEF | aOsKernRemoteNo | string_pointer | "(os/kern) remote node down"
+21BE8 | __const | 1CB5A | aUnknownErrorCo | string_pointer | "unknown error code"
+21BF0 | __const | 1F05D | aOsUnixNoRights | string_pointer | "(os/unix) no rights to object"
+21BF8 | __const | 1F07B | aOsUnixFileOrDi | string_pointer | "(os/unix) file or directory does not exist"
+21C00 | __const | 1F0A6 | aOsUnixNoSuchPr | string_pointer | "(os/unix) no such process"
+21C08 | __const | 1F0C0 | aOsUnixInterrup | string_pointer | "(os/unix) interrupted system call"
+21C10 | __const | 1F0E2 | aOsUnixIOError | string_pointer | "(os/unix) i/o error"
+21C18 | __const | 1F0F6 | aOsUnixDeviceDo | string_pointer | "(os/unix) device does not exist"
+21C20 | __const | 1F116 | aOsUnixArgument | string_pointer | "(os/unix) argument list is too long"
+21C28 | __const | 1F13A | aOsUnixInvalidE | string_pointer | "(os/unix) invalid executable object format"
+21C30 | __const | 1F165 | aOsUnixBadFileD | string_pointer | "(os/unix) bad file descriptor number"
+21C38 | __const | 1F18A | aOsUnixNoChildP | string_pointer | "(os/unix) no child processes are present"
+21C40 | __const | 1F1B3 | aOsUnixNoMorePr | string_pointer | "(os/unix) no more processes are available"
+21C48 | __const | 1F1DD | aOsUnixInsuffic | string_pointer | "(os/unix) insufficient memory"
+21C50 | __const | 1F1FB | aOsUnixAccessDe | string_pointer | "(os/unix) access denied"
+21C58 | __const | 1F213 | aOsUnixMemoryAc | string_pointer | "(os/unix) memory access fault"
+21C60 | __const | 1F231 | aOsUnixBlockDev | string_pointer | "(os/unix) block device required for operation"
+21C68 | __const | 1F25F | aOsUnixMountDev | string_pointer | "(os/unix) mount device busy"
+21C70 | __const | 1F27B | aOsUnixFileAlre | string_pointer | "(os/unix) file already exists"
+21C78 | __const | 1F299 | aOsUnixCrossDev | string_pointer | "(os/unix) cross device link"
+21C80 | __const | 1F0F6 | aOsUnixDeviceDo | string_pointer | "(os/unix) device does not exist"
+21C88 | __const | 1F2B5 | aOsUnixObjectIs | string_pointer | "(os/unix) object is not a directory"
+21C90 | __const | 1F2D9 | aOsUnixObjectIs_0 | string_pointer | "(os/unix) object is a directory"
+21C98 | __const | 1F2F9 | aOsUnixInvalidA | string_pointer | "(os/unix) invalid argument"
+21CA0 | __const | 1F314 | aOsUnixInternal | string_pointer | "(os/unix) internal file table overflow"
+21CA8 | __const | 1F33B | aOsUnixMaximumN | string_pointer | "(os/unix) maximum number of open files reached"
+21CB0 | __const | 1F36A | aOsUnixObjectIs_1 | string_pointer | "(os/unix) object is not a tty-like device"
+21CB8 | __const | 1F394 | aOsUnixExecutab | string_pointer | "(os/unix) executable object is in use"
+21CC0 | __const | 1F3BA | aOsUnixFileIsTo | string_pointer | "(os/unix) file is too large"
+21CC8 | __const | 1F3D6 | aOsUnixNoSpaceI | string_pointer | "(os/unix) no space is left on device"
+21CD0 | __const | 1F3FB | aOsUnixIllegalS | string_pointer | "(os/unix) illegal seek attempt"
+21CD8 | __const | 1F41A | aOsUnixReadOnly | string_pointer | "(os/unix) read-only file system"
+21CE0 | __const | 1F43A | aOsUnixTooManyL | string_pointer | "(os/unix) too many links"
+21CE8 | __const | 1F453 | aOsUnixBrokenPi | string_pointer | "(os/unix) broken pipe"
+21CF0 | __const | 1F469 | aOsUnixArgument_0 | string_pointer | "(os/unix) argument is too large"
+21CF8 | __const | 1F489 | aOsUnixResultIs | string_pointer | "(os/unix) result is out of range"
+21D00 | __const | 1F4AA | aOsUnixOperatio | string_pointer | "(os/unix) operation on device would block"
+21D08 | __const | 1F4D4 | aOsUnixOperatio_0 | string_pointer | "(os/unix) operation is now in progress"
+21D10 | __const | 1F4FB | aOsUnixOperatio_1 | string_pointer | "(os/unix) operation is already in progress"
+21D18 | __const | 1F526 | aOsUnixSocketOp | string_pointer | "(os/unix) socket operation attempted on non-socket object"
+21D20 | __const | 1F560 | aOsUnixDestinat | string_pointer | "(os/unix) destination address is required"
+21D28 | __const | 1F58A | aOsUnixMessageI | string_pointer | "(os/unix) message is too long"
+21D30 | __const | 1F5A8 | aOsUnixProtocol | string_pointer | "(os/unix) protocol type is incorrect for socket"
+21D38 | __const | 1F5D8 | aOsUnixProtocol_0 | string_pointer | "(os/unix) protocol type is not availaible"
+21D40 | __const | 1F602 | aOsUnixProtocol_1 | string_pointer | "(os/unix) protocol type is not supported"
+21D48 | __const | 1F62B | aOsUnixSocketTy | string_pointer | "(os/unix) socket type is not supported"
+21D50 | __const | 1F652 | aOsUnixOperatio_2 | string_pointer | "(os/unix) operation is not supported on sockets"
+21D58 | __const | 1F682 | aOsUnixProtocol_2 | string_pointer | "(os/unix) protocol family is not supported"
+21D60 | __const | 1F6AD | aOsUnixAddressF | string_pointer | "(os/unix) address family is not supported by protocol family"
+21D68 | __const | 1F6EA | aOsUnixAddressI | string_pointer | "(os/unix) address is already in use"
+21D70 | __const | 1F70E | aOsUnixCanTAssi | string_pointer | "(os/unix) can't assign requested address"
+21D78 | __const | 1F737 | aOsUnixNetworkI | string_pointer | "(os/unix) network is down"
+21D80 | __const | 1F751 | aOsUnixNetworkI_0 | string_pointer | "(os/unix) network is unreachable"
+21D88 | __const | 1F772 | aOsUnixNetworkD | string_pointer | "(os/unix) network dropped connection on reset"
+21D90 | __const | 1F7A0 | aOsUnixSoftware | string_pointer | "(os/unix) software aborted connection"
+21D98 | __const | 1F7C6 | aOsUnixConnecti | string_pointer | "(os/unix) connection reset by peer"
+21DA0 | __const | 1F7E9 | aOsUnixNoBuffer | string_pointer | "(os/unix) no buffer space is available"
+21DA8 | __const | 1F810 | aOsUnixSocketIs | string_pointer | "(os/unix) socket is already connected"
+21DB0 | __const | 1F836 | aOsUnixSocketIs_0 | string_pointer | "(os/unix) socket is not connected"
+21DB8 | __const | 1F858 | aOsUnixCanTSend | string_pointer | "(os/unix) can't send after socket shutdown"
+21DC0 | __const | 1F883 | aOsUnixTooManyR | string_pointer | "(os/unix) too many references; can't splice"
+21DC8 | __const | 1F8AF | aOsUnixConnecti_0 | string_pointer | "(os/unix) connection timed out"
+21DD0 | __const | 1F8CE | aOsUnixConnecti_1 | string_pointer | "(os/unix) connection was refused"
+21DD8 | __const | 1F8EF | aOsUnixTooManyL_0 | string_pointer | "(os/unix) too many levels of symbolic links"
+21DE0 | __const | 1F91B | aOsUnixFileName | string_pointer | "(os/unix) file name exceeds system maximum limit"
+21DE8 | __const | 1F94C | aOsUnixHostIsDo | string_pointer | "(os/unix) host is down"
+21DF0 | __const | 1F963 | aOsUnixThereIsN | string_pointer | "(os/unix) there is no route to host"
+21DF8 | __const | 1F987 | aOsUnixDirector | string_pointer | "(os/unix) directory is not empty"
+21E00 | __const | 1F9A8 | aOsUnixQuotaOnN | string_pointer | "(os/unix) quota on number of processes exceeded"
+21E08 | __const | 1F9D8 | aOsUnixQuotaOnN_0 | string_pointer | "(os/unix) quota on number of users exceeded"
+21E10 | __const | 1FA04 | aOsUnixQuotaOnA | string_pointer | "(os/unix) quota on available disk space exceeded"
+21E18 | __const | 1F042 | aOsKern | string_pointer | "(os/kern)"
+21E28 | __const | 21A68 | _err_codes_kern | data_pointer | data_item_size=8
+21E40 | __const | 1F04C | aOs | string_pointer | "(os/?)"
+21E68 | __const | 1F04C | aOs | string_pointer | "(os/?)"
+21E90 | __const | 1F053 | aOsUnix | string_pointer | "(os/unix)"
+21EA0 | __const | 21BE8 | _err_codes_unix | data_pointer | data_item_size=8

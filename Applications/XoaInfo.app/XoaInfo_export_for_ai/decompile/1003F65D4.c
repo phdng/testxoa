@@ -1,0 +1,15 @@
+/*
+ * func-name: sub_1003F65D4
+ * func-address: 0x1003f65d4
+ * export-type: decompile
+ * callers: 0x1003f42c4, 0x1003f65c8
+ * callees: 0x10056b9b8
+ */
+
+__int64 sub_1003F65D4()
+{
+  __int64 (*v0)(void); // x0
+
+  v0 = (__int64 (*)(void))nullsub_25(off_100943628);
+  return v0();
+}

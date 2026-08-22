@@ -1,0 +1,2228 @@
+# Total Pointers Found: 2222
+# Format: Source_Address | Segment | Points_To_Address | Target_Name | Target_Type | Target_Detail
+# Pointer size: 8
+# Data xref hits: 2222
+# Raw pointer hits: 0
+------------------------------------------------------------------------------------------------------------------------
+58D4 | __text | E4D8 | classRef_NSAutoreleasePool | data_pointer | data_item_size=8
+58D4 | __text | E938 | _OBJC_CLASS_$_NSAutoreleasePool | unknown_pointer | 
+58DC | __text | 9338 | sel_alloc | string_pointer | "alloc"
+58DC | __text | E0D8 | selRef_alloc | data_pointer | data_item_size=8
+58E8 | __text | 933E | sel_init | string_pointer | "init"
+58E8 | __text | E0E0 | selRef_init | data_pointer | data_item_size=8
+5924 | __text | 949F | sel_application:didFinishLaunchingWithOptions: | string_pointer | "application:didFinishLaunchingWithOptions:"
+5924 | __text | E0E8 | selRef_application:didFinishLaunchingWithOptions: | data_pointer | data_item_size=8
+592C | __text | E4C8 | protocolRef_UIApplicationDelegate | data_pointer | data_item_size=8
+5938 | __text | E4C8 | protocolRef_UIApplicationDelegate | data_pointer | data_item_size=8
+5938 | __text | E748 | _OBJC_PROTOCOL_$_UIApplicationDelegate | struct_pointer | struct_data
+5968 | __text | 9D48 | sel_drain | string_pointer | "drain"
+5968 | __text | E0F0 | selRef_drain | data_pointer | data_item_size=8
+598C | __text | E4E0 | classRef_OTRHook | data_pointer | data_item_size=8
+598C | __text | E698 | _OBJC_CLASS_$_OTRHook | struct_pointer | struct_data
+5994 | __text | E838 | _original_uname | data_pointer | data_item_size=8
+599C | __text | 9D4E | sel_OTRUname:original_uname: | string_pointer | "OTRUname:original_uname:"
+599C | __text | E0F8 | selRef_OTRUname:original_uname: | data_pointer | data_item_size=8
+59C0 | __text | E4E0 | classRef_OTRHook | data_pointer | data_item_size=8
+59C0 | __text | E698 | _OBJC_CLASS_$_OTRHook | struct_pointer | struct_data
+59C8 | __text | E840 | _original_sysctlbyname | data_pointer | data_item_size=8
+59D0 | __text | 9D67 | sel_OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname: | string_pointer | "OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:"
+59D0 | __text | E100 | selRef_OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname: | data_pointer | data_item_size=8
+5A00 | __text | E4D8 | classRef_NSAutoreleasePool | data_pointer | data_item_size=8
+5A00 | __text | E938 | _OBJC_CLASS_$_NSAutoreleasePool | unknown_pointer | 
+5A08 | __text | 9338 | sel_alloc | string_pointer | "alloc"
+5A08 | __text | E0D8 | selRef_alloc | data_pointer | data_item_size=8
+5A14 | __text | 933E | sel_init | string_pointer | "init"
+5A14 | __text | E0E0 | selRef_init | data_pointer | data_item_size=8
+5A20 | __text | B7CB | aSpringboard | string_pointer | "SpringBoard"
+5A38 | __text | 9454 | sel_applicationDidFinishLaunching: | string_pointer | "applicationDidFinishLaunching:"
+5A38 | __text | E108 | selRef_applicationDidFinishLaunching: | data_pointer | data_item_size=8
+5A3C | __text | 5B18 | sub_5B18 | function_pointer | function_start
+5A44 | __text | E860 | off_E860 | data_pointer | data_item_size=8
+5A58 | __text | E4E8 | classRef_NSString | data_pointer | data_item_size=8
+5A58 | __text | E968 | _OBJC_CLASS_$_NSString | unknown_pointer | 
+5A60 | __text | 9DA3 | sel_stringWithFormat: | string_pointer | "stringWithFormat:"
+5A60 | __text | E110 | selRef_stringWithFormat: | data_pointer | data_item_size=8
+5A68 | __text | C2D0 | cfstr_LogosNilClassS | struct_pointer | struct_data
+5A74 | __text | B808 | aError | string_pointer | "ERROR"
+5A88 | __text | B7F6 | aTweakTweakXm | string_pointer | "../Tweak/Tweak.xm"
+5A90 | __text | B7EA | aOtrlocation_0 | string_pointer | "OTRLocation"
+5A9C | __text | C2B0 | cfstr_SSDS | struct_pointer | struct_data
+5AB0 | __text | E4E0 | classRef_OTRHook | data_pointer | data_item_size=8
+5AB0 | __text | E698 | _OBJC_CLASS_$_OTRHook | struct_pointer | struct_data
+5AB8 | __text | 9DB5 | sel_OTRLocationInit | string_pointer | "OTRLocationInit"
+5AB8 | __text | E118 | selRef_OTRLocationInit | data_pointer | data_item_size=8
+5AC8 | __text | C048 | _uname_ptr | data_pointer | data_item_size=8
+5AC8 | __text | EAB8 | _uname | unknown_pointer | 
+5ACC | __text | 5984 | __Z8OTRUnameP7utsname | function_pointer | function_start
+5AD4 | __text | E838 | _original_uname | data_pointer | data_item_size=8
+5AE4 | __text | C040 | _sysctlbyname_ptr | data_pointer | data_item_size=8
+5AE4 | __text | EAB0 | _sysctlbyname | unknown_pointer | 
+5AE8 | __text | 59A8 | __Z15OTRsysctlbynamePKcPvPmS1_m | function_pointer | function_start
+5AF0 | __text | E840 | _original_sysctlbyname | data_pointer | data_item_size=8
+5B00 | __text | 9D48 | sel_drain | string_pointer | "drain"
+5B00 | __text | E0F0 | selRef_drain | data_pointer | data_item_size=8
+5B28 | __text | E860 | off_E860 | data_pointer | data_item_size=8
+5B30 | __text | E4F0 | classRef_OTRAppService | data_pointer | data_item_size=8
+5B34 | __text | E4F0 | classRef_OTRAppService | data_pointer | data_item_size=8
+5B34 | __text | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+5B3C | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+5B3C | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+5B4C | __text | 9DD5 | sel_createService | string_pointer | "createService"
+5B4C | __text | E128 | selRef_createService | data_pointer | data_item_size=8
+5B54 | __text | E4F0 | classRef_OTRAppService | data_pointer | data_item_size=8
+5B54 | __text | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+5B64 | __text | 9DE3 | sel_startMsgService | string_pointer | "startMsgService"
+5B64 | __text | E130 | selRef_startMsgService | data_pointer | data_item_size=8
+5B80 | __text | E868 | qword_E868 | data_pointer | data_item_size=8
+5B84 | __text | E868 | qword_E868 | data_pointer | data_item_size=8
+5B94 | __text | E868 | qword_E868 | data_pointer | data_item_size=8
+5BA0 | __text | C030 | _kCFAllocatorDefault_ptr | data_pointer | data_item_size=8
+5BA0 | __text | E9C0 | _kCFAllocatorDefault | data_pointer | data_item_size=8
+5BA4 | __text | E9C0 | _kCFAllocatorDefault | data_pointer | data_item_size=8
+5BA8 | __text | C2F0 | cfstr_Com85819IosOtr | struct_pointer | struct_data
+5BB4 | __text | E868 | qword_E868 | data_pointer | data_item_size=8
+5BD4 | __text | E4F8 | classRef_NSUserDefaults | data_pointer | data_item_size=8
+5BD4 | __text | E9A8 | _OBJC_CLASS_$_NSUserDefaults | unknown_pointer | 
+5BDC | __text | 9DF3 | sel_standardUserDefaults | string_pointer | "standardUserDefaults"
+5BDC | __text | E138 | selRef_standardUserDefaults | data_pointer | data_item_size=8
+5BE8 | __text | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+5BE8 | __text | E140 | selRef_objectForKey: | data_pointer | data_item_size=8
+5BEC | __text | C310 | cfstr_Applelanguages | struct_pointer | struct_data
+5BFC | __text | 9E16 | sel_objectAtIndex: | string_pointer | "objectAtIndex:"
+5BFC | __text | E148 | selRef_objectAtIndex: | data_pointer | data_item_size=8
+5C10 | __text | 9E25 | sel_hasPrefix: | string_pointer | "hasPrefix:"
+5C10 | __text | E150 | selRef_hasPrefix: | data_pointer | data_item_size=8
+5C14 | __text | C330 | cfstr_ZhHans | struct_pointer | struct_data
+5C38 | __text | C350 | cfstr_ZhHant | struct_pointer | struct_data
+5C60 | __text | E4F8 | classRef_NSUserDefaults | data_pointer | data_item_size=8
+5C60 | __text | E9A8 | _OBJC_CLASS_$_NSUserDefaults | unknown_pointer | 
+5C68 | __text | 9DF3 | sel_standardUserDefaults | string_pointer | "standardUserDefaults"
+5C68 | __text | E138 | selRef_standardUserDefaults | data_pointer | data_item_size=8
+5C74 | __text | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+5C74 | __text | E140 | selRef_objectForKey: | data_pointer | data_item_size=8
+5C78 | __text | C370 | cfstr_Otrcfg | struct_pointer | struct_data
+5C8C | __text | E500 | classRef_NSMutableDictionary | data_pointer | data_item_size=8
+5C8C | __text | E998 | _OBJC_CLASS_$_NSMutableDictionary | unknown_pointer | 
+5C98 | __text | 9E3B | sel_dictionaryWithDictionary: | string_pointer | "dictionaryWithDictionary:"
+5C98 | __text | E160 | selRef_dictionaryWithDictionary: | data_pointer | data_item_size=8
+5CAC | __text | 9E30 | sel_dictionary | string_pointer | "dictionary"
+5CAC | __text | E158 | selRef_dictionary | data_pointer | data_item_size=8
+5CB8 | __text | 93FB | sel_retain | string_pointer | "retain"
+5CB8 | __text | E168 | selRef_retain | data_pointer | data_item_size=8
+5CD8 | __text | E4F8 | classRef_NSUserDefaults | data_pointer | data_item_size=8
+5CD8 | __text | E9A8 | _OBJC_CLASS_$_NSUserDefaults | unknown_pointer | 
+5CE0 | __text | 9DF3 | sel_standardUserDefaults | string_pointer | "standardUserDefaults"
+5CE0 | __text | E138 | selRef_standardUserDefaults | data_pointer | data_item_size=8
+5CEC | __text | 9E55 | sel_setObject:forKey: | string_pointer | "setObject:forKey:"
+5CEC | __text | E170 | selRef_setObject:forKey: | data_pointer | data_item_size=8
+5CF0 | __text | C370 | cfstr_Otrcfg | struct_pointer | struct_data
+5D14 | __text | E508 | classRef_appTweakHelper | data_pointer | data_item_size=8
+5D14 | __text | E5A8 | _OBJC_CLASS_$_appTweakHelper | struct_pointer | struct_data
+5D1C | __text | 9E67 | sel_OTRConfig | string_pointer | "OTRConfig"
+5D1C | __text | E178 | selRef_OTRConfig | data_pointer | data_item_size=8
+5D28 | __text | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+5D28 | __text | E140 | selRef_objectForKey: | data_pointer | data_item_size=8
+5D2C | __text | C390 | cfstr_Tip | struct_pointer | struct_data
+5D54 | __text | E508 | classRef_appTweakHelper | data_pointer | data_item_size=8
+5D58 | __text | E508 | classRef_appTweakHelper | data_pointer | data_item_size=8
+5D58 | __text | E5A8 | _OBJC_CLASS_$_appTweakHelper | struct_pointer | struct_data
+5D60 | __text | 9E67 | sel_OTRConfig | string_pointer | "OTRConfig"
+5D60 | __text | E178 | selRef_OTRConfig | data_pointer | data_item_size=8
+5D70 | __text | E510 | classRef_NSNumber | data_pointer | data_item_size=8
+5D70 | __text | E958 | _OBJC_CLASS_$_NSNumber | unknown_pointer | 
+5D78 | __text | 9E71 | sel_numberWithBool: | string_pointer | "numberWithBool:"
+5D78 | __text | E180 | selRef_numberWithBool: | data_pointer | data_item_size=8
+5D8C | __text | 9E81 | sel_setValue:forKeyPath: | string_pointer | "setValue:forKeyPath:"
+5D8C | __text | E188 | selRef_setValue:forKeyPath: | data_pointer | data_item_size=8
+5D90 | __text | C390 | cfstr_Tip | struct_pointer | struct_data
+5DA0 | __text | E508 | classRef_appTweakHelper | data_pointer | data_item_size=8
+5DA0 | __text | E5A8 | _OBJC_CLASS_$_appTweakHelper | struct_pointer | struct_data
+5DA8 | __text | 9E96 | sel_saveOTRConfig: | string_pointer | "saveOTRConfig:"
+5DA8 | __text | E190 | selRef_saveOTRConfig: | data_pointer | data_item_size=8
+5DB8 | __text | E4F8 | classRef_NSUserDefaults | data_pointer | data_item_size=8
+5DB8 | __text | E9A8 | _OBJC_CLASS_$_NSUserDefaults | unknown_pointer | 
+5DC0 | __text | 9DF3 | sel_standardUserDefaults | string_pointer | "standardUserDefaults"
+5DC0 | __text | E138 | selRef_standardUserDefaults | data_pointer | data_item_size=8
+5DCC | __text | 9EA5 | sel_synchronize | string_pointer | "synchronize"
+5DCC | __text | E198 | selRef_synchronize | data_pointer | data_item_size=8
+5E18 | __text | E518 | classRef_NSPropertyListSerialization | data_pointer | data_item_size=8
+5E18 | __text | E960 | _OBJC_CLASS_$_NSPropertyListSerialization | unknown_pointer | 
+5E20 | __text | 9EB1 | sel_dataFromPropertyList:format:errorDescription: | string_pointer | "dataFromPropertyList:format:errorDescription:"
+5E20 | __text | E1A0 | selRef_dataFromPropertyList:format:errorDescription: | data_pointer | data_item_size=8
+5E48 | __text | C038 | _kCFRunLoopDefaultMode_ptr | data_pointer | data_item_size=8
+5E48 | __text | E9C8 | _kCFRunLoopDefaultMode | data_pointer | data_item_size=8
+5E4C | __text | E9C8 | _kCFRunLoopDefaultMode | data_pointer | data_item_size=8
+5E74 | __text | E518 | classRef_NSPropertyListSerialization | data_pointer | data_item_size=8
+5E74 | __text | E960 | _OBJC_CLASS_$_NSPropertyListSerialization | unknown_pointer | 
+5E7C | __text | 9EDF | sel_propertyListFromData:mutabilityOption:format:errorDescription: | string_pointer | "propertyListFromData:mutabilityOption:format:errorDescription:"
+5E7C | __text | E1A8 | selRef_propertyListFromData:mutabilityOption:format:errorDescription: | data_pointer | data_item_size=8
+5EC0 | __text | E518 | classRef_NSPropertyListSerialization | data_pointer | data_item_size=8
+5EC0 | __text | E960 | _OBJC_CLASS_$_NSPropertyListSerialization | unknown_pointer | 
+5EC8 | __text | 9EDF | sel_propertyListFromData:mutabilityOption:format:errorDescription: | string_pointer | "propertyListFromData:mutabilityOption:format:errorDescription:"
+5EC8 | __text | E1A8 | selRef_propertyListFromData:mutabilityOption:format:errorDescription: | data_pointer | data_item_size=8
+5EE0 | __text | E518 | classRef_NSPropertyListSerialization | data_pointer | data_item_size=8
+5EE0 | __text | E960 | _OBJC_CLASS_$_NSPropertyListSerialization | unknown_pointer | 
+5EE8 | __text | 9EB1 | sel_dataFromPropertyList:format:errorDescription: | string_pointer | "dataFromPropertyList:format:errorDescription:"
+5EE8 | __text | E1A0 | selRef_dataFromPropertyList:format:errorDescription: | data_pointer | data_item_size=8
+5F08 | __text | E588 | classRef_OTRAppObject_0 | data_pointer | data_item_size=8
+5F08 | __text | E5F8 | _OBJC_CLASS_$_OTRAppObject | struct_pointer | struct_data
+5F14 | __text | 933E | sel_init | string_pointer | "init"
+5F14 | __text | E0E0 | selRef_init | data_pointer | data_item_size=8
+5F44 | __text | E870 | qword_E870 | data_pointer | data_item_size=8
+5F48 | __text | E870 | qword_E870 | data_pointer | data_item_size=8
+5F54 | __text | E520 | classRef_OTRAppObject | data_pointer | data_item_size=8
+5F54 | __text | E5F8 | _OBJC_CLASS_$_OTRAppObject | struct_pointer | struct_data
+5F5C | __text | 9338 | sel_alloc | string_pointer | "alloc"
+5F5C | __text | E0D8 | selRef_alloc | data_pointer | data_item_size=8
+5F68 | __text | 933E | sel_init | string_pointer | "init"
+5F68 | __text | E0E0 | selRef_init | data_pointer | data_item_size=8
+5F74 | __text | E870 | qword_E870 | data_pointer | data_item_size=8
+5FB4 | __text | E878 | qword_E878 | data_pointer | data_item_size=8
+5FB8 | __text | E878 | qword_E878 | data_pointer | data_item_size=8
+5FC4 | __text | E528 | classRef_NSBundle | data_pointer | data_item_size=8
+5FC4 | __text | E940 | _OBJC_CLASS_$_NSBundle | unknown_pointer | 
+5FCC | __text | 9FAA | sel_mainBundle | string_pointer | "mainBundle"
+5FCC | __text | E1B0 | selRef_mainBundle | data_pointer | data_item_size=8
+5FD8 | __text | 9FB5 | sel_bundleIdentifier | string_pointer | "bundleIdentifier"
+5FD8 | __text | E1B8 | selRef_bundleIdentifier | data_pointer | data_item_size=8
+5FE4 | __text | 93FB | sel_retain | string_pointer | "retain"
+5FE4 | __text | E168 | selRef_retain | data_pointer | data_item_size=8
+5FEC | __text | E878 | qword_E878 | data_pointer | data_item_size=8
+6028 | __text | 9FB5 | sel_bundleIdentifier | string_pointer | "bundleIdentifier"
+6028 | __text | E1B8 | selRef_bundleIdentifier | data_pointer | data_item_size=8
+603C | __text | 9FC6 | sel_fakeDeviceModuleSwitch | string_pointer | "fakeDeviceModuleSwitch"
+603C | __text | E1C0 | selRef_fakeDeviceModuleSwitch | data_pointer | data_item_size=8
+6050 | __text | 9FDD | sel_allBundleIdentifierConfig | string_pointer | "allBundleIdentifierConfig"
+6050 | __text | E1C8 | selRef_allBundleIdentifierConfig | data_pointer | data_item_size=8
+6064 | __text | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+6064 | __text | E140 | selRef_objectForKey: | data_pointer | data_item_size=8
+6078 | __text | C3B0 | cfstr_Un | struct_pointer | struct_data
+6094 | __text | 9FF7 | sel_to: | string_pointer | "to:"
+6094 | __text | E1D0 | selRef_to: | data_pointer | data_item_size=8
+60C4 | __text | 9FFB | sel_UTF8String | string_pointer | "UTF8String"
+60C4 | __text | E1D8 | selRef_UTF8String | data_pointer | data_item_size=8
+60D8 | __text | A006 | sel_length | string_pointer | "length"
+60D8 | __text | E1E0 | selRef_length | data_pointer | data_item_size=8
+6144 | __text | A00D | sel_isEqualToString: | string_pointer | "isEqualToString:"
+6144 | __text | E1E8 | selRef_isEqualToString: | data_pointer | data_item_size=8
+6148 | __text | C3D0 | cfstr_IphoneXs | struct_pointer | struct_data
+615C | __text | C3F0 | cfstr_Iphone112 | struct_pointer | struct_data
+616C | __text | C410 | cfstr_IphoneXsMaxInt | struct_pointer | struct_data
+6180 | __text | C430 | cfstr_Iphone114 | struct_pointer | struct_data
+6190 | __text | C450 | cfstr_IphoneXsMaxChi | struct_pointer | struct_data
+61A4 | __text | C470 | cfstr_Iphone116 | struct_pointer | struct_data
+61B4 | __text | C490 | cfstr_IphoneXr | struct_pointer | struct_data
+61C8 | __text | C4B0 | cfstr_Iphone118 | struct_pointer | struct_data
+6224 | __text | B8E3 | aHwMachine | string_pointer | "hw.machine"
+6244 | __text | 9FB5 | sel_bundleIdentifier | string_pointer | "bundleIdentifier"
+6244 | __text | E1B8 | selRef_bundleIdentifier | data_pointer | data_item_size=8
+6258 | __text | 9FC6 | sel_fakeDeviceModuleSwitch | string_pointer | "fakeDeviceModuleSwitch"
+6258 | __text | E1C0 | selRef_fakeDeviceModuleSwitch | data_pointer | data_item_size=8
+626C | __text | 9FDD | sel_allBundleIdentifierConfig | string_pointer | "allBundleIdentifierConfig"
+626C | __text | E1C8 | selRef_allBundleIdentifierConfig | data_pointer | data_item_size=8
+6280 | __text | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+6280 | __text | E140 | selRef_objectForKey: | data_pointer | data_item_size=8
+6294 | __text | C3B0 | cfstr_Un | struct_pointer | struct_data
+62B0 | __text | 9FF7 | sel_to: | string_pointer | "to:"
+62B0 | __text | E1D0 | selRef_to: | data_pointer | data_item_size=8
+62C8 | __text | A006 | sel_length | string_pointer | "length"
+62C8 | __text | E1E0 | selRef_length | data_pointer | data_item_size=8
+6314 | __text | 9FFB | sel_UTF8String | string_pointer | "UTF8String"
+6314 | __text | E1D8 | selRef_UTF8String | data_pointer | data_item_size=8
+63F0 | __text | E530 | classRef_NSNotificationCenter | data_pointer | data_item_size=8
+63F4 | __text | E530 | classRef_NSNotificationCenter | data_pointer | data_item_size=8
+63F4 | __text | E950 | _OBJC_CLASS_$_NSNotificationCenter | unknown_pointer | 
+63FC | __text | A01E | sel_defaultCenter | string_pointer | "defaultCenter"
+63FC | __text | E1F0 | selRef_defaultCenter | data_pointer | data_item_size=8
+640C | __text | A02C | sel_onOTRApplicationDidBecomeActiveNotification: | string_pointer | "onOTRApplicationDidBecomeActiveNotification:"
+640C | __text | E1F8 | selRef_onOTRApplicationDidBecomeActiveNotification: | data_pointer | data_item_size=8
+6414 | __text | C008 | _UIApplicationDidBecomeActiveNotification_ptr | data_pointer | data_item_size=8
+6414 | __text | EA50 | _UIApplicationDidBecomeActiveNotification | data_pointer | data_item_size=8
+6418 | __text | EA50 | _UIApplicationDidBecomeActiveNotification | data_pointer | data_item_size=8
+6420 | __text | A059 | sel_addObserver:selector:name:object: | string_pointer | "addObserver:selector:name:object:"
+6420 | __text | E200 | selRef_addObserver:selector:name:object: | data_pointer | data_item_size=8
+6434 | __text | E530 | classRef_NSNotificationCenter | data_pointer | data_item_size=8
+6434 | __text | E950 | _OBJC_CLASS_$_NSNotificationCenter | unknown_pointer | 
+6444 | __text | A07B | sel_onOTRCheckService: | string_pointer | "onOTRCheckService:"
+6444 | __text | E208 | selRef_onOTRCheckService: | data_pointer | data_item_size=8
+6448 | __text | C4D0 | cfstr_NotificationCh | struct_pointer | struct_data
+6464 | __text | A08E | sel_loadConfig | string_pointer | "loadConfig"
+6464 | __text | E210 | selRef_loadConfig | data_pointer | data_item_size=8
+6498 | __text | E598 | _OBJC_IVAR_$_OTRAppObject._serviceIsRuning | data_pointer | data_item_size=4
+64A0 | __text | E530 | classRef_NSNotificationCenter | data_pointer | data_item_size=8
+64A4 | __text | E530 | classRef_NSNotificationCenter | data_pointer | data_item_size=8
+64A4 | __text | E950 | _OBJC_CLASS_$_NSNotificationCenter | unknown_pointer | 
+64AC | __text | A01E | sel_defaultCenter | string_pointer | "defaultCenter"
+64AC | __text | E1F0 | selRef_defaultCenter | data_pointer | data_item_size=8
+64BC | __text | A099 | sel_onOTRCheckService2: | string_pointer | "onOTRCheckService2:"
+64BC | __text | E218 | selRef_onOTRCheckService2: | data_pointer | data_item_size=8
+64C4 | __text | A059 | sel_addObserver:selector:name:object: | string_pointer | "addObserver:selector:name:object:"
+64C4 | __text | E200 | selRef_addObserver:selector:name:object: | data_pointer | data_item_size=8
+64C8 | __text | C4F0 | cfstr_NotificationCh_0 | struct_pointer | struct_data
+64E0 | __text | E530 | classRef_NSNotificationCenter | data_pointer | data_item_size=8
+64E0 | __text | E950 | _OBJC_CLASS_$_NSNotificationCenter | unknown_pointer | 
+64F0 | __text | A0AD | sel_postNotificationName:object: | string_pointer | "postNotificationName:object:"
+64F0 | __text | E220 | selRef_postNotificationName:object: | data_pointer | data_item_size=8
+64F4 | __text | C4D0 | cfstr_NotificationCh | struct_pointer | struct_data
+6504 | __text | E530 | classRef_NSNotificationCenter | data_pointer | data_item_size=8
+6504 | __text | E950 | _OBJC_CLASS_$_NSNotificationCenter | unknown_pointer | 
+6514 | __text | A0CA | sel_removeObserver:name:object: | string_pointer | "removeObserver:name:object:"
+6514 | __text | E228 | selRef_removeObserver:name:object: | data_pointer | data_item_size=8
+654C | __text | E4F0 | classRef_OTRAppService | data_pointer | data_item_size=8
+654C | __text | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+6554 | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+6554 | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+6560 | __text | A0E6 | sel_appReBecomeActive | string_pointer | "appReBecomeActive"
+6560 | __text | E230 | selRef_appReBecomeActive | data_pointer | data_item_size=8
+65AC | __text | 9FB5 | sel_bundleIdentifier | string_pointer | "bundleIdentifier"
+65AC | __text | E1B8 | selRef_bundleIdentifier | data_pointer | data_item_size=8
+65C0 | __text | A0F8 | sel_fakeSwitch | string_pointer | "fakeSwitch"
+65C0 | __text | E238 | selRef_fakeSwitch | data_pointer | data_item_size=8
+65D4 | __text | 9FDD | sel_allBundleIdentifierConfig | string_pointer | "allBundleIdentifierConfig"
+65D4 | __text | E1C8 | selRef_allBundleIdentifierConfig | data_pointer | data_item_size=8
+65E8 | __text | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+65E8 | __text | E140 | selRef_objectForKey: | data_pointer | data_item_size=8
+6600 | __text | C510 | cfstr_La | struct_pointer | struct_data
+6618 | __text | C530 | cfstr_Lo | struct_pointer | struct_data
+6644 | __text | E538 | classRef_CLLocation | data_pointer | data_item_size=8
+6648 | __text | E538 | classRef_CLLocation | data_pointer | data_item_size=8
+6648 | __text | EA60 | _OBJC_CLASS_$_CLLocation | unknown_pointer | 
+6650 | __text | A103 | sel_initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:course:sp... | string_pointer | "initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:course:speed:..."
+6650 | __text | E240 | selRef_initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:course... | data_pointer | data_item_size=8
+6658 | __text | A15B | sel_instancesRespondToSelector: | string_pointer | "instancesRespondToSelector:"
+6658 | __text | E248 | selRef_instancesRespondToSelector: | data_pointer | data_item_size=8
+6668 | __text | E538 | classRef_CLLocation | data_pointer | data_item_size=8
+6668 | __text | EA60 | _OBJC_CLASS_$_CLLocation | unknown_pointer | 
+6670 | __text | 9338 | sel_alloc | string_pointer | "alloc"
+6670 | __text | E0D8 | selRef_alloc | data_pointer | data_item_size=8
+6680 | __text | A177 | sel_doubleValue | string_pointer | "doubleValue"
+6680 | __text | E250 | selRef_doubleValue | data_pointer | data_item_size=8
+66B8 | __text | A183 | sel_altitude | string_pointer | "altitude"
+66B8 | __text | E258 | selRef_altitude | data_pointer | data_item_size=8
+66CC | __text | A18C | sel_horizontalAccuracy | string_pointer | "horizontalAccuracy"
+66CC | __text | E260 | selRef_horizontalAccuracy | data_pointer | data_item_size=8
+66E0 | __text | A19F | sel_verticalAccuracy | string_pointer | "verticalAccuracy"
+66E0 | __text | E268 | selRef_verticalAccuracy | data_pointer | data_item_size=8
+66F8 | __text | A1B0 | sel_course | string_pointer | "course"
+66F8 | __text | E270 | selRef_course | data_pointer | data_item_size=8
+670C | __text | A1B7 | sel_speed | string_pointer | "speed"
+670C | __text | E278 | selRef_speed | data_pointer | data_item_size=8
+6720 | __text | A1BD | sel_timestamp | string_pointer | "timestamp"
+6720 | __text | E280 | selRef_timestamp | data_pointer | data_item_size=8
+6760 | __text | A1BD | sel_timestamp | string_pointer | "timestamp"
+6760 | __text | E280 | selRef_timestamp | data_pointer | data_item_size=8
+6774 | __text | A1C7 | sel_initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:timestamp: | string_pointer | "initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:timestamp:"
+6774 | __text | E290 | selRef_initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:timest... | data_pointer | data_item_size=8
+6798 | __text | 940A | sel_autorelease | string_pointer | "autorelease"
+6798 | __text | E288 | selRef_autorelease | data_pointer | data_item_size=8
+67E4 | __text | 9FDD | sel_allBundleIdentifierConfig | string_pointer | "allBundleIdentifierConfig"
+67E4 | __text | E1C8 | selRef_allBundleIdentifierConfig | data_pointer | data_item_size=8
+67F4 | __text | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+67F4 | __text | E140 | selRef_objectForKey: | data_pointer | data_item_size=8
+6810 | __text | A08E | sel_loadConfig | string_pointer | "loadConfig"
+6810 | __text | E210 | selRef_loadConfig | data_pointer | data_item_size=8
+6824 | __text | E530 | classRef_NSNotificationCenter | data_pointer | data_item_size=8
+6824 | __text | E950 | _OBJC_CLASS_$_NSNotificationCenter | unknown_pointer | 
+682C | __text | A01E | sel_defaultCenter | string_pointer | "defaultCenter"
+682C | __text | E1F0 | selRef_defaultCenter | data_pointer | data_item_size=8
+6838 | __text | A0AD | sel_postNotificationName:object: | string_pointer | "postNotificationName:object:"
+6838 | __text | E220 | selRef_postNotificationName:object: | data_pointer | data_item_size=8
+683C | __text | C4F0 | cfstr_NotificationCh_0 | struct_pointer | struct_data
+6854 | __text | E598 | _OBJC_IVAR_$_OTRAppObject._serviceIsRuning | data_pointer | data_item_size=4
+6878 | __text | E500 | classRef_NSMutableDictionary | data_pointer | data_item_size=8
+687C | __text | E500 | classRef_NSMutableDictionary | data_pointer | data_item_size=8
+687C | __text | E998 | _OBJC_CLASS_$_NSMutableDictionary | unknown_pointer | 
+6884 | __text | A212 | sel_dictionaryWithContentsOfFile: | string_pointer | "dictionaryWithContentsOfFile:"
+6884 | __text | E298 | selRef_dictionaryWithContentsOfFile: | data_pointer | data_item_size=8
+6888 | __text | C550 | cfstr_VarMobileLibra | struct_pointer | struct_data
+689C | __text | E7A8 | qword_E7A8 | data_pointer | data_item_size=8
+68A0 | __text | E7A8 | qword_E7A8 | data_pointer | data_item_size=8
+68B0 | __text | E7A8 | qword_E7A8 | data_pointer | data_item_size=8
+68B4 | __text | E500 | classRef_NSMutableDictionary | data_pointer | data_item_size=8
+68B4 | __text | E998 | _OBJC_CLASS_$_NSMutableDictionary | unknown_pointer | 
+68BC | __text | 9338 | sel_alloc | string_pointer | "alloc"
+68BC | __text | E0D8 | selRef_alloc | data_pointer | data_item_size=8
+68C8 | __text | 933E | sel_init | string_pointer | "init"
+68C8 | __text | E0E0 | selRef_init | data_pointer | data_item_size=8
+68D4 | __text | 940A | sel_autorelease | string_pointer | "autorelease"
+68D4 | __text | E288 | selRef_autorelease | data_pointer | data_item_size=8
+68E4 | __text | A230 | sel_setLocationCfg: | string_pointer | "setLocationCfg:"
+68E4 | __text | E2A0 | selRef_setLocationCfg: | data_pointer | data_item_size=8
+68F4 | __text | E7A8 | qword_E7A8 | data_pointer | data_item_size=8
+68F8 | __text | E7A8 | qword_E7A8 | data_pointer | data_item_size=8
+6904 | __text | E7A8 | qword_E7A8 | data_pointer | data_item_size=8
+6918 | __text | C010 | __NSConcreteStackBlock_ptr | data_pointer | data_item_size=8
+6918 | __text | EA98 | __NSConcreteStackBlock | unknown_pointer | 
+6924 | __text | BE58 | qword_BE58 | data_pointer | data_item_size=8
+6928 | __text | 6964 | sub_6964 | function_pointer | function_start
+6938 | __text | C1E0 | unk_C1E0 | unknown_pointer | 
+6948 | __text | C028 | __dispatch_main_q_ptr | data_pointer | data_item_size=8
+6948 | __text | EAA8 | __dispatch_main_q | unknown_pointer | 
+697C | __text | A240 | sel_setFakeSwitch: | string_pointer | "setFakeSwitch:"
+697C | __text | E2A8 | selRef_setFakeSwitch: | data_pointer | data_item_size=8
+6990 | __text | A24F | sel_setFakeDeviceModuleSwitch: | string_pointer | "setFakeDeviceModuleSwitch:"
+6990 | __text | E2B0 | selRef_setFakeDeviceModuleSwitch: | data_pointer | data_item_size=8
+69D4 | __text | E500 | classRef_NSMutableDictionary | data_pointer | data_item_size=8
+69D4 | __text | E998 | _OBJC_CLASS_$_NSMutableDictionary | unknown_pointer | 
+69DC | __text | A212 | sel_dictionaryWithContentsOfFile: | string_pointer | "dictionaryWithContentsOfFile:"
+69DC | __text | E298 | selRef_dictionaryWithContentsOfFile: | data_pointer | data_item_size=8
+69E0 | __text | C550 | cfstr_VarMobileLibra | struct_pointer | struct_data
+69F8 | __text | A230 | sel_setLocationCfg: | string_pointer | "setLocationCfg:"
+69F8 | __text | E2A0 | selRef_setLocationCfg: | data_pointer | data_item_size=8
+6A28 | __text | A26A | sel_locationCfg | string_pointer | "locationCfg"
+6A28 | __text | E2B8 | selRef_locationCfg | data_pointer | data_item_size=8
+6A34 | __text | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+6A34 | __text | E140 | selRef_objectForKey: | data_pointer | data_item_size=8
+6A38 | __text | C570 | cfstr_S5g | struct_pointer | struct_data
+6A48 | __text | A276 | sel_boolValue | string_pointer | "boolValue"
+6A48 | __text | E2C0 | selRef_boolValue | data_pointer | data_item_size=8
+6A70 | __text | A26A | sel_locationCfg | string_pointer | "locationCfg"
+6A70 | __text | E2B8 | selRef_locationCfg | data_pointer | data_item_size=8
+6A84 | __text | E510 | classRef_NSNumber | data_pointer | data_item_size=8
+6A84 | __text | E958 | _OBJC_CLASS_$_NSNumber | unknown_pointer | 
+6A8C | __text | 9E71 | sel_numberWithBool: | string_pointer | "numberWithBool:"
+6A8C | __text | E180 | selRef_numberWithBool: | data_pointer | data_item_size=8
+6AA0 | __text | A280 | sel_setValue:forKey: | string_pointer | "setValue:forKey:"
+6AA0 | __text | E2C8 | selRef_setValue:forKey: | data_pointer | data_item_size=8
+6AA4 | __text | C570 | cfstr_S5g | struct_pointer | struct_data
+6AB8 | __text | E540 | classRef_UIDevice | data_pointer | data_item_size=8
+6AB8 | __text | EA38 | _OBJC_CLASS_$_UIDevice | unknown_pointer | 
+6AC0 | __text | A291 | sel_currentDevice | string_pointer | "currentDevice"
+6AC0 | __text | E2D0 | selRef_currentDevice | data_pointer | data_item_size=8
+6ACC | __text | A29F | sel_systemVersion | string_pointer | "systemVersion"
+6ACC | __text | E2D8 | selRef_systemVersion | data_pointer | data_item_size=8
+6AD8 | __text | A2AD | sel_floatValue | string_pointer | "floatValue"
+6AD8 | __text | E2E0 | selRef_floatValue | data_pointer | data_item_size=8
+6AF0 | __text | E4F0 | classRef_OTRAppService | data_pointer | data_item_size=8
+6AF0 | __text | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+6AF8 | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+6AF8 | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+6B18 | __text | A2B8 | sel_saveConfig: | string_pointer | "saveConfig:"
+6B18 | __text | E2E8 | selRef_saveConfig: | data_pointer | data_item_size=8
+6B34 | __text | A2C4 | sel_writeToFile:atomically: | string_pointer | "writeToFile:atomically:"
+6B34 | __text | E2F0 | selRef_writeToFile:atomically: | data_pointer | data_item_size=8
+6B38 | __text | C550 | cfstr_VarMobileLibra | struct_pointer | struct_data
+6B4C | __text | A08E | sel_loadConfig | string_pointer | "loadConfig"
+6B4C | __text | E210 | selRef_loadConfig | data_pointer | data_item_size=8
+6B70 | __text | A26A | sel_locationCfg | string_pointer | "locationCfg"
+6B70 | __text | E2B8 | selRef_locationCfg | data_pointer | data_item_size=8
+6B7C | __text | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+6B7C | __text | E140 | selRef_objectForKey: | data_pointer | data_item_size=8
+6B80 | __text | C590 | cfstr_Switch | struct_pointer | struct_data
+6B90 | __text | A276 | sel_boolValue | string_pointer | "boolValue"
+6B90 | __text | E2C0 | selRef_boolValue | data_pointer | data_item_size=8
+6BB8 | __text | A26A | sel_locationCfg | string_pointer | "locationCfg"
+6BB8 | __text | E2B8 | selRef_locationCfg | data_pointer | data_item_size=8
+6BCC | __text | E510 | classRef_NSNumber | data_pointer | data_item_size=8
+6BCC | __text | E958 | _OBJC_CLASS_$_NSNumber | unknown_pointer | 
+6BD4 | __text | 9E71 | sel_numberWithBool: | string_pointer | "numberWithBool:"
+6BD4 | __text | E180 | selRef_numberWithBool: | data_pointer | data_item_size=8
+6BE8 | __text | A280 | sel_setValue:forKey: | string_pointer | "setValue:forKey:"
+6BE8 | __text | E2C8 | selRef_setValue:forKey: | data_pointer | data_item_size=8
+6BEC | __text | C590 | cfstr_Switch | struct_pointer | struct_data
+6C00 | __text | E540 | classRef_UIDevice | data_pointer | data_item_size=8
+6C00 | __text | EA38 | _OBJC_CLASS_$_UIDevice | unknown_pointer | 
+6C08 | __text | A291 | sel_currentDevice | string_pointer | "currentDevice"
+6C08 | __text | E2D0 | selRef_currentDevice | data_pointer | data_item_size=8
+6C14 | __text | A29F | sel_systemVersion | string_pointer | "systemVersion"
+6C14 | __text | E2D8 | selRef_systemVersion | data_pointer | data_item_size=8
+6C20 | __text | A2AD | sel_floatValue | string_pointer | "floatValue"
+6C20 | __text | E2E0 | selRef_floatValue | data_pointer | data_item_size=8
+6C38 | __text | E4F0 | classRef_OTRAppService | data_pointer | data_item_size=8
+6C38 | __text | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+6C40 | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+6C40 | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+6C60 | __text | A2B8 | sel_saveConfig: | string_pointer | "saveConfig:"
+6C60 | __text | E2E8 | selRef_saveConfig: | data_pointer | data_item_size=8
+6C7C | __text | A2C4 | sel_writeToFile:atomically: | string_pointer | "writeToFile:atomically:"
+6C7C | __text | E2F0 | selRef_writeToFile:atomically: | data_pointer | data_item_size=8
+6C80 | __text | C550 | cfstr_VarMobileLibra | struct_pointer | struct_data
+6C94 | __text | A08E | sel_loadConfig | string_pointer | "loadConfig"
+6C94 | __text | E210 | selRef_loadConfig | data_pointer | data_item_size=8
+6CB8 | __text | A26A | sel_locationCfg | string_pointer | "locationCfg"
+6CB8 | __text | E2B8 | selRef_locationCfg | data_pointer | data_item_size=8
+6CC4 | __text | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+6CC4 | __text | E140 | selRef_objectForKey: | data_pointer | data_item_size=8
+6CC8 | __text | C5B0 | cfstr_AddressSwitch | struct_pointer | struct_data
+6CD8 | __text | A276 | sel_boolValue | string_pointer | "boolValue"
+6CD8 | __text | E2C0 | selRef_boolValue | data_pointer | data_item_size=8
+6D00 | __text | A26A | sel_locationCfg | string_pointer | "locationCfg"
+6D00 | __text | E2B8 | selRef_locationCfg | data_pointer | data_item_size=8
+6D14 | __text | E510 | classRef_NSNumber | data_pointer | data_item_size=8
+6D14 | __text | E958 | _OBJC_CLASS_$_NSNumber | unknown_pointer | 
+6D1C | __text | 9E71 | sel_numberWithBool: | string_pointer | "numberWithBool:"
+6D1C | __text | E180 | selRef_numberWithBool: | data_pointer | data_item_size=8
+6D30 | __text | A280 | sel_setValue:forKey: | string_pointer | "setValue:forKey:"
+6D30 | __text | E2C8 | selRef_setValue:forKey: | data_pointer | data_item_size=8
+6D34 | __text | C5B0 | cfstr_AddressSwitch | struct_pointer | struct_data
+6D48 | __text | E540 | classRef_UIDevice | data_pointer | data_item_size=8
+6D48 | __text | EA38 | _OBJC_CLASS_$_UIDevice | unknown_pointer | 
+6D50 | __text | A291 | sel_currentDevice | string_pointer | "currentDevice"
+6D50 | __text | E2D0 | selRef_currentDevice | data_pointer | data_item_size=8
+6D5C | __text | A29F | sel_systemVersion | string_pointer | "systemVersion"
+6D5C | __text | E2D8 | selRef_systemVersion | data_pointer | data_item_size=8
+6D68 | __text | A2AD | sel_floatValue | string_pointer | "floatValue"
+6D68 | __text | E2E0 | selRef_floatValue | data_pointer | data_item_size=8
+6D80 | __text | E4F0 | classRef_OTRAppService | data_pointer | data_item_size=8
+6D80 | __text | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+6D88 | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+6D88 | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+6DA8 | __text | A2B8 | sel_saveConfig: | string_pointer | "saveConfig:"
+6DA8 | __text | E2E8 | selRef_saveConfig: | data_pointer | data_item_size=8
+6DC4 | __text | A2C4 | sel_writeToFile:atomically: | string_pointer | "writeToFile:atomically:"
+6DC4 | __text | E2F0 | selRef_writeToFile:atomically: | data_pointer | data_item_size=8
+6DC8 | __text | C550 | cfstr_VarMobileLibra | struct_pointer | struct_data
+6DDC | __text | A08E | sel_loadConfig | string_pointer | "loadConfig"
+6DDC | __text | E210 | selRef_loadConfig | data_pointer | data_item_size=8
+6E00 | __text | A26A | sel_locationCfg | string_pointer | "locationCfg"
+6E00 | __text | E2B8 | selRef_locationCfg | data_pointer | data_item_size=8
+6E0C | __text | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+6E0C | __text | E140 | selRef_objectForKey: | data_pointer | data_item_size=8
+6E10 | __text | C5D0 | cfstr_FC | struct_pointer | struct_data
+6E40 | __text | A26A | sel_locationCfg | string_pointer | "locationCfg"
+6E40 | __text | E2B8 | selRef_locationCfg | data_pointer | data_item_size=8
+6E50 | __text | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+6E50 | __text | E140 | selRef_objectForKey: | data_pointer | data_item_size=8
+6E54 | __text | C5D0 | cfstr_FC | struct_pointer | struct_data
+6E80 | __text | E500 | classRef_NSMutableDictionary | data_pointer | data_item_size=8
+6E80 | __text | E998 | _OBJC_CLASS_$_NSMutableDictionary | unknown_pointer | 
+6E88 | __text | 9E3B | sel_dictionaryWithDictionary: | string_pointer | "dictionaryWithDictionary:"
+6E88 | __text | E160 | selRef_dictionaryWithDictionary: | data_pointer | data_item_size=8
+6E9C | __text | A2DC | sel_removeObjectForKey: | string_pointer | "removeObjectForKey:"
+6E9C | __text | E2F8 | selRef_removeObjectForKey: | data_pointer | data_item_size=8
+6EA0 | __text | C510 | cfstr_La | struct_pointer | struct_data
+6EB0 | __text | C530 | cfstr_Lo | struct_pointer | struct_data
+6EC8 | __text | A2F0 | sel_count | string_pointer | "count"
+6EC8 | __text | E300 | selRef_count | data_pointer | data_item_size=8
+6EDC | __text | A280 | sel_setValue:forKey: | string_pointer | "setValue:forKey:"
+6EDC | __text | E2C8 | selRef_setValue:forKey: | data_pointer | data_item_size=8
+6EF8 | __text | A2DC | sel_removeObjectForKey: | string_pointer | "removeObjectForKey:"
+6EF8 | __text | E2F8 | selRef_removeObjectForKey: | data_pointer | data_item_size=8
+6F0C | __text | E540 | classRef_UIDevice | data_pointer | data_item_size=8
+6F0C | __text | EA38 | _OBJC_CLASS_$_UIDevice | unknown_pointer | 
+6F14 | __text | A291 | sel_currentDevice | string_pointer | "currentDevice"
+6F14 | __text | E2D0 | selRef_currentDevice | data_pointer | data_item_size=8
+6F20 | __text | A29F | sel_systemVersion | string_pointer | "systemVersion"
+6F20 | __text | E2D8 | selRef_systemVersion | data_pointer | data_item_size=8
+6F2C | __text | A2AD | sel_floatValue | string_pointer | "floatValue"
+6F2C | __text | E2E0 | selRef_floatValue | data_pointer | data_item_size=8
+6F44 | __text | E4F0 | classRef_OTRAppService | data_pointer | data_item_size=8
+6F44 | __text | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+6F4C | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+6F4C | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+6F6C | __text | A2B8 | sel_saveConfig: | string_pointer | "saveConfig:"
+6F6C | __text | E2E8 | selRef_saveConfig: | data_pointer | data_item_size=8
+6F88 | __text | A2C4 | sel_writeToFile:atomically: | string_pointer | "writeToFile:atomically:"
+6F88 | __text | E2F0 | selRef_writeToFile:atomically: | data_pointer | data_item_size=8
+6F8C | __text | C550 | cfstr_VarMobileLibra | struct_pointer | struct_data
+6FA0 | __text | A08E | sel_loadConfig | string_pointer | "loadConfig"
+6FA0 | __text | E210 | selRef_loadConfig | data_pointer | data_item_size=8
+6FEC | __text | A26A | sel_locationCfg | string_pointer | "locationCfg"
+6FEC | __text | E2B8 | selRef_locationCfg | data_pointer | data_item_size=8
+6FFC | __text | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+6FFC | __text | E140 | selRef_objectForKey: | data_pointer | data_item_size=8
+7000 | __text | C5D0 | cfstr_FC | struct_pointer | struct_data
+701C | __text | E500 | classRef_NSMutableDictionary | data_pointer | data_item_size=8
+701C | __text | E998 | _OBJC_CLASS_$_NSMutableDictionary | unknown_pointer | 
+7024 | __text | 9E30 | sel_dictionary | string_pointer | "dictionary"
+7024 | __text | E158 | selRef_dictionary | data_pointer | data_item_size=8
+7040 | __text | A280 | sel_setValue:forKey: | string_pointer | "setValue:forKey:"
+7040 | __text | E2C8 | selRef_setValue:forKey: | data_pointer | data_item_size=8
+7044 | __text | C5D0 | cfstr_FC | struct_pointer | struct_data
+706C | __text | E500 | classRef_NSMutableDictionary | data_pointer | data_item_size=8
+706C | __text | E998 | _OBJC_CLASS_$_NSMutableDictionary | unknown_pointer | 
+7078 | __text | 9E3B | sel_dictionaryWithDictionary: | string_pointer | "dictionaryWithDictionary:"
+7078 | __text | E160 | selRef_dictionaryWithDictionary: | data_pointer | data_item_size=8
+708C | __text | 9E30 | sel_dictionary | string_pointer | "dictionary"
+708C | __text | E158 | selRef_dictionary | data_pointer | data_item_size=8
+7098 | __text | E510 | classRef_NSNumber | data_pointer | data_item_size=8
+709C | __text | E510 | classRef_NSNumber | data_pointer | data_item_size=8
+709C | __text | E958 | _OBJC_CLASS_$_NSNumber | unknown_pointer | 
+70A4 | __text | A2F6 | sel_numberWithDouble: | string_pointer | "numberWithDouble:"
+70A4 | __text | E308 | selRef_numberWithDouble: | data_pointer | data_item_size=8
+70BC | __text | A280 | sel_setValue:forKey: | string_pointer | "setValue:forKey:"
+70BC | __text | E2C8 | selRef_setValue:forKey: | data_pointer | data_item_size=8
+70C0 | __text | C510 | cfstr_La | struct_pointer | struct_data
+70D4 | __text | E510 | classRef_NSNumber | data_pointer | data_item_size=8
+70D4 | __text | E958 | _OBJC_CLASS_$_NSNumber | unknown_pointer | 
+70E8 | __text | C530 | cfstr_Lo | struct_pointer | struct_data
+7114 | __text | E540 | classRef_UIDevice | data_pointer | data_item_size=8
+7114 | __text | EA38 | _OBJC_CLASS_$_UIDevice | unknown_pointer | 
+711C | __text | A291 | sel_currentDevice | string_pointer | "currentDevice"
+711C | __text | E2D0 | selRef_currentDevice | data_pointer | data_item_size=8
+7128 | __text | A29F | sel_systemVersion | string_pointer | "systemVersion"
+7128 | __text | E2D8 | selRef_systemVersion | data_pointer | data_item_size=8
+7134 | __text | A2AD | sel_floatValue | string_pointer | "floatValue"
+7134 | __text | E2E0 | selRef_floatValue | data_pointer | data_item_size=8
+714C | __text | E4F0 | classRef_OTRAppService | data_pointer | data_item_size=8
+714C | __text | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+7154 | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+7154 | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+7174 | __text | A2B8 | sel_saveConfig: | string_pointer | "saveConfig:"
+7174 | __text | E2E8 | selRef_saveConfig: | data_pointer | data_item_size=8
+7190 | __text | A2C4 | sel_writeToFile:atomically: | string_pointer | "writeToFile:atomically:"
+7190 | __text | E2F0 | selRef_writeToFile:atomically: | data_pointer | data_item_size=8
+7194 | __text | C550 | cfstr_VarMobileLibra | struct_pointer | struct_data
+71A8 | __text | A08E | sel_loadConfig | string_pointer | "loadConfig"
+71A8 | __text | E210 | selRef_loadConfig | data_pointer | data_item_size=8
+71F4 | __text | A26A | sel_locationCfg | string_pointer | "locationCfg"
+71F4 | __text | E2B8 | selRef_locationCfg | data_pointer | data_item_size=8
+7204 | __text | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+7204 | __text | E140 | selRef_objectForKey: | data_pointer | data_item_size=8
+7208 | __text | C5D0 | cfstr_FC | struct_pointer | struct_data
+7224 | __text | E500 | classRef_NSMutableDictionary | data_pointer | data_item_size=8
+7224 | __text | E998 | _OBJC_CLASS_$_NSMutableDictionary | unknown_pointer | 
+722C | __text | 9E30 | sel_dictionary | string_pointer | "dictionary"
+722C | __text | E158 | selRef_dictionary | data_pointer | data_item_size=8
+7248 | __text | A280 | sel_setValue:forKey: | string_pointer | "setValue:forKey:"
+7248 | __text | E2C8 | selRef_setValue:forKey: | data_pointer | data_item_size=8
+724C | __text | C5D0 | cfstr_FC | struct_pointer | struct_data
+7274 | __text | E500 | classRef_NSMutableDictionary | data_pointer | data_item_size=8
+7274 | __text | E998 | _OBJC_CLASS_$_NSMutableDictionary | unknown_pointer | 
+7280 | __text | 9E3B | sel_dictionaryWithDictionary: | string_pointer | "dictionaryWithDictionary:"
+7280 | __text | E160 | selRef_dictionaryWithDictionary: | data_pointer | data_item_size=8
+7294 | __text | 9E30 | sel_dictionary | string_pointer | "dictionary"
+7294 | __text | E158 | selRef_dictionary | data_pointer | data_item_size=8
+72A4 | __text | A280 | sel_setValue:forKey: | string_pointer | "setValue:forKey:"
+72A4 | __text | E2C8 | selRef_setValue:forKey: | data_pointer | data_item_size=8
+72A8 | __text | C3B0 | cfstr_Un | struct_pointer | struct_data
+72D4 | __text | E540 | classRef_UIDevice | data_pointer | data_item_size=8
+72D4 | __text | EA38 | _OBJC_CLASS_$_UIDevice | unknown_pointer | 
+72DC | __text | A291 | sel_currentDevice | string_pointer | "currentDevice"
+72DC | __text | E2D0 | selRef_currentDevice | data_pointer | data_item_size=8
+72E8 | __text | A29F | sel_systemVersion | string_pointer | "systemVersion"
+72E8 | __text | E2D8 | selRef_systemVersion | data_pointer | data_item_size=8
+72F4 | __text | A2AD | sel_floatValue | string_pointer | "floatValue"
+72F4 | __text | E2E0 | selRef_floatValue | data_pointer | data_item_size=8
+730C | __text | E4F0 | classRef_OTRAppService | data_pointer | data_item_size=8
+730C | __text | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+7314 | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+7314 | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+7334 | __text | A2B8 | sel_saveConfig: | string_pointer | "saveConfig:"
+7334 | __text | E2E8 | selRef_saveConfig: | data_pointer | data_item_size=8
+7350 | __text | A2C4 | sel_writeToFile:atomically: | string_pointer | "writeToFile:atomically:"
+7350 | __text | E2F0 | selRef_writeToFile:atomically: | data_pointer | data_item_size=8
+7354 | __text | C550 | cfstr_VarMobileLibra | struct_pointer | struct_data
+7368 | __text | A08E | sel_loadConfig | string_pointer | "loadConfig"
+7368 | __text | E210 | selRef_loadConfig | data_pointer | data_item_size=8
+73A8 | __text | A26A | sel_locationCfg | string_pointer | "locationCfg"
+73A8 | __text | E2B8 | selRef_locationCfg | data_pointer | data_item_size=8
+73B8 | __text | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+73B8 | __text | E140 | selRef_objectForKey: | data_pointer | data_item_size=8
+73BC | __text | C5D0 | cfstr_FC | struct_pointer | struct_data
+73E8 | __text | E500 | classRef_NSMutableDictionary | data_pointer | data_item_size=8
+73E8 | __text | E998 | _OBJC_CLASS_$_NSMutableDictionary | unknown_pointer | 
+73F0 | __text | 9E3B | sel_dictionaryWithDictionary: | string_pointer | "dictionaryWithDictionary:"
+73F0 | __text | E160 | selRef_dictionaryWithDictionary: | data_pointer | data_item_size=8
+7404 | __text | A2DC | sel_removeObjectForKey: | string_pointer | "removeObjectForKey:"
+7404 | __text | E2F8 | selRef_removeObjectForKey: | data_pointer | data_item_size=8
+7408 | __text | C3B0 | cfstr_Un | struct_pointer | struct_data
+7418 | __text | A2F0 | sel_count | string_pointer | "count"
+7418 | __text | E300 | selRef_count | data_pointer | data_item_size=8
+742C | __text | A280 | sel_setValue:forKey: | string_pointer | "setValue:forKey:"
+742C | __text | E2C8 | selRef_setValue:forKey: | data_pointer | data_item_size=8
+7448 | __text | A2DC | sel_removeObjectForKey: | string_pointer | "removeObjectForKey:"
+7448 | __text | E2F8 | selRef_removeObjectForKey: | data_pointer | data_item_size=8
+745C | __text | E540 | classRef_UIDevice | data_pointer | data_item_size=8
+745C | __text | EA38 | _OBJC_CLASS_$_UIDevice | unknown_pointer | 
+7464 | __text | A291 | sel_currentDevice | string_pointer | "currentDevice"
+7464 | __text | E2D0 | selRef_currentDevice | data_pointer | data_item_size=8
+7470 | __text | A29F | sel_systemVersion | string_pointer | "systemVersion"
+7470 | __text | E2D8 | selRef_systemVersion | data_pointer | data_item_size=8
+747C | __text | A2AD | sel_floatValue | string_pointer | "floatValue"
+747C | __text | E2E0 | selRef_floatValue | data_pointer | data_item_size=8
+7494 | __text | E4F0 | classRef_OTRAppService | data_pointer | data_item_size=8
+7494 | __text | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+749C | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+749C | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+74BC | __text | A2B8 | sel_saveConfig: | string_pointer | "saveConfig:"
+74BC | __text | E2E8 | selRef_saveConfig: | data_pointer | data_item_size=8
+74D8 | __text | A2C4 | sel_writeToFile:atomically: | string_pointer | "writeToFile:atomically:"
+74D8 | __text | E2F0 | selRef_writeToFile:atomically: | data_pointer | data_item_size=8
+74DC | __text | C550 | cfstr_VarMobileLibra | struct_pointer | struct_data
+74F0 | __text | A08E | sel_loadConfig | string_pointer | "loadConfig"
+74F0 | __text | E210 | selRef_loadConfig | data_pointer | data_item_size=8
+7524 | __text | E548 | classRef_UIApplication | data_pointer | data_item_size=8
+7524 | __text | EA30 | _OBJC_CLASS_$_UIApplication | unknown_pointer | 
+752C | __text | A308 | sel_sharedApplication | string_pointer | "sharedApplication"
+752C | __text | E310 | selRef_sharedApplication | data_pointer | data_item_size=8
+753C | __text | E550 | classRef_NSURL | data_pointer | data_item_size=8
+753C | __text | E9A0 | _OBJC_CLASS_$_NSURL | unknown_pointer | 
+7544 | __text | E4E8 | classRef_NSString | data_pointer | data_item_size=8
+7544 | __text | E968 | _OBJC_CLASS_$_NSString | unknown_pointer | 
+754C | __text | E528 | classRef_NSBundle | data_pointer | data_item_size=8
+754C | __text | E940 | _OBJC_CLASS_$_NSBundle | unknown_pointer | 
+7554 | __text | 9FAA | sel_mainBundle | string_pointer | "mainBundle"
+7554 | __text | E1B0 | selRef_mainBundle | data_pointer | data_item_size=8
+7560 | __text | 9FB5 | sel_bundleIdentifier | string_pointer | "bundleIdentifier"
+7560 | __text | E1B8 | selRef_bundleIdentifier | data_pointer | data_item_size=8
+756C | __text | 9DA3 | sel_stringWithFormat: | string_pointer | "stringWithFormat:"
+756C | __text | E110 | selRef_stringWithFormat: | data_pointer | data_item_size=8
+7574 | __text | C5F0 | cfstr_Otrlocation1 | struct_pointer | struct_data
+758C | __text | A31A | sel_URLWithString: | string_pointer | "URLWithString:"
+758C | __text | E318 | selRef_URLWithString: | data_pointer | data_item_size=8
+75A0 | __text | A329 | sel_openURL: | string_pointer | "openURL:"
+75A0 | __text | E320 | selRef_openURL: | data_pointer | data_item_size=8
+75E0 | __text | A332 | sel_show5G | string_pointer | "show5G"
+75E0 | __text | E328 | selRef_show5G | data_pointer | data_item_size=8
+75F0 | __text | E548 | classRef_UIApplication | data_pointer | data_item_size=8
+75F0 | __text | EA30 | _OBJC_CLASS_$_UIApplication | unknown_pointer | 
+75F8 | __text | A308 | sel_sharedApplication | string_pointer | "sharedApplication"
+75F8 | __text | E310 | selRef_sharedApplication | data_pointer | data_item_size=8
+7604 | __text | A339 | sel_valueForKey: | string_pointer | "valueForKey:"
+7604 | __text | E330 | selRef_valueForKey: | data_pointer | data_item_size=8
+7608 | __text | C610 | cfstr_Statusbar | struct_pointer | struct_data
+7620 | __text | E558 | classRef_NSMutableArray | data_pointer | data_item_size=8
+7620 | __text | E990 | _OBJC_CLASS_$_NSMutableArray | unknown_pointer | 
+7628 | __text | A346 | sel_array | string_pointer | "array"
+7628 | __text | E338 | selRef_array | data_pointer | data_item_size=8
+7638 | __text | A34C | sel_addObject: | string_pointer | "addObject:"
+7638 | __text | E340 | selRef_addObject: | data_pointer | data_item_size=8
+764C | __text | A2F0 | sel_count | string_pointer | "count"
+764C | __text | E300 | selRef_count | data_pointer | data_item_size=8
+7654 | __text | A357 | sel_firstObject | string_pointer | "firstObject"
+7654 | __text | E348 | selRef_firstObject | data_pointer | data_item_size=8
+765C | __text | A363 | sel_removeObjectAtIndex: | string_pointer | "removeObjectAtIndex:"
+765C | __text | E350 | selRef_removeObjectAtIndex: | data_pointer | data_item_size=8
+7664 | __text | A378 | sel_subviews | string_pointer | "subviews"
+7664 | __text | E358 | selRef_subviews | data_pointer | data_item_size=8
+767C | __text | A381 | sel_addObjectsFromArray: | string_pointer | "addObjectsFromArray:"
+767C | __text | E360 | selRef_addObjectsFromArray: | data_pointer | data_item_size=8
+7680 | __text | 93B3 | sel_isKindOfClass: | string_pointer | "isKindOfClass:"
+7680 | __text | E368 | selRef_isKindOfClass: | data_pointer | data_item_size=8
+7684 | __text | A00D | sel_isEqualToString: | string_pointer | "isEqualToString:"
+7684 | __text | E1E8 | selRef_isEqualToString: | data_pointer | data_item_size=8
+7688 | __text | A396 | sel_setText: | string_pointer | "setText:"
+7688 | __text | E370 | selRef_setText: | data_pointer | data_item_size=8
+7690 | __text | 9368 | sel_performSelector:withObject: | string_pointer | "performSelector:withObject:"
+7690 | __text | E378 | selRef_performSelector:withObject: | data_pointer | data_item_size=8
+76E4 | __text | C630 | cfstr_Uistatusbarstr | struct_pointer | struct_data
+770C | __text | C650 | cfstr_Originaltext | struct_pointer | struct_data
+7724 | __text | C670 | cfstr_4g | struct_pointer | struct_data
+773C | __text | C690 | cfstr_3g | struct_pointer | struct_data
+7754 | __text | C6B0 | cfstr_5g | struct_pointer | struct_data
+77E0 | __text | A39F | sel_otr_changetTo5g | string_pointer | "otr_changetTo5g"
+77E0 | __text | E380 | selRef_otr_changetTo5g | data_pointer | data_item_size=8
+77FC | __text | C010 | __NSConcreteStackBlock_ptr | data_pointer | data_item_size=8
+77FC | __text | EA98 | __NSConcreteStackBlock | unknown_pointer | 
+7808 | __text | BE58 | qword_BE58 | data_pointer | data_item_size=8
+780C | __text | 7848 | sub_7848 | function_pointer | function_start
+781C | __text | C210 | unk_C210 | unknown_pointer | 
+782C | __text | C028 | __dispatch_main_q_ptr | data_pointer | data_item_size=8
+782C | __text | EAA8 | __dispatch_main_q | unknown_pointer | 
+7850 | __text | A3AF | sel_otr_checkStatusBar | string_pointer | "otr_checkStatusBar"
+7850 | __text | E388 | selRef_otr_checkStatusBar | data_pointer | data_item_size=8
+7878 | __text | E59C | _OBJC_IVAR_$_OTRAppObject._locationCfg | data_pointer | data_item_size=4
+788C | __text | E59C | _OBJC_IVAR_$_OTRAppObject._locationCfg | data_pointer | data_item_size=4
+78A4 | __text | E598 | _OBJC_IVAR_$_OTRAppObject._serviceIsRuning | data_pointer | data_item_size=4
+78B4 | __text | E598 | _OBJC_IVAR_$_OTRAppObject._serviceIsRuning | data_pointer | data_item_size=4
+78D8 | __text | E880 | qword_E880 | data_pointer | data_item_size=8
+78DC | __text | E880 | qword_E880 | data_pointer | data_item_size=8
+78E8 | __text | E4F0 | classRef_OTRAppService | data_pointer | data_item_size=8
+78E8 | __text | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+78F0 | __text | 9338 | sel_alloc | string_pointer | "alloc"
+78F0 | __text | E0D8 | selRef_alloc | data_pointer | data_item_size=8
+78FC | __text | 933E | sel_init | string_pointer | "init"
+78FC | __text | E0E0 | selRef_init | data_pointer | data_item_size=8
+7908 | __text | E880 | qword_E880 | data_pointer | data_item_size=8
+795C | __text | A4F5 | sel_defaultManager | string_pointer | "defaultManager"
+795C | __text | E390 | selRef_defaultManager | data_pointer | data_item_size=8
+7964 | __text | A504 | sel_stringWithUTF8String: | string_pointer | "stringWithUTF8String:"
+7964 | __text | E398 | selRef_stringWithUTF8String: | data_pointer | data_item_size=8
+796C | __text | A51A | sel_fileExistsAtPath: | string_pointer | "fileExistsAtPath:"
+796C | __text | E3A0 | selRef_fileExistsAtPath: | data_pointer | data_item_size=8
+7970 | __text | E560 | classRef_NSFileManager | data_pointer | data_item_size=8
+7974 | __text | E4E8 | classRef_NSString | data_pointer | data_item_size=8
+7978 | __text | E7B0 | _jailbreak_tool_pathes | data_pointer | data_item_size=8
+7980 | __text | E560 | classRef_NSFileManager | data_pointer | data_item_size=8
+7980 | __text | E948 | _OBJC_CLASS_$_NSFileManager | unknown_pointer | 
+7990 | __text | E4E8 | classRef_NSString | data_pointer | data_item_size=8
+7990 | __text | E968 | _OBJC_CLASS_$_NSString | unknown_pointer | 
+79F8 | __text | E590 | classRef_OTRAppService_0 | data_pointer | data_item_size=8
+79F8 | __text | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+7A04 | __text | 933E | sel_init | string_pointer | "init"
+7A04 | __text | E0E0 | selRef_init | data_pointer | data_item_size=8
+7A20 | __text | E568 | classRef_NSDictionary | data_pointer | data_item_size=8
+7A20 | __text | E988 | _OBJC_CLASS_$_NSDictionary | unknown_pointer | 
+7A28 | __text | 9338 | sel_alloc | string_pointer | "alloc"
+7A28 | __text | E0D8 | selRef_alloc | data_pointer | data_item_size=8
+7A3C | __text | E5A0 | _OBJC_IVAR_$_OTRAppService._info | data_pointer | data_item_size=4
+7A48 | __text | A52C | sel_isJailBreak | string_pointer | "isJailBreak"
+7A48 | __text | E3A8 | selRef_isJailBreak | data_pointer | data_item_size=8
+7A5C | __text | A538 | sel_setIsJailBreakDevice: | string_pointer | "setIsJailBreakDevice:"
+7A5C | __text | E3B0 | selRef_setIsJailBreakDevice: | data_pointer | data_item_size=8
+7A8C | __text | C030 | _kCFAllocatorDefault_ptr | data_pointer | data_item_size=8
+7A8C | __text | E9C0 | _kCFAllocatorDefault | data_pointer | data_item_size=8
+7A90 | __text | E9C0 | _kCFAllocatorDefault | data_pointer | data_item_size=8
+7A94 | __text | C2F0 | cfstr_Com85819IosOtr | struct_pointer | struct_data
+7A9C | __text | 7B0C | sub_7B0C | function_pointer | function_start
+7AD0 | __text | C038 | _kCFRunLoopDefaultMode_ptr | data_pointer | data_item_size=8
+7AD0 | __text | E9C8 | _kCFRunLoopDefaultMode | data_pointer | data_item_size=8
+7AD4 | __text | E9C8 | _kCFRunLoopDefaultMode | data_pointer | data_item_size=8
+7AE4 | __text | 7BEC | sub_7BEC | function_pointer | function_start
+7AEC | __text | C6D0 | cfstr_Net85819IosOtr | struct_pointer | struct_data
+7B28 | __text | E508 | classRef_appTweakHelper | data_pointer | data_item_size=8
+7B28 | __text | E5A8 | _OBJC_CLASS_$_appTweakHelper | struct_pointer | struct_data
+7B30 | __text | 9F84 | sel_DataToPropertyLis: | string_pointer | "DataToPropertyLis:"
+7B30 | __text | E420 | selRef_DataToPropertyLis: | data_pointer | data_item_size=8
+7B44 | __text | E4F0 | classRef_OTRAppService | data_pointer | data_item_size=8
+7B44 | __text | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+7B4C | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+7B4C | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+7B58 | __text | A6B5 | sel_setInfo: | string_pointer | "setInfo:"
+7B58 | __text | E428 | selRef_setInfo: | data_pointer | data_item_size=8
+7B68 | __text | A2C4 | sel_writeToFile:atomically: | string_pointer | "writeToFile:atomically:"
+7B68 | __text | E2F0 | selRef_writeToFile:atomically: | data_pointer | data_item_size=8
+7B6C | __text | C550 | cfstr_VarMobileLibra | struct_pointer | struct_data
+7B84 | __text | E508 | classRef_appTweakHelper | data_pointer | data_item_size=8
+7B84 | __text | E5A8 | _OBJC_CLASS_$_appTweakHelper | struct_pointer | struct_data
+7B8C | __text | E568 | classRef_NSDictionary | data_pointer | data_item_size=8
+7B8C | __text | E988 | _OBJC_CLASS_$_NSDictionary | unknown_pointer | 
+7B94 | __text | 9E30 | sel_dictionary | string_pointer | "dictionary"
+7B94 | __text | E158 | selRef_dictionary | data_pointer | data_item_size=8
+7BA0 | __text | E508 | classRef_appTweakHelper | data_pointer | data_item_size=8
+7BA0 | __text | E5A8 | _OBJC_CLASS_$_appTweakHelper | struct_pointer | struct_data
+7BA8 | __text | E4F0 | classRef_OTRAppService | data_pointer | data_item_size=8
+7BA8 | __text | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+7BB0 | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+7BB0 | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+7BBC | __text | A6B0 | sel_info | string_pointer | "info"
+7BBC | __text | E430 | selRef_info | data_pointer | data_item_size=8
+7BCC | __text | 9F97 | sel_PropertyLisToData: | string_pointer | "PropertyLisToData:"
+7BCC | __text | E438 | selRef_PropertyLisToData: | data_pointer | data_item_size=8
+7BDC | __text | 93FB | sel_retain | string_pointer | "retain"
+7BDC | __text | E168 | selRef_retain | data_pointer | data_item_size=8
+7C08 | __text | C028 | __dispatch_main_q_ptr | data_pointer | data_item_size=8
+7C08 | __text | EAA8 | __dispatch_main_q | unknown_pointer | 
+7C0C | __text | C260 | stru_C260 | struct_pointer | struct_data
+7C28 | __text | C6D0 | cfstr_Net85819IosOtr | struct_pointer | struct_data
+7C58 | __text | C6F0 | cfstr_Cpdistributedm | struct_pointer | struct_data
+7C64 | __text | E888 | qword_E888 | data_pointer | data_item_size=8
+7C68 | __text | E888 | qword_E888 | data_pointer | data_item_size=8
+7C84 | __text | A54E | sel_centerNamed: | string_pointer | "centerNamed:"
+7C84 | __text | E3B8 | selRef_centerNamed: | data_pointer | data_item_size=8
+7C88 | __text | C710 | cfstr_OtrCpdistribut | struct_pointer | struct_data
+7C94 | __text | E888 | qword_E888 | data_pointer | data_item_size=8
+7C9C | __text | A55B | sel_isJailBreakDevice | string_pointer | "isJailBreakDevice"
+7C9C | __text | E3C0 | selRef_isJailBreakDevice | data_pointer | data_item_size=8
+7CAC | __text | E888 | qword_E888 | data_pointer | data_item_size=8
+7CB4 | __text | E888 | qword_E888 | data_pointer | data_item_size=8
+7CBC | __text | A56D | sel_runServerOnCurrentThread | string_pointer | "runServerOnCurrentThread"
+7CBC | __text | E3C8 | selRef_runServerOnCurrentThread | data_pointer | data_item_size=8
+7CC4 | __text | E888 | qword_E888 | data_pointer | data_item_size=8
+7CCC | __text | A586 | sel_handleMessageNamed:withUserInfo: | string_pointer | "handleMessageNamed:withUserInfo:"
+7CCC | __text | E3D0 | selRef_handleMessageNamed:withUserInfo: | data_pointer | data_item_size=8
+7CD4 | __text | A5A7 | sel_registerForMessageName:target:selector: | string_pointer | "registerForMessageName:target:selector:"
+7CD4 | __text | E3D8 | selRef_registerForMessageName:target:selector: | data_pointer | data_item_size=8
+7CD8 | __text | C730 | cfstr_Writeconfig | struct_pointer | struct_data
+7CF0 | __text | C750 | cfstr_Getappicon | struct_pointer | struct_data
+7CF8 | __text | E888 | qword_E888 | data_pointer | data_item_size=8
+7D34 | __text | A00D | sel_isEqualToString: | string_pointer | "isEqualToString:"
+7D34 | __text | E1E8 | selRef_isEqualToString: | data_pointer | data_item_size=8
+7D38 | __text | C730 | cfstr_Writeconfig | struct_pointer | struct_data
+7D54 | __text | A2C4 | sel_writeToFile:atomically: | string_pointer | "writeToFile:atomically:"
+7D54 | __text | E2F0 | selRef_writeToFile:atomically: | data_pointer | data_item_size=8
+7D58 | __text | C550 | cfstr_VarMobileLibra | struct_pointer | struct_data
+7D6C | __text | C750 | cfstr_Getappicon | struct_pointer | struct_data
+7D88 | __text | E570 | classRef_UIImage | data_pointer | data_item_size=8
+7D88 | __text | EA40 | _OBJC_CLASS_$_UIImage | unknown_pointer | 
+7D90 | __text | A5CF | sel_objectForKeyedSubscript: | string_pointer | "objectForKeyedSubscript:"
+7D90 | __text | E3E0 | selRef_objectForKeyedSubscript: | data_pointer | data_item_size=8
+7D94 | __text | C770 | cfstr_Boundleid | struct_pointer | struct_data
+7DAC | __text | E578 | classRef_UIScreen | data_pointer | data_item_size=8
+7DAC | __text | EA48 | _OBJC_CLASS_$_UIScreen | unknown_pointer | 
+7DB4 | __text | A5E8 | sel_mainScreen | string_pointer | "mainScreen"
+7DB4 | __text | E3E8 | selRef_mainScreen | data_pointer | data_item_size=8
+7DC0 | __text | A5F3 | sel_scale | string_pointer | "scale"
+7DC0 | __text | E3F0 | selRef_scale | data_pointer | data_item_size=8
+7DCC | __text | A5F9 | sel__applicationIconImageForBundleIdentifier:format:scale: | string_pointer | "_applicationIconImageForBundleIdentifier:format:scale:"
+7DCC | __text | E3F8 | selRef__applicationIconImageForBundleIdentifier:format:scale: | data_pointer | data_item_size=8
+7DEC | __text | E500 | classRef_NSMutableDictionary | data_pointer | data_item_size=8
+7DEC | __text | E998 | _OBJC_CLASS_$_NSMutableDictionary | unknown_pointer | 
+7DF4 | __text | 9E30 | sel_dictionary | string_pointer | "dictionary"
+7DF4 | __text | E158 | selRef_dictionary | data_pointer | data_item_size=8
+7E04 | __text | A280 | sel_setValue:forKey: | string_pointer | "setValue:forKey:"
+7E04 | __text | E2C8 | selRef_setValue:forKey: | data_pointer | data_item_size=8
+7E08 | __text | C790 | cfstr_Icon | struct_pointer | struct_data
+7E4C | __text | E890 | qword_E890 | data_pointer | data_item_size=8
+7E50 | __text | E890 | qword_E890 | data_pointer | data_item_size=8
+7E58 | __text | C6F0 | cfstr_Cpdistributedm | struct_pointer | struct_data
+7E68 | __text | A54E | sel_centerNamed: | string_pointer | "centerNamed:"
+7E68 | __text | E3B8 | selRef_centerNamed: | data_pointer | data_item_size=8
+7E6C | __text | C710 | cfstr_OtrCpdistribut | struct_pointer | struct_data
+7E78 | __text | E890 | qword_E890 | data_pointer | data_item_size=8
+7E80 | __text | A55B | sel_isJailBreakDevice | string_pointer | "isJailBreakDevice"
+7E80 | __text | E3C0 | selRef_isJailBreakDevice | data_pointer | data_item_size=8
+7E90 | __text | E890 | qword_E890 | data_pointer | data_item_size=8
+7E98 | __text | E890 | qword_E890 | data_pointer | data_item_size=8
+7EA0 | __text | A630 | sel_sendMessageName:userInfo: | string_pointer | "sendMessageName:userInfo:"
+7EA0 | __text | E400 | selRef_sendMessageName:userInfo: | data_pointer | data_item_size=8
+7EA4 | __text | C730 | cfstr_Writeconfig | struct_pointer | struct_data
+7EE0 | __text | C020 | ___stack_chk_guard_ptr | data_pointer | data_item_size=8
+7EE0 | __text | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+7EE4 | __text | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+7EEC | __text | E890 | qword_E890 | data_pointer | data_item_size=8
+7EF0 | __text | E890 | qword_E890 | data_pointer | data_item_size=8
+7EF8 | __text | C6F0 | cfstr_Cpdistributedm | struct_pointer | struct_data
+7F08 | __text | A54E | sel_centerNamed: | string_pointer | "centerNamed:"
+7F08 | __text | E3B8 | selRef_centerNamed: | data_pointer | data_item_size=8
+7F0C | __text | C710 | cfstr_OtrCpdistribut | struct_pointer | struct_data
+7F18 | __text | E890 | qword_E890 | data_pointer | data_item_size=8
+7F20 | __text | A55B | sel_isJailBreakDevice | string_pointer | "isJailBreakDevice"
+7F20 | __text | E3C0 | selRef_isJailBreakDevice | data_pointer | data_item_size=8
+7F30 | __text | E890 | qword_E890 | data_pointer | data_item_size=8
+7F38 | __text | E890 | qword_E890 | data_pointer | data_item_size=8
+7F3C | __text | C770 | cfstr_Boundleid | struct_pointer | struct_data
+7F4C | __text | E568 | classRef_NSDictionary | data_pointer | data_item_size=8
+7F4C | __text | E988 | _OBJC_CLASS_$_NSDictionary | unknown_pointer | 
+7F54 | __text | A64A | sel_dictionaryWithObjects:forKeys:count: | string_pointer | "dictionaryWithObjects:forKeys:count:"
+7F54 | __text | E408 | selRef_dictionaryWithObjects:forKeys:count: | data_pointer | data_item_size=8
+7F70 | __text | A66F | sel_sendMessageAndReceiveReplyName:userInfo: | string_pointer | "sendMessageAndReceiveReplyName:userInfo:"
+7F70 | __text | E410 | selRef_sendMessageAndReceiveReplyName:userInfo: | data_pointer | data_item_size=8
+7F74 | __text | C750 | cfstr_Getappicon | struct_pointer | struct_data
+7F88 | __text | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+7F88 | __text | E140 | selRef_objectForKey: | data_pointer | data_item_size=8
+7F8C | __text | C790 | cfstr_Icon | struct_pointer | struct_data
+7FA0 | __text | E570 | classRef_UIImage | data_pointer | data_item_size=8
+7FA0 | __text | EA40 | _OBJC_CLASS_$_UIImage | unknown_pointer | 
+7FA8 | __text | A698 | sel_imageWithData: | string_pointer | "imageWithData:"
+7FA8 | __text | E418 | selRef_imageWithData: | data_pointer | data_item_size=8
+7FB8 | __text | C020 | ___stack_chk_guard_ptr | data_pointer | data_item_size=8
+7FB8 | __text | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+7FBC | __text | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+7FE4 | __text | E5A0 | _OBJC_IVAR_$_OTRAppService._info | data_pointer | data_item_size=4
+7FF8 | __text | E5A0 | _OBJC_IVAR_$_OTRAppService._info | data_pointer | data_item_size=4
+8010 | __text | E5A4 | _OBJC_IVAR_$_OTRAppService._isJailBreakDevice | data_pointer | data_item_size=4
+8020 | __text | E5A4 | _OBJC_IVAR_$_OTRAppService._isJailBreakDevice | data_pointer | data_item_size=4
+803C | __text | E548 | classRef_UIApplication | data_pointer | data_item_size=8
+803C | __text | EA30 | _OBJC_CLASS_$_UIApplication | unknown_pointer | 
+8044 | __text | A308 | sel_sharedApplication | string_pointer | "sharedApplication"
+8044 | __text | E310 | selRef_sharedApplication | data_pointer | data_item_size=8
+8054 | __text | E550 | classRef_NSURL | data_pointer | data_item_size=8
+8054 | __text | E9A0 | _OBJC_CLASS_$_NSURL | unknown_pointer | 
+805C | __text | A31A | sel_URLWithString: | string_pointer | "URLWithString:"
+805C | __text | E318 | selRef_URLWithString: | data_pointer | data_item_size=8
+8060 | __text | C7B0 | cfstr_Otrlocation | struct_pointer | struct_data
+8074 | __text | A329 | sel_openURL: | string_pointer | "openURL:"
+8074 | __text | E320 | selRef_openURL: | data_pointer | data_item_size=8
+8098 | __text | C010 | __NSConcreteStackBlock_ptr | data_pointer | data_item_size=8
+8098 | __text | EA98 | __NSConcreteStackBlock | unknown_pointer | 
+80A4 | __text | BE58 | qword_BE58 | data_pointer | data_item_size=8
+80AC | __text | 80F4 | sub_80F4 | function_pointer | function_start
+80B4 | __text | C280 | unk_C280 | unknown_pointer | 
+80C8 | __text | E898 | qword_E898 | data_pointer | data_item_size=8
+80E0 | __text | E898 | qword_E898 | data_pointer | data_item_size=8
+8110 | __text | 934C | sel_class | string_pointer | "class"
+8110 | __text | E440 | selRef_class | data_pointer | data_item_size=8
+8120 | __text | A6D7 | sel_location | string_pointer | "location"
+8120 | __text | E448 | selRef_location | data_pointer | data_item_size=8
+813C | __text | A6E0 | sel_my_otr_tweak_location | string_pointer | "my_otr_tweak_location"
+813C | __text | E450 | selRef_my_otr_tweak_location | data_pointer | data_item_size=8
+818C | __text | A6E0 | sel_my_otr_tweak_location | string_pointer | "my_otr_tweak_location"
+818C | __text | E450 | selRef_my_otr_tweak_location | data_pointer | data_item_size=8
+81A4 | __text | E520 | classRef_OTRAppObject | data_pointer | data_item_size=8
+81A4 | __text | E5F8 | _OBJC_CLASS_$_OTRAppObject | struct_pointer | struct_data
+81AC | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+81AC | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+81B8 | __text | A3DE | sel_returnFakeLocation:isUse: | string_pointer | "returnFakeLocation:isUse:"
+81B8 | __text | E458 | selRef_returnFakeLocation:isUse: | data_pointer | data_item_size=8
+8220 | __text | C020 | ___stack_chk_guard_ptr | data_pointer | data_item_size=8
+8220 | __text | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+8224 | __text | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+8230 | __text | E558 | classRef_NSMutableArray | data_pointer | data_item_size=8
+8230 | __text | E990 | _OBJC_CLASS_$_NSMutableArray | unknown_pointer | 
+8238 | __text | A346 | sel_array | string_pointer | "array"
+8238 | __text | E338 | selRef_array | data_pointer | data_item_size=8
+8258 | __text | A6F6 | sel_countByEnumeratingWithState:objects:count: | string_pointer | "countByEnumeratingWithState:objects:count:"
+8258 | __text | E460 | selRef_countByEnumeratingWithState:objects:count: | data_pointer | data_item_size=8
+8284 | __text | E520 | classRef_OTRAppObject | data_pointer | data_item_size=8
+8290 | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+8290 | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+8298 | __text | A3DE | sel_returnFakeLocation:isUse: | string_pointer | "returnFakeLocation:isUse:"
+8298 | __text | E458 | selRef_returnFakeLocation:isUse: | data_pointer | data_item_size=8
+82A0 | __text | A34C | sel_addObject: | string_pointer | "addObject:"
+82A0 | __text | E340 | selRef_addObject: | data_pointer | data_item_size=8
+82C8 | __text | E520 | classRef_OTRAppObject | data_pointer | data_item_size=8
+82C8 | __text | E5F8 | _OBJC_CLASS_$_OTRAppObject | struct_pointer | struct_data
+8324 | __text | A721 | sel_my_otr_onClientEventLocation:forceMapMatching:type: | string_pointer | "my_otr_onClientEventLocation:forceMapMatching:type:"
+8324 | __text | E468 | selRef_my_otr_onClientEventLocation:forceMapMatching:type: | data_pointer | data_item_size=8
+8348 | __text | C020 | ___stack_chk_guard_ptr | data_pointer | data_item_size=8
+8348 | __text | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+834C | __text | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+83B4 | __text | C020 | ___stack_chk_guard_ptr | data_pointer | data_item_size=8
+83B4 | __text | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+83B8 | __text | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+83C4 | __text | E848 | _g_dictDidUpdateLocationsCallBack | data_pointer | data_item_size=8
+83CC | __text | 934C | sel_class | string_pointer | "class"
+83CC | __text | E440 | selRef_class | data_pointer | data_item_size=8
+83E0 | __text | A5CF | sel_objectForKeyedSubscript: | string_pointer | "objectForKeyedSubscript:"
+83E0 | __text | E3E0 | selRef_objectForKeyedSubscript: | data_pointer | data_item_size=8
+83F4 | __text | A75A | sel_pointerValue | string_pointer | "pointerValue"
+83F4 | __text | E470 | selRef_pointerValue | data_pointer | data_item_size=8
+840C | __text | E848 | _g_dictDidUpdateLocationsCallBack | data_pointer | data_item_size=8
+8414 | __text | A767 | sel_allKeys | string_pointer | "allKeys"
+8414 | __text | E478 | selRef_allKeys | data_pointer | data_item_size=8
+8434 | __text | A6F6 | sel_countByEnumeratingWithState:objects:count: | string_pointer | "countByEnumeratingWithState:objects:count:"
+8434 | __text | E460 | selRef_countByEnumeratingWithState:objects:count: | data_pointer | data_item_size=8
+845C | __text | E368 | selRef_isKindOfClass: | data_pointer | data_item_size=8
+8468 | __text | 93B3 | sel_isKindOfClass: | string_pointer | "isKindOfClass:"
+8468 | __text | E368 | selRef_isKindOfClass: | data_pointer | data_item_size=8
+84DC | __text | E368 | selRef_isKindOfClass: | data_pointer | data_item_size=8
+84EC | __text | E848 | _g_dictDidUpdateLocationsCallBack | data_pointer | data_item_size=8
+8534 | __text | A2F0 | sel_count | string_pointer | "count"
+8534 | __text | E300 | selRef_count | data_pointer | data_item_size=8
+854C | __text | 9E16 | sel_objectAtIndex: | string_pointer | "objectAtIndex:"
+854C | __text | E148 | selRef_objectAtIndex: | data_pointer | data_item_size=8
+8570 | __text | E558 | classRef_NSMutableArray | data_pointer | data_item_size=8
+8570 | __text | E990 | _OBJC_CLASS_$_NSMutableArray | unknown_pointer | 
+8578 | __text | 9338 | sel_alloc | string_pointer | "alloc"
+8578 | __text | E0D8 | selRef_alloc | data_pointer | data_item_size=8
+8584 | __text | 933E | sel_init | string_pointer | "init"
+8584 | __text | E0E0 | selRef_init | data_pointer | data_item_size=8
+8590 | __text | 940A | sel_autorelease | string_pointer | "autorelease"
+8590 | __text | E288 | selRef_autorelease | data_pointer | data_item_size=8
+85C0 | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+85C0 | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+85C8 | __text | A3DE | sel_returnFakeLocation:isUse: | string_pointer | "returnFakeLocation:isUse:"
+85C8 | __text | E458 | selRef_returnFakeLocation:isUse: | data_pointer | data_item_size=8
+85D0 | __text | A34C | sel_addObject: | string_pointer | "addObject:"
+85D0 | __text | E340 | selRef_addObject: | data_pointer | data_item_size=8
+85EC | __text | E520 | classRef_OTRAppObject | data_pointer | data_item_size=8
+85EC | __text | E5F8 | _OBJC_CLASS_$_OTRAppObject | struct_pointer | struct_data
+866C | __text | A76F | sel_locationManager:didUpdateLocations: | string_pointer | "locationManager:didUpdateLocations:"
+866C | __text | E480 | selRef_locationManager:didUpdateLocations: | data_pointer | data_item_size=8
+8674 | __text | 93E7 | sel_respondsToSelector: | string_pointer | "respondsToSelector:"
+8674 | __text | E488 | selRef_respondsToSelector: | data_pointer | data_item_size=8
+86A4 | __text | 93E7 | sel_respondsToSelector: | string_pointer | "respondsToSelector:"
+86A4 | __text | E488 | selRef_respondsToSelector: | data_pointer | data_item_size=8
+86D4 | __text | C020 | ___stack_chk_guard_ptr | data_pointer | data_item_size=8
+86D4 | __text | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+86D8 | __text | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+8760 | __text | C020 | ___stack_chk_guard_ptr | data_pointer | data_item_size=8
+8760 | __text | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+8764 | __text | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+8770 | __text | E850 | _g_dictDidUpdateToLocationCallBack | data_pointer | data_item_size=8
+8778 | __text | 934C | sel_class | string_pointer | "class"
+8778 | __text | E440 | selRef_class | data_pointer | data_item_size=8
+878C | __text | A5CF | sel_objectForKeyedSubscript: | string_pointer | "objectForKeyedSubscript:"
+878C | __text | E3E0 | selRef_objectForKeyedSubscript: | data_pointer | data_item_size=8
+87A0 | __text | A75A | sel_pointerValue | string_pointer | "pointerValue"
+87A0 | __text | E470 | selRef_pointerValue | data_pointer | data_item_size=8
+87B8 | __text | E850 | _g_dictDidUpdateToLocationCallBack | data_pointer | data_item_size=8
+87C0 | __text | A767 | sel_allKeys | string_pointer | "allKeys"
+87C0 | __text | E478 | selRef_allKeys | data_pointer | data_item_size=8
+87E0 | __text | A6F6 | sel_countByEnumeratingWithState:objects:count: | string_pointer | "countByEnumeratingWithState:objects:count:"
+87E0 | __text | E460 | selRef_countByEnumeratingWithState:objects:count: | data_pointer | data_item_size=8
+8808 | __text | E368 | selRef_isKindOfClass: | data_pointer | data_item_size=8
+8814 | __text | 93B3 | sel_isKindOfClass: | string_pointer | "isKindOfClass:"
+8814 | __text | E368 | selRef_isKindOfClass: | data_pointer | data_item_size=8
+8888 | __text | E368 | selRef_isKindOfClass: | data_pointer | data_item_size=8
+8898 | __text | E850 | _g_dictDidUpdateToLocationCallBack | data_pointer | data_item_size=8
+88E8 | __text | E520 | classRef_OTRAppObject | data_pointer | data_item_size=8
+88E8 | __text | E5F8 | _OBJC_CLASS_$_OTRAppObject | struct_pointer | struct_data
+88F0 | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+88F0 | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+88FC | __text | A3DE | sel_returnFakeLocation:isUse: | string_pointer | "returnFakeLocation:isUse:"
+88FC | __text | E458 | selRef_returnFakeLocation:isUse: | data_pointer | data_item_size=8
+891C | __text | A793 | sel_locationManager:didUpdateToLocation:fromLocation: | string_pointer | "locationManager:didUpdateToLocation:fromLocation:"
+891C | __text | E490 | selRef_locationManager:didUpdateToLocation:fromLocation: | data_pointer | data_item_size=8
+8924 | __text | 93E7 | sel_respondsToSelector: | string_pointer | "respondsToSelector:"
+8924 | __text | E488 | selRef_respondsToSelector: | data_pointer | data_item_size=8
+8954 | __text | 93E7 | sel_respondsToSelector: | string_pointer | "respondsToSelector:"
+8954 | __text | E488 | selRef_respondsToSelector: | data_pointer | data_item_size=8
+8984 | __text | C020 | ___stack_chk_guard_ptr | data_pointer | data_item_size=8
+8984 | __text | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+8988 | __text | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+89F4 | __text | C7D0 | cfstr_Otrunameexpand | struct_pointer | struct_data
+8A0C | __text | 9D4E | sel_OTRUname:original_uname: | string_pointer | "OTRUname:original_uname:"
+8A0C | __text | E0F8 | selRef_OTRUname:original_uname: | data_pointer | data_item_size=8
+8A14 | __text | A7C5 | sel_methodForSelector: | string_pointer | "methodForSelector:"
+8A14 | __text | E498 | selRef_methodForSelector: | data_pointer | data_item_size=8
+8A50 | __text | E520 | classRef_OTRAppObject | data_pointer | data_item_size=8
+8A50 | __text | E5F8 | _OBJC_CLASS_$_OTRAppObject | struct_pointer | struct_data
+8A58 | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+8A58 | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+8A64 | __text | 9D4E | sel_OTRUname:original_uname: | string_pointer | "OTRUname:original_uname:"
+8A64 | __text | E0F8 | selRef_OTRUname:original_uname: | data_pointer | data_item_size=8
+8AB8 | __text | C7F0 | cfstr_Otrsysctlbynam | struct_pointer | struct_data
+8AD0 | __text | 9D67 | sel_OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname: | string_pointer | "OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:"
+8AD0 | __text | E100 | selRef_OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname: | data_pointer | data_item_size=8
+8AD8 | __text | A7C5 | sel_methodForSelector: | string_pointer | "methodForSelector:"
+8AD8 | __text | E498 | selRef_methodForSelector: | data_pointer | data_item_size=8
+8B24 | __text | E520 | classRef_OTRAppObject | data_pointer | data_item_size=8
+8B24 | __text | E5F8 | _OBJC_CLASS_$_OTRAppObject | struct_pointer | struct_data
+8B2C | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+8B2C | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+8B38 | __text | 9D67 | sel_OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname: | string_pointer | "OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:"
+8B38 | __text | E100 | selRef_OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname: | data_pointer | data_item_size=8
+8B94 | __text | A7D8 | sel_objectAtIndexedSubscript: | string_pointer | "objectAtIndexedSubscript:"
+8B94 | __text | E4A0 | selRef_objectAtIndexedSubscript: | data_pointer | data_item_size=8
+8BA8 | __text | E528 | classRef_NSBundle | data_pointer | data_item_size=8
+8BA8 | __text | E940 | _OBJC_CLASS_$_NSBundle | unknown_pointer | 
+8BB0 | __text | 9FAA | sel_mainBundle | string_pointer | "mainBundle"
+8BB0 | __text | E1B0 | selRef_mainBundle | data_pointer | data_item_size=8
+8BBC | __text | 9FB5 | sel_bundleIdentifier | string_pointer | "bundleIdentifier"
+8BBC | __text | E1B8 | selRef_bundleIdentifier | data_pointer | data_item_size=8
+8BCC | __text | A00D | sel_isEqualToString: | string_pointer | "isEqualToString:"
+8BCC | __text | E1E8 | selRef_isEqualToString: | data_pointer | data_item_size=8
+8BD4 | __text | C810 | cfstr_VarMobileAppli | struct_pointer | struct_data
+8BEC | __text | C830 | cfstr_Net85819IosOtr_0 | struct_pointer | struct_data
+8C04 | __text | C850 | cfstr_ComAppleCamera | struct_pointer | struct_data
+8C20 | __text | E520 | classRef_OTRAppObject | data_pointer | data_item_size=8
+8C20 | __text | E5F8 | _OBJC_CLASS_$_OTRAppObject | struct_pointer | struct_data
+8C28 | __text | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+8C28 | __text | E120 | selRef_sharedSingleton | data_pointer | data_item_size=8
+8C34 | __text | A3C2 | sel_onRunApp | string_pointer | "onRunApp"
+8C34 | __text | E4A8 | selRef_onRunApp | data_pointer | data_item_size=8
+8C40 | __text | E4E0 | classRef_OTRHook | data_pointer | data_item_size=8
+8C40 | __text | E698 | _OBJC_CLASS_$_OTRHook | struct_pointer | struct_data
+8C48 | __text | A7F2 | sel_setLocationHooks | string_pointer | "setLocationHooks"
+8C48 | __text | E4B0 | selRef_setLocationHooks | data_pointer | data_item_size=8
+8C64 | __text | E858 | _g_isSetHook | data_pointer | data_item_size=1
+8C68 | __text | E858 | _g_isSetHook | data_pointer | data_item_size=1
+8C90 | __text | E858 | _g_isSetHook | data_pointer | data_item_size=1
+8C94 | __text | E858 | _g_isSetHook | data_pointer | data_item_size=1
+8C98 | __text | E848 | _g_dictDidUpdateLocationsCallBack | data_pointer | data_item_size=8
+8C9C | __text | E848 | _g_dictDidUpdateLocationsCallBack | data_pointer | data_item_size=8
+8CA8 | __text | 9402 | sel_release | string_pointer | "release"
+8CA8 | __text | E4B8 | selRef_release | data_pointer | data_item_size=8
+8CB0 | __text | E848 | _g_dictDidUpdateLocationsCallBack | data_pointer | data_item_size=8
+8CB4 | __text | E850 | _g_dictDidUpdateToLocationCallBack | data_pointer | data_item_size=8
+8CB8 | __text | E850 | _g_dictDidUpdateToLocationCallBack | data_pointer | data_item_size=8
+8CC4 | __text | 9402 | sel_release | string_pointer | "release"
+8CC4 | __text | E4B8 | selRef_release | data_pointer | data_item_size=8
+8CCC | __text | E850 | _g_dictDidUpdateToLocationCallBack | data_pointer | data_item_size=8
+8CD0 | __text | E500 | classRef_NSMutableDictionary | data_pointer | data_item_size=8
+8CD4 | __text | E500 | classRef_NSMutableDictionary | data_pointer | data_item_size=8
+8CD4 | __text | E998 | _OBJC_CLASS_$_NSMutableDictionary | unknown_pointer | 
+8CDC | __text | 9338 | sel_alloc | string_pointer | "alloc"
+8CDC | __text | E0D8 | selRef_alloc | data_pointer | data_item_size=8
+8CEC | __text | 933E | sel_init | string_pointer | "init"
+8CEC | __text | E0E0 | selRef_init | data_pointer | data_item_size=8
+8CF8 | __text | E848 | _g_dictDidUpdateLocationsCallBack | data_pointer | data_item_size=8
+8CFC | __text | E500 | classRef_NSMutableDictionary | data_pointer | data_item_size=8
+8CFC | __text | E998 | _OBJC_CLASS_$_NSMutableDictionary | unknown_pointer | 
+8D10 | __text | E850 | _g_dictDidUpdateToLocationCallBack | data_pointer | data_item_size=8
+8D44 | __text | A76F | sel_locationManager:didUpdateLocations: | string_pointer | "locationManager:didUpdateLocations:"
+8D44 | __text | E480 | selRef_locationManager:didUpdateLocations: | data_pointer | data_item_size=8
+8D4C | __text | AA76 | sel_valueWithPointer: | string_pointer | "valueWithPointer:"
+8D4C | __text | E4C0 | selRef_valueWithPointer: | data_pointer | data_item_size=8
+8D54 | __text | 9E55 | sel_setObject:forKey: | string_pointer | "setObject:forKey:"
+8D54 | __text | E170 | selRef_setObject:forKey: | data_pointer | data_item_size=8
+8D60 | __text | A793 | sel_locationManager:didUpdateToLocation:fromLocation: | string_pointer | "locationManager:didUpdateToLocation:fromLocation:"
+8D60 | __text | E490 | selRef_locationManager:didUpdateToLocation:fromLocation: | data_pointer | data_item_size=8
+8D6C | __text | E4D0 | protocolRef_CLLocationManagerDelegate | data_pointer | data_item_size=8
+8D70 | __text | A280 | sel_setValue:forKey: | string_pointer | "setValue:forKey:"
+8D70 | __text | E2C8 | selRef_setValue:forKey: | data_pointer | data_item_size=8
+8D80 | __text | E4D0 | protocolRef_CLLocationManagerDelegate | data_pointer | data_item_size=8
+8D80 | __text | E7D8 | _OBJC_PROTOCOL_$_CLLocationManagerDelegate | struct_pointer | struct_data
+8DAC | __text | E848 | _g_dictDidUpdateLocationsCallBack | data_pointer | data_item_size=8
+8DB4 | __text | E580 | classRef_NSValue | data_pointer | data_item_size=8
+8DB4 | __text | E970 | _OBJC_CLASS_$_NSValue | unknown_pointer | 
+8DD8 | __text | E858 | _g_isSetHook | data_pointer | data_item_size=1
+8DDC | __text | E858 | _g_isSetHook | data_pointer | data_item_size=1
+8DEC | __text | 837C | __Z27replaced_didUpdateLocationsP11objc_objectP13objc_selectorP17CLLocationMa... | function_pointer | function_start
+8E00 | __text | E4D0 | protocolRef_CLLocationManagerDelegate | data_pointer | data_item_size=8
+8E00 | __text | E7D8 | _OBJC_PROTOCOL_$_CLLocationManagerDelegate | struct_pointer | struct_data
+8E1C | __text | E858 | _g_isSetHook | data_pointer | data_item_size=1
+8E20 | __text | E858 | _g_isSetHook | data_pointer | data_item_size=1
+8E34 | __text | E850 | _g_dictDidUpdateToLocationCallBack | data_pointer | data_item_size=8
+8E3C | __text | E580 | classRef_NSValue | data_pointer | data_item_size=8
+8E3C | __text | E970 | _OBJC_CLASS_$_NSValue | unknown_pointer | 
+8E6C | __text | 8728 | __Z28replaced_didUpdateToLocationP11objc_objectP13objc_selectorP17CLLocationM... | function_pointer | function_start
+8E90 | __text | E858 | _g_isSetHook | data_pointer | data_item_size=1
+8E94 | __text | E858 | _g_isSetHook | data_pointer | data_item_size=1
+8EBC | __stubs | C060 | _CFLog_ptr | import_pointer | import_entry
+8EBC | __stubs | E9D0 | __imp__CFLog | import_pointer | import_entry
+8EC8 | __stubs | C068 | _CFMessagePortCreateLocal_ptr | import_pointer | import_entry
+8EC8 | __stubs | E9D8 | __imp__CFMessagePortCreateLocal | import_pointer | import_entry
+8ED4 | __stubs | C070 | _CFMessagePortCreateRemote_ptr | import_pointer | import_entry
+8ED4 | __stubs | E9E0 | __imp__CFMessagePortCreateRemote | import_pointer | import_entry
+8EE0 | __stubs | C078 | _CFMessagePortCreateRunLoopSource_ptr | import_pointer | import_entry
+8EE0 | __stubs | E9E8 | __imp__CFMessagePortCreateRunLoopSource | import_pointer | import_entry
+8EEC | __stubs | C080 | _CFMessagePortIsValid_ptr | import_pointer | import_entry
+8EEC | __stubs | E9F0 | __imp__CFMessagePortIsValid | import_pointer | import_entry
+8EF8 | __stubs | C088 | _CFMessagePortSendRequest_ptr | import_pointer | import_entry
+8EF8 | __stubs | E9F8 | __imp__CFMessagePortSendRequest | import_pointer | import_entry
+8F04 | __stubs | C090 | _CFNotificationCenterAddObserver_ptr | import_pointer | import_entry
+8F04 | __stubs | EA00 | __imp__CFNotificationCenterAddObserver | import_pointer | import_entry
+8F10 | __stubs | C098 | _CFNotificationCenterGetDarwinNotifyCenter_ptr | import_pointer | import_entry
+8F10 | __stubs | EA08 | __imp__CFNotificationCenterGetDarwinNotifyCenter | import_pointer | import_entry
+8F1C | __stubs | C0A0 | _CFNotificationCenterPostNotification_ptr | import_pointer | import_entry
+8F1C | __stubs | EA10 | __imp__CFNotificationCenterPostNotification | import_pointer | import_entry
+8F28 | __stubs | C0A8 | _CFRelease_ptr | import_pointer | import_entry
+8F28 | __stubs | EA18 | __imp__CFRelease | import_pointer | import_entry
+8F34 | __stubs | C0B0 | _CFRunLoopAddSource_ptr | import_pointer | import_entry
+8F34 | __stubs | EA20 | __imp__CFRunLoopAddSource | import_pointer | import_entry
+8F40 | __stubs | C0B8 | _CFRunLoopGetCurrent_ptr | import_pointer | import_entry
+8F40 | __stubs | EA28 | __imp__CFRunLoopGetCurrent | import_pointer | import_entry
+8F4C | __stubs | C0C0 | _CLLocationCoordinate2DMake_ptr | import_pointer | import_entry
+8F4C | __stubs | EA70 | __imp__CLLocationCoordinate2DMake | import_pointer | import_entry
+8F58 | __stubs | C0C8 | _MSHookFunction_ptr | import_pointer | import_entry
+8F58 | __stubs | EA78 | __imp__MSHookFunction | import_pointer | import_entry
+8F64 | __stubs | C0D0 | _MSHookMessageEx_ptr | import_pointer | import_entry
+8F64 | __stubs | EA80 | __imp__MSHookMessageEx | import_pointer | import_entry
+8F70 | __stubs | C0D8 | _NSClassFromString_ptr | import_pointer | import_entry
+8F70 | __stubs | E978 | __imp__NSClassFromString | import_pointer | import_entry
+8F7C | __stubs | C0E0 | _NSSearchPathForDirectoriesInDomains_ptr | import_pointer | import_entry
+8F7C | __stubs | E980 | __imp__NSSearchPathForDirectoriesInDomains | import_pointer | import_entry
+8F88 | __stubs | C0E8 | _UIImagePNGRepresentation_ptr | import_pointer | import_entry
+8F88 | __stubs | EA58 | __imp__UIImagePNGRepresentation | import_pointer | import_entry
+8F94 | __stubs | C0F0 | __Block_object_assign_ptr | import_pointer | import_entry
+8F94 | __stubs | EAC8 | __imp___Block_object_assign | import_pointer | import_entry
+8FA0 | __stubs | C0F8 | __Block_object_dispose_ptr | import_pointer | import_entry
+8FA0 | __stubs | EAD0 | __imp___Block_object_dispose | import_pointer | import_entry
+8FAC | __stubs | C100 | __Unwind_Resume_ptr | import_pointer | import_entry
+8FAC | __stubs | EAD8 | __imp___Unwind_Resume | import_pointer | import_entry
+8FB8 | __stubs | C108 | ___stack_chk_fail_ptr | import_pointer | import_entry
+8FB8 | __stubs | EAE0 | __imp____stack_chk_fail | import_pointer | import_entry
+8FC4 | __stubs | C110 | _bzero_ptr | import_pointer | import_entry
+8FC4 | __stubs | EAE8 | __imp__bzero | import_pointer | import_entry
+8FD0 | __stubs | C118 | _class_conformsToProtocol_ptr | import_pointer | import_entry
+8FD0 | __stubs | E8C0 | __imp__class_conformsToProtocol | import_pointer | import_entry
+8FDC | __stubs | C120 | _class_getInstanceMethod_ptr | import_pointer | import_entry
+8FDC | __stubs | E8C8 | __imp__class_getInstanceMethod | import_pointer | import_entry
+8FE8 | __stubs | C128 | _dispatch_after_ptr | import_pointer | import_entry
+8FE8 | __stubs | EAF0 | __imp__dispatch_after | import_pointer | import_entry
+8FF4 | __stubs | C130 | _dispatch_once_ptr | import_pointer | import_entry
+8FF4 | __stubs | EAF8 | __imp__dispatch_once | import_pointer | import_entry
+9000 | __stubs | C138 | _dispatch_time_ptr | import_pointer | import_entry
+9000 | __stubs | EB00 | __imp__dispatch_time | import_pointer | import_entry
+900C | __stubs | C140 | _free_ptr | import_pointer | import_entry
+900C | __stubs | EB08 | __imp__free | import_pointer | import_entry
+9018 | __stubs | C148 | _malloc_ptr | import_pointer | import_entry
+9018 | __stubs | EB10 | __imp__malloc | import_pointer | import_entry
+9024 | __stubs | C150 | _memset_ptr | import_pointer | import_entry
+9024 | __stubs | EB18 | __imp__memset | import_pointer | import_entry
+9030 | __stubs | C158 | _method_exchangeImplementations_ptr | import_pointer | import_entry
+9030 | __stubs | E8D0 | __imp__method_exchangeImplementations | import_pointer | import_entry
+903C | __stubs | C160 | _method_setImplementation_ptr | import_pointer | import_entry
+903C | __stubs | E8D8 | __imp__method_setImplementation | import_pointer | import_entry
+9048 | __stubs | C168 | _objc_begin_catch_ptr | import_pointer | import_entry
+9048 | __stubs | E8E0 | __imp__objc_begin_catch | import_pointer | import_entry
+9054 | __stubs | C170 | _objc_end_catch_ptr | import_pointer | import_entry
+9054 | __stubs | E8E8 | __imp__objc_end_catch | import_pointer | import_entry
+9060 | __stubs | C178 | _objc_enumerationMutation_ptr | import_pointer | import_entry
+9060 | __stubs | E8F0 | __imp__objc_enumerationMutation | import_pointer | import_entry
+906C | __stubs | C180 | _objc_getClass_ptr | import_pointer | import_entry
+906C | __stubs | E8F8 | __imp__objc_getClass | import_pointer | import_entry
+9078 | __stubs | C188 | _objc_getClassList_ptr | import_pointer | import_entry
+9078 | __stubs | E900 | __imp__objc_getClassList | import_pointer | import_entry
+9084 | __stubs | C190 | _objc_getProperty_ptr | import_pointer | import_entry
+9084 | __stubs | E908 | __imp__objc_getProperty | import_pointer | import_entry
+9090 | __stubs | C198 | _objc_msgSend_ptr | import_pointer | import_entry
+9090 | __stubs | E910 | __imp__objc_msgSend | import_pointer | import_entry
+909C | __stubs | C1A0 | _objc_msgSendSuper2_ptr | import_pointer | import_entry
+909C | __stubs | E918 | __imp__objc_msgSendSuper2 | import_pointer | import_entry
+90A8 | __stubs | C1A8 | _objc_setProperty_ptr | import_pointer | import_entry
+90A8 | __stubs | E920 | __imp__objc_setProperty | import_pointer | import_entry
+90B4 | __stubs | C1B0 | _objc_sync_enter_ptr | import_pointer | import_entry
+90B4 | __stubs | E928 | __imp__objc_sync_enter | import_pointer | import_entry
+90C0 | __stubs | C1B8 | _objc_sync_exit_ptr | import_pointer | import_entry
+90C0 | __stubs | E930 | __imp__objc_sync_exit | import_pointer | import_entry
+90CC | __stubs | C1C0 | _rocketbootstrap_distributedmessagingcenter_apply_ptr | import_pointer | import_entry
+90CC | __stubs | EA88 | __imp__rocketbootstrap_distributedmessagingcenter_apply | import_pointer | import_entry
+90D8 | __stubs | C1C8 | _strcmp_ptr | import_pointer | import_entry
+90D8 | __stubs | EB20 | __imp__strcmp | import_pointer | import_entry
+90E4 | __stubs | C1D0 | _strncpy_ptr | import_pointer | import_entry
+90E4 | __stubs | EB28 | __imp__strncpy | import_pointer | import_entry
+90EC | __stub_helper | C058 | off_C058 | data_pointer | data_item_size=8
+90FC | __stub_helper | C050 | dyld_stub_binder_ptr | data_pointer | data_item_size=8
+90FC | __stub_helper | EAC0 | dyld_stub_binder | unknown_pointer | 
+9104 | __stub_helper | 910C | dword_910C | data_pointer | data_item_size=4
+9110 | __stub_helper | 9118 | dword_9118 | data_pointer | data_item_size=4
+911C | __stub_helper | 9124 | dword_9124 | data_pointer | data_item_size=4
+9128 | __stub_helper | 9130 | dword_9130 | data_pointer | data_item_size=4
+9134 | __stub_helper | 913C | dword_913C | data_pointer | data_item_size=4
+9140 | __stub_helper | 9148 | dword_9148 | data_pointer | data_item_size=4
+914C | __stub_helper | 9154 | dword_9154 | data_pointer | data_item_size=4
+9158 | __stub_helper | 9160 | dword_9160 | data_pointer | data_item_size=4
+9164 | __stub_helper | 916C | dword_916C | data_pointer | data_item_size=4
+9170 | __stub_helper | 9178 | dword_9178 | data_pointer | data_item_size=4
+917C | __stub_helper | 9184 | dword_9184 | data_pointer | data_item_size=4
+9188 | __stub_helper | 9190 | dword_9190 | data_pointer | data_item_size=4
+9194 | __stub_helper | 919C | dword_919C | data_pointer | data_item_size=4
+91A0 | __stub_helper | 91A8 | dword_91A8 | data_pointer | data_item_size=4
+91AC | __stub_helper | 91B4 | dword_91B4 | data_pointer | data_item_size=4
+91B8 | __stub_helper | 91C0 | dword_91C0 | data_pointer | data_item_size=4
+91C4 | __stub_helper | 91CC | dword_91CC | data_pointer | data_item_size=4
+91D0 | __stub_helper | 91D8 | dword_91D8 | data_pointer | data_item_size=4
+91DC | __stub_helper | 91E4 | dword_91E4 | data_pointer | data_item_size=4
+91E8 | __stub_helper | 91F0 | dword_91F0 | data_pointer | data_item_size=4
+91F4 | __stub_helper | 91FC | dword_91FC | data_pointer | data_item_size=4
+9200 | __stub_helper | 9208 | dword_9208 | data_pointer | data_item_size=4
+920C | __stub_helper | 9214 | dword_9214 | data_pointer | data_item_size=4
+9218 | __stub_helper | 9220 | dword_9220 | data_pointer | data_item_size=4
+9224 | __stub_helper | 922C | dword_922C | data_pointer | data_item_size=4
+9230 | __stub_helper | 9238 | dword_9238 | data_pointer | data_item_size=4
+923C | __stub_helper | 9244 | dword_9244 | data_pointer | data_item_size=4
+9248 | __stub_helper | 9250 | dword_9250 | data_pointer | data_item_size=4
+9254 | __stub_helper | 925C | dword_925C | data_pointer | data_item_size=4
+9260 | __stub_helper | 9268 | dword_9268 | data_pointer | data_item_size=4
+926C | __stub_helper | 9274 | dword_9274 | data_pointer | data_item_size=4
+9278 | __stub_helper | 9280 | dword_9280 | data_pointer | data_item_size=4
+9284 | __stub_helper | 928C | dword_928C | data_pointer | data_item_size=4
+9290 | __stub_helper | 9298 | dword_9298 | data_pointer | data_item_size=4
+929C | __stub_helper | 92A4 | dword_92A4 | data_pointer | data_item_size=4
+92A8 | __stub_helper | 92B0 | dword_92B0 | data_pointer | data_item_size=4
+92B4 | __stub_helper | 92BC | dword_92BC | data_pointer | data_item_size=4
+92C0 | __stub_helper | 92C8 | dword_92C8 | data_pointer | data_item_size=4
+92CC | __stub_helper | 92D4 | dword_92D4 | data_pointer | data_item_size=4
+92D8 | __stub_helper | 92E0 | dword_92E0 | data_pointer | data_item_size=4
+92E4 | __stub_helper | 92EC | dword_92EC | data_pointer | data_item_size=4
+92F0 | __stub_helper | 92F8 | dword_92F8 | data_pointer | data_item_size=4
+92FC | __stub_helper | 9304 | dword_9304 | data_pointer | data_item_size=4
+9308 | __stub_helper | 9310 | dword_9310 | data_pointer | data_item_size=4
+9314 | __stub_helper | 931C | dword_931C | data_pointer | data_item_size=4
+9320 | __stub_helper | 9328 | dword_9328 | data_pointer | data_item_size=4
+932C | __stub_helper | 9334 | dword_9334 | data_pointer | data_item_size=4
+C000 | __got | E9B0 | _OBJC_EHTYPE_$_NSException | unknown_pointer | 
+C008 | __got | EA50 | _UIApplicationDidBecomeActiveNotification | data_pointer | data_item_size=8
+C010 | __got | EA98 | __NSConcreteStackBlock | unknown_pointer | 
+C018 | __got | E8B0 | ___objc_personality_v0 | unknown_pointer | 
+C020 | __got | EAA0 | ___stack_chk_guard | data_pointer | data_item_size=8
+C028 | __got | EAA8 | __dispatch_main_q | unknown_pointer | 
+C030 | __got | E9C0 | _kCFAllocatorDefault | data_pointer | data_item_size=8
+C038 | __got | E9C8 | _kCFRunLoopDefaultMode | data_pointer | data_item_size=8
+C040 | __got | EAB0 | _sysctlbyname | unknown_pointer | 
+C048 | __got | EAB8 | _uname | unknown_pointer | 
+C050 | __got | EAC0 | dyld_stub_binder | unknown_pointer | 
+C060 | __la_symbol_ptr | E9D0 | __imp__CFLog | import_pointer | import_entry
+C068 | __la_symbol_ptr | E9D8 | __imp__CFMessagePortCreateLocal | import_pointer | import_entry
+C070 | __la_symbol_ptr | E9E0 | __imp__CFMessagePortCreateRemote | import_pointer | import_entry
+C078 | __la_symbol_ptr | E9E8 | __imp__CFMessagePortCreateRunLoopSource | import_pointer | import_entry
+C080 | __la_symbol_ptr | E9F0 | __imp__CFMessagePortIsValid | import_pointer | import_entry
+C088 | __la_symbol_ptr | E9F8 | __imp__CFMessagePortSendRequest | import_pointer | import_entry
+C090 | __la_symbol_ptr | EA00 | __imp__CFNotificationCenterAddObserver | import_pointer | import_entry
+C098 | __la_symbol_ptr | EA08 | __imp__CFNotificationCenterGetDarwinNotifyCenter | import_pointer | import_entry
+C0A0 | __la_symbol_ptr | EA10 | __imp__CFNotificationCenterPostNotification | import_pointer | import_entry
+C0A8 | __la_symbol_ptr | EA18 | __imp__CFRelease | import_pointer | import_entry
+C0B0 | __la_symbol_ptr | EA20 | __imp__CFRunLoopAddSource | import_pointer | import_entry
+C0B8 | __la_symbol_ptr | EA28 | __imp__CFRunLoopGetCurrent | import_pointer | import_entry
+C0C0 | __la_symbol_ptr | EA70 | __imp__CLLocationCoordinate2DMake | import_pointer | import_entry
+C0C8 | __la_symbol_ptr | EA78 | __imp__MSHookFunction | import_pointer | import_entry
+C0D0 | __la_symbol_ptr | EA80 | __imp__MSHookMessageEx | import_pointer | import_entry
+C0D8 | __la_symbol_ptr | E978 | __imp__NSClassFromString | import_pointer | import_entry
+C0E0 | __la_symbol_ptr | E980 | __imp__NSSearchPathForDirectoriesInDomains | import_pointer | import_entry
+C0E8 | __la_symbol_ptr | EA58 | __imp__UIImagePNGRepresentation | import_pointer | import_entry
+C0F0 | __la_symbol_ptr | EAC8 | __imp___Block_object_assign | import_pointer | import_entry
+C0F8 | __la_symbol_ptr | EAD0 | __imp___Block_object_dispose | import_pointer | import_entry
+C100 | __la_symbol_ptr | EAD8 | __imp___Unwind_Resume | import_pointer | import_entry
+C108 | __la_symbol_ptr | EAE0 | __imp____stack_chk_fail | import_pointer | import_entry
+C110 | __la_symbol_ptr | EAE8 | __imp__bzero | import_pointer | import_entry
+C118 | __la_symbol_ptr | E8C0 | __imp__class_conformsToProtocol | import_pointer | import_entry
+C120 | __la_symbol_ptr | E8C8 | __imp__class_getInstanceMethod | import_pointer | import_entry
+C128 | __la_symbol_ptr | EAF0 | __imp__dispatch_after | import_pointer | import_entry
+C130 | __la_symbol_ptr | EAF8 | __imp__dispatch_once | import_pointer | import_entry
+C138 | __la_symbol_ptr | EB00 | __imp__dispatch_time | import_pointer | import_entry
+C140 | __la_symbol_ptr | EB08 | __imp__free | import_pointer | import_entry
+C148 | __la_symbol_ptr | EB10 | __imp__malloc | import_pointer | import_entry
+C150 | __la_symbol_ptr | EB18 | __imp__memset | import_pointer | import_entry
+C158 | __la_symbol_ptr | E8D0 | __imp__method_exchangeImplementations | import_pointer | import_entry
+C160 | __la_symbol_ptr | E8D8 | __imp__method_setImplementation | import_pointer | import_entry
+C168 | __la_symbol_ptr | E8E0 | __imp__objc_begin_catch | import_pointer | import_entry
+C170 | __la_symbol_ptr | E8E8 | __imp__objc_end_catch | import_pointer | import_entry
+C178 | __la_symbol_ptr | E8F0 | __imp__objc_enumerationMutation | import_pointer | import_entry
+C180 | __la_symbol_ptr | E8F8 | __imp__objc_getClass | import_pointer | import_entry
+C188 | __la_symbol_ptr | E900 | __imp__objc_getClassList | import_pointer | import_entry
+C190 | __la_symbol_ptr | E908 | __imp__objc_getProperty | import_pointer | import_entry
+C198 | __la_symbol_ptr | E910 | __imp__objc_msgSend | import_pointer | import_entry
+C1A0 | __la_symbol_ptr | E918 | __imp__objc_msgSendSuper2 | import_pointer | import_entry
+C1A8 | __la_symbol_ptr | E920 | __imp__objc_setProperty | import_pointer | import_entry
+C1B0 | __la_symbol_ptr | E928 | __imp__objc_sync_enter | import_pointer | import_entry
+C1B8 | __la_symbol_ptr | E930 | __imp__objc_sync_exit | import_pointer | import_entry
+C1C0 | __la_symbol_ptr | EA88 | __imp__rocketbootstrap_distributedmessagingcenter_apply | import_pointer | import_entry
+C1C8 | __la_symbol_ptr | EB20 | __imp__strcmp | import_pointer | import_entry
+C1D0 | __la_symbol_ptr | EB28 | __imp__strncpy | import_pointer | import_entry
+C1D8 | __mod_init_func | 59EC | InitFunc_0 | function_pointer | function_start
+C1F0 | __const | 69A4 | sub_69A4 | function_pointer | function_start
+C1F8 | __const | 69B4 | sub_69B4 | function_pointer | function_start
+C200 | __const | B96E | aV80 | string_pointer | "v8@?0"
+C220 | __const | 7858 | sub_7858 | function_pointer | function_start
+C228 | __const | 7868 | sub_7868 | function_pointer | function_start
+C230 | __const | B96E | aV80 | string_pointer | "v8@?0"
+C250 | __const | B96E | aV80 | string_pointer | "v8@?0"
+C260 | __const | 802C | sub_802C | function_pointer | function_start
+C260 | __const | C240 | stru_C240 | struct_pointer | struct_data
+C260 | __const | EA90 | __NSConcreteGlobalBlock | unknown_pointer | 
+C290 | __const | 815C | sub_815C | function_pointer | function_start
+C298 | __const | 816C | sub_816C | function_pointer | function_start
+C2A0 | __const | B96E | aV80 | string_pointer | "v8@?0"
+C2B0 | __cfstring | B7D7 | aSSDS | string_pointer | "[%s: %s:%d] %s: %@"
+C2B0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C2D0 | __cfstring | B80E | aLogosNilClassS | string_pointer | "logos: nil class %s"
+C2D0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C2F0 | __cfstring | B822 | aCom85819IosOtr | string_pointer | "com.85819.ios.OTRessageport"
+C2F0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C310 | __cfstring | B83E | aApplelanguages | string_pointer | "AppleLanguages"
+C310 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C330 | __cfstring | B84D | aZhHans | string_pointer | "zh-Hans"
+C330 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C350 | __cfstring | B855 | aZhHant | string_pointer | "zh-Hant"
+C350 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C370 | __cfstring | B85D | aOtrcfg | string_pointer | "__OTRCFG__"
+C370 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C390 | __cfstring | B868 | aTip | string_pointer | "tip"
+C390 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C3B0 | __cfstring | B86C | aUn | string_pointer | "un"
+C3B0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C3D0 | __cfstring | B86F | aIphoneXs | string_pointer | "iPhone XS"
+C3D0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C3F0 | __cfstring | B879 | aIphone112 | string_pointer | "iPhone11,2"
+C3F0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C410 | __cfstring | B884 | aIphoneXsMaxInt | string_pointer | "iPhone Xs Max (International)"
+C410 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C430 | __cfstring | B8A2 | aIphone114 | string_pointer | "iPhone11,4"
+C430 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C450 | __cfstring | B8AD | aIphoneXsMaxChi | string_pointer | "iPhone Xs Max (China)"
+C450 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C470 | __cfstring | B8C3 | aIphone116 | string_pointer | "iPhone11,6"
+C470 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C490 | __cfstring | B8CE | aIphoneXr | string_pointer | "iPhone XR"
+C490 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C4B0 | __cfstring | B8D8 | aIphone118 | string_pointer | "iPhone11,8"
+C4B0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C4D0 | __cfstring | B8EE | aNotificationCh | string_pointer | "notification.check_service.1"
+C4D0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C4F0 | __cfstring | B90B | aNotificationCh_0 | string_pointer | "notification.check_service.2"
+C4F0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C510 | __cfstring | B928 | aLa | string_pointer | "la"
+C510 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C530 | __cfstring | B92B | aLo | string_pointer | "lo"
+C530 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C550 | __cfstring | B92E | aVarMobileLibra | string_pointer | "/var/mobile/Library/Preferences/otrlocation.app.85819.net.plist"
+C550 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C570 | __cfstring | B974 | aS5g | string_pointer | "s5g"
+C570 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C590 | __cfstring | B978 | aSwitch | string_pointer | "switch"
+C590 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C5B0 | __cfstring | B97F | aAddressSwitch | string_pointer | "address_switch"
+C5B0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C5D0 | __cfstring | B98E | aFC | string_pointer | "f.c"
+C5D0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C5F0 | __cfstring | B992 | aOtrlocation1 | string_pointer | "OTRLocation://1%@"
+C5F0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C610 | __cfstring | B9A4 | aStatusbar | string_pointer | "statusBar"
+C610 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C630 | __cfstring | B9AE | aUistatusbarstr | string_pointer | "_UIStatusBarStringView"
+C630 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C650 | __cfstring | B9C5 | aOriginaltext | string_pointer | "_originalText"
+C650 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C670 | __cfstring | B9D3 | a4g | string_pointer | "4G"
+C670 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C690 | __cfstring | B9D6 | a3g | string_pointer | "3G"
+C690 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C6B0 | __cfstring | B9D9 | a5g | string_pointer | "5G"
+C6B0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C6D0 | __cfstring | BAD0 | aNet85819IosOtr | string_pointer | "net.85819.ios.OTRLocation.run"
+C6D0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C6F0 | __cfstring | BAEE | aCpdistributedm | string_pointer | "CPDistributedMessagingCenter"
+C6F0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C710 | __cfstring | BB0B | aOtrCpdistribut | string_pointer | "otr.CPDistributedMessagingCenter.name"
+C710 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C730 | __cfstring | BB31 | aWriteconfig | string_pointer | "writeConfig"
+C730 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C750 | __cfstring | BB3D | aGetappicon | string_pointer | "getappicon"
+C750 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C770 | __cfstring | BB48 | aBoundleid | string_pointer | "boundleID"
+C770 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C790 | __cfstring | BB52 | aIcon | string_pointer | "icon"
+C790 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C7B0 | __cfstring | BBA3 | aOtrlocation | string_pointer | "OTRLocation://"
+C7B0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C7D0 | __cfstring | BBB2 | aOtrunameexpand | string_pointer | "OTRUnameExpand"
+C7D0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C7F0 | __cfstring | BBC1 | aOtrsysctlbynam | string_pointer | "OTRsysctlbynameExpand"
+C7F0 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C810 | __cfstring | BBD7 | aVarMobileAppli | string_pointer | "/var/mobile/Applications"
+C810 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C830 | __cfstring | BBF0 | aNet85819IosOtr_0 | string_pointer | "net.85819.ios.OTRLocation"
+C830 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C850 | __cfstring | BC0A | aComAppleCamera | string_pointer | "com.apple.camera"
+C850 | __cfstring | E9B8 | ___CFConstantStringClassReference | unknown_pointer | 
+C870 | __objc_classlist | E5A8 | _OBJC_CLASS_$_appTweakHelper | struct_pointer | struct_data
+C878 | __objc_classlist | E5F8 | _OBJC_CLASS_$_OTRAppObject | struct_pointer | struct_data
+C880 | __objc_classlist | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+C888 | __objc_classlist | E698 | _OBJC_CLASS_$_OTRHook | struct_pointer | struct_data
+C890 | __objc_catlist | DA70 | _OBJC_CATEGORY_CLLocationManager_$_OTRH_TWEAK | struct_pointer | struct_data
+C898 | __objc_nlcatlist | DA70 | _OBJC_CATEGORY_CLLocationManager_$_OTRH_TWEAK | struct_pointer | struct_data
+C8A0 | __objc_protolist | E6E8 | _OBJC_PROTOCOL_$_NSObject | struct_pointer | struct_data
+C8A8 | __objc_protolist | E748 | _OBJC_PROTOCOL_$_UIApplicationDelegate | struct_pointer | struct_data
+C8B0 | __objc_protolist | E7D8 | _OBJC_PROTOCOL_$_CLLocationManagerDelegate | struct_pointer | struct_data
+C8C8 | __objc_const | 9343 | sel_isEqual: | string_pointer | "isEqual:"
+C8C8 | __objc_const | AB0A | aB240816 | string_pointer | "B24@0:8@16"
+C8E0 | __objc_const | 934C | sel_class | string_pointer | "class"
+C8E0 | __objc_const | AB15 | a1608 | string_pointer | "#16@0:8"
+C8F8 | __objc_const | 9352 | sel_self | string_pointer | "self"
+C8F8 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+C910 | __objc_const | 9357 | sel_performSelector: | string_pointer | "performSelector:"
+C910 | __objc_const | AB25 | a240816 | string_pointer | "@24@0:8:16"
+C928 | __objc_const | 9368 | sel_performSelector:withObject: | string_pointer | "performSelector:withObject:"
+C928 | __objc_const | AB30 | a32081624 | string_pointer | "@32@0:8:16@24"
+C940 | __objc_const | 9384 | sel_performSelector:withObject:withObject: | string_pointer | "performSelector:withObject:withObject:"
+C940 | __objc_const | AB3E | a4008162432 | string_pointer | "@40@0:8:16@24@32"
+C958 | __objc_const | 93AB | sel_isProxy | string_pointer | "isProxy"
+C958 | __objc_const | AB4F | aB1608 | string_pointer | "B16@0:8"
+C970 | __objc_const | 93B3 | sel_isKindOfClass: | string_pointer | "isKindOfClass:"
+C970 | __objc_const | AB57 | aB240816_0 | string_pointer | "B24@0:8#16"
+C988 | __objc_const | 93C2 | sel_isMemberOfClass: | string_pointer | "isMemberOfClass:"
+C988 | __objc_const | AB57 | aB240816_0 | string_pointer | "B24@0:8#16"
+C9A0 | __objc_const | 93D3 | sel_conformsToProtocol: | string_pointer | "conformsToProtocol:"
+C9A0 | __objc_const | AB0A | aB240816 | string_pointer | "B24@0:8@16"
+C9B8 | __objc_const | 93E7 | sel_respondsToSelector: | string_pointer | "respondsToSelector:"
+C9B8 | __objc_const | AB62 | aB240816_1 | string_pointer | "B24@0:8:16"
+C9D0 | __objc_const | 93FB | sel_retain | string_pointer | "retain"
+C9D0 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+C9E8 | __objc_const | 9402 | sel_release | string_pointer | "release"
+C9E8 | __objc_const | AB6D | aVv1608 | string_pointer | "Vv16@0:8"
+CA00 | __objc_const | 940A | sel_autorelease | string_pointer | "autorelease"
+CA00 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+CA18 | __objc_const | 9416 | sel_retainCount | string_pointer | "retainCount"
+CA18 | __objc_const | AB76 | aQ1608 | string_pointer | "Q16@0:8"
+CA30 | __objc_const | 9422 | sel_zone | string_pointer | "zone"
+CA30 | __objc_const | AB7E | aNszone1608 | string_pointer | "^{_NSZone=}16@0:8"
+CA48 | __objc_const | 9427 | sel_hash | string_pointer | "hash"
+CA48 | __objc_const | AB76 | aQ1608 | string_pointer | "Q16@0:8"
+CA60 | __objc_const | 942C | sel_superclass | string_pointer | "superclass"
+CA60 | __objc_const | AB15 | a1608 | string_pointer | "#16@0:8"
+CA78 | __objc_const | 9437 | sel_description | string_pointer | "description"
+CA78 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+CA98 | __objc_const | 9443 | sel_debugDescription | string_pointer | "debugDescription"
+CA98 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+CAB8 | __objc_const | B76B | aHash_0 | string_pointer | "hash"
+CAB8 | __objc_const | B770 | aTqR | string_pointer | "TQ,R"
+CAC8 | __objc_const | B775 | aSuperclass_0 | string_pointer | "superclass"
+CAC8 | __objc_const | B780 | aTR | string_pointer | "T#,R"
+CAD8 | __objc_const | B785 | aDescription_0 | string_pointer | "description"
+CAD8 | __objc_const | B791 | aTNsstringRC | string_pointer | "T@"NSString",R,C"
+CAE8 | __objc_const | B791 | aTNsstringRC | string_pointer | "T@"NSString",R,C"
+CAE8 | __objc_const | B7A2 | aDebugdescripti_0 | string_pointer | "debugDescription"
+CAF8 | __objc_const | AB0A | aB240816 | string_pointer | "B24@0:8@16"
+CB00 | __objc_const | AB15 | a1608 | string_pointer | "#16@0:8"
+CB08 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+CB10 | __objc_const | AB25 | a240816 | string_pointer | "@24@0:8:16"
+CB18 | __objc_const | AB30 | a32081624 | string_pointer | "@32@0:8:16@24"
+CB20 | __objc_const | AB3E | a4008162432 | string_pointer | "@40@0:8:16@24@32"
+CB28 | __objc_const | AB4F | aB1608 | string_pointer | "B16@0:8"
+CB30 | __objc_const | AB57 | aB240816_0 | string_pointer | "B24@0:8#16"
+CB38 | __objc_const | AB57 | aB240816_0 | string_pointer | "B24@0:8#16"
+CB40 | __objc_const | AB90 | aB2408Protocol1 | string_pointer | "B24@0:8@"Protocol"16"
+CB48 | __objc_const | AB62 | aB240816_1 | string_pointer | "B24@0:8:16"
+CB50 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+CB58 | __objc_const | AB6D | aVv1608 | string_pointer | "Vv16@0:8"
+CB60 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+CB68 | __objc_const | AB76 | aQ1608 | string_pointer | "Q16@0:8"
+CB70 | __objc_const | AB7E | aNszone1608 | string_pointer | "^{_NSZone=}16@0:8"
+CB78 | __objc_const | AB76 | aQ1608 | string_pointer | "Q16@0:8"
+CB80 | __objc_const | AB15 | a1608 | string_pointer | "#16@0:8"
+CB88 | __objc_const | ABA5 | aNsstring1608 | string_pointer | "@"NSString"16@0:8"
+CB90 | __objc_const | ABA5 | aNsstring1608 | string_pointer | "@"NSString"16@0:8"
+CBA0 | __objc_const | E6E8 | _OBJC_PROTOCOL_$_NSObject | struct_pointer | struct_data
+CBB8 | __objc_const | 9454 | sel_applicationDidFinishLaunching: | string_pointer | "applicationDidFinishLaunching:"
+CBB8 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+CBD0 | __objc_const | 9473 | sel_application:willFinishLaunchingWithOptions: | string_pointer | "application:willFinishLaunchingWithOptions:"
+CBD0 | __objc_const | ABC2 | aB32081624 | string_pointer | "B32@0:8@16@24"
+CBE8 | __objc_const | 949F | sel_application:didFinishLaunchingWithOptions: | string_pointer | "application:didFinishLaunchingWithOptions:"
+CBE8 | __objc_const | ABC2 | aB32081624 | string_pointer | "B32@0:8@16@24"
+CC00 | __objc_const | 94CA | sel_applicationDidBecomeActive: | string_pointer | "applicationDidBecomeActive:"
+CC00 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+CC18 | __objc_const | 94E6 | sel_applicationWillResignActive: | string_pointer | "applicationWillResignActive:"
+CC18 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+CC30 | __objc_const | 9503 | sel_application:handleOpenURL: | string_pointer | "application:handleOpenURL:"
+CC30 | __objc_const | ABC2 | aB32081624 | string_pointer | "B32@0:8@16@24"
+CC48 | __objc_const | 951E | sel_application:openURL:sourceApplication:annotation: | string_pointer | "application:openURL:sourceApplication:annotation:"
+CC48 | __objc_const | ABD0 | aB480816243240 | string_pointer | "B48@0:8@16@24@32@40"
+CC60 | __objc_const | 9550 | sel_application:openURL:options: | string_pointer | "application:openURL:options:"
+CC60 | __objc_const | ABE4 | aB4008162432 | string_pointer | "B40@0:8@16@24@32"
+CC78 | __objc_const | 956D | sel_applicationDidReceiveMemoryWarning: | string_pointer | "applicationDidReceiveMemoryWarning:"
+CC78 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+CC90 | __objc_const | 9591 | sel_applicationWillTerminate: | string_pointer | "applicationWillTerminate:"
+CC90 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+CCA8 | __objc_const | 95AB | sel_applicationSignificantTimeChange: | string_pointer | "applicationSignificantTimeChange:"
+CCA8 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+CCC0 | __objc_const | 95CD | sel_application:willChangeStatusBarOrientation:duration: | string_pointer | "application:willChangeStatusBarOrientation:duration:"
+CCC0 | __objc_const | ABF5 | aV400816q24d32 | string_pointer | "v40@0:8@16q24d32"
+CCD8 | __objc_const | 9602 | sel_application:didChangeStatusBarOrientation: | string_pointer | "application:didChangeStatusBarOrientation:"
+CCD8 | __objc_const | AC06 | aV320816q24 | string_pointer | "v32@0:8@16q24"
+CCF0 | __objc_const | 962D | sel_application:willChangeStatusBarFrame: | string_pointer | "application:willChangeStatusBarFrame:"
+CCF0 | __objc_const | AC14 | aV560816CgrectC | string_pointer | "v56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24"
+CD08 | __objc_const | 9653 | sel_application:didChangeStatusBarFrame: | string_pointer | "application:didChangeStatusBarFrame:"
+CD08 | __objc_const | AC14 | aV560816CgrectC | string_pointer | "v56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24"
+CD20 | __objc_const | 9678 | sel_application:didRegisterUserNotificationSettings: | string_pointer | "application:didRegisterUserNotificationSettings:"
+CD20 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+CD38 | __objc_const | 96A9 | sel_application:didRegisterForRemoteNotificationsWithDeviceToken: | string_pointer | "application:didRegisterForRemoteNotificationsWithDeviceToken:"
+CD38 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+CD50 | __objc_const | 96E7 | sel_application:didFailToRegisterForRemoteNotificationsWithError: | string_pointer | "application:didFailToRegisterForRemoteNotificationsWithError:"
+CD50 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+CD68 | __objc_const | 9725 | sel_application:didReceiveRemoteNotification: | string_pointer | "application:didReceiveRemoteNotification:"
+CD68 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+CD80 | __objc_const | 974F | sel_application:didReceiveLocalNotification: | string_pointer | "application:didReceiveLocalNotification:"
+CD80 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+CD98 | __objc_const | 9778 | sel_application:handleActionWithIdentifier:forLocalNotification:completionHan... | string_pointer | "application:handleActionWithIdentifier:forLocalNotification:completionHandler:"
+CD98 | __objc_const | AC4F | aV480816243240 | string_pointer | "v48@0:8@16@24@32@?40"
+CDB0 | __objc_const | 97C7 | sel_application:handleActionWithIdentifier:forRemoteNotification:withResponse... | string_pointer | "application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo..."
+CDB0 | __objc_const | AC64 | aV5608162432404 | string_pointer | "v56@0:8@16@24@32@40@?48"
+CDC8 | __objc_const | 9828 | sel_application:handleActionWithIdentifier:forRemoteNotification:completionHa... | string_pointer | "application:handleActionWithIdentifier:forRemoteNotification:completionHandler:"
+CDC8 | __objc_const | AC4F | aV480816243240 | string_pointer | "v48@0:8@16@24@32@?40"
+CDE0 | __objc_const | 9878 | sel_application:handleActionWithIdentifier:forLocalNotification:withResponseI... | string_pointer | "application:handleActionWithIdentifier:forLocalNotification:withResponseInfo:..."
+CDE0 | __objc_const | AC64 | aV5608162432404 | string_pointer | "v56@0:8@16@24@32@40@?48"
+CDF8 | __objc_const | 98D8 | sel_application:didReceiveRemoteNotification:fetchCompletionHandler: | string_pointer | "application:didReceiveRemoteNotification:fetchCompletionHandler:"
+CDF8 | __objc_const | AC7C | aV4008162432 | string_pointer | "v40@0:8@16@24@?32"
+CE10 | __objc_const | 9919 | sel_application:performFetchWithCompletionHandler: | string_pointer | "application:performFetchWithCompletionHandler:"
+CE10 | __objc_const | AC8E | aV32081624_0 | string_pointer | "v32@0:8@16@?24"
+CE28 | __objc_const | 9948 | sel_application:performActionForShortcutItem:completionHandler: | string_pointer | "application:performActionForShortcutItem:completionHandler:"
+CE28 | __objc_const | AC7C | aV4008162432 | string_pointer | "v40@0:8@16@24@?32"
+CE40 | __objc_const | 9984 | sel_application:handleEventsForBackgroundURLSession:completionHandler: | string_pointer | "application:handleEventsForBackgroundURLSession:completionHandler:"
+CE40 | __objc_const | AC7C | aV4008162432 | string_pointer | "v40@0:8@16@24@?32"
+CE58 | __objc_const | 99C7 | sel_application:handleWatchKitExtensionRequest:reply: | string_pointer | "application:handleWatchKitExtensionRequest:reply:"
+CE58 | __objc_const | AC7C | aV4008162432 | string_pointer | "v40@0:8@16@24@?32"
+CE70 | __objc_const | 99F9 | sel_applicationShouldRequestHealthAuthorization: | string_pointer | "applicationShouldRequestHealthAuthorization:"
+CE70 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+CE88 | __objc_const | 9A26 | sel_application:handleIntent:completionHandler: | string_pointer | "application:handleIntent:completionHandler:"
+CE88 | __objc_const | AC7C | aV4008162432 | string_pointer | "v40@0:8@16@24@?32"
+CEA0 | __objc_const | 9A52 | sel_applicationDidEnterBackground: | string_pointer | "applicationDidEnterBackground:"
+CEA0 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+CEB8 | __objc_const | 9A71 | sel_applicationWillEnterForeground: | string_pointer | "applicationWillEnterForeground:"
+CEB8 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+CED0 | __objc_const | 9A91 | sel_applicationProtectedDataWillBecomeUnavailable: | string_pointer | "applicationProtectedDataWillBecomeUnavailable:"
+CED0 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+CEE8 | __objc_const | 9AC0 | sel_applicationProtectedDataDidBecomeAvailable: | string_pointer | "applicationProtectedDataDidBecomeAvailable:"
+CEE8 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+CF00 | __objc_const | 9AEC | sel_application:supportedInterfaceOrientationsForWindow: | string_pointer | "application:supportedInterfaceOrientationsForWindow:"
+CF00 | __objc_const | AC9D | aQ32081624 | string_pointer | "Q32@0:8@16@24"
+CF18 | __objc_const | 9B21 | sel_application:shouldAllowExtensionPointIdentifier: | string_pointer | "application:shouldAllowExtensionPointIdentifier:"
+CF18 | __objc_const | ABC2 | aB32081624 | string_pointer | "B32@0:8@16@24"
+CF30 | __objc_const | 9B52 | sel_application:viewControllerWithRestorationIdentifierPath:coder: | string_pointer | "application:viewControllerWithRestorationIdentifierPath:coder:"
+CF30 | __objc_const | ACAB | a4008162432_0 | string_pointer | "@40@0:8@16@24@32"
+CF48 | __objc_const | 9B91 | sel_application:shouldSaveApplicationState: | string_pointer | "application:shouldSaveApplicationState:"
+CF48 | __objc_const | ABC2 | aB32081624 | string_pointer | "B32@0:8@16@24"
+CF60 | __objc_const | 9BB9 | sel_application:shouldRestoreApplicationState: | string_pointer | "application:shouldRestoreApplicationState:"
+CF60 | __objc_const | ABC2 | aB32081624 | string_pointer | "B32@0:8@16@24"
+CF78 | __objc_const | 9BE4 | sel_application:willEncodeRestorableStateWithCoder: | string_pointer | "application:willEncodeRestorableStateWithCoder:"
+CF78 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+CF90 | __objc_const | 9C14 | sel_application:didDecodeRestorableStateWithCoder: | string_pointer | "application:didDecodeRestorableStateWithCoder:"
+CF90 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+CFA8 | __objc_const | 9C43 | sel_application:willContinueUserActivityWithType: | string_pointer | "application:willContinueUserActivityWithType:"
+CFA8 | __objc_const | ABC2 | aB32081624 | string_pointer | "B32@0:8@16@24"
+CFC0 | __objc_const | 9C71 | sel_application:continueUserActivity:restorationHandler: | string_pointer | "application:continueUserActivity:restorationHandler:"
+CFC0 | __objc_const | ACBC | aB4008162432_0 | string_pointer | "B40@0:8@16@24@?32"
+CFD8 | __objc_const | 9CA6 | sel_application:didFailToContinueUserActivityWithType:error: | string_pointer | "application:didFailToContinueUserActivityWithType:error:"
+CFD8 | __objc_const | ACCE | aV4008162432_0 | string_pointer | "v40@0:8@16@24@32"
+CFF0 | __objc_const | 9CDF | sel_application:didUpdateUserActivity: | string_pointer | "application:didUpdateUserActivity:"
+CFF0 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+D008 | __objc_const | 9D02 | sel_application:userDidAcceptCloudKitShareWithMetadata: | string_pointer | "application:userDidAcceptCloudKitShareWithMetadata:"
+D008 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+D020 | __objc_const | 9D36 | sel_window | string_pointer | "window"
+D020 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+D038 | __objc_const | 9D3D | sel_setWindow: | string_pointer | "setWindow:"
+D038 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+D058 | __objc_const | B7B3 | aWindow_0 | string_pointer | "window"
+D058 | __objc_const | B7BA | aTUiwindowN | string_pointer | "T@"UIWindow",&,N"
+D068 | __objc_const | ACDF | aV2408Uiapplica | string_pointer | "v24@0:8@"UIApplication"16"
+D070 | __objc_const | ACF9 | aB3208Uiapplica | string_pointer | "B32@0:8@"UIApplication"16@"NSDictionary"24"
+D078 | __objc_const | ACF9 | aB3208Uiapplica | string_pointer | "B32@0:8@"UIApplication"16@"NSDictionary"24"
+D080 | __objc_const | ACDF | aV2408Uiapplica | string_pointer | "v24@0:8@"UIApplication"16"
+D088 | __objc_const | ACDF | aV2408Uiapplica | string_pointer | "v24@0:8@"UIApplication"16"
+D090 | __objc_const | AD24 | aB3208Uiapplica_0 | string_pointer | "B32@0:8@"UIApplication"16@"NSURL"24"
+D098 | __objc_const | AD48 | aB4808Uiapplica | string_pointer | "B48@0:8@"UIApplication"16@"NSURL"24@"NSString"32@40"
+D0A0 | __objc_const | AD7C | aB4008Uiapplica | string_pointer | "B40@0:8@"UIApplication"16@"NSURL"24@"NSDictionary"32"
+D0A8 | __objc_const | ACDF | aV2408Uiapplica | string_pointer | "v24@0:8@"UIApplication"16"
+D0B0 | __objc_const | ACDF | aV2408Uiapplica | string_pointer | "v24@0:8@"UIApplication"16"
+D0B8 | __objc_const | ACDF | aV2408Uiapplica | string_pointer | "v24@0:8@"UIApplication"16"
+D0C0 | __objc_const | ADB1 | aV4008Uiapplica | string_pointer | "v40@0:8@"UIApplication"16q24d32"
+D0C8 | __objc_const | ADD1 | aV3208Uiapplica | string_pointer | "v32@0:8@"UIApplication"16q24"
+D0D0 | __objc_const | ADEE | aV5608Uiapplica | string_pointer | "v56@0:8@"UIApplication"16{CGRect={CGPoint=dd}{CGSize=dd}}24"
+D0D8 | __objc_const | ADEE | aV5608Uiapplica | string_pointer | "v56@0:8@"UIApplication"16{CGRect={CGPoint=dd}{CGSize=dd}}24"
+D0E0 | __objc_const | AE2A | aV3208Uiapplica_0 | string_pointer | "v32@0:8@"UIApplication"16@"UIUserNotificationSettings"24"
+D0E8 | __objc_const | AE63 | aV3208Uiapplica_1 | string_pointer | "v32@0:8@"UIApplication"16@"NSData"24"
+D0F0 | __objc_const | AE88 | aV3208Uiapplica_2 | string_pointer | "v32@0:8@"UIApplication"16@"NSError"24"
+D0F8 | __objc_const | AEAE | aV3208Uiapplica_3 | string_pointer | "v32@0:8@"UIApplication"16@"NSDictionary"24"
+D100 | __objc_const | AED9 | aV3208Uiapplica_4 | string_pointer | "v32@0:8@"UIApplication"16@"UILocalNotification"24"
+D108 | __objc_const | AF0B | aV4808Uiapplica | string_pointer | "v48@0:8@"UIApplication"16@"NSString"24@"UILocalNotification"32@?<v@?>40"
+D110 | __objc_const | AF53 | aV5608Uiapplica_0 | string_pointer | "v56@0:8@"UIApplication"16@"NSString"24@"NSDictionary"32@"NSDictionary"40@?<v@..."
+D118 | __objc_const | AFA5 | aV4808Uiapplica_0 | string_pointer | "v48@0:8@"UIApplication"16@"NSString"24@"NSDictionary"32@?<v@?>40"
+D120 | __objc_const | AFE6 | aV5608Uiapplica_1 | string_pointer | "v56@0:8@"UIApplication"16@"NSString"24@"UILocalNotification"32@"NSDictionary"..."
+D128 | __objc_const | B03F | aV4008Uiapplica_0 | string_pointer | "v40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?Q>32"
+D130 | __objc_const | B074 | aV3208Uiapplica_5 | string_pointer | "v32@0:8@"UIApplication"16@?<v@?Q>24"
+D138 | __objc_const | B098 | aV4008Uiapplica_1 | string_pointer | "v40@0:8@"UIApplication"16@"UIApplicationShortcutItem"24@?<v@?B>32"
+D140 | __objc_const | B0DA | aV4008Uiapplica_2 | string_pointer | "v40@0:8@"UIApplication"16@"NSString"24@?<v@?>32"
+D148 | __objc_const | B10A | aV4008Uiapplica_3 | string_pointer | "v40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?@"NSDictionary">32"
+D150 | __objc_const | ACDF | aV2408Uiapplica | string_pointer | "v24@0:8@"UIApplication"16"
+D158 | __objc_const | B14D | aV4008Uiapplica_4 | string_pointer | "v40@0:8@"UIApplication"16@"INIntent"24@?<v@?@"INIntentResponse">32"
+D160 | __objc_const | ACDF | aV2408Uiapplica | string_pointer | "v24@0:8@"UIApplication"16"
+D168 | __objc_const | ACDF | aV2408Uiapplica | string_pointer | "v24@0:8@"UIApplication"16"
+D170 | __objc_const | ACDF | aV2408Uiapplica | string_pointer | "v24@0:8@"UIApplication"16"
+D178 | __objc_const | ACDF | aV2408Uiapplica | string_pointer | "v24@0:8@"UIApplication"16"
+D180 | __objc_const | B190 | aQ3208Uiapplica | string_pointer | "Q32@0:8@"UIApplication"16@"UIWindow"24"
+D188 | __objc_const | B1B7 | aB3208Uiapplica_1 | string_pointer | "B32@0:8@"UIApplication"16@"NSString"24"
+D190 | __objc_const | B1DE | aUiviewcontroll | string_pointer | "@"UIViewController"40@0:8@"UIApplication"16@"NSArray"24@"NSCoder"32"
+D198 | __objc_const | B222 | aB3208Uiapplica_2 | string_pointer | "B32@0:8@"UIApplication"16@"NSCoder"24"
+D1A0 | __objc_const | B222 | aB3208Uiapplica_2 | string_pointer | "B32@0:8@"UIApplication"16@"NSCoder"24"
+D1A8 | __objc_const | B248 | aV3208Uiapplica_6 | string_pointer | "v32@0:8@"UIApplication"16@"NSCoder"24"
+D1B0 | __objc_const | B248 | aV3208Uiapplica_6 | string_pointer | "v32@0:8@"UIApplication"16@"NSCoder"24"
+D1B8 | __objc_const | B1B7 | aB3208Uiapplica_1 | string_pointer | "B32@0:8@"UIApplication"16@"NSString"24"
+D1C0 | __objc_const | B26E | aB4008Uiapplica_0 | string_pointer | "B40@0:8@"UIApplication"16@"NSUserActivity"24@?<v@?@"NSArray">32"
+D1C8 | __objc_const | B2AE | aV4008Uiapplica_5 | string_pointer | "v40@0:8@"UIApplication"16@"NSString"24@"NSError"32"
+D1D0 | __objc_const | B2E1 | aV3208Uiapplica_7 | string_pointer | "v32@0:8@"UIApplication"16@"NSUserActivity"24"
+D1D8 | __objc_const | B30E | aV3208Uiapplica_8 | string_pointer | "v32@0:8@"UIApplication"16@"CKShareMetadata"24"
+D1E0 | __objc_const | B33C | aUiwindow1608 | string_pointer | "@"UIWindow"16@0:8"
+D1E8 | __objc_const | B34E | aV2408Uiwindow1 | string_pointer | "v24@0:8@"UIWindow"16"
+D1F8 | __objc_const | 5B74 | +[appTweakHelper getDefaultCenterNotifyHandle] | function_pointer | function_start
+D1F8 | __objc_const | 9F1E | sel_getDefaultCenterNotifyHandle | string_pointer | "getDefaultCenterNotifyHandle"
+D1F8 | __objc_const | B363 | aCfmessageport1 | string_pointer | "^{__CFMessagePort=}16@0:8"
+D210 | __objc_const | 5BC4 | +[appTweakHelper isChinese] | function_pointer | function_start
+D210 | __objc_const | 9F3B | sel_isChinese | string_pointer | "isChinese"
+D210 | __objc_const | AB4F | aB1608 | string_pointer | "B16@0:8"
+D228 | __objc_const | 5C54 | +[appTweakHelper OTRConfig] | function_pointer | function_start
+D228 | __objc_const | 9E67 | sel_OTRConfig | string_pointer | "OTRConfig"
+D228 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+D240 | __objc_const | 5CC4 | +[appTweakHelper saveOTRConfig:] | function_pointer | function_start
+D240 | __objc_const | 9E96 | sel_saveOTRConfig: | string_pointer | "saveOTRConfig:"
+D240 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+D258 | __objc_const | 5D08 | +[appTweakHelper isShowedUseTip] | function_pointer | function_start
+D258 | __objc_const | 9F45 | sel_isShowedUseTip | string_pointer | "isShowedUseTip"
+D258 | __objc_const | AB4F | aB1608 | string_pointer | "B16@0:8"
+D270 | __objc_const | 5D48 | +[appTweakHelper setShowedUseTip] | function_pointer | function_start
+D270 | __objc_const | 9F54 | sel_setShowedUseTip | string_pointer | "setShowedUseTip"
+D270 | __objc_const | B37D | aV1608 | string_pointer | "v16@0:8"
+D288 | __objc_const | 5DDC | +[appTweakHelper sendMessage:messageId:userInfo:] | function_pointer | function_start
+D288 | __objc_const | 9F64 | sel_sendMessage:messageId:userInfo: | string_pointer | "sendMessage:messageId:userInfo:"
+D288 | __objc_const | B385 | a3608Cfmessagep | string_pointer | "@36@0:8^{__CFMessagePort=}16i24@28"
+D2A0 | __objc_const | 5EBC | +[appTweakHelper DataToPropertyLis:] | function_pointer | function_start
+D2A0 | __objc_const | 9F84 | sel_DataToPropertyLis: | string_pointer | "DataToPropertyLis:"
+D2A0 | __objc_const | B3A8 | a2408Cfdata16 | string_pointer | "@24@0:8^{__CFData=}16"
+D2B8 | __objc_const | 5EDC | +[appTweakHelper PropertyLisToData:] | function_pointer | function_start
+D2B8 | __objc_const | 9F97 | sel_PropertyLisToData: | string_pointer | "PropertyLisToData:"
+D2B8 | __objc_const | B3BE | a240816_0 | string_pointer | "@24@0:8@16"
+D2D0 | __objc_const | AAB3 | aApptweakhelper | string_pointer | "appTweakHelper"
+D2D0 | __objc_const | D1F0 | _OBJC_CLASS_METHODS_appTweakHelper | struct_pointer | struct_data
+D318 | __objc_const | AAB3 | aApptweakhelper | string_pointer | "appTweakHelper"
+D368 | __objc_const | 5F2C | +[OTRAppObject sharedSingleton] | function_pointer | function_start
+D368 | __objc_const | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+D368 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+D380 | __objc_const | AAC2 | aOtrappobject | string_pointer | "OTRAppObject"
+D380 | __objc_const | D360 | _OBJC_CLASS_METHODS_OTRAppObject | struct_pointer | struct_data
+D3D0 | __objc_const | 5EF8 | -[OTRAppObject init] | function_pointer | function_start
+D3D0 | __objc_const | 933E | sel_init | string_pointer | "init"
+D3D0 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+D3E8 | __objc_const | 5FA8 | -[OTRAppObject bundleIdentifier] | function_pointer | function_start
+D3E8 | __objc_const | 9FB5 | sel_bundleIdentifier | string_pointer | "bundleIdentifier"
+D3E8 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+D400 | __objc_const | 5FFC | -[OTRAppObject OTRUname:original_uname:] | function_pointer | function_start
+D400 | __objc_const | 9D4E | sel_OTRUname:original_uname: | string_pointer | "OTRUname:original_uname:"
+D400 | __objc_const | B3C9 | aI3208Utsname25 | string_pointer | "i32@0:8^{utsname=[256c][256c][256c][256c][256c]}16^?24"
+D418 | __objc_const | 6130 | -[OTRAppObject to:] | function_pointer | function_start
+D418 | __objc_const | 9FF7 | sel_to: | string_pointer | "to:"
+D418 | __objc_const | B3BE | a240816_0 | string_pointer | "@24@0:8@16"
+D430 | __objc_const | 61E4 | -[OTRAppObject OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:] | function_pointer | function_start
+D430 | __objc_const | 9D67 | sel_OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname: | string_pointer | "OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:"
+D430 | __objc_const | B400 | aI6408r16V24Q32 | string_pointer | "i64@0:8r*16^v24^Q32^v40Q48^?56"
+D448 | __objc_const | 63DC | -[OTRAppObject onRunApp] | function_pointer | function_start
+D448 | __objc_const | A3C2 | sel_onRunApp | string_pointer | "onRunApp"
+D448 | __objc_const | B37D | aV1608 | string_pointer | "v16@0:8"
+D460 | __objc_const | 647C | -[OTRAppObject checkServiceStatus] | function_pointer | function_start
+D460 | __objc_const | A3CB | sel_checkServiceStatus | string_pointer | "checkServiceStatus"
+D460 | __objc_const | AB4F | aB1608 | string_pointer | "B16@0:8"
+D478 | __objc_const | 6540 | -[OTRAppObject appReBecomeActive] | function_pointer | function_start
+D478 | __objc_const | A0E6 | sel_appReBecomeActive | string_pointer | "appReBecomeActive"
+D478 | __objc_const | B37D | aV1608 | string_pointer | "v16@0:8"
+D490 | __objc_const | 656C | -[OTRAppObject returnFakeLocation:isUse:] | function_pointer | function_start
+D490 | __objc_const | A3DE | sel_returnFakeLocation:isUse: | string_pointer | "returnFakeLocation:isUse:"
+D490 | __objc_const | B41F | a320816B24 | string_pointer | "@32@0:8@16^B24"
+D4A8 | __objc_const | 67D0 | -[OTRAppObject fakeLocationInfo:] | function_pointer | function_start
+D4A8 | __objc_const | A3F8 | sel_fakeLocationInfo: | string_pointer | "fakeLocationInfo:"
+D4A8 | __objc_const | B3BE | a240816_0 | string_pointer | "@24@0:8@16"
+D4C0 | __objc_const | 680C | -[OTRAppObject onOTRApplicationDidBecomeActiveNotification:] | function_pointer | function_start
+D4C0 | __objc_const | A02C | sel_onOTRApplicationDidBecomeActiveNotification: | string_pointer | "onOTRApplicationDidBecomeActiveNotification:"
+D4C0 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+D4D8 | __objc_const | 6818 | -[OTRAppObject onOTRCheckService:] | function_pointer | function_start
+D4D8 | __objc_const | A07B | sel_onOTRCheckService: | string_pointer | "onOTRCheckService:"
+D4D8 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+D4F0 | __objc_const | 6850 | -[OTRAppObject onOTRCheckService2:] | function_pointer | function_start
+D4F0 | __objc_const | A099 | sel_onOTRCheckService2: | string_pointer | "onOTRCheckService2:"
+D4F0 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+D508 | __objc_const | 6864 | -[OTRAppObject tryLoadConfig] | function_pointer | function_start
+D508 | __objc_const | A40A | sel_tryLoadConfig | string_pointer | "tryLoadConfig"
+D508 | __objc_const | B37D | aV1608 | string_pointer | "v16@0:8"
+D520 | __objc_const | 69C0 | -[OTRAppObject loadConfig] | function_pointer | function_start
+D520 | __objc_const | A08E | sel_loadConfig | string_pointer | "loadConfig"
+D520 | __objc_const | B37D | aV1608 | string_pointer | "v16@0:8"
+D538 | __objc_const | 6A1C | -[OTRAppObject show5G] | function_pointer | function_start
+D538 | __objc_const | A332 | sel_show5G | string_pointer | "show5G"
+D538 | __objc_const | AB4F | aB1608 | string_pointer | "B16@0:8"
+D550 | __objc_const | 6A54 | -[OTRAppObject setShow5G:] | function_pointer | function_start
+D550 | __objc_const | A418 | sel_setShow5G: | string_pointer | "setShow5G:"
+D550 | __objc_const | B42E | aV2008b16 | string_pointer | "v20@0:8B16"
+D568 | __objc_const | 6B64 | -[OTRAppObject fakeSwitch] | function_pointer | function_start
+D568 | __objc_const | A0F8 | sel_fakeSwitch | string_pointer | "fakeSwitch"
+D568 | __objc_const | AB4F | aB1608 | string_pointer | "B16@0:8"
+D580 | __objc_const | 6B9C | -[OTRAppObject setFakeSwitch:] | function_pointer | function_start
+D580 | __objc_const | A240 | sel_setFakeSwitch: | string_pointer | "setFakeSwitch:"
+D580 | __objc_const | B42E | aV2008b16 | string_pointer | "v20@0:8B16"
+D598 | __objc_const | 6CAC | -[OTRAppObject fakeDeviceModuleSwitch] | function_pointer | function_start
+D598 | __objc_const | 9FC6 | sel_fakeDeviceModuleSwitch | string_pointer | "fakeDeviceModuleSwitch"
+D598 | __objc_const | AB4F | aB1608 | string_pointer | "B16@0:8"
+D5B0 | __objc_const | 6CE4 | -[OTRAppObject setFakeDeviceModuleSwitch:] | function_pointer | function_start
+D5B0 | __objc_const | A24F | sel_setFakeDeviceModuleSwitch: | string_pointer | "setFakeDeviceModuleSwitch:"
+D5B0 | __objc_const | B42E | aV2008b16 | string_pointer | "v20@0:8B16"
+D5C8 | __objc_const | 6DF4 | -[OTRAppObject allBundleIdentifierConfig] | function_pointer | function_start
+D5C8 | __objc_const | 9FDD | sel_allBundleIdentifierConfig | string_pointer | "allBundleIdentifierConfig"
+D5C8 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+D5E0 | __objc_const | 6E20 | -[OTRAppObject removeFakeItemWithBundleIdentifier:] | function_pointer | function_start
+D5E0 | __objc_const | A423 | sel_removeFakeItemWithBundleIdentifier: | string_pointer | "removeFakeItemWithBundleIdentifier:"
+D5E0 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+D5F8 | __objc_const | 6FBC | -[OTRAppObject addFakeItem:locationCoordinate:] | function_pointer | function_start
+D5F8 | __objc_const | A447 | sel_addFakeItem:locationCoordinate: | string_pointer | "addFakeItem:locationCoordinate:"
+D5F8 | __objc_const | B439 | aV400816Cllocat | string_pointer | "v40@0:8@16{CLLocationCoordinate2D=dd}24"
+D610 | __objc_const | 71CC | -[OTRAppObject addFakeUnItem:un:] | function_pointer | function_start
+D610 | __objc_const | A467 | sel_addFakeUnItem:un: | string_pointer | "addFakeUnItem:un:"
+D610 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+D628 | __objc_const | 7388 | -[OTRAppObject removeFakeUnItemWithBundleIdentifier:] | function_pointer | function_start
+D628 | __objc_const | A479 | sel_removeFakeUnItemWithBundleIdentifier: | string_pointer | "removeFakeUnItemWithBundleIdentifier:"
+D628 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+D640 | __objc_const | 750C | -[OTRAppObject showOpenOTRLocation] | function_pointer | function_start
+D640 | __objc_const | A49F | sel_showOpenOTRLocation | string_pointer | "showOpenOTRLocation"
+D640 | __objc_const | B37D | aV1608 | string_pointer | "v16@0:8"
+D658 | __objc_const | 75BC | -[OTRAppObject otr_changetTo5g] | function_pointer | function_start
+D658 | __objc_const | A39F | sel_otr_changetTo5g | string_pointer | "otr_changetTo5g"
+D658 | __objc_const | B37D | aV1608 | string_pointer | "v16@0:8"
+D670 | __objc_const | 77C8 | -[OTRAppObject otr_checkStatusBar] | function_pointer | function_start
+D670 | __objc_const | A3AF | sel_otr_checkStatusBar | string_pointer | "otr_checkStatusBar"
+D670 | __objc_const | B37D | aV1608 | string_pointer | "v16@0:8"
+D688 | __objc_const | 7874 | -[OTRAppObject locationCfg] | function_pointer | function_start
+D688 | __objc_const | A26A | sel_locationCfg | string_pointer | "locationCfg"
+D688 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+D6A0 | __objc_const | 7884 | -[OTRAppObject setLocationCfg:] | function_pointer | function_start
+D6A0 | __objc_const | A230 | sel_setLocationCfg: | string_pointer | "setLocationCfg:"
+D6A0 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+D6B8 | __objc_const | 78A0 | -[OTRAppObject serviceIsRuning] | function_pointer | function_start
+D6B8 | __objc_const | A4B3 | sel_serviceIsRuning | string_pointer | "serviceIsRuning"
+D6B8 | __objc_const | AB4F | aB1608 | string_pointer | "B16@0:8"
+D6D0 | __objc_const | 78B0 | -[OTRAppObject setServiceIsRuning:] | function_pointer | function_start
+D6D0 | __objc_const | A4C3 | sel_setServiceIsRuning: | string_pointer | "setServiceIsRuning:"
+D6D0 | __objc_const | B42E | aV2008b16 | string_pointer | "v20@0:8B16"
+D6F0 | __objc_const | A4D7 | aServiceisrunin_0 | string_pointer | "_serviceIsRuning"
+D6F0 | __objc_const | B461 | aB | string_pointer | "B"
+D6F0 | __objc_const | E598 | _OBJC_IVAR_$_OTRAppObject._serviceIsRuning | data_pointer | data_item_size=4
+D710 | __objc_const | A4E8 | aLocationcfg_0 | string_pointer | "_locationCfg"
+D710 | __objc_const | B463 | aNsmutabledicti | string_pointer | "@"NSMutableDictionary""
+D710 | __objc_const | E59C | _OBJC_IVAR_$_OTRAppObject._locationCfg | data_pointer | data_item_size=4
+D738 | __objc_const | B9DC | aLocationcfg_1 | string_pointer | "locationCfg"
+D738 | __objc_const | B9E8 | aTNsmutabledict | string_pointer | "T@"NSMutableDictionary",&,N,V_locationCfg"
+D748 | __objc_const | BA12 | aServiceisrunin_1 | string_pointer | "serviceIsRuning"
+D748 | __objc_const | BA22 | aTbNVServiceisr | string_pointer | "TB,N,V_serviceIsRuning"
+D758 | __objc_const | BA39 | aShow5g_0 | string_pointer | "show5G"
+D758 | __objc_const | BA40 | aTbN | string_pointer | "TB,N"
+D768 | __objc_const | BA40 | aTbN | string_pointer | "TB,N"
+D768 | __objc_const | BA45 | aFakeswitch_0 | string_pointer | "fakeSwitch"
+D778 | __objc_const | BA40 | aTbN | string_pointer | "TB,N"
+D778 | __objc_const | BA50 | aFakedevicemodu_0 | string_pointer | "fakeDeviceModuleSwitch"
+D788 | __objc_const | AAC2 | aOtrappobject | string_pointer | "OTRAppObject"
+D788 | __objc_const | D3C8 | _OBJC_INSTANCE_METHODS_OTRAppObject | struct_pointer | struct_data
+D788 | __objc_const | D6E8 | _OBJC_INSTANCE_VARIABLES_OTRAppObject | struct_pointer | struct_data
+D788 | __objc_const | D730 | OTRAppObject_$properties | struct_pointer | struct_data
+D7D8 | __objc_const | 78C0 | +[OTRAppService sharedSingleton] | function_pointer | function_start
+D7D8 | __objc_const | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+D7D8 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+D7F0 | __objc_const | AACF | aOtrappservice | string_pointer | "OTRAppService"
+D7F0 | __objc_const | D7D0 | _OBJC_CLASS_METHODS_OTRAppService | struct_pointer | struct_data
+D840 | __objc_const | 793C | -[OTRAppService isJailBreak] | function_pointer | function_start
+D840 | __objc_const | A52C | sel_isJailBreak | string_pointer | "isJailBreak"
+D840 | __objc_const | AB4F | aB1608 | string_pointer | "B16@0:8"
+D858 | __objc_const | 79E4 | -[OTRAppService init] | function_pointer | function_start
+D858 | __objc_const | 933E | sel_init | string_pointer | "init"
+D858 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+D870 | __objc_const | 7A7C | -[OTRAppService createService] | function_pointer | function_start
+D870 | __objc_const | 9DD5 | sel_createService | string_pointer | "createService"
+D870 | __objc_const | B37D | aV1608 | string_pointer | "v16@0:8"
+D888 | __objc_const | 7C1C | -[OTRAppService appReBecomeActive] | function_pointer | function_start
+D888 | __objc_const | A0E6 | sel_appReBecomeActive | string_pointer | "appReBecomeActive"
+D888 | __objc_const | B37D | aV1608 | string_pointer | "v16@0:8"
+D8A0 | __objc_const | 7C44 | -[OTRAppService startMsgService] | function_pointer | function_start
+D8A0 | __objc_const | 9DE3 | sel_startMsgService | string_pointer | "startMsgService"
+D8A0 | __objc_const | B37D | aV1608 | string_pointer | "v16@0:8"
+D8B8 | __objc_const | 7D18 | -[OTRAppService handleMessageNamed:withUserInfo:] | function_pointer | function_start
+D8B8 | __objc_const | A586 | sel_handleMessageNamed:withUserInfo: | string_pointer | "handleMessageNamed:withUserInfo:"
+D8B8 | __objc_const | B47A | a32081624_0 | string_pointer | "@32@0:8@16@24"
+D8D0 | __objc_const | 7E34 | -[OTRAppService saveConfig:] | function_pointer | function_start
+D8D0 | __objc_const | A2B8 | sel_saveConfig: | string_pointer | "saveConfig:"
+D8D0 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+D8E8 | __objc_const | 7EC0 | -[OTRAppService appicon:] | function_pointer | function_start
+D8E8 | __objc_const | A6A7 | sel_appicon: | string_pointer | "appicon:"
+D8E8 | __objc_const | B3BE | a240816_0 | string_pointer | "@24@0:8@16"
+D900 | __objc_const | 7FE0 | -[OTRAppService info] | function_pointer | function_start
+D900 | __objc_const | A6B0 | sel_info | string_pointer | "info"
+D900 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+D918 | __objc_const | 7FF0 | -[OTRAppService setInfo:] | function_pointer | function_start
+D918 | __objc_const | A6B5 | sel_setInfo: | string_pointer | "setInfo:"
+D918 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+D930 | __objc_const | 800C | -[OTRAppService isJailBreakDevice] | function_pointer | function_start
+D930 | __objc_const | A55B | sel_isJailBreakDevice | string_pointer | "isJailBreakDevice"
+D930 | __objc_const | AB4F | aB1608 | string_pointer | "B16@0:8"
+D948 | __objc_const | 801C | -[OTRAppService setIsJailBreakDevice:] | function_pointer | function_start
+D948 | __objc_const | A538 | sel_setIsJailBreakDevice: | string_pointer | "setIsJailBreakDevice:"
+D948 | __objc_const | B42E | aV2008b16 | string_pointer | "v20@0:8B16"
+D968 | __objc_const | A6BE | aIsjailbreakdev_0 | string_pointer | "_isJailBreakDevice"
+D968 | __objc_const | B461 | aB | string_pointer | "B"
+D968 | __objc_const | E5A4 | _OBJC_IVAR_$_OTRAppService._isJailBreakDevice | data_pointer | data_item_size=4
+D988 | __objc_const | A6D1 | aInfo_0 | string_pointer | "_info"
+D988 | __objc_const | B488 | aNsdictionary | string_pointer | "@"NSDictionary""
+D988 | __objc_const | E5A0 | _OBJC_IVAR_$_OTRAppService._info | data_pointer | data_item_size=4
+D9B0 | __objc_const | BB57 | aIsjailbreakdev_1 | string_pointer | "isJailBreakDevice"
+D9B0 | __objc_const | BB69 | aTbNVIsjailbrea | string_pointer | "TB,N,V_isJailBreakDevice"
+D9C0 | __objc_const | BB82 | aInfo_1 | string_pointer | "info"
+D9C0 | __objc_const | BB87 | aTNsdictionaryC | string_pointer | "T@"NSDictionary",C,N,V_info"
+D9D0 | __objc_const | AACF | aOtrappservice | string_pointer | "OTRAppService"
+D9D0 | __objc_const | D838 | _OBJC_INSTANCE_METHODS_OTRAppService | struct_pointer | struct_data
+D9D0 | __objc_const | D960 | _OBJC_INSTANCE_VARIABLES_OTRAppService | struct_pointer | struct_data
+D9D0 | __objc_const | D9A8 | OTRAppService_$properties | struct_pointer | struct_data
+DA20 | __objc_const | 8178 | -[CLLocationManager my_otr_tweak_location] | function_pointer | function_start
+DA20 | __objc_const | A6E0 | sel_my_otr_tweak_location | string_pointer | "my_otr_tweak_location"
+DA20 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+DA38 | __objc_const | 81E8 | -[CLLocationManager my_otr_onClientEventLocation:forceMapMatching:type:] | function_pointer | function_start
+DA38 | __objc_const | A721 | sel_my_otr_onClientEventLocation:forceMapMatching:type: | string_pointer | "my_otr_onClientEventLocation:forceMapMatching:type:"
+DA38 | __objc_const | B498 | aV360816b2428 | string_pointer | "v36@0:8@16B24@28"
+DA58 | __objc_const | 8088 | +[CLLocationManager load] | function_pointer | function_start
+DA58 | __objc_const | A755 | sel_load | string_pointer | "load"
+DA58 | __objc_const | B37D | aV1608 | string_pointer | "v16@0:8"
+DA70 | __objc_const | AADD | aOtrhTweak | string_pointer | "OTRH_TWEAK"
+DA70 | __objc_const | DA18 | _OBJC_CATEGORY_INSTANCE_METHODS_CLLocationManager_$_OTRH_TWEAK | struct_pointer | struct_data
+DA70 | __objc_const | DA50 | _OBJC_CATEGORY_CLASS_METHODS_CLLocationManager_$_OTRH_TWEAK | struct_pointer | struct_data
+DA70 | __objc_const | EA68 | _OBJC_CLASS_$_CLLocationManager | unknown_pointer | 
+DAB8 | __objc_const | 9343 | sel_isEqual: | string_pointer | "isEqual:"
+DAC0 | __objc_const | AB0A | aB240816 | string_pointer | "B24@0:8@16"
+DAD0 | __objc_const | 934C | sel_class | string_pointer | "class"
+DAD8 | __objc_const | AB15 | a1608 | string_pointer | "#16@0:8"
+DAE8 | __objc_const | 9352 | sel_self | string_pointer | "self"
+DAF0 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+DB00 | __objc_const | 9357 | sel_performSelector: | string_pointer | "performSelector:"
+DB08 | __objc_const | AB25 | a240816 | string_pointer | "@24@0:8:16"
+DB18 | __objc_const | 9368 | sel_performSelector:withObject: | string_pointer | "performSelector:withObject:"
+DB20 | __objc_const | AB30 | a32081624 | string_pointer | "@32@0:8:16@24"
+DB30 | __objc_const | 9384 | sel_performSelector:withObject:withObject: | string_pointer | "performSelector:withObject:withObject:"
+DB38 | __objc_const | AB3E | a4008162432 | string_pointer | "@40@0:8:16@24@32"
+DB48 | __objc_const | 93AB | sel_isProxy | string_pointer | "isProxy"
+DB50 | __objc_const | AB4F | aB1608 | string_pointer | "B16@0:8"
+DB60 | __objc_const | 93B3 | sel_isKindOfClass: | string_pointer | "isKindOfClass:"
+DB68 | __objc_const | AB57 | aB240816_0 | string_pointer | "B24@0:8#16"
+DB78 | __objc_const | 93C2 | sel_isMemberOfClass: | string_pointer | "isMemberOfClass:"
+DB80 | __objc_const | AB57 | aB240816_0 | string_pointer | "B24@0:8#16"
+DB90 | __objc_const | 93D3 | sel_conformsToProtocol: | string_pointer | "conformsToProtocol:"
+DB98 | __objc_const | AB0A | aB240816 | string_pointer | "B24@0:8@16"
+DBA8 | __objc_const | 93E7 | sel_respondsToSelector: | string_pointer | "respondsToSelector:"
+DBB0 | __objc_const | AB62 | aB240816_1 | string_pointer | "B24@0:8:16"
+DBC0 | __objc_const | 93FB | sel_retain | string_pointer | "retain"
+DBC8 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+DBD8 | __objc_const | 9402 | sel_release | string_pointer | "release"
+DBE0 | __objc_const | AB6D | aVv1608 | string_pointer | "Vv16@0:8"
+DBF0 | __objc_const | 940A | sel_autorelease | string_pointer | "autorelease"
+DBF8 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+DC08 | __objc_const | 9416 | sel_retainCount | string_pointer | "retainCount"
+DC10 | __objc_const | AB76 | aQ1608 | string_pointer | "Q16@0:8"
+DC20 | __objc_const | 9422 | sel_zone | string_pointer | "zone"
+DC28 | __objc_const | AB7E | aNszone1608 | string_pointer | "^{_NSZone=}16@0:8"
+DC38 | __objc_const | 9427 | sel_hash | string_pointer | "hash"
+DC40 | __objc_const | AB76 | aQ1608 | string_pointer | "Q16@0:8"
+DC50 | __objc_const | 942C | sel_superclass | string_pointer | "superclass"
+DC58 | __objc_const | AB15 | a1608 | string_pointer | "#16@0:8"
+DC68 | __objc_const | 9437 | sel_description | string_pointer | "description"
+DC70 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+DC88 | __objc_const | 9443 | sel_debugDescription | string_pointer | "debugDescription"
+DC90 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+DCA8 | __objc_const | B76B | aHash_0 | string_pointer | "hash"
+DCB0 | __objc_const | B770 | aTqR | string_pointer | "TQ,R"
+DCB8 | __objc_const | B775 | aSuperclass_0 | string_pointer | "superclass"
+DCC0 | __objc_const | B780 | aTR | string_pointer | "T#,R"
+DCC8 | __objc_const | B785 | aDescription_0 | string_pointer | "description"
+DCD0 | __objc_const | B791 | aTNsstringRC | string_pointer | "T@"NSString",R,C"
+DCD8 | __objc_const | B7A2 | aDebugdescripti_0 | string_pointer | "debugDescription"
+DCE0 | __objc_const | B791 | aTNsstringRC | string_pointer | "T@"NSString",R,C"
+DCE8 | __objc_const | AB0A | aB240816 | string_pointer | "B24@0:8@16"
+DCF0 | __objc_const | AB15 | a1608 | string_pointer | "#16@0:8"
+DCF8 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+DD00 | __objc_const | AB25 | a240816 | string_pointer | "@24@0:8:16"
+DD08 | __objc_const | AB30 | a32081624 | string_pointer | "@32@0:8:16@24"
+DD10 | __objc_const | AB3E | a4008162432 | string_pointer | "@40@0:8:16@24@32"
+DD18 | __objc_const | AB4F | aB1608 | string_pointer | "B16@0:8"
+DD20 | __objc_const | AB57 | aB240816_0 | string_pointer | "B24@0:8#16"
+DD28 | __objc_const | AB57 | aB240816_0 | string_pointer | "B24@0:8#16"
+DD30 | __objc_const | AB90 | aB2408Protocol1 | string_pointer | "B24@0:8@"Protocol"16"
+DD38 | __objc_const | AB62 | aB240816_1 | string_pointer | "B24@0:8:16"
+DD40 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+DD48 | __objc_const | AB6D | aVv1608 | string_pointer | "Vv16@0:8"
+DD50 | __objc_const | AB1D | a1608_0 | string_pointer | "@16@0:8"
+DD58 | __objc_const | AB76 | aQ1608 | string_pointer | "Q16@0:8"
+DD60 | __objc_const | AB7E | aNszone1608 | string_pointer | "^{_NSZone=}16@0:8"
+DD68 | __objc_const | AB76 | aQ1608 | string_pointer | "Q16@0:8"
+DD70 | __objc_const | AB15 | a1608 | string_pointer | "#16@0:8"
+DD78 | __objc_const | ABA5 | aNsstring1608 | string_pointer | "@"NSString"16@0:8"
+DD80 | __objc_const | ABA5 | aNsstring1608 | string_pointer | "@"NSString"16@0:8"
+DD90 | __objc_const | E6E8 | _OBJC_PROTOCOL_$_NSObject | struct_pointer | struct_data
+DDA8 | __objc_const | A793 | sel_locationManager:didUpdateToLocation:fromLocation: | string_pointer | "locationManager:didUpdateToLocation:fromLocation:"
+DDA8 | __objc_const | ACCE | aV4008162432_0 | string_pointer | "v40@0:8@16@24@32"
+DDC0 | __objc_const | A76F | sel_locationManager:didUpdateLocations: | string_pointer | "locationManager:didUpdateLocations:"
+DDC0 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+DDD8 | __objc_const | A803 | sel_locationManager:didUpdateHeading: | string_pointer | "locationManager:didUpdateHeading:"
+DDD8 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+DDF0 | __objc_const | A825 | sel_locationManagerShouldDisplayHeadingCalibration: | string_pointer | "locationManagerShouldDisplayHeadingCalibration:"
+DDF0 | __objc_const | AB0A | aB240816 | string_pointer | "B24@0:8@16"
+DE08 | __objc_const | A855 | sel_locationManager:didDetermineState:forRegion: | string_pointer | "locationManager:didDetermineState:forRegion:"
+DE08 | __objc_const | B4A9 | aV400816q2432 | string_pointer | "v40@0:8@16q24@32"
+DE20 | __objc_const | A882 | sel_locationManager:didRangeBeacons:inRegion: | string_pointer | "locationManager:didRangeBeacons:inRegion:"
+DE20 | __objc_const | ACCE | aV4008162432_0 | string_pointer | "v40@0:8@16@24@32"
+DE38 | __objc_const | A8AC | sel_locationManager:rangingBeaconsDidFailForRegion:withError: | string_pointer | "locationManager:rangingBeaconsDidFailForRegion:withError:"
+DE38 | __objc_const | ACCE | aV4008162432_0 | string_pointer | "v40@0:8@16@24@32"
+DE50 | __objc_const | A8E6 | sel_locationManager:didEnterRegion: | string_pointer | "locationManager:didEnterRegion:"
+DE50 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+DE68 | __objc_const | A906 | sel_locationManager:didExitRegion: | string_pointer | "locationManager:didExitRegion:"
+DE68 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+DE80 | __objc_const | A925 | sel_locationManager:didFailWithError: | string_pointer | "locationManager:didFailWithError:"
+DE80 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+DE98 | __objc_const | A947 | sel_locationManager:monitoringDidFailForRegion:withError: | string_pointer | "locationManager:monitoringDidFailForRegion:withError:"
+DE98 | __objc_const | ACCE | aV4008162432_0 | string_pointer | "v40@0:8@16@24@32"
+DEB0 | __objc_const | A97D | sel_locationManager:didChangeAuthorizationStatus: | string_pointer | "locationManager:didChangeAuthorizationStatus:"
+DEB0 | __objc_const | B4BA | aV280816i24 | string_pointer | "v28@0:8@16i24"
+DEC8 | __objc_const | A9AB | sel_locationManager:didStartMonitoringForRegion: | string_pointer | "locationManager:didStartMonitoringForRegion:"
+DEC8 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+DEE0 | __objc_const | A9D8 | sel_locationManagerDidPauseLocationUpdates: | string_pointer | "locationManagerDidPauseLocationUpdates:"
+DEE0 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+DEF8 | __objc_const | AA00 | sel_locationManagerDidResumeLocationUpdates: | string_pointer | "locationManagerDidResumeLocationUpdates:"
+DEF8 | __objc_const | ABB7 | aV240816 | string_pointer | "v24@0:8@16"
+DF10 | __objc_const | AA29 | sel_locationManager:didFinishDeferredUpdatesWithError: | string_pointer | "locationManager:didFinishDeferredUpdatesWithError:"
+DF10 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+DF28 | __objc_const | AA5C | sel_locationManager:didVisit: | string_pointer | "locationManager:didVisit:"
+DF28 | __objc_const | AC41 | aV32081624 | string_pointer | "v32@0:8@16@24"
+DF40 | __objc_const | B4C8 | aV4008Cllocatio | string_pointer | "v40@0:8@"CLLocationManager"16@"CLLocation"24@"CLLocation"32"
+DF48 | __objc_const | B504 | aV3208Cllocatio | string_pointer | "v32@0:8@"CLLocationManager"16@"NSArray"24"
+DF50 | __objc_const | B52E | aV3208Cllocatio_0 | string_pointer | "v32@0:8@"CLLocationManager"16@"CLHeading"24"
+DF58 | __objc_const | B55A | aB2408Cllocatio | string_pointer | "B24@0:8@"CLLocationManager"16"
+DF60 | __objc_const | B578 | aV4008Cllocatio_0 | string_pointer | "v40@0:8@"CLLocationManager"16q24@"CLRegion"32"
+DF68 | __objc_const | B5A6 | aV4008Cllocatio_1 | string_pointer | "v40@0:8@"CLLocationManager"16@"NSArray"24@"CLBeaconRegion"32"
+DF70 | __objc_const | B5E3 | aV4008Cllocatio_2 | string_pointer | "v40@0:8@"CLLocationManager"16@"CLBeaconRegion"24@"NSError"32"
+DF78 | __objc_const | B620 | aV3208Cllocatio_1 | string_pointer | "v32@0:8@"CLLocationManager"16@"CLRegion"24"
+DF80 | __objc_const | B620 | aV3208Cllocatio_1 | string_pointer | "v32@0:8@"CLLocationManager"16@"CLRegion"24"
+DF88 | __objc_const | B64B | aV3208Cllocatio_2 | string_pointer | "v32@0:8@"CLLocationManager"16@"NSError"24"
+DF90 | __objc_const | B675 | aV4008Cllocatio_3 | string_pointer | "v40@0:8@"CLLocationManager"16@"CLRegion"24@"NSError"32"
+DF98 | __objc_const | B6AC | aV2808Cllocatio | string_pointer | "v28@0:8@"CLLocationManager"16i24"
+DFA0 | __objc_const | B620 | aV3208Cllocatio_1 | string_pointer | "v32@0:8@"CLLocationManager"16@"CLRegion"24"
+DFA8 | __objc_const | B6CD | aV2408Cllocatio | string_pointer | "v24@0:8@"CLLocationManager"16"
+DFB0 | __objc_const | B6CD | aV2408Cllocatio | string_pointer | "v24@0:8@"CLLocationManager"16"
+DFB8 | __objc_const | B64B | aV3208Cllocatio_2 | string_pointer | "v32@0:8@"CLLocationManager"16@"NSError"24"
+DFC0 | __objc_const | B6EB | aV3208Cllocatio_3 | string_pointer | "v32@0:8@"CLLocationManager"16@"CLVisit"24"
+DFD0 | __objc_const | 89D8 | +[OTRHook OTRUname:original_uname:] | function_pointer | function_start
+DFD0 | __objc_const | 9D4E | sel_OTRUname:original_uname: | string_pointer | "OTRUname:original_uname:"
+DFD0 | __objc_const | B715 | aI3208Utsname25_0 | string_pointer | "i32@0:8^{utsname=[256c][256c][256c][256c][256c]}16^v24"
+DFE8 | __objc_const | 8A84 | +[OTRHook OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:] | function_pointer | function_start
+DFE8 | __objc_const | 9D67 | sel_OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname: | string_pointer | "OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:"
+DFE8 | __objc_const | B74C | aI6408r16V24Q32_0 | string_pointer | "i64@0:8r*16^v24^Q32^v40Q48^v56"
+E000 | __objc_const | 8B70 | +[OTRHook OTRLocationInit] | function_pointer | function_start
+E000 | __objc_const | 9DB5 | sel_OTRLocationInit | string_pointer | "OTRLocationInit"
+E000 | __objc_const | AB4F | aB1608 | string_pointer | "B16@0:8"
+E018 | __objc_const | 8C64 | +[OTRHook isSetHooked] | function_pointer | function_start
+E018 | __objc_const | AA88 | sel_isSetHooked | string_pointer | "isSetHooked"
+E018 | __objc_const | AB4F | aB1608 | string_pointer | "B16@0:8"
+E030 | __objc_const | 8C70 | +[OTRHook setLocationHooks] | function_pointer | function_start
+E030 | __objc_const | A7F2 | sel_setLocationHooks | string_pointer | "setLocationHooks"
+E030 | __objc_const | AB4F | aB1608 | string_pointer | "B16@0:8"
+E048 | __objc_const | AB02 | aOtrhook | string_pointer | "OTRHook"
+E048 | __objc_const | DFC8 | _OBJC_CLASS_METHODS_OTRHook | struct_pointer | struct_data
+E090 | __objc_const | AB02 | aOtrhook | string_pointer | "OTRHook"
+E0D8 | __objc_selrefs | 9338 | sel_alloc | string_pointer | "alloc"
+E0E0 | __objc_selrefs | 933E | sel_init | string_pointer | "init"
+E0E8 | __objc_selrefs | 949F | sel_application:didFinishLaunchingWithOptions: | string_pointer | "application:didFinishLaunchingWithOptions:"
+E0F0 | __objc_selrefs | 9D48 | sel_drain | string_pointer | "drain"
+E0F8 | __objc_selrefs | 9D4E | sel_OTRUname:original_uname: | string_pointer | "OTRUname:original_uname:"
+E100 | __objc_selrefs | 9D67 | sel_OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname: | string_pointer | "OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:"
+E108 | __objc_selrefs | 9454 | sel_applicationDidFinishLaunching: | string_pointer | "applicationDidFinishLaunching:"
+E110 | __objc_selrefs | 9DA3 | sel_stringWithFormat: | string_pointer | "stringWithFormat:"
+E118 | __objc_selrefs | 9DB5 | sel_OTRLocationInit | string_pointer | "OTRLocationInit"
+E120 | __objc_selrefs | 9DC5 | sel_sharedSingleton | string_pointer | "sharedSingleton"
+E128 | __objc_selrefs | 9DD5 | sel_createService | string_pointer | "createService"
+E130 | __objc_selrefs | 9DE3 | sel_startMsgService | string_pointer | "startMsgService"
+E138 | __objc_selrefs | 9DF3 | sel_standardUserDefaults | string_pointer | "standardUserDefaults"
+E140 | __objc_selrefs | 9E08 | sel_objectForKey: | string_pointer | "objectForKey:"
+E148 | __objc_selrefs | 9E16 | sel_objectAtIndex: | string_pointer | "objectAtIndex:"
+E150 | __objc_selrefs | 9E25 | sel_hasPrefix: | string_pointer | "hasPrefix:"
+E158 | __objc_selrefs | 9E30 | sel_dictionary | string_pointer | "dictionary"
+E160 | __objc_selrefs | 9E3B | sel_dictionaryWithDictionary: | string_pointer | "dictionaryWithDictionary:"
+E168 | __objc_selrefs | 93FB | sel_retain | string_pointer | "retain"
+E170 | __objc_selrefs | 9E55 | sel_setObject:forKey: | string_pointer | "setObject:forKey:"
+E178 | __objc_selrefs | 9E67 | sel_OTRConfig | string_pointer | "OTRConfig"
+E180 | __objc_selrefs | 9E71 | sel_numberWithBool: | string_pointer | "numberWithBool:"
+E188 | __objc_selrefs | 9E81 | sel_setValue:forKeyPath: | string_pointer | "setValue:forKeyPath:"
+E190 | __objc_selrefs | 9E96 | sel_saveOTRConfig: | string_pointer | "saveOTRConfig:"
+E198 | __objc_selrefs | 9EA5 | sel_synchronize | string_pointer | "synchronize"
+E1A0 | __objc_selrefs | 9EB1 | sel_dataFromPropertyList:format:errorDescription: | string_pointer | "dataFromPropertyList:format:errorDescription:"
+E1A8 | __objc_selrefs | 9EDF | sel_propertyListFromData:mutabilityOption:format:errorDescription: | string_pointer | "propertyListFromData:mutabilityOption:format:errorDescription:"
+E1B0 | __objc_selrefs | 9FAA | sel_mainBundle | string_pointer | "mainBundle"
+E1B8 | __objc_selrefs | 9FB5 | sel_bundleIdentifier | string_pointer | "bundleIdentifier"
+E1C0 | __objc_selrefs | 9FC6 | sel_fakeDeviceModuleSwitch | string_pointer | "fakeDeviceModuleSwitch"
+E1C8 | __objc_selrefs | 9FDD | sel_allBundleIdentifierConfig | string_pointer | "allBundleIdentifierConfig"
+E1D0 | __objc_selrefs | 9FF7 | sel_to: | string_pointer | "to:"
+E1D8 | __objc_selrefs | 9FFB | sel_UTF8String | string_pointer | "UTF8String"
+E1E0 | __objc_selrefs | A006 | sel_length | string_pointer | "length"
+E1E8 | __objc_selrefs | A00D | sel_isEqualToString: | string_pointer | "isEqualToString:"
+E1F0 | __objc_selrefs | A01E | sel_defaultCenter | string_pointer | "defaultCenter"
+E1F8 | __objc_selrefs | A02C | sel_onOTRApplicationDidBecomeActiveNotification: | string_pointer | "onOTRApplicationDidBecomeActiveNotification:"
+E200 | __objc_selrefs | A059 | sel_addObserver:selector:name:object: | string_pointer | "addObserver:selector:name:object:"
+E208 | __objc_selrefs | A07B | sel_onOTRCheckService: | string_pointer | "onOTRCheckService:"
+E210 | __objc_selrefs | A08E | sel_loadConfig | string_pointer | "loadConfig"
+E218 | __objc_selrefs | A099 | sel_onOTRCheckService2: | string_pointer | "onOTRCheckService2:"
+E220 | __objc_selrefs | A0AD | sel_postNotificationName:object: | string_pointer | "postNotificationName:object:"
+E228 | __objc_selrefs | A0CA | sel_removeObserver:name:object: | string_pointer | "removeObserver:name:object:"
+E230 | __objc_selrefs | A0E6 | sel_appReBecomeActive | string_pointer | "appReBecomeActive"
+E238 | __objc_selrefs | A0F8 | sel_fakeSwitch | string_pointer | "fakeSwitch"
+E240 | __objc_selrefs | A103 | sel_initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:course:sp... | string_pointer | "initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:course:speed:..."
+E248 | __objc_selrefs | A15B | sel_instancesRespondToSelector: | string_pointer | "instancesRespondToSelector:"
+E250 | __objc_selrefs | A177 | sel_doubleValue | string_pointer | "doubleValue"
+E258 | __objc_selrefs | A183 | sel_altitude | string_pointer | "altitude"
+E260 | __objc_selrefs | A18C | sel_horizontalAccuracy | string_pointer | "horizontalAccuracy"
+E268 | __objc_selrefs | A19F | sel_verticalAccuracy | string_pointer | "verticalAccuracy"
+E270 | __objc_selrefs | A1B0 | sel_course | string_pointer | "course"
+E278 | __objc_selrefs | A1B7 | sel_speed | string_pointer | "speed"
+E280 | __objc_selrefs | A1BD | sel_timestamp | string_pointer | "timestamp"
+E288 | __objc_selrefs | 940A | sel_autorelease | string_pointer | "autorelease"
+E290 | __objc_selrefs | A1C7 | sel_initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:timestamp: | string_pointer | "initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:timestamp:"
+E298 | __objc_selrefs | A212 | sel_dictionaryWithContentsOfFile: | string_pointer | "dictionaryWithContentsOfFile:"
+E2A0 | __objc_selrefs | A230 | sel_setLocationCfg: | string_pointer | "setLocationCfg:"
+E2A8 | __objc_selrefs | A240 | sel_setFakeSwitch: | string_pointer | "setFakeSwitch:"
+E2B0 | __objc_selrefs | A24F | sel_setFakeDeviceModuleSwitch: | string_pointer | "setFakeDeviceModuleSwitch:"
+E2B8 | __objc_selrefs | A26A | sel_locationCfg | string_pointer | "locationCfg"
+E2C0 | __objc_selrefs | A276 | sel_boolValue | string_pointer | "boolValue"
+E2C8 | __objc_selrefs | A280 | sel_setValue:forKey: | string_pointer | "setValue:forKey:"
+E2D0 | __objc_selrefs | A291 | sel_currentDevice | string_pointer | "currentDevice"
+E2D8 | __objc_selrefs | A29F | sel_systemVersion | string_pointer | "systemVersion"
+E2E0 | __objc_selrefs | A2AD | sel_floatValue | string_pointer | "floatValue"
+E2E8 | __objc_selrefs | A2B8 | sel_saveConfig: | string_pointer | "saveConfig:"
+E2F0 | __objc_selrefs | A2C4 | sel_writeToFile:atomically: | string_pointer | "writeToFile:atomically:"
+E2F8 | __objc_selrefs | A2DC | sel_removeObjectForKey: | string_pointer | "removeObjectForKey:"
+E300 | __objc_selrefs | A2F0 | sel_count | string_pointer | "count"
+E308 | __objc_selrefs | A2F6 | sel_numberWithDouble: | string_pointer | "numberWithDouble:"
+E310 | __objc_selrefs | A308 | sel_sharedApplication | string_pointer | "sharedApplication"
+E318 | __objc_selrefs | A31A | sel_URLWithString: | string_pointer | "URLWithString:"
+E320 | __objc_selrefs | A329 | sel_openURL: | string_pointer | "openURL:"
+E328 | __objc_selrefs | A332 | sel_show5G | string_pointer | "show5G"
+E330 | __objc_selrefs | A339 | sel_valueForKey: | string_pointer | "valueForKey:"
+E338 | __objc_selrefs | A346 | sel_array | string_pointer | "array"
+E340 | __objc_selrefs | A34C | sel_addObject: | string_pointer | "addObject:"
+E348 | __objc_selrefs | A357 | sel_firstObject | string_pointer | "firstObject"
+E350 | __objc_selrefs | A363 | sel_removeObjectAtIndex: | string_pointer | "removeObjectAtIndex:"
+E358 | __objc_selrefs | A378 | sel_subviews | string_pointer | "subviews"
+E360 | __objc_selrefs | A381 | sel_addObjectsFromArray: | string_pointer | "addObjectsFromArray:"
+E368 | __objc_selrefs | 93B3 | sel_isKindOfClass: | string_pointer | "isKindOfClass:"
+E370 | __objc_selrefs | A396 | sel_setText: | string_pointer | "setText:"
+E378 | __objc_selrefs | 9368 | sel_performSelector:withObject: | string_pointer | "performSelector:withObject:"
+E380 | __objc_selrefs | A39F | sel_otr_changetTo5g | string_pointer | "otr_changetTo5g"
+E388 | __objc_selrefs | A3AF | sel_otr_checkStatusBar | string_pointer | "otr_checkStatusBar"
+E390 | __objc_selrefs | A4F5 | sel_defaultManager | string_pointer | "defaultManager"
+E398 | __objc_selrefs | A504 | sel_stringWithUTF8String: | string_pointer | "stringWithUTF8String:"
+E3A0 | __objc_selrefs | A51A | sel_fileExistsAtPath: | string_pointer | "fileExistsAtPath:"
+E3A8 | __objc_selrefs | A52C | sel_isJailBreak | string_pointer | "isJailBreak"
+E3B0 | __objc_selrefs | A538 | sel_setIsJailBreakDevice: | string_pointer | "setIsJailBreakDevice:"
+E3B8 | __objc_selrefs | A54E | sel_centerNamed: | string_pointer | "centerNamed:"
+E3C0 | __objc_selrefs | A55B | sel_isJailBreakDevice | string_pointer | "isJailBreakDevice"
+E3C8 | __objc_selrefs | A56D | sel_runServerOnCurrentThread | string_pointer | "runServerOnCurrentThread"
+E3D0 | __objc_selrefs | A586 | sel_handleMessageNamed:withUserInfo: | string_pointer | "handleMessageNamed:withUserInfo:"
+E3D8 | __objc_selrefs | A5A7 | sel_registerForMessageName:target:selector: | string_pointer | "registerForMessageName:target:selector:"
+E3E0 | __objc_selrefs | A5CF | sel_objectForKeyedSubscript: | string_pointer | "objectForKeyedSubscript:"
+E3E8 | __objc_selrefs | A5E8 | sel_mainScreen | string_pointer | "mainScreen"
+E3F0 | __objc_selrefs | A5F3 | sel_scale | string_pointer | "scale"
+E3F8 | __objc_selrefs | A5F9 | sel__applicationIconImageForBundleIdentifier:format:scale: | string_pointer | "_applicationIconImageForBundleIdentifier:format:scale:"
+E400 | __objc_selrefs | A630 | sel_sendMessageName:userInfo: | string_pointer | "sendMessageName:userInfo:"
+E408 | __objc_selrefs | A64A | sel_dictionaryWithObjects:forKeys:count: | string_pointer | "dictionaryWithObjects:forKeys:count:"
+E410 | __objc_selrefs | A66F | sel_sendMessageAndReceiveReplyName:userInfo: | string_pointer | "sendMessageAndReceiveReplyName:userInfo:"
+E418 | __objc_selrefs | A698 | sel_imageWithData: | string_pointer | "imageWithData:"
+E420 | __objc_selrefs | 9F84 | sel_DataToPropertyLis: | string_pointer | "DataToPropertyLis:"
+E428 | __objc_selrefs | A6B5 | sel_setInfo: | string_pointer | "setInfo:"
+E430 | __objc_selrefs | A6B0 | sel_info | string_pointer | "info"
+E438 | __objc_selrefs | 9F97 | sel_PropertyLisToData: | string_pointer | "PropertyLisToData:"
+E440 | __objc_selrefs | 934C | sel_class | string_pointer | "class"
+E448 | __objc_selrefs | A6D7 | sel_location | string_pointer | "location"
+E450 | __objc_selrefs | A6E0 | sel_my_otr_tweak_location | string_pointer | "my_otr_tweak_location"
+E458 | __objc_selrefs | A3DE | sel_returnFakeLocation:isUse: | string_pointer | "returnFakeLocation:isUse:"
+E460 | __objc_selrefs | A6F6 | sel_countByEnumeratingWithState:objects:count: | string_pointer | "countByEnumeratingWithState:objects:count:"
+E468 | __objc_selrefs | A721 | sel_my_otr_onClientEventLocation:forceMapMatching:type: | string_pointer | "my_otr_onClientEventLocation:forceMapMatching:type:"
+E470 | __objc_selrefs | A75A | sel_pointerValue | string_pointer | "pointerValue"
+E478 | __objc_selrefs | A767 | sel_allKeys | string_pointer | "allKeys"
+E480 | __objc_selrefs | A76F | sel_locationManager:didUpdateLocations: | string_pointer | "locationManager:didUpdateLocations:"
+E488 | __objc_selrefs | 93E7 | sel_respondsToSelector: | string_pointer | "respondsToSelector:"
+E490 | __objc_selrefs | A793 | sel_locationManager:didUpdateToLocation:fromLocation: | string_pointer | "locationManager:didUpdateToLocation:fromLocation:"
+E498 | __objc_selrefs | A7C5 | sel_methodForSelector: | string_pointer | "methodForSelector:"
+E4A0 | __objc_selrefs | A7D8 | sel_objectAtIndexedSubscript: | string_pointer | "objectAtIndexedSubscript:"
+E4A8 | __objc_selrefs | A3C2 | sel_onRunApp | string_pointer | "onRunApp"
+E4B0 | __objc_selrefs | A7F2 | sel_setLocationHooks | string_pointer | "setLocationHooks"
+E4B8 | __objc_selrefs | 9402 | sel_release | string_pointer | "release"
+E4C0 | __objc_selrefs | AA76 | sel_valueWithPointer: | string_pointer | "valueWithPointer:"
+E4C8 | __objc_protorefs | E748 | _OBJC_PROTOCOL_$_UIApplicationDelegate | struct_pointer | struct_data
+E4D0 | __objc_protorefs | E7D8 | _OBJC_PROTOCOL_$_CLLocationManagerDelegate | struct_pointer | struct_data
+E4D8 | __objc_classrefs | E938 | _OBJC_CLASS_$_NSAutoreleasePool | unknown_pointer | 
+E4E0 | __objc_classrefs | E698 | _OBJC_CLASS_$_OTRHook | struct_pointer | struct_data
+E4E8 | __objc_classrefs | E968 | _OBJC_CLASS_$_NSString | unknown_pointer | 
+E4F0 | __objc_classrefs | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+E4F8 | __objc_classrefs | E9A8 | _OBJC_CLASS_$_NSUserDefaults | unknown_pointer | 
+E500 | __objc_classrefs | E998 | _OBJC_CLASS_$_NSMutableDictionary | unknown_pointer | 
+E508 | __objc_classrefs | E5A8 | _OBJC_CLASS_$_appTweakHelper | struct_pointer | struct_data
+E510 | __objc_classrefs | E958 | _OBJC_CLASS_$_NSNumber | unknown_pointer | 
+E518 | __objc_classrefs | E960 | _OBJC_CLASS_$_NSPropertyListSerialization | unknown_pointer | 
+E520 | __objc_classrefs | E5F8 | _OBJC_CLASS_$_OTRAppObject | struct_pointer | struct_data
+E528 | __objc_classrefs | E940 | _OBJC_CLASS_$_NSBundle | unknown_pointer | 
+E530 | __objc_classrefs | E950 | _OBJC_CLASS_$_NSNotificationCenter | unknown_pointer | 
+E538 | __objc_classrefs | EA60 | _OBJC_CLASS_$_CLLocation | unknown_pointer | 
+E540 | __objc_classrefs | EA38 | _OBJC_CLASS_$_UIDevice | unknown_pointer | 
+E548 | __objc_classrefs | EA30 | _OBJC_CLASS_$_UIApplication | unknown_pointer | 
+E550 | __objc_classrefs | E9A0 | _OBJC_CLASS_$_NSURL | unknown_pointer | 
+E558 | __objc_classrefs | E990 | _OBJC_CLASS_$_NSMutableArray | unknown_pointer | 
+E560 | __objc_classrefs | E948 | _OBJC_CLASS_$_NSFileManager | unknown_pointer | 
+E568 | __objc_classrefs | E988 | _OBJC_CLASS_$_NSDictionary | unknown_pointer | 
+E570 | __objc_classrefs | EA40 | _OBJC_CLASS_$_UIImage | unknown_pointer | 
+E578 | __objc_classrefs | EA48 | _OBJC_CLASS_$_UIScreen | unknown_pointer | 
+E580 | __objc_classrefs | E970 | _OBJC_CLASS_$_NSValue | unknown_pointer | 
+E588 | __objc_superrefs | E5F8 | _OBJC_CLASS_$_OTRAppObject | struct_pointer | struct_data
+E590 | __objc_superrefs | E648 | _OBJC_CLASS_$_OTRAppService | struct_pointer | struct_data
+E5A8 | __objc_data | D318 | appTweakHelper_$classData | struct_pointer | struct_data
+E5A8 | __objc_data | E5D0 | _OBJC_METACLASS_$_appTweakHelper | struct_pointer | struct_data
+E5A8 | __objc_data | E8A0 | _OBJC_CLASS_$_NSObject | unknown_pointer | 
+E5A8 | __objc_data | E8B8 | __objc_empty_cache | unknown_pointer | 
+E5D0 | __objc_data | D2D0 | appTweakHelper_$metaData | struct_pointer | struct_data
+E5D0 | __objc_data | E8A8 | _OBJC_METACLASS_$_NSObject | unknown_pointer | 
+E5D0 | __objc_data | E8B8 | __objc_empty_cache | unknown_pointer | 
+E5F8 | __objc_data | D788 | OTRAppObject_$classData | struct_pointer | struct_data
+E5F8 | __objc_data | E620 | _OBJC_METACLASS_$_OTRAppObject | struct_pointer | struct_data
+E5F8 | __objc_data | E8A0 | _OBJC_CLASS_$_NSObject | unknown_pointer | 
+E5F8 | __objc_data | E8B8 | __objc_empty_cache | unknown_pointer | 
+E620 | __objc_data | D380 | OTRAppObject_$metaData | struct_pointer | struct_data
+E620 | __objc_data | E8A8 | _OBJC_METACLASS_$_NSObject | unknown_pointer | 
+E620 | __objc_data | E8B8 | __objc_empty_cache | unknown_pointer | 
+E648 | __objc_data | D9D0 | OTRAppService_$classData | struct_pointer | struct_data
+E648 | __objc_data | E670 | _OBJC_METACLASS_$_OTRAppService | struct_pointer | struct_data
+E648 | __objc_data | E8A0 | _OBJC_CLASS_$_NSObject | unknown_pointer | 
+E648 | __objc_data | E8B8 | __objc_empty_cache | unknown_pointer | 
+E670 | __objc_data | D7F0 | OTRAppService_$metaData | struct_pointer | struct_data
+E670 | __objc_data | E8A8 | _OBJC_METACLASS_$_NSObject | unknown_pointer | 
+E670 | __objc_data | E8B8 | __objc_empty_cache | unknown_pointer | 
+E698 | __objc_data | E090 | OTRHook_$classData | struct_pointer | struct_data
+E698 | __objc_data | E6C0 | _OBJC_METACLASS_$_OTRHook | struct_pointer | struct_data
+E698 | __objc_data | E8A0 | _OBJC_CLASS_$_NSObject | unknown_pointer | 
+E698 | __objc_data | E8B8 | __objc_empty_cache | unknown_pointer | 
+E6C0 | __objc_data | E048 | OTRHook_$metaData | struct_pointer | struct_data
+E6C0 | __objc_data | E8A8 | _OBJC_METACLASS_$_NSObject | unknown_pointer | 
+E6C0 | __objc_data | E8B8 | __objc_empty_cache | unknown_pointer | 
+E6E8 | __data | AAAA | aNsobject | string_pointer | "NSObject"
+E6E8 | __data | C8C0 | _OBJC_INSTANCE_METHODS_NSObject | struct_pointer | struct_data
+E6E8 | __data | CA90 | _OBJC_INSTANCE_METHODS_NSObject_0 | struct_pointer | struct_data
+E6E8 | __data | CAB0 | NSObject_$properties | struct_pointer | struct_data
+E730 | __data | CAF8 | off_CAF8 | data_pointer | data_item_size=8
+E748 | __data | AA94 | aUiapplicationd | string_pointer | "UIApplicationDelegate"
+E748 | __data | CB98 | UIApplicationDelegate_$prots | struct_pointer | struct_data
+E748 | __data | CBB0 | _OBJC_INSTANCE_METHODS_UIApplicationDelegate | struct_pointer | struct_data
+E748 | __data | D050 | UIApplicationDelegate_$properties | struct_pointer | struct_data
+E790 | __data | D068 | off_D068 | data_pointer | data_item_size=8
+E7B0 | __data | BA67 | aApplicationsCy | string_pointer | "/Applications/Cydia.app"
+E7B8 | __data | BA7F | aLibraryMobiles_0 | string_pointer | "/Library/MobileSubstrate/MobileSubstrate.dylib"
+E7C0 | __data | BAAE | aBinBash | string_pointer | "/bin/bash"
+E7C8 | __data | BAB8 | aUsrSbinSshd | string_pointer | "/usr/sbin/sshd"
+E7D0 | __data | BAC7 | aEtcApt | string_pointer | "/etc/apt"
+E7D8 | __data | AAE8 | aCllocationmana | string_pointer | "CLLocationManagerDelegate"
+E7D8 | __data | DD88 | CLLocationManagerDelegate_$prots | struct_pointer | struct_data
+E7D8 | __data | DDA0 | _OBJC_INSTANCE_METHODS_CLLocationManagerDelegate | struct_pointer | struct_data
+E820 | __data | DF40 | off_DF40 | data_pointer | data_item_size=8

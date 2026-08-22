@@ -1,0 +1,182 @@
+/*
+ * func-name: sub_1005D4CF0
+ * func-address: 0x1005d4cf0
+ * export-type: decompile
+ * callers: none
+ * callees: 0x1006801f4
+ */
+
+__int64 sub_1005D4CF0()
+{
+  __int64 v0; // x1
+  __int64 (*v1)(void); // x0
+
+  asc_10099FD30[0] = byte_10099FCD0 ^ 0xE5;
+  asc_10099FD30[1] = byte_10099FCD1 ^ 0x1F;
+  asc_10099FD30[2] = byte_10099FCD2 ^ 0x4E;
+  asc_10099FD30[3] = byte_10099FCD3 ^ 0x2C;
+  asc_10099FD30[4] = byte_10099FCD4 ^ 0xF2;
+  asc_10099FD30[5] = byte_10099FCD5 ^ 0x5F;
+  asc_10099FD30[6] = byte_10099FCD6 ^ 0xC8;
+  asc_10099FD30[7] = byte_10099FCD7 ^ 8;
+  asc_10099FD30[8] = byte_10099FCD8 ^ 0xD9;
+  asc_10099FD30[9] = byte_10099FCD9 ^ 0x18;
+  asc_10099FD30[10] = byte_10099FCDA ^ 0x47;
+  asc_10099FD30[11] = byte_10099FCDB ^ 0x13;
+  asc_10099FD30[12] = byte_10099FCDC ^ 0xB7;
+  asc_10099FD30[13] = byte_10099FCDD ^ 0x3E;
+  asc_10099FD30[14] = byte_10099FCDE ^ 0xBB;
+  asc_10099FD30[15] = byte_10099FCDF ^ 0x25;
+  asc_10099FD30[16] = byte_10099FCE0 ^ 0x5B;
+  asc_10099FD30[17] = byte_10099FCE1 ^ 0x52;
+  asc_10099FD30[18] = byte_10099FCE2 ^ 0xB8;
+  asc_10099FD30[19] = byte_10099FCE3 ^ 7;
+  asc_10099FD30[20] = byte_10099FCE4 ^ 0x6A;
+  asc_10099FD30[21] = byte_10099FCE5 ^ 0x73;
+  asc_10099FD30[22] = byte_10099FCE6 ^ 0x62;
+  asc_10099FD30[23] = byte_10099FCE7 ^ 0x6F;
+  asc_10099FD30[24] = byte_10099FCE8 ^ 0x4E;
+  asc_10099FD30[25] = byte_10099FCE9;
+  asc_10099FD30[26] = byte_10099FCEA ^ 0x74;
+  asc_10099FD30[27] = byte_10099FCEB ^ 0x9C;
+  asc_10099FD30[28] = byte_10099FCEC ^ 9;
+  asc_10099FD30[29] = byte_10099FCED ^ 0x89;
+  asc_10099FD30[30] = byte_10099FCEE ^ 0x4A;
+  asc_10099FD30[31] = byte_10099FCEF ^ 0xFC;
+  asc_10099FD30[32] = byte_10099FCF0 ^ 0xB1;
+  asc_10099FD30[33] = byte_10099FCF1 ^ 0x5C;
+  asc_10099FD30[34] = byte_10099FCF2 ^ 0x36;
+  asc_10099FD30[35] = byte_10099FCF3 ^ 0x5D;
+  asc_10099FD30[36] = byte_10099FCF4 ^ 0x75;
+  asc_10099FD30[37] = byte_10099FCF5 ^ 0x26;
+  asc_10099FD30[38] = byte_10099FCF6 ^ 0x71;
+  asc_10099FD30[39] = byte_10099FCF7 ^ 0x64;
+  asc_10099FD30[40] = byte_10099FCF8 ^ 0x70;
+  asc_10099FD30[41] = byte_10099FCF9 ^ 0xF9;
+  asc_10099FD30[42] = byte_10099FCFA ^ 0xF8;
+  asc_10099FD30[43] = byte_10099FCFB ^ 0x4E;
+  asc_10099FD30[44] = byte_10099FCFC ^ 0xF3;
+  asc_10099FD30[45] = byte_10099FCFD ^ 0x12;
+  asc_10099FD30[46] = byte_10099FCFE ^ 0x40;
+  asc_10099FD30[47] = byte_10099FCFF ^ 0xA7;
+  asc_10099FD30[48] = byte_10099FD00 ^ 0xD4;
+  asc_10099FD30[49] = byte_10099FD01 ^ 0xBD;
+  asc_10099FD30[50] = byte_10099FD02 ^ 0x29;
+  asc_10099FD30[51] = byte_10099FD03 ^ 0x13;
+  asc_10099FD30[52] = byte_10099FD04 ^ 0x48;
+  asc_10099FD30[53] = byte_10099FD05 ^ 0xA3;
+  asc_10099FD30[54] = byte_10099FD06 ^ 0x7D;
+  asc_10099FD30[55] = byte_10099FD07 ^ 0xF6;
+  asc_10099FD30[56] = byte_10099FD08 ^ 0x5E;
+  asc_10099FD30[57] = byte_10099FD09 ^ 0xE8;
+  asc_10099FD30[58] = byte_10099FD0A ^ 0xF3;
+  asc_10099FD30[59] = byte_10099FD0B ^ 0xC7;
+  asc_10099FD30[60] = byte_10099FD0C ^ 0x63;
+  asc_10099FD30[61] = byte_10099FD0D ^ 0xF1;
+  asc_10099FD30[62] = byte_10099FD0E ^ 0xA0;
+  asc_10099FD30[63] = byte_10099FD0F ^ 0xE5;
+  asc_10099FD30[64] = byte_10099FD10 ^ 0xB4;
+  asc_10099FD30[65] = byte_10099FD11 ^ 0xA5;
+  asc_10099FD30[66] = byte_10099FD12 ^ 0x65;
+  asc_10099FD30[67] = byte_10099FD13 ^ 0x1B;
+  asc_10099FD30[68] = byte_10099FD14 ^ 0xF6;
+  asc_10099FD30[69] = byte_10099FD15 ^ 0x4C;
+  asc_10099FD30[70] = byte_10099FD16 ^ 0xB5;
+  asc_10099FD30[71] = byte_10099FD17 ^ 0xEE;
+  asc_10099FD30[72] = byte_10099FD18 ^ 0xC;
+  asc_10099FD30[73] = byte_10099FD19 ^ 0xE3;
+  asc_10099FD30[74] = byte_10099FD1A ^ 0x53;
+  asc_10099FD30[75] = byte_10099FD1B ^ 0xBA;
+  asc_10099FD30[76] = byte_10099FD1C ^ 0xE;
+  asc_10099FD30[77] = byte_10099FD1D ^ 0x5D;
+  asc_10099FD30[78] = byte_10099FD1E ^ 0xC4;
+  asc_10099FD30[79] = byte_10099FD1F ^ 0x77;
+  asc_10099FD30[80] = byte_10099FD20 ^ 0x88;
+  asc_10099FD30[81] = byte_10099FD21 ^ 0x78;
+  aG_17[0] = byte_10099FD82 ^ 0x25;
+  aG_17[1] = byte_10099FD83 ^ 0x13;
+  aG_17[2] = byte_10099FD84 ^ 0x30;
+  aG_17[3] = byte_10099FD85 ^ 0xD7;
+  aG_17[4] = byte_10099FD86 ^ 0xF3;
+  aG_17[5] = byte_10099FD87 ^ 0xD5;
+  aG_17[6] = byte_10099FD88 ^ 0x6C;
+  aG_17[7] = byte_10099FD89 ^ 9;
+  aG_17[8] = byte_10099FD8A ^ 0xDC;
+  aG_17[9] = byte_10099FD8B ^ 0x70;
+  aG_17[10] = byte_10099FD8C ^ 0xF3;
+  aG_17[11] = byte_10099FD8D ^ 0x8C;
+  aM_16[0] = byte_10099FD9A ^ 0x52;
+  aM_16[1] = byte_10099FD9B ^ 0xE3;
+  aM_16[2] = byte_10099FD9C ^ 0xEA;
+  aM_16[3] = byte_10099FD9D ^ 0xC2;
+  aM_16[4] = byte_10099FD9E ^ 0xD4;
+  aM_16[5] = byte_10099FD9F ^ 0xEB;
+  aM_16[6] = byte_10099FDA0 ^ 0x1A;
+  aM_16[7] = byte_10099FDA1 ^ 0x4A;
+  aM_16[8] = byte_10099FDA2 ^ 0xEC;
+  aM_16[9] = byte_10099FDA3 ^ 0xCF;
+  aM_16[10] = byte_10099FDA4 ^ 0xE3;
+  aM_16[11] = byte_10099FDA5 ^ 0xB9;
+  aXn[0] = byte_10099FDB2 ^ 0x93;
+  aXn[1] = byte_10099FDB3 ^ 0x7D;
+  aXn[2] = byte_10099FDB4 ^ 0x56;
+  aXn[3] = byte_10099FDB5 ^ 0x37;
+  aXn[4] = byte_10099FDB6 ^ 0x23;
+  aXn[5] = byte_10099FDB7 ^ 0xAA;
+  aXn[6] = byte_10099FDB8 ^ 0x94;
+  aXn[7] = byte_10099FDB9 ^ 0x62;
+  aXn[8] = byte_10099FDBA ^ 0xB8;
+  aXn[9] = byte_10099FDBB ^ 0xAE;
+  aXn[10] = byte_10099FDBC ^ 8;
+  aXn[11] = byte_10099FDBD ^ 0x1F;
+  aXn[12] = byte_10099FDBE ^ 0xB9;
+  aXn[13] = byte_10099FDBF ^ 0xBC;
+  aXn[14] = byte_10099FDC0 ^ 0xE7;
+  aXn[15] = byte_10099FDC1 ^ 0x2D;
+  byte_10099FDDE = byte_10099FDD2 ^ 0xF6;
+  byte_10099FDDF = byte_10099FDD3 ^ 0xC4;
+  byte_10099FDE0 = byte_10099FDD4 ^ 0x67;
+  byte_10099FDE1 = byte_10099FDD5 ^ 0x50;
+  byte_10099FDE2 = byte_10099FDD6 ^ 0x24;
+  byte_10099FDE3 = byte_10099FDD7 ^ 0x13;
+  byte_10099FDE4 = byte_10099FDD8 ^ 0xE0;
+  byte_10099FDE5 = byte_10099FDD9 ^ 0xB5;
+  byte_10099FDE6 = byte_10099FDDA ^ 0xFE;
+  byte_10099FDE7 = byte_10099FDDB ^ 0x97;
+  byte_10099FDE8 = byte_10099FDDC ^ 0x62;
+  byte_10099FDE9 = byte_10099FDDD ^ 0x8C;
+  byte_10099FDF6 = byte_10099FDEA ^ 0x19;
+  byte_10099FDF7 = byte_10099FDEB ^ 0x30;
+  byte_10099FDF8 = byte_10099FDEC ^ 0xDD;
+  byte_10099FDF9 = byte_10099FDED ^ 0xC6;
+  byte_10099FDFA = byte_10099FDEE ^ 0xFB;
+  byte_10099FDFB = byte_10099FDEF ^ 0x79;
+  byte_10099FDFC = byte_10099FDF0 ^ 0xF0;
+  byte_10099FDFD = byte_10099FDF1 ^ 0x81;
+  byte_10099FDFE = byte_10099FDF2 ^ 0x2D;
+  byte_10099FDFF = byte_10099FDF3 ^ 0x67;
+  byte_10099FE00 = byte_10099FDF4 ^ 3;
+  byte_10099FE01 = byte_10099FDF5 ^ 3;
+  byte_10099FE12 = byte_10099FE02 ^ 0xF1;
+  byte_10099FE13 = byte_10099FE03 ^ 0xFB;
+  byte_10099FE14 = byte_10099FE04 ^ 0xD8;
+  byte_10099FE15 = byte_10099FE05 ^ 0xD;
+  byte_10099FE16 = byte_10099FE06 ^ 0xDF;
+  byte_10099FE17 = byte_10099FE07 ^ 0x9B;
+  byte_10099FE18 = byte_10099FE08 ^ 0xBB;
+  byte_10099FE19 = byte_10099FE09 ^ 0x8B;
+  byte_10099FE1A = byte_10099FE0A ^ 0xA9;
+  byte_10099FE1B = byte_10099FE0B ^ 0xFD;
+  byte_10099FE1C = byte_10099FE0C ^ 0x80;
+  byte_10099FE1D = byte_10099FE0D ^ 0xFC;
+  byte_10099FE1E = byte_10099FE0E ^ 0x60;
+  byte_10099FE1F = byte_10099FE0F ^ 0x1B;
+  byte_10099FE20 = byte_10099FE10 ^ 0xA3;
+  byte_10099FE21 = byte_10099FE11 ^ 0xCC;
+  nullsub_29(off_1009B0000, 148);
+  v1 = (__int64 (*)(void))nullsub_29(
+                            *(&off_1009D45E8
+                            + (((-876278025 * (dword_1009A3D10 & dword_1009A3D14)) & 0x1E96633D ^ 0xBC92C2FA) > 0x6FF5BA4)),
+                            v0);
+  return v1();
+}

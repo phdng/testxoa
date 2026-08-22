@@ -1,0 +1,13 @@
+/*
+ * func-name: _MSHookFunction
+ * func-address: 0x227684
+ * export-type: decompile
+ * callers: 0x4eb14, 0x1492b0, 0x14a0c8, 0x14a6b8, 0x14a7c0, 0x14a898, 0x14e7b4, 0x155978, 0x1598a0, 0x15b958, 0x15df18, 0x161cb0, 0x162000, 0x163cd8, 0x163de0, 0x164660, 0x166540, 0x167170, 0x1674e0, 0x20d6d4
+ * callees: none
+ */
+
+// attributes: thunk
+__int64 __fastcall MSHookFunction()
+{
+  return _MSHookFunction();
+}

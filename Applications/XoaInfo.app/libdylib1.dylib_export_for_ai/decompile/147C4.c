@@ -1,0 +1,13 @@
+/*
+ * func-name: _CFRetain
+ * func-address: 0x147c4
+ * export-type: decompile
+ * callers: 0x337c, 0x4480, 0x4aa4, 0x4fcc, 0x511c, 0x5578, 0x79d0, 0x8868, 0x8c7c, 0x9ef4, 0xa5f8, 0xac70, 0xb4c4, 0x103c4, 0x10558, 0x10764, 0x139ac, 0x14190
+ * callees: none
+ */
+
+// attributes: thunk
+CFTypeRef __cdecl CFRetain(CFTypeRef cf)
+{
+  return _CFRetain(cf);
+}

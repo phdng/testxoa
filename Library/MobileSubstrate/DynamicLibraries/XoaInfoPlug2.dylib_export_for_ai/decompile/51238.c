@@ -1,0 +1,13 @@
+/*
+ * func-name: _CFRelease
+ * func-address: 0x51238
+ * export-type: decompile
+ * callers: 0x1ead4, 0x1ed80, 0x1eed8, 0x1f144, 0x1f200, 0x22360, 0x227d8, 0x23f1c, 0x27ecc, 0x33ef4, 0x34194, 0x34288, 0x36080, 0x362dc, 0x44d2c, 0x4ccac, 0x4d168, 0x4df78
+ * callees: none
+ */
+
+// attributes: thunk
+void __cdecl CFRelease(CFTypeRef cf)
+{
+  _CFRelease(cf);
+}

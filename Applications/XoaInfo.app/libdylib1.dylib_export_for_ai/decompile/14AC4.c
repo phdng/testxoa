@@ -1,0 +1,13 @@
+/*
+ * func-name: __Block_object_assign
+ * func-address: 0x14ac4
+ * export-type: decompile
+ * callers: 0x394c, 0x4b0c, 0x4c38, 0x56c0, 0x6cfc, 0x6d18, 0xea60, 0xeae4, 0xeb2c, 0xec30, 0xf2c4, 0xf354, 0xf428, 0x10e24, 0x10e40, 0x11008, 0x112f4, 0x113c8, 0x122d8, 0x12418, 0x12bf0, 0x13024, 0x145d0
+ * callees: none
+ */
+
+// attributes: thunk
+void __cdecl _Block_object_assign(void *a1, const void *a2, const int a3)
+{
+  __Block_object_assign(a1, a2, a3);
+}

@@ -1,0 +1,52 @@
+# Strings exported from IDA
+# Format: address | length | type | string
+#================================================================================
+
+0x28 | 16 | ASCII | __TEXT
+0x68 | 16 | ASCII | __text
+0x78 | 16 | ASCII | __TEXT
+0xb8 | 16 | ASCII | __stubs
+0xc8 | 16 | ASCII | __TEXT
+0x108 | 16 | ASCII | __stub_helper
+0x118 | 16 | ASCII | __TEXT
+0x158 | 16 | ASCII | __cstring
+0x168 | 16 | ASCII | __TEXT
+0x1a8 | 16 | ASCII | __const
+0x1b8 | 16 | ASCII | __TEXT
+0x1f8 | 16 | ASCII | __unwind_info
+0x208 | 16 | ASCII | __TEXT
+0x250 | 16 | ASCII | __DATA
+0x290 | 16 | ASCII | __got
+0x2a0 | 16 | ASCII | __DATA
+0x2e0 | 16 | ASCII | __la_symbol_ptr
+0x2f0 | 16 | ASCII | __DATA
+0x330 | 16 | ASCII | __const
+0x340 | 16 | ASCII | __DATA
+0x380 | 16 | ASCII | __data
+0x390 | 16 | ASCII | __DATA
+0x3d0 | 16 | ASCII | __common
+0x3e0 | 16 | ASCII | __DATA
+0x420 | 16 | ASCII | __bss
+0x430 | 16 | ASCII | __DATA
+0x478 | 16 | ASCII | __LINKEDIT
+0x4d0 | 33 | ASCII | @executable_path/libdylib3.dylib
+0x5f0 | 30 | ASCII | /usr/lib/system/libdyld.dylib
+0x628 | 37 | ASCII | /usr/lib/system/libcompiler_rt.dylib
+0x668 | 39 | ASCII | /usr/lib/system/libsystem_kernel.dylib
+0x69c | 7 | ASCII | System
+0x7ecc | 12 | ASCII | ASL_DISABLE
+0x7eda | 11 | ASCII |          0
+0x7eef | 8 | ASCII | Message
+0x7efc | 7 | ASCII |  [PID 
+0x7f06 | 8 | ASCII | ] [UID 
+0x7f0e | 8 | ASCII | ] [GID 
+0x7f16 | 9 | ASCII | ] [Time 
+0x7f23 | 16 | ASCII | ] [TimeNanoSec 
+0x7f39 | 7 | ASCII | Sender
+0x7f40 | 6 | ASCII | Level
+0x7f46 | 9 | ASCII | Facility
+0x7f4f | 16 | ASCII | /var/run/syslog
+0x7f6b | 8 | ASCII | unknown
+0x7f79 | 17 | ASCII | 0123456789ABCDEF
+0x7f8a | 17 | ASCII | 0123456789abcdef
+0x7fa4 | 8 | ASCII | handoff

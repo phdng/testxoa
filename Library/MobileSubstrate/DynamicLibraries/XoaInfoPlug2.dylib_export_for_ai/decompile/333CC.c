@@ -1,0 +1,18 @@
+/*
+ * func-name: +[GCDWebServerDataResponse responseWithText:]
+ * func-address: 0x333cc
+ * export-type: decompile
+ * callers: none
+ * callees: 0x51a54, 0x51af0, 0x51b08, 0x51b14
+ */
+
+id __cdecl +[GCDWebServerDataResponse responseWithText:](id a1, SEL a2, id a3)
+{
+  id v4; // x20
+  id v5; // x19
+
+  v4 = objc_retain(a3);
+  v5 = objc_msgSend(objc_alloc((Class)a1), "initWithText:", v4);
+  objc_release(v4);
+  return objc_autoreleaseReturnValue(v5);
+}

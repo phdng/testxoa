@@ -1,0 +1,18 @@
+/*
+ * func-name: sub_1001BA688
+ * func-address: 0x1001ba688
+ * export-type: decompile
+ * callers: none
+ * callees: 0x1001ce5dc
+ */
+
+__int64 sub_1001BA688()
+{
+  int v0; // w20
+  int v1; // w25
+  __int64 v2; // x27
+  __int64 (*v3)(void); // x0
+
+  v3 = (__int64 (*)(void))nullsub_11(*(_QWORD *)(v2 + 8LL * (v0 < v1)));
+  return v3();
+}

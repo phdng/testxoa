@@ -1,0 +1,17 @@
+/*
+ * func-name: __ZL32OKoucoAehsnCnRVeDyPQTpsLmyEDogCFP11SpringBoardP13objc_selectorP8NSStringP12NSDictionary
+ * func-address: 0x16fcc
+ * export-type: decompile
+ * callers: 0x10360
+ * callees: 0x1b158
+ */
+
+void OKoucoAehsnCnRVeDyPQTpsLmyEDogCF()
+{
+  unsigned int v0; // w8
+  __int64 v1; // kr00_8
+
+  v0 = atomic_load((unsigned int *)&dword_79628);
+  v1 = nullsub_1(*(&off_75678 + (v0 == 0)));
+  __asm { BR              X0 }
+}

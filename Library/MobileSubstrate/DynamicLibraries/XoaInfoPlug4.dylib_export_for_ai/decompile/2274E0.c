@@ -1,0 +1,13 @@
+/*
+ * func-name: _CFLog
+ * func-address: 0x2274e0
+ * export-type: decompile
+ * callers: 0x5f0f8, 0x5f64c, 0x604a8, 0x609cc, 0x75c48, 0xb03e8, 0xb2d24, 0x17534c, 0x183f30, 0x1841a8, 0x1850c4, 0x186fa0, 0x1eae30, 0x1ec714, 0x1edb0c, 0x1edcc8
+ * callees: none
+ */
+
+// attributes: thunk
+__int64 __fastcall CFLog()
+{
+  return _CFLog();
+}

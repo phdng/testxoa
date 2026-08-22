@@ -1,0 +1,13 @@
+/*
+ * func-name: _objc_enumerationMutation
+ * func-address: 0x1001e512c
+ * export-type: decompile
+ * callers: 0x10005f5d4, 0x10007f4d4, 0x10008efc4, 0x1000a9e10, 0x1000ab9bc, 0x1000ae590, 0x1000bff78, 0x1000c1040, 0x1000c1a58, 0x1000c3f8c, 0x1000cd0d0, 0x1000ce2c4, 0x1000cede8, 0x1000cf24c, 0x1000d0418, 0x1000f92d4, 0x1000fd0d4, 0x1001020f8, 0x100152268, 0x1001599ec, 0x10015b9fc, 0x100176fe8, 0x10017a31c, 0x10017d850, 0x100185c84, 0x1001867d0, 0x10018aa68, 0x1001a1474, 0x1001a1b9c, 0x1001a5438, 0x1001ab9b8, 0x1001abde8, 0x1001ad21c, 0x1001d8618, 0x1001e284c
+ * callees: none
+ */
+
+// attributes: thunk
+void __cdecl objc_enumerationMutation(id obj)
+{
+  _objc_enumerationMutation(obj);
+}

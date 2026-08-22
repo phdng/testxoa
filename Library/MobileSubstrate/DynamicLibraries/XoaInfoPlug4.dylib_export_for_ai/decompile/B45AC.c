@@ -1,0 +1,44 @@
+/*
+ * func-name: sub_B45AC
+ * func-address: 0xb45ac
+ * export-type: decompile
+ * callers: none
+ * callees: 0x2016c0, 0x227df8
+ */
+
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_B45AC(
+        int a1,
+        int a2,
+        int a3,
+        int a4,
+        int a5,
+        int a6,
+        int a7,
+        int a8,
+        __int64 a9,
+        __int64 a10,
+        __int64 a11,
+        __int64 a12,
+        __int64 a13,
+        __int64 a14,
+        __int64 a15,
+        __int64 a16,
+        __int64 a17,
+        __int64 a18,
+        __int64 a19,
+        __int64 a20,
+        __int64 a21)
+{
+  __int64 v21; // x19
+  void *v22; // x20
+  void *v23; // x22
+  id v24; // x0
+  __int64 v25; // x19
+
+  v24 = _objc_msgSend(v23, "pointerValue");
+  v25 = ((__int64 (__fastcall *)(id, __int64))rqrauttdduUBzMIcADzdVXfcTGtvbEQR)(v24, v21);
+  objc_release(v23);
+  objc_release(v22);
+  return v25;
+}

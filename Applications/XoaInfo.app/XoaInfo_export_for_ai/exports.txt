@@ -1,0 +1,6 @@
+# Exports
+# Format: func-addr:func-name
+#============================================================
+
+0x100000000:__mh_execute_header
+0x100785cc8:start

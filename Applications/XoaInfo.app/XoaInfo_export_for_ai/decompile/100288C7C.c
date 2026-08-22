@@ -1,0 +1,36 @@
+/*
+ * func-name: sub_100288C7C
+ * func-address: 0x100288c7c
+ * export-type: decompile
+ * callers: none
+ * callees: 0x1002b3578
+ */
+
+void __fastcall sub_100288C7C(
+        __int64 a1,
+        __int64 a2,
+        __int64 a3,
+        __int64 a4,
+        __int64 a5,
+        __int64 a6,
+        __int64 a7,
+        __int64 a8,
+        __int64 a9,
+        __int64 a10,
+        _DWORD *a11,
+        int a12,
+        int a13)
+{
+  int v13; // w20
+  int v14; // w23
+  __int64 v15; // x28
+  int v16; // w8
+
+  if ( a13 )
+    v16 = v14;
+  else
+    v16 = v13;
+  *a11 = v16;
+  nullsub_16(*(_QWORD *)(v15 + 1544));
+  JUMPOUT(0x100288C00LL);
+}

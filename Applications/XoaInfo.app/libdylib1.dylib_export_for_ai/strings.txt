@@ -1,0 +1,981 @@
+# Strings exported from IDA
+# Format: address | length | type | string
+#================================================================================
+
+0x28 | 16 | ASCII | __TEXT
+0x68 | 16 | ASCII | __text
+0x78 | 16 | ASCII | __TEXTe4
+0xb8 | 16 | ASCII | __stubs
+0xc8 | 16 | ASCII | __TEXT
+0x108 | 16 | ASCII | __stub_helper
+0x118 | 16 | ASCII | __TEXT
+0x158 | 16 | ASCII | __cstring
+0x168 | 16 | ASCII | __TEXT
+0x1a8 | 16 | ASCII | __const
+0x1b8 | 16 | ASCII | __TEXT
+0x1f8 | 16 | ASCII | __ustring
+0x208 | 16 | ASCII | __TEXT
+0x248 | 16 | ASCII | __unwind_info
+0x258 | 16 | ASCII | __TEXT
+0x2a0 | 16 | ASCII | __DATA
+0x2e0 | 16 | ASCII | __got
+0x2f0 | 16 | ASCII | __DATA
+0x330 | 16 | ASCII | __la_symbol_ptr
+0x340 | 16 | ASCII | __DATA
+0x380 | 16 | ASCII | __const
+0x390 | 16 | ASCII | __DATA
+0x3d0 | 16 | ASCII | __cfstring
+0x3e0 | 16 | ASCII | __DATA
+0x420 | 16 | ASCII | __data
+0x430 | 16 | ASCII | __DATA
+0x470 | 16 | ASCII | __common
+0x480 | 16 | ASCII | __DATA
+0x4c0 | 16 | ASCII | __bss
+0x4d0 | 16 | ASCII | __DATA
+0x518 | 16 | ASCII | __LINKEDIT
+0x570 | 33 | ASCII | @executable_path/libdylib1.dylib
+0x690 | 67 | ASCII | /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+0x6f0 | 60 | ASCII | /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+0x748 | 27 | ASCII | /usr/lib/libSystem.B.dylib
+0x156b8 | 27 | ASCII | libMobileGestalt %s:%d: %@
+0x156d6 | 57 | ASCII | /SourceCache/MobileGestalt/MobileGestalt-241.5/utility.c
+0x1570f | 51 | ASCII | Could not lookup %@ from system version dictionary
+0x15742 | 45 | ASCII | Could not load the system version dictionary
+0x1576f | 32 | ASCII | IOServiceMatching failed for %s
+0x1578f | 35 | ASCII | IOServiceGetMatchingService failed
+0x157b2 | 36 | ASCII | IOServiceOpen failed for class '%s'
+0x157d6 | 16 | ASCII | B28@?0I8r*12Q20
+0x157e6 | 26 | ASCII | AppleDiagnosticDataAccess
+0x15800 | 34 | ASCII | AppleDiagnosticDataAccessReadOnly
+0x15822 | 25 | ASCII | Unable to get %s service
+0x1583b | 20 | ASCII | AppleDiagnosticData
+0x1584f | 43 | ASCII | Unable to get diagnostic data from service
+0x1587a | 42 | ASCII | diagnostic data isn't chicken, it's beef!
+0x158a4 | 9 | ASCII | hw.model
+0x158ad | 27 | ASCII | Could not lookup hw.model!
+0x158c8 | 6 | ASCII | v8@?0
+0x158ce | 11 | ASCII | hw.machine
+0x158d9 | 28 | ASCII | Could not lookup hw.machine
+0x158f5 | 7 | ASCII | iPhone
+0x15906 | 8 | ASCII | AppleTV
+0x1590e | 6 | ASCII | iFPGA
+0x15914 | 27 | ASCII | Could not get device class
+0x1592f | 22 | ASCII | IODeviceTree:/product
+0x15945 | 13 | ASCII | udid-version
+0x15957 | 13 | ASCII | %@ (%llux\0)
+0x15967 | 26 | ASCII | illegal type for %@ in %s
+0x15981 | 23 | ASCII | h63QSdBCiT/z0WU6rdQv6Q
+0x15998 | 63 | ASCII | Could not get region code; assuming device is not in region %@
+0x159d7 | 14 | ASCII | MobileGestalt
+0x159e5 | 12 | ASCII | unknown pid
+0x159f1 | 21 | ASCII | host_info failed: %s
+0x15a06 | 33 | ASCII | failed to allocate string buffer
+0x15a27 | 35 | ASCII | CFStringGetCString failed for '%@'
+0x15a4a | 18 | ASCII | v32@?0^v8^v16^B24
+0x15a5c | 16 | ASCII | arch %s unknown
+0x15a71 | 23 | ASCII | 0Y4fmR6ZHZPxDZFfPtBnRQ
+0x15a88 | 49 | ASCII | syscfg length %lu is too small, header size %lu\n
+0x15ab9 | 78 | ASCII | syscfg length %lu is too small, should be at least %lu to contain %u entries\n
+0x15b07 | 73 | ASCII | syscfg entry %u offset %u, len %u is out of range; syscfg length is %lu\n
+0x15b50 | 22 | ASCII | Could not open %s: %s
+0x15b66 | 23 | ASCII | Could not fstat %s: %s
+0x15b7d | 38 | ASCII | Could not malloc buffer for file data
+0x15ba3 | 22 | ASCII | Could not read %s: %s
+0x15bb9 | 39 | ASCII | Could not create CFData with file data
+0x15be0 | 51 | ASCII | Could not create dictionary from file contents: %@
+0x15c13 | 37 | ASCII | File contents are not a CFDictionary
+0x15c38 | 23 | ASCII | mZfUC7qo4pURNhyMHZ62RQ
+0x15c4f | 13 | ASCII | CacheVersion
+0x15c5c | 10 | ASCII | CacheData
+0x15c66 | 11 | ASCII | CacheExtra
+0x15c71 | 10 | ASCII | CacheUUID
+0x15c7b | 37 | ASCII | 01599610-69ED-4A9F-81E8-CFCFD8F9A288
+0x15ca0 | 68 | ASCII | /SourceCache/MobileGestalt/MobileGestalt-241.5/MobileGestaltCache.c
+0x15ce4 | 63 | ASCII | %d total, %d cacheable, %d precacheable, %d precached, %d null
+0x15d23 | 57 | ASCII | /var/mobile/Library/Caches/com.apple.MobileGestalt.plist
+0x15d5c | 79 | ASCII | can't validate cache version since _kCFSystemVersionBuildVersionKey is missing
+0x15dab | 56 | ASCII | can't validate cache version since cacheVers is missing
+0x15de3 | 29 | ASCII | cache %@ doesn't match OS %@
+0x15e00 | 43 | ASCII | can't validate cache since uuid is missing
+0x15e2b | 42 | ASCII | cache UUID %@ doesn't match build UUID %@
+0x15e55 | 22 | ASCII | cache data is invalid
+0x15e6b | 23 | ASCII | cache extra is missing
+0x15e82 | 36 | ASCII | cache extra has invalid question %@
+0x15ea6 | 23 | ASCII | %@ is not precacheable
+0x15ebd | 20 | ASCII | index %d is illegal
+0x15ed1 | 20 | ASCII | TotalSystemCapacity
+0x15ee5 | 21 | ASCII | TotalSystemAvailable
+0x15efa | 18 | ASCII | TotalDataCapacity
+0x15f0c | 19 | ASCII | TotalDataAvailable
+0x15f1f | 18 | ASCII | TotalDiskCapacity
+0x15f31 | 19 | ASCII | AmountDataReserved
+0x15f44 | 20 | ASCII | AmountDataAvailable
+0x15f58 | 23 | ASCII | DISABLE_GESTALT_DLOPEN
+0x15f6f | 63 | ASCII | /SourceCache/MobileGestalt/MobileGestalt-241.5/MobileGestalt.c
+0x15fae | 29 | ASCII | disabling external functions
+0x15fcb | 42 | ASCII | /usr/lib/libMobileGestaltExtensions.dylib
+0x15ff5 | 17 | ASCII | _MGSSetLazyFuncs
+0x16006 | 30 | ASCII | couldn't load support library
+0x16024 | 53 | ASCII | string %@ is too long to be a valid gestalt question
+0x16059 | 13 | ASCII | MGCopyAnswer
+0x16066 | 23 | ASCII | failed to transform %@
+0x1607d | 42 | ASCII | string %@ is not a valid gestalt question
+0x160a7 | 49 | ASCII | _MGServerCopyAnswer(%@) called outside of server
+0x160d8 | 54 | ASCII | server asked to answer unknown question %@ for pid %d
+0x1610e | 57 | ASCII | server asked to answer non-server question %@ for pid %d
+0x16147 | 60 | ASCII | server_access_check denied access to question %@ for pid %d
+0x16183 | 42 | ASCII | Question and answer must both be non-null
+0x161ad | 23 | ASCII | Key %@ is not settable
+0x161c4 | 39 | ASCII | Could not create SCPreferences session
+0x161eb | 37 | ASCII | Could not acquire SCPreferences lock
+0x16210 | 39 | ASCII | Could not write value to SCPreferences
+0x16237 | 42 | ASCII | Could not commit changes to SCPreferences
+0x16261 | 41 | ASCII | Could not apply changes to SCPreferences
+0x1628a | 49 | ASCII | %@ does not return a bool, actually returns a %s
+0x162bb | 71 | ASCII | no registration performed because invalid questions were passed in: %@
+0x16302 | 37 | ASCII | failed to create notification object
+0x16327 | 52 | ASCII | %@ is static and will never generate a notification
+0x1635b | 37 | ASCII | %@ cannot generate notifications yet
+0x16380 | 40 | ASCII | notification registration for %@ failed
+0x163a8 | 33 | ASCII | can't start notifications for %@
+0x163c9 | 10 | ASCII | v16@?0^v8
+0x163d3 | 41 | ASCII | v24@?0^{__CFArray=}8^{__CFDictionary=}16
+0x163fc | 6 | ASCII | black
+0x16402 | 6 | ASCII | white
+0x1640c | 7 | ASCII | silver
+0x1641d | 7 | ASCII | yellow
+0x16429 | 8 | ASCII | sparrow
+0x16431 | 49 | ASCII | %@ does not return %s or %s, actually returns %s
+0x16462 | 37 | ASCII | %@ value %@ can't be converted to %s
+0x16487 | 13 | ASCII | CFDictionary
+0x16494 | 8 | ASCII | CFArray
+0x1649c | 9 | ASCII | CFNumber
+0x164a5 | 15 | ASCII | CFNumberSInt32
+0x164b4 | 15 | ASCII | CFNumberSInt64
+0x164c3 | 16 | ASCII | CFNumberFloat32
+0x164d3 | 16 | ASCII | CFNumberFloat64
+0x164e3 | 9 | ASCII | CFString
+0x164ec | 7 | ASCII | CFData
+0x164f3 | 10 | ASCII | CFBoolean
+0x164fd | 54 | ASCII | Value for %@ has incorrect type (should be %@, is %@)
+0x16533 | 60 | ASCII | Value for %@ has incorrect type (should be CFNumber, is %@)
+0x1656f | 44 | ASCII | Value %@ for %@ cannot be represented as %s
+0x1659b | 41 | ASCII | _MGSCopyAnswerFromServer can't be loaded
+0x165c4 | 48 | ASCII | no access to %@ (see <rdar://problem/11744455>)
+0x165f4 | 29 | ASCII | can't convert type %d for %@
+0x16611 | 23 | ASCII | called dummy function!
+0x16628 | 23 | ASCII | aoAKcHLuTUp/o3squcJkhA
+0x1663f | 23 | ASCII | lo3szoQ4sLy7o3+ZD0GcAQ
+0x16656 | 23 | ASCII | q4cLktMwtrx8dCJAQTeqTg
+0x1666d | 23 | ASCII | jdLgKT+0BZmGrzd9J0cuPA
+0x16684 | 23 | ASCII | NrXe/KHDNhJ4r2SC2bMQyA
+0x1669b | 23 | ASCII | QFnvO2shAYI+d4bj3qXuFQ
+0x166b2 | 23 | ASCII | uO3aPe7lfB1XxSiz/1xBvA
+0x166c9 | 23 | ASCII | 5tnvmEsHQKfCoieLEYpnvg
+0x166e0 | 23 | ASCII | SjED0v6tcI1c4fqvuUYAqQ
+0x166f7 | 23 | ASCII | ivIu8YTDnBSrYv/SN4G8Ag
+0x1670e | 23 | ASCII | rxUlSnmihTL8oDg9Hrgq/A
+0x16725 | 23 | ASCII | bysMryc4yLwQjKvUQGGXXQ
+0x1673c | 23 | ASCII | 0Yu30fwSQVPKvHVla17kXw
+0x16753 | 23 | ASCII | SvI9oDkzw4XJFd+dKen/2Q
+0x1676a | 23 | ASCII | FOs+LbLUs+TajsEE4xkbrw
+0x16781 | 23 | ASCII | AFXhxraF1bvyaCMlBIOZPA
+0x16798 | 23 | ASCII | xJUG7IKySthRrPcxII184g
+0x167af | 23 | ASCII | DzLC4o1jZ4hWtP8aB6An6g
+0x167c6 | 23 | ASCII | Ht1HDxwTOy2gyY+THjbd6w
+0x167dd | 23 | ASCII | tdUWKiiM7JdctnzQuvaVVA
+0x167f4 | 23 | ASCII | 0uyHvVqOLpJQBpSl/rF3Vg
+0x1680b | 23 | ASCII | 0VkTunHOJrrZdolQXR5gCg
+0x16822 | 23 | ASCII | tuwdHA2NDGnLajCo5K3UUA
+0x16839 | 23 | ASCII | tYqUcLmLfhmk7vOgdFvURg
+0x16850 | 23 | ASCII | MjqwTHDneTCNeqhZ7vCvUw
+0x16867 | 23 | ASCII | jgE7MmmkZAG0BiWVqD7bMQ
+0x1687e | 23 | ASCII | Leuy56dCZmAMYoVCQGTfPA
+0x16895 | 23 | ASCII | qNNddlUK+B/YlooNoymwgA
+0x168ac | 23 | ASCII | Y2TwC8z+XeBBBswnLf7JsQ
+0x168c3 | 23 | ASCII | tUIqcYyzHuWBvBQHsLk8IQ
+0x168da | 23 | ASCII | kyxFFGn+VS4L9a/bsvm19Q
+0x168f1 | 23 | ASCII | 1N14oS9TeyskaTU1DxpwoQ
+0x16908 | 23 | ASCII | fv8ZXM/NhUHQBQqCSk19cA
+0x1691f | 23 | ASCII | ulMliLomP737aAOJ/w/evA
+0x16936 | 23 | ASCII | 6UUmcaeT7rJoyUVmoPJd4A
+0x1694d | 23 | ASCII | DdNpmCCXbeMGbqj0kAMCdw
+0x16964 | 23 | ASCII | 4Jfu4lqX8dzru4Z+ONQ1rQ
+0x1697b | 23 | ASCII | 87sSAh2rboMI2TDvFBimkg
+0x16992 | 23 | ASCII | ebyBs0j3KAquBsgcfrNZIg
+0x169a9 | 23 | ASCII | PUMArrha4PFeOqINeQRM3A
+0x169c0 | 23 | ASCII | s2UwZpwDQcywU3de47/ilw
+0x169d7 | 23 | ASCII | DViRIxZ/ZwO007CLcEYvZw
+0x169ee | 23 | ASCII | Ty5/C8UDfdjcdR853kulmA
+0x16a05 | 23 | ASCII | hykQtM0zkNe2/IY69+3PPQ
+0x16a1c | 23 | ASCII | /YYygAofPDbhrwToVsXdeA
+0x16a33 | 23 | ASCII | J912s3mVzhReVtPv4HwqNQ
+0x16a4a | 23 | ASCII | UFqkf9tcH1ltsOMzpdwSUw
+0x16a61 | 23 | ASCII | 4snMZS8LJkSctKypt2m+xA
+0x16a78 | 23 | ASCII | eu8pUYR7yo+AlS9aojlgwg
+0x16a8f | 23 | ASCII | ct5Dh6u0D6WDJKg2PrMFVQ
+0x16aa6 | 23 | ASCII | AWEfP3xWh0q1MjO3JAy/AA
+0x16abd | 23 | ASCII | xunfK8NYNCS75N2z2buKWQ
+0x16ad4 | 23 | ASCII | Mgwtle8wzQEz/0vzBk47FQ
+0x16aeb | 23 | ASCII | c7fCSBIbX1mFaRoKT5zTIw
+0x16b02 | 23 | ASCII | Z/dqyWS6OZTRy10UcmUAhw
+0x16b19 | 23 | ASCII | 0l4wqBtWEAK1tOkeBHkU6Q
+0x16b30 | 23 | ASCII | SNfDJgQFV2Xj7+WnozcJPw
+0x16b47 | 23 | ASCII | yl8qmYPdAhFLeDBho10sdQ
+0x16b5e | 23 | ASCII | Lg1EJX11Jb7EbveB6+YgVQ
+0x16b75 | 23 | ASCII | qb//mYg6KeTmjv8w4ZAMIg
+0x16b8c | 23 | ASCII | HxTvMvHnum5rI8d0Nr4xBw
+0x16ba3 | 23 | ASCII | xbNo7dj2oAnz92JhEOn9tw
+0x16bba | 23 | ASCII | IFBSPGnQVFrGFW+ujtZu6Q
+0x16bd1 | 23 | ASCII | wBVgxg3VYUU5gawcgq7MXg
+0x16be8 | 23 | ASCII | OWLyWlUOIkl+eQB7Iq37xQ
+0x16bff | 23 | ASCII | D0cJ8r7U5zve6uA6QbOiLA
+0x16c16 | 23 | ASCII | CN/XFuy/9Fdv0yE+28kwRQ
+0x16c2d | 23 | ASCII | 475wW3fne+tyzGr4wleUSQ
+0x16c44 | 23 | ASCII | xsaMbRQ5rQ+eyKMKG+ZSSg
+0x16c5b | 23 | ASCII | guykxGaRwHdenUK8fJRl8w
+0x16c72 | 23 | ASCII | D4AU4tOIuGKN3G/uix65cQ
+0x16c89 | 23 | ASCII | 1rf3rZXIZFgznqrHlPehuQ
+0x16ca0 | 23 | ASCII | WC6wwFV23k19BlUQIAwDTg
+0x16cb7 | 23 | ASCII | plaYa8bKJaAF5Erc5nvZ+g
+0x16cce | 23 | ASCII | xU1eZLRifcixnyDzjo52DQ
+0x16ce5 | 23 | ASCII | Z/TJS0IaLyq10dcSvUTGPg
+0x16cfc | 23 | ASCII | pB5sZVvnp+QjZQtt2KfQvA
+0x16d13 | 23 | ASCII | 16N2bLOzcgJEsZToEX21Zg
+0x16d2a | 23 | ASCII | DWrhyh1BwYypYmW5q78Wuw
+0x16d41 | 23 | ASCII | mVenV0u+B3ShrqRddinaFQ
+0x16d58 | 23 | ASCII | mtrAoWJ3gsq+I90ZnQ0vQw
+0x16d6f | 23 | ASCII | v5YVEwERRin1v+reUNjJ5w
+0x16d86 | 23 | ASCII | o0axLo6LGt8HbuEWdLZ92Q
+0x16d9d | 23 | ASCII | inLiSl5OQHJ1stAIvKH8wg
+0x16db4 | 23 | ASCII | rkqlwPcRHwixY4gapPjanw
+0x16dcb | 23 | ASCII | ohnQBWkVQf2nu9Vr/9uLug
+0x16de2 | 23 | ASCII | HIaq6xVZ/V8B9pnigcvqCA
+0x16df9 | 23 | ASCII | XI87Zkcr5j1B/p2dom/B6A
+0x16e10 | 23 | ASCII | yNesiJuidlesNpI/K5Ri4A
+0x16e27 | 23 | ASCII | 566JrJVMlDfnslGpwUzNlQ
+0x16e3e | 23 | ASCII | V2Ykm/0M3CA6nyNhwNInsg
+0x16e55 | 23 | ASCII | +bL/lKwaIAv+fzmjsHYZdw
+0x16e6c | 23 | ASCII | Js8HVdVGRs8m5v94pMjkRw
+0x16e83 | 23 | ASCII | 57eLnXynqDlQaGEi+9JAtQ
+0x16e9a | 23 | ASCII | +3Uf0Pm5F8Xy7Onyvko0vA
+0x16eb1 | 23 | ASCII | yMmSdMRKEHRTCQ72ltCH1w
+0x16ec8 | 23 | ASCII | hx2qJfJRLZ9Sseb37IcQow
+0x16edf | 23 | ASCII | CK3I7fFGkgeqzKEhGew9rQ
+0x16ef6 | 23 | ASCII | l/n0Z7pMB8k0GyTKz3v3Tw
+0x16f0d | 23 | ASCII | uKc7FPnEO++lVhHWHFlGbQ
+0x16f24 | 23 | ASCII | mAAbkChrX3bpxPIffHG1BQ
+0x16f3b | 23 | ASCII | c5uqoV7Z9ly+f4c5mYXILg
+0x16f52 | 23 | ASCII | eNgz35a7iZnVeEMwsBQZew
+0x16f69 | 23 | ASCII | cZflGJ39lJHTCPy35/N14Q
+0x16f80 | 23 | ASCII | nteaxwXwZWYUI9z46VDRnA
+0x16f97 | 23 | ASCII | RYO2N0gqp5hHCik2TEiSVA
+0x16fae | 23 | ASCII | 5v2p6i7PyIMdWOK4n/+G4A
+0x16fc5 | 23 | ASCII | TZ/0j62wM3D0CuRt+Nc/Lw
+0x16fdc | 23 | ASCII | IGYvMgBnOsdJjgmSh7Pe1A
+0x16ff3 | 23 | ASCII | 0uthiXrHZ212KvcJizKHEw
+0x1700a | 23 | ASCII | 7IgVvZZLtNjMFdInQlKg6A
+0x17021 | 23 | ASCII | Po0s2Vf6g2ZqymKGNLFxeQ
+0x17038 | 23 | ASCII | IBqcPacFMPIX8HMWob444A
+0x1704f | 23 | ASCII | h8xonkkn/NzDMvvCXLw8cQ
+0x17066 | 23 | ASCII | ulPs+OBjapRJaJ6Ech3OFA
+0x1707d | 23 | ASCII | fqNtLlgbYfa9gSNrhg7VGQ
+0x17094 | 23 | ASCII | HkXhfA7q9eBKIU2+6yTgQg
+0x170ab | 23 | ASCII | DGBWzPMdVuqPxgH7iSz3SA
+0x170c2 | 61 | ASCII | NewCarrierNotification,com.apple.MobileGestalt.LocaleChanged
+0x170ff | 23 | ASCII | QGmb9t2ZMFVwOImO6fewgQ
+0x17116 | 23 | ASCII | h9jDsbgj7xIVeIQ8S3/X3Q
+0x1712d | 23 | ASCII | 9n2qz3uDC5nSe1xZG1/Bkw
+0x17144 | 23 | ASCII | 9UCjT7Qfi4xLVvPAKIzTCQ
+0x1715b | 23 | ASCII | ELLSWiPOyh0roYBypZFHFA
+0x17172 | 23 | ASCII | na6PSBfq05lkAfWkwAwaGg
+0x17189 | 23 | ASCII | BhXj+5n3+0HcPoSArDGX7g
+0x171a0 | 23 | ASCII | JUWcn+5Ss0nvr5w/jk4WEg
+0x171b7 | 23 | ASCII | xleedMDMw0UV3fSgmHIoaQ
+0x171ce | 23 | ASCII | NaA/zJV7myg2w4YNmSe4yQ
+0x171e5 | 23 | ASCII | I32sGclpgl5VujQRJxyhKQ
+0x171fc | 23 | ASCII | Z3gOHeppbL6+rblIe8H5Ag
+0x17213 | 23 | ASCII | 1gsBzuZsXu2rXZJBE01M0w
+0x1722a | 23 | ASCII | sJ0n0UZHSUVJbmyy2p54Cw
+0x17241 | 23 | ASCII | mmu76v66k1dAtghToInT8g
+0x17258 | 23 | ASCII | Eavu9TP+iZ0Lzlk7FU6w6Q
+0x1726f | 23 | ASCII | AQiIpW0UeYQKnhy2da7AXg
+0x17286 | 23 | ASCII | xZm4Ky2/qswyf7ykvlchYg
+0x1729d | 23 | ASCII | APeknA55ZAcu0FcufqVN4Q
+0x172b4 | 23 | ASCII | VLfT+eziZYKNjRASM6ntnQ
+0x172cb | 23 | ASCII | Mk4ZslaChmO+6s3h7L1w6Q
+0x172e2 | 23 | ASCII | kWVFqaGBc3nOGmfM+ZpoEg
+0x172f9 | 23 | ASCII | iyfxmLogGVIaH7aEgqwcIA
+0x17310 | 23 | ASCII | CQ6gFmgMhpnnISvG6VakBQ
+0x17327 | 23 | ASCII | ueuuYQk48HGWm/cJlHq/Dw
+0x1733e | 23 | ASCII | vl45ziHlkqzh1Yt6+M9vBA
+0x17355 | 23 | ASCII | 5MSZn7w3nnJp22VbpqaxLQ
+0x1736c | 23 | ASCII | 5pYKlGnYYBzGvAlIU8RjEQ
+0x17383 | 23 | ASCII | tad3RCjcWdkyLSVI8kUBtA
+0x1739a | 23 | ASCII | CpVSHukvtqlJzCgSdoHW5w
+0x173b1 | 23 | ASCII | 7D54DikSnFQnbDEBwlKQTQ
+0x173c8 | 23 | ASCII | cX1+ZsVacGTXWVKB9enYow
+0x173df | 23 | ASCII | LAB8o3Bxs3CgNuzDawjRdw
+0x173f6 | 23 | ASCII | a5BRUxn1QBPXkAnbAHbmeg
+0x1740d | 23 | ASCII | JXmZWYUbLoumvz7hu/GL0A
+0x17424 | 23 | ASCII | 4I0hOaR3n80379Vka7u+Xg
+0x1743b | 23 | ASCII | 96GRvvjuBKkU4HzNsYcHPA
+0x17452 | 23 | ASCII | LeSRsiLoJCMhjn6nd6GWbQ
+0x17469 | 23 | ASCII | eg8KDO//lXaLwp+URGP6DA
+0x17480 | 23 | ASCII | fGpT09KNGDBjFXnqcVbgbw
+0x17497 | 23 | ASCII | +Ce1uSqGUXaJPl/uT6ur8g
+0x174ae | 23 | ASCII | fdh+s6j3VijuyrK7xLjd7g
+0x174c5 | 23 | ASCII | BoNz1QXiAEUgic9RdMVLIg
+0x174dc | 23 | ASCII | fh6DnnDGDVZ5kZ9nYn/GrQ
+0x174f3 | 23 | ASCII | PNexcW/LBlPgAm+Skp2EAg
+0x1750a | 23 | ASCII | ZeGw3VKUymUAbp4noKsxoQ
+0x17521 | 23 | ASCII | QJSuJ2zhdxYX/7DUA2JtUw
+0x17538 | 23 | ASCII | JhEU414EIaDvAz8ki5DSqw
+0x1754f | 23 | ASCII | CN64p1hw1JVdTHCfBdgPLQ
+0x17566 | 23 | ASCII | qHVhw5NhezD+ljFUPvQb4g
+0x1757d | 23 | ASCII | izFv/qj3IUhqAIiEuYH6xw
+0x17594 | 79 | ASCII | com.apple.itunesstored.accountschanged,com.apple.springboard.green-tea-changed
+0x175e3 | 23 | ASCII | 97JDvERpVwO+GHtthIh7hA
+0x175fa | 23 | ASCII | oJGeec0N+MudCr0LsdtbHw
+0x17611 | 23 | ASCII | AthxlkPBk46HtzM9AxK9vg
+0x17628 | 23 | ASCII | oBbtJ8x+s1q0OkaiocPuog
+0x1763f | 23 | ASCII | ee9YfVjjsbVte45bYSt4Wg
+0x17656 | 23 | ASCII | /bSMNaIuUT58N/BN1nYUjw
+0x1766d | 23 | ASCII | XSLlJd/8sMyXO0qtvvUTBQ
+0x17684 | 23 | ASCII | o/mXrucvBSYUXqq7K3UzKA
+0x1769b | 23 | ASCII | 0pY9r1XBV1duZ8HO3tBvFg
+0x176b2 | 23 | ASCII | KMgjmT+dsqBCXu1YQEcOFg
+0x176c9 | 23 | ASCII | f2DlVMUVcV+MeWs/g2ku+g
+0x176e0 | 23 | ASCII | 0L5PkT61qoH1b/B1USWqjQ
+0x176f7 | 23 | ASCII | 0/2HluYMd/whD80Hua4Rpw
+0x1770e | 23 | ASCII | ol92SaBpqIvQs+KBljuwGA
+0x17725 | 23 | ASCII | paR6NqTecAD44x45kzV87g
+0x1773c | 23 | ASCII | 1Rm/mWYEI5ttaC0dJ3sHBQ
+0x17753 | 23 | ASCII | Mh+drGtyBfLYKN02sROzxg
+0x1776a | 23 | ASCII | vENa/R1xAXLobl8r3PBL6w
+0x17781 | 23 | ASCII | KRT2emT8tNPMW9VUsXwT1A
+0x17798 | 23 | ASCII | 2IDxmg5KyAMBBi/b0rojgQ
+0x177af | 23 | ASCII | 7DfjbzhvH/GDkhio1dv8fA
+0x177c6 | 23 | ASCII | frZQaeyWLUvLjeuEK43hmg
+0x177dd | 23 | ASCII | KGlZoljMyZQSxfhROj0IFg
+0x177f4 | 23 | ASCII | LvCIFE6lOM10QDqIEyYWRA
+0x1780b | 23 | ASCII | OBqqs000I0SR+EbJ7VO8UQ
+0x17822 | 23 | ASCII | mumHZHMLEfAuTkkd28fHlQ
+0x17839 | 23 | ASCII | uyejyEdaxNWSRQQwHmXz1A
+0x17850 | 23 | ASCII | hiHut/WR+B9Lx/vd0WyeNg
+0x17867 | 23 | ASCII | /Pop5T2XQdDA60MRyxQJdQ
+0x1787e | 23 | ASCII | ghpAuGJlPoauWijdtPi7sQ
+0x17895 | 30 | ASCII | com.apple.mobilegestalt.plist
+0x178b3 | 23 | ASCII | 0R2aiV2nJVu/v8I7Ex2GcQ
+0x178ca | 23 | ASCII | bl+nF6e86pLBiPP4pVJ24g
+0x178e1 | 23 | ASCII | 4+qmMh9JBDh72Nq6fD64RQ
+0x178f8 | 23 | ASCII | 4W7X4OWHjri5PGaAGsCWxw
+0x1790f | 23 | ASCII | /9luHerXthRoPoNt/PVkTg
+0x17926 | 23 | ASCII | sLe8lqXRlqZM74MNUoVcyQ
+0x1793d | 23 | ASCII | f8peylp799CJta4Ev/vz8A
+0x17954 | 23 | ASCII | fW9C1U4C1FR8bwe1VqEWug
+0x1796b | 23 | ASCII | RA3I5nhSK65i1ZxkRxQKfg
+0x17982 | 23 | ASCII | NXJOYK7VhNn7ugbF2kx0zg
+0x17999 | 23 | ASCII | 9MZ5AdH43csAUajl/dU+IQ
+0x179b0 | 23 | ASCII | 9ZqSL68MJyQESzQFDvKqXA
+0x179c7 | 23 | ASCII | MulRZdIO3jyzkPar/CuDXA
+0x179de | 23 | ASCII | xUHcyT2/HE8oi/4LaOI+Sw
+0x179f5 | 23 | ASCII | UZyrJHlX635ocWEjBkt9YA
+0x17a0c | 23 | ASCII | 61xs1bQ+9eTk8tlRvG9UKw
+0x17a23 | 23 | ASCII | g7vU4YF+9Z+wkSvw/Cm8Dg
+0x17a3a | 23 | ASCII | 6k70IxahfOQTZbGwu++QwA
+0x17a51 | 23 | ASCII | ce5pjDJVSOxjcg1HwmAezA
+0x17a68 | 23 | ASCII | FDsm68UVR7l3wErusGLgKg
+0x17a7f | 23 | ASCII | H8Pi7AthQFVZ0B6A1J5OTw
+0x17a96 | 23 | ASCII | z+5gEULGC7aEYopBd4ggpA
+0x17aad | 23 | ASCII | Q5QHkCRPRmiX3L/5xxKrRg
+0x17ac4 | 23 | ASCII | /GK+yfRFY/b5ZDIDpdVImg
+0x17adb | 23 | ASCII | 7yzVesPANxqKQ+oqNPhTwg
+0x17af2 | 23 | ASCII | Tr9qG122eEQiKGfr6EGRdQ
+0x17b09 | 23 | ASCII | 03hWmMtMs+4nzama4/PzHQ
+0x17b20 | 23 | ASCII | Qq9/Mya05P4ToEr1pMpGGg
+0x17b37 | 23 | ASCII | qWGVjnlN/wWMhlWgfNcSBg
+0x17b4e | 23 | ASCII | kKgJsWN/rBUAkimOtm/wbA
+0x17b65 | 23 | ASCII | 38C0kq9NiVaMsqjlUsCHcQ
+0x17b7c | 23 | ASCII | 1qJmMHedWOh43VwRKPdDrw
+0x17b93 | 23 | ASCII | eXCYx/SHTZIn5LInWvZByw
+0x17baa | 23 | ASCII | PQzmRjKVMistuIVsqs6QXA
+0x17bc1 | 23 | ASCII | H5HW20mJr/djc40tAehkww
+0x17bd8 | 23 | ASCII | ChBMzkxYdT9Xmw3QN5kMWA
+0x17bef | 23 | ASCII | FkD7K642S082lnfw/ohHzg
+0x17c06 | 23 | ASCII | pCbWB0w5vhsKbGJHs/c1jQ
+0x17c1d | 23 | ASCII | 1qDdT/85SS7sxriK0wIbbg
+0x17c34 | 23 | ASCII | EqrsVvjcYDdxHBiQmGhAWw
+0x17c4b | 23 | ASCII | gPoIZFd4NhmSKrk67qH80w
+0x17c62 | 23 | ASCII | cHla4KIe1wv0OvpRVrzy/w
+0x17c79 | 23 | ASCII | L2Oq7vNNUKuv+iJ4m9xtiw
+0x17c90 | 23 | ASCII | 39ZkJVEsL4pmCXbg+89QmQ
+0x17ca7 | 23 | ASCII | OPzhvROZUqCZhgYMyve5BA
+0x17cbe | 23 | ASCII | whbsdxpLirBFgUbLH3+0JA
+0x17cd5 | 23 | ASCII | P6z8eNrRPcv0AcKPML0iow
+0x17cec | 23 | ASCII | a6vjPkzcRjrsXmniFsm0dg
+0x17d03 | 23 | ASCII | eH9J8yYIjbRNxg2EeYvNFg
+0x17d1a | 23 | ASCII | kt7gXeIiU0dLEKrgUSsLVw
+0x17d31 | 23 | ASCII | 5mvQIwu3Mqqw/zOKmwGkWw
+0x17d48 | 23 | ASCII | NPzjaX07XnS4KcMZ+l8ymA
+0x17d5f | 23 | ASCII | Nhm02nvVOaQPimpOshlO1g
+0x17d76 | 23 | ASCII | i8+iwUtLtB5jT+WNvqwrEA
+0x17d8d | 23 | ASCII | RLlZndRrTB3oIDuZEihtpQ
+0x17da4 | 23 | ASCII | XEoV4os3FAUL7yHDxWmSMw
+0x17dbb | 23 | ASCII | m+FD6mX8VZzP95hOhM+jow
+0x17dd2 | 23 | ASCII | HMKkoKYsMmBBSN6ozOtw/w
+0x17de9 | 23 | ASCII | 6pjDdEw65TFyL1FmIdszXw
+0x17e00 | 23 | ASCII | 1X0zc2JwBdYOQrMAyP81DQ
+0x17e17 | 23 | ASCII | L+KOzmOzO5DiJUZl21QGVg
+0x17e2e | 23 | ASCII | 81Zj1535/jeXbmfOndlIVA
+0x17e45 | 23 | ASCII | EQvKwl1eIhCS1hb6EURKWg
+0x17e5c | 23 | ASCII | dp7SlZZQotrh8McQoH1xFA
+0x17e73 | 23 | ASCII | spGVujDEmyCzDznXozB3oA
+0x17e8a | 23 | ASCII | ZiSlYxYSkyaYImU3lrSXWw
+0x17ea1 | 23 | ASCII | RECLuzbJ6oh8q4NKR8RtNg
+0x17eb8 | 23 | ASCII | k7QIBwZJJOVw+Sej/8h8VA
+0x17ecf | 23 | ASCII | RYZZuAFEfSNnEKEzwzRnqw
+0x17ee6 | 23 | ASCII | xSh3mf5+Zuoz6xhxEah0zQ
+0x17efd | 23 | ASCII | 8Shl+AdVKo09f1Sldkb0kA
+0x17f14 | 23 | ASCII | gKzNJcweSCWA+gIGiUQJ5w
+0x17f2b | 23 | ASCII | g+9NpjmSVwtomd8nyNJimg
+0x17f42 | 29 | ASCII | IODeviceTree:/product/camera
+0x17f5f | 23 | ASCII | LWxSM4CmFZMwzYclSh43gg
+0x17f76 | 14 | ASCII | device-colors
+0x17f84 | 27 | ASCII | unknown dclr version %u.%u
+0x17fdc | 13 | ASCII | als-colorCfg
+0x17fe9 | 20 | ASCII | noMultiColorSupport
+0x17ffd | 23 | ASCII | Vn4SAODWQXeOOIVBe8CXTg
+0x18014 | 28 | ASCII | copyDeviceSupportsTethering
+0x18030 | 43 | ASCII | {?=ii}24@?0^{__CTServerConnection=}8r^^v16
+0x1805b | 23 | ASCII | jSDzacs4RYWnWxn142UBLQ
+0x18072 | 53 | ASCII | com.apple.private.MobileGestalt.AllowedProtectedKeys
+0x180a7 | 35 | ASCII | pid %d entitlement is not an array
+0x180ca | 23 | ASCII | LBJfwOEzExRxzlAnSuI7eg
+0x180e1 | 57 | ASCII |  but IS appropriately entitled; all is good in the world
+0x1811a | 76 | ASCII | pid %d (%s) IS appropriately entitled to fetch %@; all is good in the world
+0x18166 | 35 | ASCII |  and IS NOT appropriately entitled
+0x18189 | 54 | ASCII | pid %d (%s) IS NOT appropriately entitled to fetch %@
+0x181bf | 14 | ASCII | net.link.addr
+0x181cd | 48 | ASCII | pid %d (%s) does not have sandbox access for %@
+0x181fd | 12 | ASCII | system-info
+0x18209 | 21 | ASCII | IODeviceTree:/chosen
+0x1821e | 23 | ASCII | mac-address-bluetooth0
+0x18235 | 10 | ASCII | bluetooth
+0x1823f | 6 | ASCII | %d-%d
+0x18245 | 23 | ASCII | hK/qlAUuu8u6SvIRkKmjQQ
+0x1825c | 23 | ASCII | 6iI7/9cVUGIjdrSvIXEt4A
+0x18273 | 23 | ASCII | H97G3GzDYb4wY5kwJ0AKfQ
+0x1828a | 23 | ASCII | AJFQheZDyUbvI6RmBMT9Cg
+0x182a1 | 23 | ASCII | MTa8c+pEdbK0tHGXP06xOw
+0x182b8 | 23 | ASCII | XFtUsQP3AyqT4CazSb5VCw
+0x182cf | 62 | ASCII | /var/mobile/Library/Preferences/com.apple.MobileGestalt.plist
+0x1830d | 12 | ASCII | EnableStark
+0x18319 | 23 | ASCII | d27R2IjPvpwp+MX/kUbJ2w
+0x18330 | 23 | ASCII | 8QNz35Yxm0KqxP1JiE0HIw
+0x18347 | 30 | ASCII | %02x:%02x:%02x:%02x:%02x:%02x
+0x18365 | 23 | ASCII | Nmhz54v5ZLqj2I4NPFIFqQ
+0x1837c | 13 | ASCII | ChipSerialNo
+0x18389 | 23 | ASCII | VG9TCKNqNLCHk0J6zTkuVQ
+0x183a0 | 23 | ASCII | aOq/O8u9f/bpWUnKco+xgA
+0x183b7 | 7 | ASCII | NoWiFi
+0x183be | 23 | ASCII | RegionalBehaviorNoWiFi
+0x183d5 | 9 | ASCII | baseband
+0x183de | 11 | ASCII | region-sku
+0x183e9 | 18 | ASCII | main-screen-scale
+0x183fb | 23 | ASCII | yPSUYPhrVLHnvX0TUugiwg
+0x18412 | 13 | ASCII | /private/var
+0x1841f | 24 | ASCII | Could not statfs %s: %s
+0x18437 | 31 | ASCII | IODeviceTree:/product/facetime
+0x18456 | 23 | ASCII | S5Bf9bF00BTHrySCydAkdg
+0x1846d | 16 | ASCII | IOPMPowerSource
+0x1847d | 22 | ASCII | ExternalChargeCapable
+0x18497 | 12 | ASCII | multi-touch
+0x184a8 | 23 | ASCII | 7qHcAWI5X9b1SiyYIg/Byw
+0x184bf | 23 | ASCII | eZS2J+wspyGxqNYZeZ/sbA
+0x184d6 | 18 | ASCII | mac-address-wifi0
+0x184f2 | 23 | ASCII | mtHZd1H8XJ2DMVtNVUSkag
+0x18509 | 27 | ASCII | IODeviceTree:/product/maps
+0x18524 | 23 | ASCII | uX7jRkb03eqRdXSWq5ItkA
+0x1853b | 23 | ASCII | ZApuwHXWV8RCz0iVzMnqLw
+0x18552 | 23 | ASCII | +VIu65zA5EW4ztayJXvOUg
+0x18569 | 8 | ASCII | Unknown
+0x18571 | 36 | ASCII | _CTServerConnectionGetSIMTrayStatus
+0x18595 | 23 | ASCII | k5lVWbXuiZHLA17KGiVUAA
+0x185ac | 23 | ASCII | 7l0BaQsNxJCanoeHMJ2huA
+0x185c3 | 44 | ASCII | _CTServerConnectionCopyFirmwareManifestData
+0x185ef | 23 | ASCII | IOPlatformExpertDevice
+0x18606 | 12 | ASCII | region-info
+0x18612 | 23 | ASCII | pxqIJ789zCoOILWO6cQ52Q
+0x18629 | 46 | ASCII | _CTServerConnectionCopyFirmwareManifestStatus
+0x18657 | 39 | ASCII | _CTServerConnectionCopyFirmwareVersion
+0x1867e | 6 | ASCII | arm64
+0x18684 | 19 | ASCII | IOAccessoryManager
+0x18697 | 23 | ASCII | IOAccessoryManagerType
+0x186ae | 13 | ASCII | v20@?0I8^B12
+0x186bb | 23 | ASCII | 1uZbhSbBhsNCsVSsopZ4qg
+0x186d2 | 23 | ASCII | MXZ7vg7hul895QdsLUBJFA
+0x186e9 | 23 | ASCII | DIXX7JMbm7glu49f+xi4zQ
+0x18700 | 14 | ASCII | EUVolumeLimit
+0x1870e | 30 | ASCII | RegionalBehaviorEUVolumeLimit
+0x1872c | 7 | ASCII | CertID
+0x18733 | 11 | ASCII | GoldCertID
+0x1873e | 23 | ASCII | bxQyyA/qJ3QQXTiHBsW2eg
+0x18755 | 23 | ASCII | R836fJkaZ8xrq3rSCYjxSw
+0x1876c | 23 | ASCII | aH78kNnsHDm9yHe6vSJYNw
+0x18783 | 23 | ASCII | PTfO3r9syJ45k+OItTlD3Q
+0x1879a | 6 | ASCII | disk0
+0x187a0 | 8 | ASCII | Content
+0x187a8 | 23 | ASCII | MWpHV1VYKXmaKqhgbmTWCg
+0x187bf | 23 | ASCII | lSpe1QHIya0aeNrjLTtaJA
+0x187d6 | 56 | ASCII | /var/mobile/Library/Preferences/com.apple.carrier.plist
+0x1880e | 11 | ASCII | AllowsVoIP
+0x18819 | 23 | ASCII | 6MnVtR+c9LeR46bMxvR5Yw
+0x18830 | 23 | ASCII | L5al7b+7JATD/izSJeH0aQ
+0x1884c | 34 | ASCII | Could not determine DTProductType
+0x1886e | 23 | ASCII | IODeviceTree:/baseband
+0x18885 | 23 | ASCII | BYYil6kIk8Hm5lRuA1k8Tw
+0x1889c | 23 | ASCII | BOPZue5C0v42pU9iJFYE3A
+0x188b3 | 23 | ASCII | g1gP4TOlkv84ezeaZrUgFg
+0x188ca | 11 | ASCII | IsCharging
+0x188d5 | 9 | ASCII | vibrator
+0x188e3 | 25 | ASCII | IODeviceTree:/arm-io/vxd
+0x188fc | 23 | ASCII | 61o7Kdx4PeNILOhWfiXBtA
+0x18913 | 23 | ASCII | nv4RoLkNoPT0/rsO8Yaiew
+0x1892a | 23 | ASCII | 2pxKjejpRGpWvUE+3yp5mQ
+0x18941 | 24 | ASCII | NoPasscodeLocationTiles
+0x18959 | 40 | ASCII | RegionalBehaviorNoPasscodeLocationTiles
+0x18981 | 23 | ASCII | xOJfWykLmQCc8lKlzMlrLA
+0x18998 | 23 | ASCII | UserAssignedDeviceName
+0x189af | 32 | ASCII | failed to get WiFiManagerClient
+0x189cf | 9 | ASCII | v12@?0B8
+0x189d8 | 25 | ASCII | MobileGestaltRunLoopMode
+0x189f1 | 22 | ASCII | B16@?0^{?=(?=@?@?)B}8
+0x18a07 | 12 | ASCII | WAPIEnabled
+0x18a13 | 26 | ASCII | unknown type for value %@
+0x18a2d | 15 | ASCII | statfs(%s): %s
+0x18a3c | 23 | ASCII | XkfGVYlrkBQJgaGabHESJQ
+0x18a53 | 23 | ASCII | 8/tysfSvORoyVg9IE901oQ
+0x18a6a | 8 | ASCII | unknown
+0x18a72 | 14 | ASCII | #%02x%02x%02x
+0x18a80 | 45 | ASCII | /System/Library/CoreServices/SpringBoard.app
+0x18aad | 36 | ASCII | IOHIDEventSystemClientCreate failed
+0x18ad1 | 17 | ASCII | PrimaryUsagePage
+0x18ae2 | 13 | ASCII | PrimaryUsage
+0x18aef | 42 | ASCII | IOHIDEventSystemClientCopyServices failed
+0x18b19 | 12 | ASCII | no services
+0x18b25 | 30 | ASCII | CFArrayGetValueAtIndex failed
+0x18b43 | 37 | ASCII | IOHIDEventCreateKeyboardEvent failed
+0x18b68 | 17 | ASCII | IOAESAccelerator
+0x18b79 | 17 | ASCII | CrashReporter-ID
+0x18b8a | 45 | ASCII | CrashReporter-ID is not the expected length.
+0x18bb7 | 81 | ASCII | %02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x
+0x18c08 | 25 | ASCII | IODeviceTree:/arm-io/sep
+0x18c21 | 23 | ASCII | aNZeCyuWxI6SE/KwZ129wA
+0x18c38 | 23 | ASCII | nFRqKto/RuQAV1P+0/qkBA
+0x18c4f | 23 | ASCII | VasUgeSzVyHdB27g2XpN0g
+0x18c66 | 28 | ASCII | Could not get serial number
+0x18c82 | 23 | ASCII | gI6iODv8MZuiP0IA+efJCw
+0x18c99 | 27 | ASCII | Could not get wifi address
+0x18cb4 | 32 | ASCII | Could not get bluetooth address
+0x18cd4 | 23 | ASCII | QZgogo2DypSAZfkRW4dP/A
+0x18ceb | 19 | ASCII | Could not get IMEI
+0x18cff | 23 | ASCII | TF31PAB6aO8KAbPyNKSxKA
+0x18d16 | 29 | ASCII | Could not get unique chip ID
+0x18d33 | 34 | ASCII | Could not extract ECID as integer
+0x18d59 | 33 | ASCII | Could not determine UDID version
+0x18d7a | 9 | ASCII | %@%@%@%@
+0x18d83 | 36 | ASCII | Could not create a mutable CFString
+0x18da7 | 32 | ASCII | couldn't extract string to hash
+0x18dc7 | 6 | ASCII | B8@?0
+0x18dcd | 23 | ASCII | GnhnHyRVCC8LUClgElhKXA
+0x18de4 | 23 | ASCII | /2V8H9h/+z0UxNUr9aRLeQ
+0x18dfb | 23 | ASCII | IAJzgzhEVk3SMNuEhChs2w
+0x18e12 | 23 | ASCII | GvmsjQ/68T7do2CJxUhMig
+0x18e29 | 11 | ASCII | ChinaBrick
+0x18e34 | 27 | ASCII | RegionalBehaviorChinaBrick
+0x18e4f | 44 | ASCII | com.apple.springboard.curvedBatteryCapacity
+0x18e7b | 60 | ASCII | Could not get curved battery status. Falling back to IOKit.
+0x18eb7 | 12 | ASCII | MaxCapacity
+0x18ec3 | 16 | ASCII | CurrentCapacity
+0x18ed3 | 45 | ASCII | Could not lookup battery's current capacity\n
+0x18f00 | 6 | ASCII | Valid
+0x18f06 | 22 | ASCII | RegionalBehaviorValid
+0x18f1c | 32 | ASCII | Could not get power source info
+0x18f3c | 36 | ASCII | Could not get list of power sources
+0x18f60 | 42 | ASCII | Could not get dictionary for power source
+0x18f8a | 19 | ASCII | Power Source State
+0x18f9d | 55 | ASCII | No kIOPSPowerSourceStateKey in power source dictionary
+0x18fd4 | 9 | ASCII | AC Power
+0x18fdd | 17 | ASCII | Current Capacity
+0x18fee | 54 | ASCII | No kIOPSCurrentCapacityKey in power source dictionary
+0x19024 | 36 | ASCII | Could not convert CFNumber to float
+0x19048 | 13 | ASCII | Max Capacity
+0x19055 | 50 | ASCII | No kIOPSMaxCapacityKey in power source dictionary
+0x19087 | 38 | ASCII | Battery max capacity is reported as 0
+0x190ad | 23 | ASCII | 1z6Kk4xUAVLdaBPGugsDSA
+0x190c4 | 51 | ASCII | _CTServerConnectionCopyMobileSubscriberNetworkCode
+0x190f7 | 23 | ASCII | ND6ZSbBBgMgwtMfh+OL5Wg
+0x1910e | 15 | ASCII | IODeviceTree:/
+0x1911d | 23 | ASCII | Fam17Ufz3CiHdZPcma0AeQ
+0x19137 | 60 | ASCII | /var/mobile/Library/Preferences/com.apple.springboard.plist
+0x19173 | 28 | ASCII | SBShowITunesStoreOnGreenTea
+0x1918f | 30 | ASCII | com.apple.mobile.iTunes.store
+0x191ad | 11 | ASCII | DSPersonID
+0x191b8 | 21 | ASCII | NoTelephonyCapabilty
+0x191cd | 23 | ASCII | vaiFeAcMTIDXMSxTr8JwCw
+0x191e4 | 57 | ASCII | No status in postponement info for copyBasebandStatusKey
+0x1921d | 15 | ASCII | BBNotAnswering
+0x1922c | 16 | ASCII | BBInfoAvailable
+0x1923c | 11 | ASCII | BBNotReady
+0x19247 | 8 | ASCII | BBError
+0x1924f | 17 | ASCII | BBRejectedTicket
+0x19260 | 15 | ASCII | SIMNotInserted
+0x1926f | 16 | ASCII | Other-CheckLogs
+0x1927f | 23 | ASCII | TXZxlSojLMQyLqusm9aa/g
+0x19296 | 23 | ASCII | lMKshPs7fX9YxDSOEXnoiw
+0x192ad | 23 | ASCII | IUvPFaILUl3l0684dR0AlA
+0x192c4 | 23 | ASCII | grEfqkFsEkgnJH1nl9sodw
+0x192db | 23 | ASCII | iFOX66VmcijipO3YRc+AXg
+0x192f2 | 23 | ASCII | TTZrMo1OOEUELa7asaQ7xg
+0x19309 | 23 | ASCII | 7W2eNk/f6uewC8N58mlRrQ
+0x19320 | 9 | ASCII | encoding
+0x19329 | 25 | ASCII | IODeviceTree:/arm-io/isp
+0x19342 | 23 | ASCII | X9NA3D+PguwY0i0Uffl07Q
+0x19359 | 19 | ASCII | IOSDIOIoCardDevice
+0x1936c | 19 | ASCII | IOSDIOProductInfo1
+0x1937f | 23 | ASCII | IMlsLCL69XUZau9QyPnxeQ
+0x19396 | 23 | ASCII | nudr7/i2XcxAX6widrWShg
+0x193ad | 23 | ASCII | cganRwxlDnONJx4WeDI0kQ
+0x193c4 | 15 | ASCII | itunes-min-ver
+0x193d3 | 29 | ASCII | couldn't get itunes-min-ver\n
+0x193f0 | 9 | ASCII | %d.%d.%d
+0x193f9 | 23 | ASCII | +U0jSj4F2EfE+Vqj22IavA
+0x19410 | 17 | ASCII | development-cert
+0x19421 | 23 | ASCII | ErupMbaQrM6KypD4K0kTDQ
+0x19438 | 23 | ASCII | a13V9f9x26JcQCfczZAVAw
+0x1944f | 23 | ASCII | BOYfUi496moe56A0RWFbqQ
+0x19466 | 11 | ASCII | GoogleMail
+0x19471 | 27 | ASCII | RegionalBehaviorGoogleMail
+0x1948c | 23 | ASCII | 50/CmBTX6jhkb8Z61hzwhQ
+0x194a3 | 23 | ASCII | 9/J7LY7zuYSGW1BcSTRpOw
+0x194ba | 14 | ASCII | platform-name
+0x194c8 | 15 | ASCII | AllowsFaceTime
+0x194d7 | 60 | ASCII | _CTServerConnectionCopyLastKnownMobileSubscriberCountryCode
+0x19513 | 23 | ASCII | yRZv0s7Dpj8ZBk0S+0+nMA
+0x1952d | 23 | ASCII | g7yZjVHqRxbfXOqns+Sm9w
+0x19544 | 23 | ASCII | g7YQ1Djxh4YiKlEeaoGhzg
+0x1955b | 23 | ASCII | OjzOua0LkOegX7pQdgMksw
+0x19572 | 28 | ASCII | %dx%d not in landscape mode
+0x19597 | 12 | ASCII | AspectRatio
+0x195a3 | 11 | ASCII | Captioning
+0x195ae | 10 | ASCII | FitSystem
+0x195b8 | 7 | ASCII | Signal
+0x195bf | 7 | ASCII | System
+0x195c6 | 8 | ASCII | iPodOut
+0x195d2 | 11 | ASCII | ScaleToFit
+0x195dd | 12 | ASCII | DisplayPort
+0x195ee | 23 | ASCII | qOwiNS0eFEq9oi3MNsgxWg
+0x19605 | 6 | ASCII | Nonce
+0x1960b | 12 | ASCII | device-imei
+0x19617 | 14 | ASCII | pref-decoding
+0x19625 | 23 | ASCII | tOLVnZop4m/g5/iuC7zlUw
+0x1963c | 47 | ASCII | _CTServerConnectionGetActiveWirelessTechnology
+0x1966b | 23 | ASCII | oTuH4/axV9s11/jKxB2z2A
+0x19682 | 23 | ASCII | aCuWsar9Ayou7Vfkh7fdLw
+0x19699 | 23 | ASCII | 91LyMcx4z1w3SGVeqteMnA
+0x196b0 | 27 | ASCII | failed to fetch region sku
+0x196cb | 6 | ASCII | NonUI
+0x196d1 | 23 | ASCII | kc+QzHP4Frf2NvP+mclQ2A
+0x196e8 | 23 | ASCII | Yk5H+MlMreeaBLjv6PPFDw
+0x196ff | 23 | ASCII | 9s45ldrCC1WF+7b6C4H2BA
+0x19716 | 26 | ASCII | AppleDiagnosticDataSysCfg
+0x19730 | 9 | ASCII | B12@?0I8
+0x19739 | 20 | ASCII | invalid syscfg data
+0x1974d | 40 | ASCII | syscfg data appears to be uninitialized
+0x19775 | 23 | ASCII | F2M6lgy8EHCyR6hc00hMcg
+0x1978c | 23 | ASCII | Q1Ty5w8gxMWHx3p4lQ1fhA
+0x197a3 | 18 | ASCII | mlb-serial-number
+0x197b5 | 18 | ASCII | ExternalConnected
+0x197c7 | 23 | ASCII | TqrlqJOZiAuRx8Qu3SVr+Q
+0x197de | 23 | ASCII | 2aIAScwtFNCz+Y7WesMOCA
+0x197f5 | 12 | ASCII | ReleaseType
+0x19801 | 9 | ASCII | Internal
+0x1980a | 14 | ASCII | Lite Internal
+0x19818 | 8 | ASCII | Carrier
+0x19820 | 23 | ASCII | PUY/n3uJEk8GSE+RjkHHAA
+0x19837 | 23 | ASCII | 7VoVaBmSuokzovhUkiDx6Q
+0x1984e | 11 | ASCII | bitrate-3g
+0x19859 | 26 | ASCII | AllowFaceTimeOverCellular
+0x19873 | 23 | ASCII | n/G0fQIQiom+pb4tHA4Mmw
+0x1988a | 23 | ASCII | BQwz+BT9b5mS7OPh2WGD6A
+0x198a1 | 23 | ASCII | 5MXFoiW2zgxfIbaaTb/wvA
+0x198b8 | 18 | ASCII | main-screen-width
+0x198ca | 19 | ASCII | main-screen-height
+0x198dd | 18 | ASCII | main-screen-pitch
+0x198ef | 24 | ASCII | main-screen-orientation
+0x19907 | 18 | ASCII | main-screen-class
+0x19919 | 23 | ASCII | yeaE9+OrN2WJlWkDroMtZg
+0x19930 | 60 | ASCII | /System/Library/PrivateFrameworks/Sharing.framework/Sharing
+0x1996c | 23 | ASCII | aHrkhDFY/f2ophZ5/MqX0w
+0x19983 | 23 | ASCII | F6wqOqCR9tpYWyB1taxxnw
+0x1999a | 16 | ASCII | AppleSEPManager
+0x199aa | 23 | ASCII | uAIY4Jb2A7Fy2aLrlDU1gg
+0x199c1 | 14 | ASCII | AppleBaseband
+0x199cf | 7 | ASCII | armv7s
+0x199d6 | 23 | ASCII | M+eWZ6Zk/aJIsnIrv4zdAg
+0x199ed | 23 | ASCII | P1djMN/L3B6otgGpO9WYkw
+0x19a04 | 7 | ASCII | ChipID
+0x19a0b | 23 | ASCII | CzGP5+8jQECJMH4h+z4TYA
+0x19a22 | 23 | ASCII | is3zjHrEdiF6J/boqghy9A
+0x19a39 | 23 | ASCII | XrPbSCNx9X7Lyw9oGPgMDQ
+0x19a50 | 20 | ASCII | wireless-board-snum
+0x19a64 | 23 | ASCII | com.apple.radios.plist
+0x19a7b | 13 | ASCII | AirplaneMode
+0x19a88 | 23 | ASCII | RrhB72r1de9N65EG4pgqJw
+0x19a9f | 23 | ASCII | Oji6HRoPi7rH7HPdWVakuw
+0x19ab6 | 23 | ASCII | 8bOgXKgqoLvqV/XeSomAfA
+0x19acd | 23 | ASCII | HzddeW2/HtdBNAc5tsFtDg
+0x19ae4 | 23 | ASCII | MvBKQ+GSnR3DjkovgNL+3w
+0x19afb | 23 | ASCII | 67x5O+zO+JwnGgmKlq+qdA
+0x19b12 | 23 | ASCII | 4uzgAFPkzKUmlZG5HpFIkg
+0x19b29 | 23 | ASCII | W5kTfIuxkKpHVdWTk42C9A
+0x19b40 | 23 | ASCII | ToJGxfcjkIerYyeL2e8c4A
+0x19b57 | 20 | ASCII | baseband-board-snum
+0x19b6b | 20 | ASCII | hw.cpu64bit_capable
+0x19b7f | 17 | ASCII | sysctlbyname: %s
+0x19b90 | 23 | ASCII | /l0Kz2akvSvEHTNmZeY0nQ
+0x19ba7 | 23 | ASCII | 8/HMvzDR3J6m0aY3NYeqcg
+0x19bbe | 48 | ASCII | MKBGetDeviceLockState returned unknown state %d
+0x19bee | 18 | ASCII | socket failed: %s
+0x19c00 | 22 | ASCII | getifaddrs failed: %s
+0x19c16 | 25 | ASCII | SIOCGIFEFLAGS failed: %s
+0x19c2f | 23 | ASCII | LXP9TbNYtZrIKOktGXez2Q
+0x19c46 | 23 | ASCII | v/BP9Nx/zfo9bKi9JR2p+g
+0x19c5d | 11 | ASCII | iPod touch
+0x19c68 | 9 | ASCII | Apple TV
+0x19c71 | 16 | ASCII | DeviceUsagePage
+0x19c81 | 12 | ASCII | DeviceUsage
+0x19c8d | 23 | ASCII | u3c0R+31Df4SUTHrICQkTg
+0x19ca4 | 23 | ASCII | SMgTCc2v9AU2ziIHRX8qww
+0x19cbb | 8 | ASCII | GB18030
+0x19cc3 | 24 | ASCII | RegionalBehaviorGB18030
+0x19cdb | 23 | ASCII | zPSNnYDFk+x5ebOtenb3Eg
+0x19cf2 | 22 | ASCII | SCPreferencesLock: %s
+0x19d08 | 19 | ASCII | SBAllowSensitiveUI
+0x19d1b | 54 | ASCII | /System/Library/CoreServices/SBTeaLeafOverrides.plist
+0x19d51 | 23 | ASCII | 8bY/L3i3rmxrl4ZjFZZpgQ
+0x19d68 | 23 | ASCII | pdFo85PUvIiT4FjAT6Amcw
+0x19d7f | 23 | ASCII | xXBT4e92qXwQo3SYmACj3w
+0x19d96 | 23 | ASCII | KLB4sM/KC38QT+dTuDC/aA
+0x19dad | 23 | ASCII | knoZzQDWpu6OQWS7wgRWLg
+0x19dc4 | 23 | ASCII | 7ot70MKj7EdRIEEi91jlcg
+0x19ddb | 46 | ASCII | _CTServerConnectionCopyCarrierBundleInfoArray
+0x19e09 | 23 | ASCII | zHeENZu+wbg7PUprwNwBWg
+0x19e20 | 31 | ASCII | Could not retrieve region info
+0x19e41 | 13 | ASCII | model-number
+0x19e4e | 8 | ASCII | Desense
+0x19e56 | 19 | ASCII | SupportedKeyboards
+0x19e69 | 21 | ASCII | RegionalBehaviorNTSC
+0x19e7e | 23 | ASCII | lR7sjp4tOz3cMWoEMlZrLA
+0x19e95 | 12 | ASCII | VolumeLimit
+0x19ea1 | 28 | ASCII | RegionalBehaviorVolumeLimit
+0x19ebd | 8 | ASCII | compass
+0x19ec5 | 20 | ASCII | compass-calibration
+0x19ed9 | 23 | ASCII | lwHRTZNO5Jq87pVlzdNGIA
+0x19ef0 | 9 | ASCII | decoding
+0x19ef9 | 13 | ASCII | product-name
+0x19f06 | 20 | ASCII | IONetworkController
+0x19f1a | 18 | ASCII | IONetworkRootType
+0x19f2c | 8 | ASCII | airport
+0x19f34 | 16 | ASCII | IOPropertyMatch
+0x19f44 | 10 | ASCII | vendor-id
+0x19f4e | 43 | ASCII | failed to fetch wifi vendor (no vendor-id)
+0x19f79 | 43 | ASCII | failed to fetch wifi vendor (no wifi node)
+0x19fa4 | 23 | ASCII | re6Zb+zwFKJNlkQTUeT+/w
+0x19fbb | 41 | ASCII | ffffffffffffffffffffffffffffffffffffffff
+0x19fe4 | 33 | ASCII | IODeviceTree:/arm-io/i2c0/audio0
+0x1a005 | 23 | ASCII | KWr9OM2iqeLQEhaHS0UshQ
+0x1a01c | 22 | ASCII | mac-address-ethernet0
+0x1a032 | 9 | ASCII | ethernet
+0x1a03b | 23 | ASCII | K0tZN4PayAx7RgB0M+oohw
+0x1a052 | 14 | ASCII | pref-encoding
+0x1a060 | 23 | ASCII | kjKnJNt7HY90iN6rpbSeFQ
+0x1a077 | 13 | ASCII | IODeviceTree
+0x1a084 | 16 | ASCII | no-sdio-devices
+0x1a094 | 23 | ASCII | IFHQSJ65DoElWQl/+eCfNQ
+0x1a0ab | 19 | ASCII | AppleMobileApNonce
+0x1a0be | 23 | ASCII | I+ptihXW+rMeySVUWURNiw
+0x1a0d5 | 23 | ASCII | YcNAX0Gc6KejQPKSrA9kvg
+0x1a0ec | 23 | ASCII | 0jjK6IVSQzA8doQeSwmujA
+0x1a103 | 23 | ASCII | kQ8nm82jb5iTBUwT2M3aIQ
+0x1a11a | 23 | ASCII | e9aZViEIJ/riA4pRfg1ihg
+0x1a131 | 23 | ASCII | na77zbwlhy0V7shc4ORRgA
+0x1a148 | 23 | ASCII | j4dedPnpeXouudM1+j3dsQ
+0x1a15f | 17 | ASCII | prox-calibration
+0x1a170 | 22 | ASCII | prox-calibration-blob
+0x1a186 | 23 | ASCII | 9RreaA6rTvewPbqQy5ldRg
+0x1a19d | 23 | ASCII | U1fcnNYCEu9uH1bg3/6PKQ
+0x1a1b4 | 23 | ASCII | Ini7+h7Q4ZZctfFM9+KTBw
+0x1a1cb | 23 | ASCII | wAbB2fAjUqUc6lNBelfWMA
+0x1a1e2 | 66 | ASCII | /AppleInternal/Library/PreferenceBundles/Internal Settings.bundle
+0x1a224 | 13 | ASCII | FullyCharged
+0x1a231 | 23 | ASCII | 2lNKobEIQqX50ohy1JBqCA
+0x1a248 | 13 | ASCII | ShutterClick
+0x1a255 | 29 | ASCII | RegionalBehaviorShutterClick
+0x1a272 | 26 | ASCII | /Applications/AppleTV.app
+0x1a28c | 11 | ASCII | DeviceName
+0x1a297 | 12 | ASCII | SpringBoard
+0x1a2a3 | 23 | ASCII | D3LeXyjrxDFYSi6pWFEL4A
+0x1a2ba | 23 | ASCII | wlxZYdEZITDTzgs/OnnV+Q
+0x1a2d1 | 23 | ASCII | VrWzQGQK9Fbp/RqeQ08VzA
+0x1a2e8 | 23 | ASCII | IOPlatformSerialNumber
+0x1a2ff | 24 | ASCII | IOSDIOManufacturerTuple
+0x1a317 | 23 | ASCII | ZgIjA7Nwd2jSo13lhDO1Iw
+0x1a32e | 38 | ASCII | RequiredBatteryLevelForSoftwareUpdate
+0x1a354 | 24 | ASCII | AppleHDQGasGaugeControl
+0x1a36c | 23 | ASCII | IMLaTlxS7ITtwfbRfPYWuA
+0x1a383 | 23 | ASCII | XQBHOWjPt2P+uNqlLm1P7A
+0x1a39a | 42 | ASCII | _CTServerConnectionCopyPostponementStatus
+0x1a3c4 | 56 | ASCII | _CTServerConnectionCopyPostponementStatus returned NULL
+0x1a3fc | 31 | ASCII | No status in postponement info
+0x1a41b | 32 | ASCII | _CTServerConnectionGetSIMStatus
+0x1a43b | 24 | ASCII | no sim status available
+0x1a457 | 24 | ASCII | procedural-antialiasing
+0x1a46f | 23 | ASCII | WbcphnnzI6Yb5r/AzwiyUA
+0x1a486 | 16 | ASCII | opengl-standard
+0x1a496 | 23 | ASCII | xOEH0P1H/1jmYe2t54+5cQ
+0x1a4ad | 23 | ASCII | T9MMpvl0fu59PO8lXi/Cxg
+0x1a4c4 | 23 | ASCII | W7MyZ3Yxoy1qD6FrI0mLUQ
+0x1a4db | 23 | ASCII | RyXm3yMC4ejlFvwlEI509w
+0x1a4f2 | 23 | ASCII | GO5/TJivIXtQkTkFWkRc9A
+0x1a509 | 23 | ASCII | bbyFCcrPE+k6ZXIVbXSFUw
+0x1a520 | 45 | ASCII | _CTServerConnectionCopyFirmwarePreflightInfo
+0x1a54d | 23 | ASCII | FgjnMkPJPpI4C38dWETwtw
+0x1a564 | 23 | ASCII | EJRyIpTkLz2+Lb6XWy10bQ
+0x1a57b | 7 | ASCII | NoVOIP
+0x1a582 | 23 | ASCII | RegionalBehaviorNoVOIP
+0x1a599 | 23 | ASCII | PxLTGkQx9GkeYcJKOaZguA
+0x1a5b0 | 10 | ASCII | IOService
+0x1a5ba | 38 | ASCII | already have calibration data for %@\n
+0x1a5e0 | 38 | ASCII | couldn't get calibration data for %s\n
+0x1a606 | 7 | ASCII | Murata
+0x1a615 | 6 | ASCII | Semco
+0x1a61d | 58 | ASCII | /SourceCache/MobileGestalt/MobileGestalt-241.5/variants.c
+0x1a657 | 17 | ASCII | unknown variant\n
+0x1a668 | 64 | ASCII | /SourceCache/MobileGestalt/MobileGestalt-241.5/MGIOMFBSupport.c
+0x1a6a8 | 46 | ASCII | IOMobileFramebufferGetMainDisplay failed: %d\n
+0x1a6d6 | 46 | ASCII | IOMobileFramebufferGetDisplaySize failed: %d\n
+0x1a704 | 43 | ASCII | IOMobileFramebufferGetDotPitch failed: %d\n
+0x1a72f | 14 | ASCII | display-scale
+0x1a73d | 17 | ASCII | display-rotation
+0x1a74e | 88 | ASCII | screen parameters are unexpected: MGScreenClass%dx%dx%dx%d SCREEN_TYPE(%4d,%4d,%d,%3d)\n
+0x1a7a6 | 36 | ASCII | request for unknown screen param %d
+0x1a7ca | 33 | ASCII | failed to get static screen info
+0x1a7eb | 67 | ASCII | /SourceCache/MobileGestalt/MobileGestalt-241.5/MGBasebandSupport.c
+0x1a82e | 45 | ASCII | could not establish connection to CommCenter
+0x1a85b | 33 | ASCII | %s: CommCenter error: %d:%d (%s)
+0x1a87c | 60 | ASCII | %s: CommCenter failed to provide info but returned no error
+0x1a8b8 | 53 | ASCII | %s: CommCenter result should have been %@ but was %@
+0x1a8ed | 44 | ASCII | _CTServerConnectionCopyFirmwareSecurityInfo
+0x1a919 | 37 | ASCII | No %@ in CT security info dictionary
+0x1a93e | 43 | ASCII | No %@ or %@ in CT security info dictionary
+0x1a969 | 31 | ASCII | No CT security info dictionary
+0x1a988 | 43 | ASCII | _CTServerConnectionCopyMobileEquipmentInfo
+0x1a9b3 | 57 | ASCII | No CT mobile equipment info dictionary while fetching %@
+0x1a9ec | 45 | ASCII | No %@ in CT mobile equipment info dictionary
+0x1aa19 | 67 | ASCII | Non-string (%@) for %@ in CT mobile equipment info dictionary (%@)
+0x1aa5c | 59 | ASCII | Empty string for %@ in CT mobile equipment info dictionary
+0x1aa97 | 19 | ASCII | copyCTCapabilities
+0x1aaaa | 20 | ASCII | _ctserver_callback?
+0x1aabe | 64 | ASCII | /SourceCache/MobileGestalt/MobileGestalt-241.5/MGIOKitSupport.c
+0x1aafe | 39 | ASCII | called with a NULL matching dictionary
+0x1ab25 | 27 | ASCII | Can't create matching dict
+0x1ab40 | 54 | ASCII | IORegistryEntryCreateCFProperties failed for '%s': %s
+0x1ab76 | 18 | ASCII | local-mac-address
+0x1ab88 | 41 | ASCII | unable to get parent entry's name: 0x%x\n
+0x1abb1 | 40 | ASCII | unable to create parent iterator: 0x%x\n
+0x1abd9 | 52 | ASCII | giving up waiting for match - runloop result is %d\n
+0x1ac0d | 17 | ASCII | IOServiceMatched
+0x1ac1e | 50 | ASCII | unable to register for match notifications: 0x%x\n
+0x1ac50 | 44 | ASCII | value for %@ property of %s is invalid (%@)
+0x1ac7c | 52 | ASCII | can't create number from data %s %@ of length %llu\n
+0x1acb0 | 31 | ASCII | can't create number from %s %@
+0x1accf | 26 | ASCII | unexpected %@ property %@
+0x1ace9 | 32 | ASCII | Could not read %@ data property
+0x1ad09 | 38 | ASCII | %@ property has unexpected length %lu
+0x1ad2f | 32 | ASCII | unable to connect to service %s
+0x1ad4f | 38 | ASCII | IOConnectCallMethod(%s,%u) failed: %s
+0x1ad7b | 11 | ASCII | product-id
+0x1ad86 | 60 | ASCII | /SourceCache/MobileGestalt/MobileGestalt-241.5/device_map.c
+0x1adc2 | 24 | ASCII | invalid product id '%@'
+0x1adda | 44 | ASCII | couldn't get matching dictionary for %d:%s\n
+0x1ae06 | 18 | ASCII | _MGWaitForDevices
+0x1ae18 | 67 | ASCII | /SourceCache/MobileGestalt/MobileGestalt-241.5/MGDeviceIteration.c
+0x1ae5b | 34 | ASCII | type != MGDeviceIterationTypePath
+0x1ae7d | 10 | ASCII | keepGoing
+0x1ae87 | 8 | ASCII | %5d: %s
+0x1ae8f | 17 | ASCII | \n--------------\n
+0x1aea6 | 9 | ASCII | v12@?0I8
+0x1aeaf | 7 | ASCII | 0:Name
+0x1aeb6 | 8 | ASCII | 1:Class
+0x1aebe | 17 | ASCII | 2:IOService Path
+0x1aecf | 20 | ASCII | 2:IODeviceTree Path
+0x1aee3 | 10 | ASCII | 2:%s Path
+0x1aeed | 20 | ASCII | *** NOT PRESENT ***
+0x1af01 | 23 | ASCII | Decoded Data[%lld]: %@
+0x1af18 | 13 | ASCII | 3:Properties
+0x1af25 | 17 | ASCII | Unknown Child %d
+0x1af36 | 11 | ASCII | 4:Children
+0x1af41 | 7 | ASCII | .../%s
+0x1af4c | 38 | ASCII | {\rtf1\ansi\ansicpg1252\cocoartf1183\n
+0x1af72 | 45 | ASCII | {\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}\n
+0x1af9f | 12 | ASCII | {\colortbl;
+0x1afab | 24 | ASCII | \red194\green54\blue33;
+0x1afc3 | 24 | ASCII | \red37\green188\blue36;
+0x1afdb | 24 | ASCII | \red128\green128\blue0;
+0x1aff3 | 24 | ASCII | \red73\green46\blue225;
+0x1b00b | 25 | ASCII | \red211\green56\blue211;
+0x1b024 | 25 | ASCII | \red51\green187\blue200;
+0x1b040 | 54 | ASCII | \margl1440\margr1440\vieww16420\viewh18180\viewkind0\n
+0x1b076 | 114 | ASCII | \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\n\n\f0\fs24 
+0x1b0f2 | 17 | ASCII | %02x%02x%02x%02x
+0x1b103 | 6 | ASCII |  ... 
+0x1b10e | 16 | ASCII | Data[%llu] (%@)
+0x1b11e | 8 | ASCII |  ("%@")
+0x1b126 | 17 | ASCII | Dictionary[%lld]
+0x1b137 | 16 | ASCII | i24@?0r^v8r^v16
+0x1b147 | 16 | ASCII | [%dm%@[0m => 
+0x1b157 | 7 | ASCII | %@ => 
+0x1b15e | 12 | ASCII | Array[%lld]
+0x1b16a | 18 | ASCII | [%dm[%lld][0m: 
+0x1b17c | 9 | ASCII | [%lld]: 
+0x1b189 | 6 | ASCII | [%dm
+0x1b18f | 6 | ASCII | \cf0 
+0x1b195 | 7 | ASCII | \cf%d 
+0x1b19c | 17 | ASCII | SoftwareBehavior
+0x1b1ad | 63 | ASCII | /SourceCache/MobileGestalt/MobileGestalt-241.5/MGSWBehaviors.c
+0x1b1ec | 54 | ASCII | SWBCopySoftwareBehaviorValue returned error %s for %@
+0x1b222 | 50 | ASCII | SWBCopySoftwareBehaviorValue returned NULL for %@
+0x1b254 | 59 | ASCII | SWBCopySoftwareBehaviorValue returned non-bool (%@) for %@
+0x1b28f | 6 | ASCII | %d/%d
+0x1b295 | 18 | ASCII | software-behavior
+0x1b2a7 | 56 | ASCII | Could not get software behavior data from the registry\n
+0x1b2df | 31 | ASCII | Could not convert region code\n
+0x1b2fe | 11 | ASCII | iphone.txt
+0x1b309 | 9 | ASCII | ipod.txt
+0x1b312 | 9 | ASCII | ipad.txt
+0x1b31b | 10 | ASCII | ifpga.txt
+0x1b327 | 23 | ASCII | Could not open %s: %s\n
+0x1b33e | 24 | ASCII | Error reading file: %s\n
+0x1b356 | 9 | ASCII | %*s	0x%x
+0x1b35f | 26 | ASCII | Error parsing line: '%s'\n
+0x1b379 | 41 | ASCII | v28@?0i8^{__CFString=}12^{__CFString=}20
+0x1b3a5 | 57 | ASCII | /var/mobile/Library/Preferences/.GlobalPreferences.plist
+0x1b3de | 17 | ASCII | EnableGestaltSBS
+0x1b3ef | 47 | ASCII | SWBIsBehaviorBundleSupported returned error %s
+0x1b652 | 6 | ASCII | !`Y -|
+0x1b890 | 7 | ASCII | L}|1&'
+0x1ba60 | 9 | ASCII | +97[3l'Qz
+0x1bb60 | 7 | ASCII | mi-J"N
+0x1bba0 | 47 | ASCII | /System/Library/RegionFeatures/RegionFeatures_

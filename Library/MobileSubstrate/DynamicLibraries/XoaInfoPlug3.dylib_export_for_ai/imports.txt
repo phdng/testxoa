@@ -1,0 +1,28 @@
+# Imports
+# Format: func-addr:func-name
+#============================================================
+
+0x12f20:_MCCTIMEI
+0x12f28:_MCCTMEID
+0x12f30:_MCGestaltGetDeviceUUID
+0x12f38:_MCGestaltGetProductName
+0x12f40:_MCIOSerialString
+0x12f48:_OBJC_CLASS_$_NSBundle
+0x12f50:_OBJC_CLASS_$_NSFileManager
+0x12f58:_OBJC_CLASS_$_NSString
+0x12f60:_NSLog
+0x12f68:_MSHookFunction
+0x12f70:_MSHookMessageEx
+0x12f78:_objc_msgSend
+0x12f80:_objc_alloc
+0x12f88:_objc_autoreleaseReturnValue
+0x12f90:_objc_getClass
+0x12f98:_objc_release
+0x12fa0:_objc_retain
+0x12fa8:_objc_retainAutoreleasedReturnValue
+0x12fb0:___gxx_personality_v0
+0x12fb8:dyld_stub_binder
+0x12fc0:__Unwind_Resume
+0x12fc8:_OBJC_CLASS_$_NSDate
+0x12fd0:_OBJC_CLASS_$_NSDictionary
+0x12fd8:___CFConstantStringClassReference

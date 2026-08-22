@@ -1,0 +1,13 @@
+/*
+ * func-name: _dispatch_time
+ * func-address: 0x227a98
+ * export-type: decompile
+ * callers: 0x26944, 0x276c4, 0x2c694, 0x2c9c4, 0x2d714, 0x2da40, 0x300a4, 0x590ec, 0xdeb60, 0xdee4c, 0xe0388, 0xe8870, 0xe90a0, 0x152b14, 0x175dec, 0x1765c8, 0x1787b0, 0x179024, 0x179928, 0x181530, 0x1841a8, 0x1850c4, 0x186fa0
+ * callees: none
+ */
+
+// attributes: thunk
+dispatch_time_t __cdecl dispatch_time(dispatch_time_t when, int64_t delta)
+{
+  return _dispatch_time(when, delta);
+}

@@ -1,0 +1,23 @@
+/*
+ * func-name: sub_1001457C8
+ * func-address: 0x1001457c8
+ * export-type: decompile
+ * callers: 0x10014e264, 0x10014ed18
+ * callees: 0x100154e78
+ */
+
+void sub_1001457C8()
+{
+  int v0; // w20
+  _QWORD *v1; // x8
+  _QWORD *v2; // kr00_8
+  __int64 v3; // [xsp+18h] [xbp-58h] BYREF
+
+  LODWORD(v3) = -1435041647;
+  HIDWORD(v3) = ((dword_10083E0E8 + dword_10083E0EC - 1276909694) ^ 0x498220C) - 1048183786;
+  nullsub_8(&v3, off_100840A10);
+  v0 = v3;
+  nullsub_8(v1, off_100840A18);
+  v2 = nullsub_8((_QWORD *)(v0 < -209224907), *(&off_100844078 + (v0 < -209224907)));
+  __asm { BR              X0 }
+}

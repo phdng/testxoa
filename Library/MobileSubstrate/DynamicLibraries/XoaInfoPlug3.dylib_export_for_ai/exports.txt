@@ -1,0 +1,18 @@
+# Exports
+# Format: func-addr:func-name
+#============================================================
+
+0x9710:__Z32DSEgvGPVOHEhFYmjwwCvSPZYdIqzTewhv
+0xbfd0:__Z32FguXJCUWZmADIpmgZOalGBugyXtnQRorv
+0xa5fc:__Z32ITMikfDDOfpSoJNUDXlECkvhgPgUVnEtv
+0x7a48:__Z32LTNxcIKsHKaYrDXtflQeFLBcuzvkTpVqv
+0x6388:__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString
+0xb724:__Z32xOaOWQvvqWHcExXvQKcIYzqZFCmHlXKWv
+0xae88:__Z32xOrRudDbtjPQIyYmKKMehzuSrhZfbwQjv
+0x12ed0:_orig_MCCTIMEI
+0x12ed8:_orig_MCCTMEID
+0x12ec8:_orig_MCGestaltGetDeviceUUID
+0x12ee0:_orig_MCGestaltGetProductName
+0x12ec0:_orig_MCIOSerialString
+0xcb30:__ZL10initializev
+0xe274:__ZL32HVWcWAXcGwUOECcaujVPJFXYcKSBHhVKv

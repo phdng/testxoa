@@ -1,0 +1,40 @@
+/*
+ * func-name: sub_25278
+ * func-address: 0x25278
+ * export-type: decompile
+ * callers: none
+ * callees: 0x22781c, 0x227828
+ */
+
+void __fastcall __noreturn sub_25278(
+        _Unwind_Exception *a1,
+        __int64 a2,
+        __int64 a3,
+        __int64 a4,
+        __int64 a5,
+        __int64 a6,
+        __int64 a7,
+        __int64 a8,
+        __int64 a9,
+        __int64 a10,
+        __int64 a11,
+        __int64 a12,
+        __int64 a13,
+        __int64 a14,
+        __int64 a15,
+        __int64 a16,
+        __int64 a17,
+        __int64 a18,
+        __int64 a19,
+        char a20,
+        __int64 a21,
+        __int64 a22,
+        __int64 a23,
+        __int64 a24,
+        __int64 a25,
+        char a26)
+{
+  _Block_object_dispose(&a20, 8);
+  _Block_object_dispose(&a26, 8);
+  _Unwind_Resume(a1);
+}

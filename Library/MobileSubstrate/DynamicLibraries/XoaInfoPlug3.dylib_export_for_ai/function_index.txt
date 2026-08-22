@@ -1,0 +1,2427 @@
+# Function Index
+# Total exported: 190
+#================================================================================
+
+================================================================================
+Function: -[NSString stringBetweenString:andString:]
+Address: 0x5d00
+File: decompile/5D00.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_5D7C
+Address: 0x5d7c
+File: decompile/5D7C.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb0c (_objc_retain) -> decompile/FB0C.c
+
+================================================================================
+Function: sub_5DF8
+Address: 0x5df8
+File: decompile/5DF8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_5E30
+Address: 0x5e30
+File: decompile/5E30.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_5E90
+Address: 0x5e90
+File: decompile/5E90.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_5EB8
+Address: 0x5eb8
+File: decompile/5EB8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_5EF8
+Address: 0x5ef8
+File: decompile/5EF8.c
+Type: decompile
+
+Called by: none
+
+Calls (5):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfac4 (__Unwind_Resume) -> decompile/FAC4.c
+  - 0xfadc (_objc_autoreleaseReturnValue) -> decompile/FADC.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: __Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString
+Address: 0x6388
+File: decompile/6388.c
+Type: decompile
+
+Called by (17):
+  - 0xa0c4 (sub_A0C4) -> decompile/A0C4.c
+  - 0xa144 (sub_A144) -> decompile/A144.c
+  - 0xa23c (sub_A23C) -> decompile/A23C.c
+  - 0xa508 (sub_A508) -> decompile/A508.c
+  - 0xac38 (sub_AC38) -> decompile/AC38.c
+  - 0xad98 (sub_AD98) -> decompile/AD98.c
+  - 0xafa0 (sub_AFA0) -> decompile/AFA0.c
+  - 0xb578 (sub_B578) -> decompile/B578.c
+  - 0xb6b4 (sub_B6B4) -> decompile/B6B4.c
+  - 0xb810 (sub_B810) -> decompile/B810.c
+  - 0xb92c (sub_B92C) -> decompile/B92C.c
+  - 0xc2fc (sub_C2FC) -> decompile/C2FC.c
+  - 0xc420 (sub_C420) -> decompile/C420.c
+  - 0xc620 (sub_C620) -> decompile/C620.c
+  - 0xd750 (sub_D750) -> decompile/D750.c
+  - 0xed80 (sub_ED80) -> decompile/ED80.c
+  - 0xefb0 (sub_EFB0) -> decompile/EFB0.c
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_63C8
+Address: 0x63c8
+File: decompile/63C8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_63F8
+Address: 0x63f8
+File: decompile/63F8.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_6410
+Address: 0x6410
+File: decompile/6410.c
+Type: decompile
+
+Called by (1):
+  - 0x6410 (sub_6410) -> decompile/6410.c
+
+Calls (8):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfab8 (_NSLog) -> decompile/FAB8.c
+  - 0xfac4 (__Unwind_Resume) -> decompile/FAC4.c
+  - 0xfad0 (_objc_alloc) -> decompile/FAD0.c
+  - 0xfadc (_objc_autoreleaseReturnValue) -> decompile/FADC.c
+  - 0xfaf4 (_objc_msgSend) -> decompile/FAF4.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: sub_6B60
+Address: 0x6b60
+File: decompile/6B60.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_6BB8
+Address: 0x6bb8
+File: decompile/6BB8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_6C24
+Address: 0x6c24
+File: decompile/6C24.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_6C40
+Address: 0x6c40
+File: decompile/6C40.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb0c (_objc_retain) -> decompile/FB0C.c
+
+================================================================================
+Function: sub_6CD8
+Address: 0x6cd8
+File: decompile/6CD8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: __Z32LTNxcIKsHKaYrDXtflQeFLBcuzvkTpVqv
+Address: 0x7a48
+File: decompile/7A48.c
+Type: decompile
+
+Called by (1):
+  - 0xdfd8 (sub_DFD8) -> decompile/DFD8.c
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_7AD0
+Address: 0x7ad0
+File: decompile/7AD0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_7AF8
+Address: 0x7af8
+File: decompile/7AF8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_7B58
+Address: 0x7b58
+File: decompile/7B58.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_7BC0
+Address: 0x7bc0
+File: decompile/7BC0.c
+Type: decompile
+
+Called by: none
+
+Calls (7):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfab8 (_NSLog) -> decompile/FAB8.c
+  - 0xfac4 (__Unwind_Resume) -> decompile/FAC4.c
+  - 0xfad0 (_objc_alloc) -> decompile/FAD0.c
+  - 0xfaf4 (_objc_msgSend) -> decompile/FAF4.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: sub_963C
+Address: 0x963c
+File: decompile/963C.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_96B8
+Address: 0x96b8
+File: decompile/96B8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: __Z32DSEgvGPVOHEhFYmjwwCvSPZYdIqzTewhv
+Address: 0x9710
+File: decompile/9710.c
+Type: decompile
+
+Called by (1):
+  - 0xe040 (sub_E040) -> decompile/E040.c
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_9788
+Address: 0x9788
+File: decompile/9788.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_97FC
+Address: 0x97fc
+File: decompile/97FC.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_9818
+Address: 0x9818
+File: decompile/9818.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_98B0
+Address: 0x98b0
+File: decompile/98B0.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_9FC8
+Address: 0x9fc8
+File: decompile/9FC8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_A034
+Address: 0xa034
+File: decompile/A034.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_A048
+Address: 0xa048
+File: decompile/A048.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_A090
+Address: 0xa090
+File: decompile/A090.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_A0C4
+Address: 0xa0c4
+File: decompile/A0C4.c
+Type: decompile
+
+Called by: none
+
+Calls (4):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfaf4 (_objc_msgSend) -> decompile/FAF4.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: sub_A144
+Address: 0xa144
+File: decompile/A144.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfac4 (__Unwind_Resume) -> decompile/FAC4.c
+
+================================================================================
+Function: sub_A23C
+Address: 0xa23c
+File: decompile/A23C.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: sub_A2D8
+Address: 0xa2d8
+File: decompile/A2D8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_A34C
+Address: 0xa34c
+File: decompile/A34C.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_A36C
+Address: 0xa36c
+File: decompile/A36C.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_A3CC
+Address: 0xa3cc
+File: decompile/A3CC.c
+Type: decompile
+
+Called by (3):
+  - 0xa090 (sub_A090) -> decompile/A090.c
+  - 0xa144 (sub_A144) -> decompile/A144.c
+  - 0xa3cc (sub_A3CC) -> decompile/A3CC.c
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_A438
+Address: 0xa438
+File: decompile/A438.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_A490
+Address: 0xa490
+File: decompile/A490.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_A508
+Address: 0xa508
+File: decompile/A508.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_A580
+Address: 0xa580
+File: decompile/A580.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: __Z32ITMikfDDOfpSoJNUDXlECkvhgPgUVnEtv
+Address: 0xa5fc
+File: decompile/A5FC.c
+Type: decompile
+
+Called by (1):
+  - 0xe040 (sub_E040) -> decompile/E040.c
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_A654
+Address: 0xa654
+File: decompile/A654.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_A6BC
+Address: 0xa6bc
+File: decompile/A6BC.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_A6D8
+Address: 0xa6d8
+File: decompile/A6D8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_A758
+Address: 0xa758
+File: decompile/A758.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_AAC0
+Address: 0xaac0
+File: decompile/AAC0.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_AB28
+Address: 0xab28
+File: decompile/AB28.c
+Type: decompile
+
+Called by (1):
+  - 0xaba8 (sub_ABA8) -> decompile/ABA8.c
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_AB80
+Address: 0xab80
+File: decompile/AB80.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfac4 (__Unwind_Resume) -> decompile/FAC4.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_AB94
+Address: 0xab94
+File: decompile/AB94.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_ABA8
+Address: 0xaba8
+File: decompile/ABA8.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_ABC0
+Address: 0xabc0
+File: decompile/ABC0.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_AC1C
+Address: 0xac1c
+File: decompile/AC1C.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_AC38
+Address: 0xac38
+File: decompile/AC38.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: sub_ACD0
+Address: 0xacd0
+File: decompile/ACD0.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_AD2C
+Address: 0xad2c
+File: decompile/AD2C.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_AD98
+Address: 0xad98
+File: decompile/AD98.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_AE20
+Address: 0xae20
+File: decompile/AE20.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: __Z32xOrRudDbtjPQIyYmKKMehzuSrhZfbwQjv
+Address: 0xae88
+File: decompile/AE88.c
+Type: decompile
+
+Called by (1):
+  - 0xe040 (sub_E040) -> decompile/E040.c
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_AEC8
+Address: 0xaec8
+File: decompile/AEC8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_AF48
+Address: 0xaf48
+File: decompile/AF48.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_AFA0
+Address: 0xafa0
+File: decompile/AFA0.c
+Type: decompile
+
+Called by: none
+
+Calls (5):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfaf4 (_objc_msgSend) -> decompile/FAF4.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: sub_B000
+Address: 0xb000
+File: decompile/B000.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_B060
+Address: 0xb060
+File: decompile/B060.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_B0E0
+Address: 0xb0e0
+File: decompile/B0E0.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_B200
+Address: 0xb200
+File: decompile/B200.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_B22C
+Address: 0xb22c
+File: decompile/B22C.c
+Type: decompile
+
+Called by (1):
+  - 0xb200 (sub_B200) -> decompile/B200.c
+
+Calls (1):
+  - 0xfac4 (__Unwind_Resume) -> decompile/FAC4.c
+
+================================================================================
+Function: sub_B234
+Address: 0xb234
+File: decompile/B234.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_B550
+Address: 0xb550
+File: decompile/B550.c
+Type: decompile
+
+Called by (1):
+  - 0xb550 (sub_B550) -> decompile/B550.c
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_B578
+Address: 0xb578
+File: decompile/B578.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_B5E4
+Address: 0xb5e4
+File: decompile/B5E4.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_B614
+Address: 0xb614
+File: decompile/B614.c
+Type: decompile
+
+Called by (1):
+  - 0xb5e4 (sub_B5E4) -> decompile/B5E4.c
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_B630
+Address: 0xb630
+File: decompile/B630.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_B644
+Address: 0xb644
+File: decompile/B644.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_B6B4
+Address: 0xb6b4
+File: decompile/B6B4.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: __Z32xOaOWQvvqWHcExXvQKcIYzqZFCmHlXKWv
+Address: 0xb724
+File: decompile/B724.c
+Type: decompile
+
+Called by (1):
+  - 0xe040 (sub_E040) -> decompile/E040.c
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_B758
+Address: 0xb758
+File: decompile/B758.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_B770
+Address: 0xb770
+File: decompile/B770.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_B7B8
+Address: 0xb7b8
+File: decompile/B7B8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_B810
+Address: 0xb810
+File: decompile/B810.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: sub_B8B0
+Address: 0xb8b0
+File: decompile/B8B0.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_B92C
+Address: 0xb92c
+File: decompile/B92C.c
+Type: decompile
+
+Called by: none
+
+Calls (5):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfac4 (__Unwind_Resume) -> decompile/FAC4.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: sub_BA58
+Address: 0xba58
+File: decompile/BA58.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_BAE4
+Address: 0xbae4
+File: decompile/BAE4.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_BE5C
+Address: 0xbe5c
+File: decompile/BE5C.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_BE78
+Address: 0xbe78
+File: decompile/BE78.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_BE98
+Address: 0xbe98
+File: decompile/BE98.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_BEFC
+Address: 0xbefc
+File: decompile/BEFC.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_BF68
+Address: 0xbf68
+File: decompile/BF68.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: __Z32FguXJCUWZmADIpmgZOalGBugyXtnQRorv
+Address: 0xbfd0
+File: decompile/BFD0.c
+Type: decompile
+
+Called by (1):
+  - 0xe040 (sub_E040) -> decompile/E040.c
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_C050
+Address: 0xc050
+File: decompile/C050.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_C0B8
+Address: 0xc0b8
+File: decompile/C0B8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_C0D8
+Address: 0xc0d8
+File: decompile/C0D8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_C150
+Address: 0xc150
+File: decompile/C150.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_C190
+Address: 0xc190
+File: decompile/C190.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_C208
+Address: 0xc208
+File: decompile/C208.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_C278
+Address: 0xc278
+File: decompile/C278.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_C2E0
+Address: 0xc2e0
+File: decompile/C2E0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_C2FC
+Address: 0xc2fc
+File: decompile/C2FC.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: sub_C398
+Address: 0xc398
+File: decompile/C398.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_C40C
+Address: 0xc40c
+File: decompile/C40C.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfac4 (__Unwind_Resume) -> decompile/FAC4.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_C420
+Address: 0xc420
+File: decompile/C420.c
+Type: decompile
+
+Called by: none
+
+Calls (4):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: sub_C4BC
+Address: 0xc4bc
+File: decompile/C4BC.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_C4D8
+Address: 0xc4d8
+File: decompile/C4D8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_C538
+Address: 0xc538
+File: decompile/C538.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_C548
+Address: 0xc548
+File: decompile/C548.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_C5A4
+Address: 0xc5a4
+File: decompile/C5A4.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_C60C
+Address: 0xc60c
+File: decompile/C60C.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_C620
+Address: 0xc620
+File: decompile/C620.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_C6A0
+Address: 0xc6a0
+File: decompile/C6A0.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_CA70
+Address: 0xca70
+File: decompile/CA70.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_CAF0
+Address: 0xcaf0
+File: decompile/CAF0.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: __ZL10initializev
+Address: 0xcb30
+File: decompile/CB30.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_CBB0
+Address: 0xcbb0
+File: decompile/CBB0.c
+Type: decompile
+
+Called by (2):
+  - 0xcbb0 (sub_CBB0) -> decompile/CBB0.c
+  - 0xdfd0 (sub_DFD0) -> decompile/DFD0.c
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_CC00
+Address: 0xcc00
+File: decompile/CC00.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_CC74
+Address: 0xcc74
+File: decompile/CC74.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfac4 (__Unwind_Resume) -> decompile/FAC4.c
+
+================================================================================
+Function: sub_CC7C
+Address: 0xcc7c
+File: decompile/CC7C.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_D750
+Address: 0xd750
+File: decompile/D750.c
+Type: decompile
+
+Called by: none
+
+Calls (4):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfaf4 (_objc_msgSend) -> decompile/FAF4.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: sub_D7D0
+Address: 0xd7d0
+File: decompile/D7D0.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_D828
+Address: 0xd828
+File: decompile/D828.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_D8C8
+Address: 0xd8c8
+File: decompile/D8C8.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: sub_D940
+Address: 0xd940
+File: decompile/D940.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_D9A8
+Address: 0xd9a8
+File: decompile/D9A8.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfaf4 (_objc_msgSend) -> decompile/FAF4.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: sub_DA30
+Address: 0xda30
+File: decompile/DA30.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_DA9C
+Address: 0xda9c
+File: decompile/DA9C.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_DB10
+Address: 0xdb10
+File: decompile/DB10.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_DBA8
+Address: 0xdba8
+File: decompile/DBA8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_DBC0
+Address: 0xdbc0
+File: decompile/DBC0.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_DC10
+Address: 0xdc10
+File: decompile/DC10.c
+Type: decompile
+
+Called by (1):
+  - 0xdc10 (sub_DC10) -> decompile/DC10.c
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_DC80
+Address: 0xdc80
+File: decompile/DC80.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_DCE0
+Address: 0xdce0
+File: decompile/DCE0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_DD00
+Address: 0xdd00
+File: decompile/DD00.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_DD58
+Address: 0xdd58
+File: decompile/DD58.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_DDB8
+Address: 0xddb8
+File: decompile/DDB8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_DE04
+Address: 0xde04
+File: decompile/DE04.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfab8 (_NSLog) -> decompile/FAB8.c
+
+================================================================================
+Function: sub_DE80
+Address: 0xde80
+File: decompile/DE80.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_DEF0
+Address: 0xdef0
+File: decompile/DEF0.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_DF48
+Address: 0xdf48
+File: decompile/DF48.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_DF60
+Address: 0xdf60
+File: decompile/DF60.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_DFD0
+Address: 0xdfd0
+File: decompile/DFD0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_DFD8
+Address: 0xdfd8
+File: decompile/DFD8.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x7a48 (__Z32LTNxcIKsHKaYrDXtflQeFLBcuzvkTpVqv) -> decompile/7A48.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_E040
+Address: 0xe040
+File: decompile/E040.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfaa0 (_MSHookFunction) -> decompile/FAA0.c
+  - 0xfab8 (_NSLog) -> decompile/FAB8.c
+
+================================================================================
+Function: sub_E1D8
+Address: 0xe1d8
+File: decompile/E1D8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_E230
+Address: 0xe230
+File: decompile/E230.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: __ZL32HVWcWAXcGwUOECcaujVPJFXYcKSBHhVKv
+Address: 0xe274
+File: decompile/E274.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_E340
+Address: 0xe340
+File: decompile/E340.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_E364
+Address: 0xe364
+File: decompile/E364.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_E380
+Address: 0xe380
+File: decompile/E380.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_E3A4
+Address: 0xe3a4
+File: decompile/E3A4.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_E3C8
+Address: 0xe3c8
+File: decompile/E3C8.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfaac (_MSHookMessageEx) -> decompile/FAAC.c
+  - 0xfae8 (_objc_getClass) -> decompile/FAE8.c
+
+================================================================================
+Function: sub_EB1C
+Address: 0xeb1c
+File: decompile/EB1C.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __ZL32nmzgNQkNIxAQCQCMimAweAdGtfjVxihnP19NSMutableDictionaryP13objc_selectorP11objc_objectP8NSString
+Address: 0xeb3c
+File: decompile/EB3C.c
+Type: decompile
+
+Called by (1):
+  - 0xe3c8 (sub_E3C8) -> decompile/E3C8.c
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_EBC4
+Address: 0xebc4
+File: decompile/EBC4.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_EC68
+Address: 0xec68
+File: decompile/EC68.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfac4 (__Unwind_Resume) -> decompile/FAC4.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_ECA0
+Address: 0xeca0
+File: decompile/ECA0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_ECAC
+Address: 0xecac
+File: decompile/ECAC.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_ECC0
+Address: 0xecc0
+File: decompile/ECC0.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_ED20
+Address: 0xed20
+File: decompile/ED20.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_ED80
+Address: 0xed80
+File: decompile/ED80.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: sub_EDF4
+Address: 0xedf4
+File: decompile/EDF4.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_EE70
+Address: 0xee70
+File: decompile/EE70.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_EFB0
+Address: 0xefb0
+File: decompile/EFB0.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb18 (_objc_retainAutoreleasedReturnValue) -> decompile/FB18.c
+
+================================================================================
+Function: sub_F01C
+Address: 0xf01c
+File: decompile/F01C.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_F09C
+Address: 0xf09c
+File: decompile/F09C.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_F0F8
+Address: 0xf0f8
+File: decompile/F0F8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_F158
+Address: 0xf158
+File: decompile/F158.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_F1BC
+Address: 0xf1bc
+File: decompile/F1BC.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_F1D8
+Address: 0xf1d8
+File: decompile/F1D8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_F23C
+Address: 0xf23c
+File: decompile/F23C.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb0c (_objc_retain) -> decompile/FB0C.c
+
+================================================================================
+Function: sub_F2DC
+Address: 0xf2dc
+File: decompile/F2DC.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_F350
+Address: 0xf350
+File: decompile/F350.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_F3B4
+Address: 0xf3b4
+File: decompile/F3B4.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_F3D4
+Address: 0xf3d4
+File: decompile/F3D4.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+  - 0xfb00 (_objc_release) -> decompile/FB00.c
+
+================================================================================
+Function: sub_F450
+Address: 0xf450
+File: decompile/F450.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_F4A8
+Address: 0xf4a8
+File: decompile/F4A8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: sub_FA38
+Address: 0xfa38
+File: decompile/FA38.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0xfa9c (nullsub_1) -> decompile/FA9C.c
+
+================================================================================
+Function: nullsub_1
+Address: 0xfa9c
+File: decompile/FA9C.c
+Type: decompile
+
+Called by (162):
+  - 0x5d00 (-[NSString stringBetweenString:andString:]) -> decompile/5D00.c
+  - 0x5d7c (sub_5D7C) -> decompile/5D7C.c
+  - 0x5df8 (sub_5DF8) -> decompile/5DF8.c
+  - 0x5e30 (sub_5E30) -> decompile/5E30.c
+  - 0x5e90 (sub_5E90) -> decompile/5E90.c
+  - 0x5eb8 (sub_5EB8) -> decompile/5EB8.c
+  - 0x5ef8 (sub_5EF8) -> decompile/5EF8.c
+  - 0x6388 (__Z32vRqLhvTFbYWlWFISgZvXHNIZyTrqiiqHP8NSString) -> decompile/6388.c
+  - 0x63c8 (sub_63C8) -> decompile/63C8.c
+  - 0x6410 (sub_6410) -> decompile/6410.c
+  - 0x6b60 (sub_6B60) -> decompile/6B60.c
+  - 0x6bb8 (sub_6BB8) -> decompile/6BB8.c
+  - 0x6c24 (sub_6C24) -> decompile/6C24.c
+  - 0x6c40 (sub_6C40) -> decompile/6C40.c
+  - 0x6cd8 (sub_6CD8) -> decompile/6CD8.c
+  - 0x7a48 (__Z32LTNxcIKsHKaYrDXtflQeFLBcuzvkTpVqv) -> decompile/7A48.c
+  - 0x7af8 (sub_7AF8) -> decompile/7AF8.c
+  - 0x7b58 (sub_7B58) -> decompile/7B58.c
+  - 0x7bc0 (sub_7BC0) -> decompile/7BC0.c
+  - 0x963c (sub_963C) -> decompile/963C.c
+  - 0x96b8 (sub_96B8) -> decompile/96B8.c
+  - 0x9710 (__Z32DSEgvGPVOHEhFYmjwwCvSPZYdIqzTewhv) -> decompile/9710.c
+  - 0x9788 (sub_9788) -> decompile/9788.c
+  - 0x97fc (sub_97FC) -> decompile/97FC.c
+  - 0x9818 (sub_9818) -> decompile/9818.c
+  - 0x98b0 (sub_98B0) -> decompile/98B0.c
+  - 0x9fc8 (sub_9FC8) -> decompile/9FC8.c
+  - 0xa034 (sub_A034) -> decompile/A034.c
+  - 0xa048 (sub_A048) -> decompile/A048.c
+  - 0xa090 (sub_A090) -> decompile/A090.c
+  - 0xa0c4 (sub_A0C4) -> decompile/A0C4.c
+  - 0xa144 (sub_A144) -> decompile/A144.c
+  - 0xa23c (sub_A23C) -> decompile/A23C.c
+  - 0xa2d8 (sub_A2D8) -> decompile/A2D8.c
+  - 0xa36c (sub_A36C) -> decompile/A36C.c
+  - 0xa3cc (sub_A3CC) -> decompile/A3CC.c
+  - 0xa438 (sub_A438) -> decompile/A438.c
+  - 0xa490 (sub_A490) -> decompile/A490.c
+  - 0xa508 (sub_A508) -> decompile/A508.c
+  - 0xa580 (sub_A580) -> decompile/A580.c
+  - 0xa5fc (__Z32ITMikfDDOfpSoJNUDXlECkvhgPgUVnEtv) -> decompile/A5FC.c
+  - 0xa654 (sub_A654) -> decompile/A654.c
+  - 0xa6bc (sub_A6BC) -> decompile/A6BC.c
+  - 0xa6d8 (sub_A6D8) -> decompile/A6D8.c
+  - 0xa758 (sub_A758) -> decompile/A758.c
+  - 0xaac0 (sub_AAC0) -> decompile/AAC0.c
+  - 0xab28 (sub_AB28) -> decompile/AB28.c
+  - 0xab94 (sub_AB94) -> decompile/AB94.c
+  - 0xabc0 (sub_ABC0) -> decompile/ABC0.c
+  - 0xac38 (sub_AC38) -> decompile/AC38.c
+  - 0xacd0 (sub_ACD0) -> decompile/ACD0.c
+  - 0xad2c (sub_AD2C) -> decompile/AD2C.c
+  - 0xad98 (sub_AD98) -> decompile/AD98.c
+  - 0xae20 (sub_AE20) -> decompile/AE20.c
+  - 0xae88 (__Z32xOrRudDbtjPQIyYmKKMehzuSrhZfbwQjv) -> decompile/AE88.c
+  - 0xaec8 (sub_AEC8) -> decompile/AEC8.c
+  - 0xaf48 (sub_AF48) -> decompile/AF48.c
+  - 0xafa0 (sub_AFA0) -> decompile/AFA0.c
+  - 0xb000 (sub_B000) -> decompile/B000.c
+  - 0xb060 (sub_B060) -> decompile/B060.c
+  - 0xb0e0 (sub_B0E0) -> decompile/B0E0.c
+  - 0xb200 (sub_B200) -> decompile/B200.c
+  - 0xb234 (sub_B234) -> decompile/B234.c
+  - 0xb550 (sub_B550) -> decompile/B550.c
+  - 0xb578 (sub_B578) -> decompile/B578.c
+  - 0xb5e4 (sub_B5E4) -> decompile/B5E4.c
+  - 0xb614 (sub_B614) -> decompile/B614.c
+  - 0xb630 (sub_B630) -> decompile/B630.c
+  - 0xb644 (sub_B644) -> decompile/B644.c
+  - 0xb6b4 (sub_B6B4) -> decompile/B6B4.c
+  - 0xb724 (__Z32xOaOWQvvqWHcExXvQKcIYzqZFCmHlXKWv) -> decompile/B724.c
+  - 0xb758 (sub_B758) -> decompile/B758.c
+  - 0xb770 (sub_B770) -> decompile/B770.c
+  - 0xb7b8 (sub_B7B8) -> decompile/B7B8.c
+  - 0xb810 (sub_B810) -> decompile/B810.c
+  - 0xb8b0 (sub_B8B0) -> decompile/B8B0.c
+  - 0xb92c (sub_B92C) -> decompile/B92C.c
+  - 0xba58 (sub_BA58) -> decompile/BA58.c
+  - 0xbae4 (sub_BAE4) -> decompile/BAE4.c
+  - 0xbe5c (sub_BE5C) -> decompile/BE5C.c
+  - 0xbe98 (sub_BE98) -> decompile/BE98.c
+  - 0xbefc (sub_BEFC) -> decompile/BEFC.c
+  - 0xbf68 (sub_BF68) -> decompile/BF68.c
+  - 0xbfd0 (__Z32FguXJCUWZmADIpmgZOalGBugyXtnQRorv) -> decompile/BFD0.c
+  - 0xc050 (sub_C050) -> decompile/C050.c
+  - 0xc0b8 (sub_C0B8) -> decompile/C0B8.c
+  - 0xc0d8 (sub_C0D8) -> decompile/C0D8.c
+  - 0xc150 (sub_C150) -> decompile/C150.c
+  - 0xc190 (sub_C190) -> decompile/C190.c
+  - 0xc208 (sub_C208) -> decompile/C208.c
+  - 0xc278 (sub_C278) -> decompile/C278.c
+  - 0xc2fc (sub_C2FC) -> decompile/C2FC.c
+  - 0xc398 (sub_C398) -> decompile/C398.c
+  - 0xc420 (sub_C420) -> decompile/C420.c
+  - 0xc4bc (sub_C4BC) -> decompile/C4BC.c
+  - 0xc4d8 (sub_C4D8) -> decompile/C4D8.c
+  - 0xc538 (sub_C538) -> decompile/C538.c
+  - 0xc548 (sub_C548) -> decompile/C548.c
+  - 0xc5a4 (sub_C5A4) -> decompile/C5A4.c
+  - 0xc60c (sub_C60C) -> decompile/C60C.c
+  - 0xc620 (sub_C620) -> decompile/C620.c
+  - 0xc6a0 (sub_C6A0) -> decompile/C6A0.c
+  - 0xca70 (sub_CA70) -> decompile/CA70.c
+  - 0xcaf0 (sub_CAF0) -> decompile/CAF0.c
+  - 0xcb30 (__ZL10initializev) -> decompile/CB30.c
+  - 0xcbb0 (sub_CBB0) -> decompile/CBB0.c
+  - 0xcc00 (sub_CC00) -> decompile/CC00.c
+  - 0xcc7c (sub_CC7C) -> decompile/CC7C.c
+  - 0xd750 (sub_D750) -> decompile/D750.c
+  - 0xd7d0 (sub_D7D0) -> decompile/D7D0.c
+  - 0xd828 (sub_D828) -> decompile/D828.c
+  - 0xd8c8 (sub_D8C8) -> decompile/D8C8.c
+  - 0xd940 (sub_D940) -> decompile/D940.c
+  - 0xd9a8 (sub_D9A8) -> decompile/D9A8.c
+  - 0xda30 (sub_DA30) -> decompile/DA30.c
+  - 0xda9c (sub_DA9C) -> decompile/DA9C.c
+  - 0xdb10 (sub_DB10) -> decompile/DB10.c
+  - 0xdba8 (sub_DBA8) -> decompile/DBA8.c
+  - 0xdbc0 (sub_DBC0) -> decompile/DBC0.c
+  - 0xdc10 (sub_DC10) -> decompile/DC10.c
+  - 0xdc80 (sub_DC80) -> decompile/DC80.c
+  - 0xdd00 (sub_DD00) -> decompile/DD00.c
+  - 0xdd58 (sub_DD58) -> decompile/DD58.c
+  - 0xddb8 (sub_DDB8) -> decompile/DDB8.c
+  - 0xde04 (sub_DE04) -> decompile/DE04.c
+  - 0xde80 (sub_DE80) -> decompile/DE80.c
+  - 0xdef0 (sub_DEF0) -> decompile/DEF0.c
+  - 0xdf48 (sub_DF48) -> decompile/DF48.c
+  - 0xdf60 (sub_DF60) -> decompile/DF60.c
+  - 0xdfd8 (sub_DFD8) -> decompile/DFD8.c
+  - 0xe040 (sub_E040) -> decompile/E040.c
+  - 0xe1d8 (sub_E1D8) -> decompile/E1D8.c
+  - 0xe230 (sub_E230) -> decompile/E230.c
+  - 0xe274 (__ZL32HVWcWAXcGwUOECcaujVPJFXYcKSBHhVKv) -> decompile/E274.c
+  - 0xe340 (sub_E340) -> decompile/E340.c
+  - 0xe364 (sub_E364) -> decompile/E364.c
+  - 0xe380 (sub_E380) -> decompile/E380.c
+  - 0xe3a4 (sub_E3A4) -> decompile/E3A4.c
+  - 0xe3c8 (sub_E3C8) -> decompile/E3C8.c
+  - 0xeb3c (__ZL32nmzgNQkNIxAQCQCMimAweAdGtfjVxihnP19NSMutableDictionaryP13objc_selectorP11objc_objectP8NSString) -> decompile/EB3C.c
+  - 0xebc4 (sub_EBC4) -> decompile/EBC4.c
+  - 0xec68 (sub_EC68) -> decompile/EC68.c
+  - 0xecac (sub_ECAC) -> decompile/ECAC.c
+  - 0xecc0 (sub_ECC0) -> decompile/ECC0.c
+  - 0xed20 (sub_ED20) -> decompile/ED20.c
+  - 0xed80 (sub_ED80) -> decompile/ED80.c
+  - 0xedf4 (sub_EDF4) -> decompile/EDF4.c
+  - 0xee70 (sub_EE70) -> decompile/EE70.c
+  - 0xefb0 (sub_EFB0) -> decompile/EFB0.c
+  - 0xf01c (sub_F01C) -> decompile/F01C.c
+  - 0xf09c (sub_F09C) -> decompile/F09C.c
+  - 0xf0f8 (sub_F0F8) -> decompile/F0F8.c
+  - 0xf158 (sub_F158) -> decompile/F158.c
+  - 0xf1bc (sub_F1BC) -> decompile/F1BC.c
+  - 0xf1d8 (sub_F1D8) -> decompile/F1D8.c
+  - 0xf23c (sub_F23C) -> decompile/F23C.c
+  - 0xf2dc (sub_F2DC) -> decompile/F2DC.c
+  - 0xf350 (sub_F350) -> decompile/F350.c
+  - 0xf3d4 (sub_F3D4) -> decompile/F3D4.c
+  - 0xf450 (sub_F450) -> decompile/F450.c
+  - 0xf4a8 (sub_F4A8) -> decompile/F4A8.c
+  - 0xfa38 (sub_FA38) -> decompile/FA38.c
+
+Calls: none
+
+================================================================================
+Function: _MSHookFunction
+Address: 0xfaa0
+File: decompile/FAA0.c
+Type: decompile
+
+Called by (1):
+  - 0xe040 (sub_E040) -> decompile/E040.c
+
+Calls: none
+
+================================================================================
+Function: _MSHookMessageEx
+Address: 0xfaac
+File: decompile/FAAC.c
+Type: decompile
+
+Called by (1):
+  - 0xe3c8 (sub_E3C8) -> decompile/E3C8.c
+
+Calls: none
+
+================================================================================
+Function: _NSLog
+Address: 0xfab8
+File: decompile/FAB8.c
+Type: decompile
+
+Called by (4):
+  - 0x6410 (sub_6410) -> decompile/6410.c
+  - 0x7bc0 (sub_7BC0) -> decompile/7BC0.c
+  - 0xde04 (sub_DE04) -> decompile/DE04.c
+  - 0xe040 (sub_E040) -> decompile/E040.c
+
+Calls: none
+
+================================================================================
+Function: __Unwind_Resume
+Address: 0xfac4
+File: decompile/FAC4.c
+Type: decompile
+
+Called by (10):
+  - 0x5ef8 (sub_5EF8) -> decompile/5EF8.c
+  - 0x6410 (sub_6410) -> decompile/6410.c
+  - 0x7bc0 (sub_7BC0) -> decompile/7BC0.c
+  - 0xa144 (sub_A144) -> decompile/A144.c
+  - 0xab80 (sub_AB80) -> decompile/AB80.c
+  - 0xb22c (sub_B22C) -> decompile/B22C.c
+  - 0xb92c (sub_B92C) -> decompile/B92C.c
+  - 0xc40c (sub_C40C) -> decompile/C40C.c
+  - 0xcc74 (sub_CC74) -> decompile/CC74.c
+  - 0xec68 (sub_EC68) -> decompile/EC68.c
+
+Calls: none
+
+================================================================================
+Function: _objc_alloc
+Address: 0xfad0
+File: decompile/FAD0.c
+Type: decompile
+
+Called by (2):
+  - 0x6410 (sub_6410) -> decompile/6410.c
+  - 0x7bc0 (sub_7BC0) -> decompile/7BC0.c
+
+Calls: none
+
+================================================================================
+Function: _objc_autoreleaseReturnValue
+Address: 0xfadc
+File: decompile/FADC.c
+Type: decompile
+
+Called by (2):
+  - 0x5ef8 (sub_5EF8) -> decompile/5EF8.c
+  - 0x6410 (sub_6410) -> decompile/6410.c
+
+Calls: none
+
+================================================================================
+Function: _objc_getClass
+Address: 0xfae8
+File: decompile/FAE8.c
+Type: decompile
+
+Called by (1):
+  - 0xe3c8 (sub_E3C8) -> decompile/E3C8.c
+
+Calls: none
+
+================================================================================
+Function: _objc_msgSend
+Address: 0xfaf4
+File: decompile/FAF4.c
+Type: decompile
+
+Called by (6):
+  - 0x6410 (sub_6410) -> decompile/6410.c
+  - 0x7bc0 (sub_7BC0) -> decompile/7BC0.c
+  - 0xa0c4 (sub_A0C4) -> decompile/A0C4.c
+  - 0xafa0 (sub_AFA0) -> decompile/AFA0.c
+  - 0xd750 (sub_D750) -> decompile/D750.c
+  - 0xd9a8 (sub_D9A8) -> decompile/D9A8.c
+
+Calls: none
+
+================================================================================
+Function: _objc_release
+Address: 0xfb00
+File: decompile/FB00.c
+Type: decompile
+
+Called by (26):
+  - 0x5ef8 (sub_5EF8) -> decompile/5EF8.c
+  - 0x6410 (sub_6410) -> decompile/6410.c
+  - 0x7bc0 (sub_7BC0) -> decompile/7BC0.c
+  - 0x963c (sub_963C) -> decompile/963C.c
+  - 0xa36c (sub_A36C) -> decompile/A36C.c
+  - 0xa490 (sub_A490) -> decompile/A490.c
+  - 0xa580 (sub_A580) -> decompile/A580.c
+  - 0xab80 (sub_AB80) -> decompile/AB80.c
+  - 0xad2c (sub_AD2C) -> decompile/AD2C.c
+  - 0xafa0 (sub_AFA0) -> decompile/AFA0.c
+  - 0xb200 (sub_B200) -> decompile/B200.c
+  - 0xb5e4 (sub_B5E4) -> decompile/B5E4.c
+  - 0xb92c (sub_B92C) -> decompile/B92C.c
+  - 0xbefc (sub_BEFC) -> decompile/BEFC.c
+  - 0xc40c (sub_C40C) -> decompile/C40C.c
+  - 0xc420 (sub_C420) -> decompile/C420.c
+  - 0xc5a4 (sub_C5A4) -> decompile/C5A4.c
+  - 0xcc00 (sub_CC00) -> decompile/CC00.c
+  - 0xda30 (sub_DA30) -> decompile/DA30.c
+  - 0xda9c (sub_DA9C) -> decompile/DA9C.c
+  - 0xdb10 (sub_DB10) -> decompile/DB10.c
+  - 0xde80 (sub_DE80) -> decompile/DE80.c
+  - 0xec68 (sub_EC68) -> decompile/EC68.c
+  - 0xedf4 (sub_EDF4) -> decompile/EDF4.c
+  - 0xf2dc (sub_F2DC) -> decompile/F2DC.c
+  - 0xf3d4 (sub_F3D4) -> decompile/F3D4.c
+
+Calls: none
+
+================================================================================
+Function: _objc_retain
+Address: 0xfb0c
+File: decompile/FB0C.c
+Type: decompile
+
+Called by (3):
+  - 0x5d7c (sub_5D7C) -> decompile/5D7C.c
+  - 0x6c40 (sub_6C40) -> decompile/6C40.c
+  - 0xf23c (sub_F23C) -> decompile/F23C.c
+
+Calls: none
+
+================================================================================
+Function: _objc_retainAutoreleasedReturnValue
+Address: 0xfb18
+File: decompile/FB18.c
+Type: decompile
+
+Called by (17):
+  - 0x5ef8 (sub_5EF8) -> decompile/5EF8.c
+  - 0x6410 (sub_6410) -> decompile/6410.c
+  - 0x7bc0 (sub_7BC0) -> decompile/7BC0.c
+  - 0xa0c4 (sub_A0C4) -> decompile/A0C4.c
+  - 0xa23c (sub_A23C) -> decompile/A23C.c
+  - 0xac38 (sub_AC38) -> decompile/AC38.c
+  - 0xafa0 (sub_AFA0) -> decompile/AFA0.c
+  - 0xb6b4 (sub_B6B4) -> decompile/B6B4.c
+  - 0xb810 (sub_B810) -> decompile/B810.c
+  - 0xb92c (sub_B92C) -> decompile/B92C.c
+  - 0xc2fc (sub_C2FC) -> decompile/C2FC.c
+  - 0xc420 (sub_C420) -> decompile/C420.c
+  - 0xd750 (sub_D750) -> decompile/D750.c
+  - 0xd8c8 (sub_D8C8) -> decompile/D8C8.c
+  - 0xd9a8 (sub_D9A8) -> decompile/D9A8.c
+  - 0xed80 (sub_ED80) -> decompile/ED80.c
+  - 0xefb0 (sub_EFB0) -> decompile/EFB0.c
+
+Calls: none
+

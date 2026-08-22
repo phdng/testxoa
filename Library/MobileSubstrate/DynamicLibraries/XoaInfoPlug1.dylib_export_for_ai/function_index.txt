@@ -1,0 +1,1750 @@
+# Function Index
+# Total exported: 135
+#================================================================================
+
+================================================================================
+Function: __Z32OTRApplicationDidFinishLaunchingv
+Address: 0x58b8
+File: decompile/58B8.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __Z33hookApplicationDidFinishLaunchingv
+Address: 0x58bc
+File: decompile/58BC.c
+Type: decompile
+
+Called by: none
+
+Calls (6):
+  - 0x8fcc (_class_conformsToProtocol) -> decompile/8FCC.c
+  - 0x8fd8 (_class_getInstanceMethod) -> decompile/8FD8.c
+  - 0x9008 (_free) -> decompile/9008.c
+  - 0x9014 (_malloc) -> decompile/9014.c
+  - 0x9074 (_objc_getClassList) -> decompile/9074.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: __Z8OTRUnameP7utsname
+Address: 0x5984
+File: decompile/5984.c
+Type: decompile
+
+Called by (1):
+  - 0x59ec (InitFunc_0) -> decompile/59EC.c
+
+Calls: none
+
+================================================================================
+Function: __Z15OTRsysctlbynamePKcPvPmS1_m
+Address: 0x59a8
+File: decompile/59A8.c
+Type: decompile
+
+Called by (1):
+  - 0x59ec (InitFunc_0) -> decompile/59EC.c
+
+Calls: none
+
+================================================================================
+Function: InitFunc_0
+Address: 0x59ec
+File: decompile/59EC.c
+Type: decompile
+
+Called by: none
+
+Calls (6):
+  - 0x8b70 (+[OTRHook OTRLocationInit]) -> decompile/8B70.c
+  - 0x8eb8 (_CFLog) -> decompile/8EB8.c
+  - 0x8f54 (_MSHookFunction) -> decompile/8F54.c
+  - 0x8f60 (_MSHookMessageEx) -> decompile/8F60.c
+  - 0x9068 (_objc_getClass) -> decompile/9068.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: sub_5B18
+Address: 0x5b18
+File: decompile/5B18.c
+Type: decompile
+
+Called by (1):
+  - 0x59ec (InitFunc_0) -> decompile/59EC.c
+
+Calls (2):
+  - 0x78c0 (+[OTRAppService sharedSingleton]) -> decompile/78C0.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: +[appTweakHelper getDefaultCenterNotifyHandle]
+Address: 0x5b74
+File: decompile/5B74.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x8ed0 (_CFMessagePortCreateRemote) -> decompile/8ED0.c
+  - 0x8ee8 (_CFMessagePortIsValid) -> decompile/8EE8.c
+
+================================================================================
+Function: +[appTweakHelper isChinese]
+Address: 0x5bc4
+File: decompile/5BC4.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: +[appTweakHelper OTRConfig]
+Address: 0x5c54
+File: decompile/5C54.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: +[appTweakHelper saveOTRConfig:]
+Address: 0x5cc4
+File: decompile/5CC4.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: +[appTweakHelper isShowedUseTip]
+Address: 0x5d08
+File: decompile/5D08.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x5c54 (+[appTweakHelper OTRConfig]) -> decompile/5C54.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: +[appTweakHelper setShowedUseTip]
+Address: 0x5d48
+File: decompile/5D48.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x5c54 (+[appTweakHelper OTRConfig]) -> decompile/5C54.c
+  - 0x5cc4 (+[appTweakHelper saveOTRConfig:]) -> decompile/5CC4.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: +[appTweakHelper sendMessage:messageId:userInfo:]
+Address: 0x5ddc
+File: decompile/5DDC.c
+Type: decompile
+
+Called by: none
+
+Calls (4):
+  - 0x8ee8 (_CFMessagePortIsValid) -> decompile/8EE8.c
+  - 0x8ef4 (_CFMessagePortSendRequest) -> decompile/8EF4.c
+  - 0x8f24 (_CFRelease) -> decompile/8F24.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: +[appTweakHelper DataToPropertyLis:]
+Address: 0x5ebc
+File: decompile/5EBC.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: +[appTweakHelper PropertyLisToData:]
+Address: 0x5edc
+File: decompile/5EDC.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: -[OTRAppObject init]
+Address: 0x5ef8
+File: decompile/5EF8.c
+Type: decompile
+
+Called by (1):
+  - 0x5ef8 (-[OTRAppObject init]) -> decompile/5EF8.c
+
+Calls (2):
+  - 0x5ef8 (-[OTRAppObject init]) -> decompile/5EF8.c
+  - 0x9098 (_objc_msgSendSuper2) -> decompile/9098.c
+
+================================================================================
+Function: +[OTRAppObject sharedSingleton]
+Address: 0x5f2c
+File: decompile/5F2C.c
+Type: decompile
+
+Called by: none
+
+Calls (4):
+  - 0x5ef8 (-[OTRAppObject init]) -> decompile/5EF8.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+  - 0x90b0 (_objc_sync_enter) -> decompile/90B0.c
+  - 0x90bc (_objc_sync_exit) -> decompile/90BC.c
+
+================================================================================
+Function: sub_5F94
+Address: 0x5f94
+File: decompile/5F94.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x8fa8 (__Unwind_Resume) -> decompile/8FA8.c
+  - 0x90bc (_objc_sync_exit) -> decompile/90BC.c
+
+================================================================================
+Function: -[OTRAppObject bundleIdentifier]
+Address: 0x5fa8
+File: decompile/5FA8.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject OTRUname:original_uname:]
+Address: 0x5ffc
+File: decompile/5FFC.c
+Type: decompile
+
+Called by: none
+
+Calls (7):
+  - 0x5fa8 (-[OTRAppObject bundleIdentifier]) -> decompile/5FA8.c
+  - 0x6130 (-[OTRAppObject to:]) -> decompile/6130.c
+  - 0x6cac (-[OTRAppObject fakeDeviceModuleSwitch]) -> decompile/6CAC.c
+  - 0x6df4 (-[OTRAppObject allBundleIdentifierConfig]) -> decompile/6DF4.c
+  - 0x9020 (_memset) -> decompile/9020.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+  - 0x90e0 (_strncpy) -> decompile/90E0.c
+
+================================================================================
+Function: sub_610C
+Address: 0x610c
+File: decompile/610C.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x8fa8 (__Unwind_Resume) -> decompile/8FA8.c
+  - 0x9044 (_objc_begin_catch) -> decompile/9044.c
+  - 0x9050 (_objc_end_catch) -> decompile/9050.c
+
+================================================================================
+Function: -[OTRAppObject to:]
+Address: 0x6130
+File: decompile/6130.c
+Type: decompile
+
+Called by (1):
+  - 0x5ffc (-[OTRAppObject OTRUname:original_uname:]) -> decompile/5FFC.c
+
+Calls (1):
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:]
+Address: 0x61e4
+File: decompile/61E4.c
+Type: decompile
+
+Called by: none
+
+Calls (11):
+  - 0x5fa8 (-[OTRAppObject bundleIdentifier]) -> decompile/5FA8.c
+  - 0x6130 (-[OTRAppObject to:]) -> decompile/6130.c
+  - 0x6cac (-[OTRAppObject fakeDeviceModuleSwitch]) -> decompile/6CAC.c
+  - 0x6df4 (-[OTRAppObject allBundleIdentifierConfig]) -> decompile/6DF4.c
+  - 0x8fa8 (__Unwind_Resume) -> decompile/8FA8.c
+  - 0x8fc0 (_bzero) -> decompile/8FC0.c
+  - 0x9044 (_objc_begin_catch) -> decompile/9044.c
+  - 0x9050 (_objc_end_catch) -> decompile/9050.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+  - 0x90d4 (_strcmp) -> decompile/90D4.c
+  - 0x90e0 (_strncpy) -> decompile/90E0.c
+
+================================================================================
+Function: -[OTRAppObject onRunApp]
+Address: 0x63dc
+File: decompile/63DC.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject checkServiceStatus]
+Address: 0x647c
+File: decompile/647C.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject appReBecomeActive]
+Address: 0x6540
+File: decompile/6540.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x78c0 (+[OTRAppService sharedSingleton]) -> decompile/78C0.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject returnFakeLocation:isUse:]
+Address: 0x656c
+File: decompile/656C.c
+Type: decompile
+
+Called by: none
+
+Calls (5):
+  - 0x5fa8 (-[OTRAppObject bundleIdentifier]) -> decompile/5FA8.c
+  - 0x6b64 (-[OTRAppObject fakeSwitch]) -> decompile/6B64.c
+  - 0x6df4 (-[OTRAppObject allBundleIdentifierConfig]) -> decompile/6DF4.c
+  - 0x8f48 (_CLLocationCoordinate2DMake) -> decompile/8F48.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject fakeLocationInfo:]
+Address: 0x67d0
+File: decompile/67D0.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x6df4 (-[OTRAppObject allBundleIdentifierConfig]) -> decompile/6DF4.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject onOTRApplicationDidBecomeActiveNotification:]
+Address: 0x680c
+File: decompile/680C.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: -[OTRAppObject onOTRCheckService:]
+Address: 0x6818
+File: decompile/6818.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject onOTRCheckService2:]
+Address: 0x6850
+File: decompile/6850.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: -[OTRAppObject tryLoadConfig]
+Address: 0x6864
+File: decompile/6864.c
+Type: decompile
+
+Called by: none
+
+Calls (4):
+  - 0x7884 (-[OTRAppObject setLocationCfg:]) -> decompile/7884.c
+  - 0x8fe4 (_dispatch_after) -> decompile/8FE4.c
+  - 0x8ffc (_dispatch_time) -> decompile/8FFC.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: sub_6964
+Address: 0x6964
+File: decompile/6964.c
+Type: decompile
+
+Called by (1):
+  - 0x6864 (-[OTRAppObject tryLoadConfig]) -> decompile/6864.c
+
+Calls (1):
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: sub_69A4
+Address: 0x69a4
+File: decompile/69A4.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_69B4
+Address: 0x69b4
+File: decompile/69B4.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: -[OTRAppObject loadConfig]
+Address: 0x69c0
+File: decompile/69C0.c
+Type: decompile
+
+Called by (2):
+  - 0x63dc (-[OTRAppObject onRunApp]) -> decompile/63DC.c
+  - 0x680c (-[OTRAppObject onOTRApplicationDidBecomeActiveNotification:]) -> decompile/680C.c
+
+Calls (1):
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject show5G]
+Address: 0x6a1c
+File: decompile/6A1C.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x7874 (-[OTRAppObject locationCfg]) -> decompile/7874.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject setShow5G:]
+Address: 0x6a54
+File: decompile/6A54.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x7874 (-[OTRAppObject locationCfg]) -> decompile/7874.c
+  - 0x78c0 (+[OTRAppService sharedSingleton]) -> decompile/78C0.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject fakeSwitch]
+Address: 0x6b64
+File: decompile/6B64.c
+Type: decompile
+
+Called by (1):
+  - 0x656c (-[OTRAppObject returnFakeLocation:isUse:]) -> decompile/656C.c
+
+Calls (2):
+  - 0x7874 (-[OTRAppObject locationCfg]) -> decompile/7874.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject setFakeSwitch:]
+Address: 0x6b9c
+File: decompile/6B9C.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x7874 (-[OTRAppObject locationCfg]) -> decompile/7874.c
+  - 0x78c0 (+[OTRAppService sharedSingleton]) -> decompile/78C0.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject fakeDeviceModuleSwitch]
+Address: 0x6cac
+File: decompile/6CAC.c
+Type: decompile
+
+Called by (2):
+  - 0x5ffc (-[OTRAppObject OTRUname:original_uname:]) -> decompile/5FFC.c
+  - 0x61e4 (-[OTRAppObject OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:]) -> decompile/61E4.c
+
+Calls (2):
+  - 0x7874 (-[OTRAppObject locationCfg]) -> decompile/7874.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject setFakeDeviceModuleSwitch:]
+Address: 0x6ce4
+File: decompile/6CE4.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x7874 (-[OTRAppObject locationCfg]) -> decompile/7874.c
+  - 0x78c0 (+[OTRAppService sharedSingleton]) -> decompile/78C0.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject allBundleIdentifierConfig]
+Address: 0x6df4
+File: decompile/6DF4.c
+Type: decompile
+
+Called by (4):
+  - 0x5ffc (-[OTRAppObject OTRUname:original_uname:]) -> decompile/5FFC.c
+  - 0x61e4 (-[OTRAppObject OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:]) -> decompile/61E4.c
+  - 0x656c (-[OTRAppObject returnFakeLocation:isUse:]) -> decompile/656C.c
+  - 0x67d0 (-[OTRAppObject fakeLocationInfo:]) -> decompile/67D0.c
+
+Calls (2):
+  - 0x7874 (-[OTRAppObject locationCfg]) -> decompile/7874.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject removeFakeItemWithBundleIdentifier:]
+Address: 0x6e20
+File: decompile/6E20.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x7874 (-[OTRAppObject locationCfg]) -> decompile/7874.c
+  - 0x78c0 (+[OTRAppService sharedSingleton]) -> decompile/78C0.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject addFakeItem:locationCoordinate:]
+Address: 0x6fbc
+File: decompile/6FBC.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x7874 (-[OTRAppObject locationCfg]) -> decompile/7874.c
+  - 0x78c0 (+[OTRAppService sharedSingleton]) -> decompile/78C0.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject addFakeUnItem:un:]
+Address: 0x71cc
+File: decompile/71CC.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x7874 (-[OTRAppObject locationCfg]) -> decompile/7874.c
+  - 0x78c0 (+[OTRAppService sharedSingleton]) -> decompile/78C0.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject removeFakeUnItemWithBundleIdentifier:]
+Address: 0x7388
+File: decompile/7388.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x7874 (-[OTRAppObject locationCfg]) -> decompile/7874.c
+  - 0x78c0 (+[OTRAppService sharedSingleton]) -> decompile/78C0.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject showOpenOTRLocation]
+Address: 0x750c
+File: decompile/750C.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppObject otr_changetTo5g]
+Address: 0x75bc
+File: decompile/75BC.c
+Type: decompile
+
+Called by: none
+
+Calls (3):
+  - 0x6a1c (-[OTRAppObject show5G]) -> decompile/6A1C.c
+  - 0x8f6c (_NSClassFromString) -> decompile/8F6C.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: sub_7784
+Address: 0x7784
+File: decompile/7784.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x8fa8 (__Unwind_Resume) -> decompile/8FA8.c
+  - 0x9044 (_objc_begin_catch) -> decompile/9044.c
+
+================================================================================
+Function: -[OTRAppObject otr_checkStatusBar]
+Address: 0x77c8
+File: decompile/77C8.c
+Type: decompile
+
+Called by: none
+
+Calls (4):
+  - 0x75bc (-[OTRAppObject otr_changetTo5g]) -> decompile/75BC.c
+  - 0x8fe4 (_dispatch_after) -> decompile/8FE4.c
+  - 0x8ffc (_dispatch_time) -> decompile/8FFC.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: sub_7848
+Address: 0x7848
+File: decompile/7848.c
+Type: decompile
+
+Called by (1):
+  - 0x77c8 (-[OTRAppObject otr_checkStatusBar]) -> decompile/77C8.c
+
+Calls: none
+
+================================================================================
+Function: sub_7858
+Address: 0x7858
+File: decompile/7858.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_7868
+Address: 0x7868
+File: decompile/7868.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: -[OTRAppObject locationCfg]
+Address: 0x7874
+File: decompile/7874.c
+Type: decompile
+
+Called by (11):
+  - 0x6a1c (-[OTRAppObject show5G]) -> decompile/6A1C.c
+  - 0x6a54 (-[OTRAppObject setShow5G:]) -> decompile/6A54.c
+  - 0x6b64 (-[OTRAppObject fakeSwitch]) -> decompile/6B64.c
+  - 0x6b9c (-[OTRAppObject setFakeSwitch:]) -> decompile/6B9C.c
+  - 0x6cac (-[OTRAppObject fakeDeviceModuleSwitch]) -> decompile/6CAC.c
+  - 0x6ce4 (-[OTRAppObject setFakeDeviceModuleSwitch:]) -> decompile/6CE4.c
+  - 0x6df4 (-[OTRAppObject allBundleIdentifierConfig]) -> decompile/6DF4.c
+  - 0x6e20 (-[OTRAppObject removeFakeItemWithBundleIdentifier:]) -> decompile/6E20.c
+  - 0x6fbc (-[OTRAppObject addFakeItem:locationCoordinate:]) -> decompile/6FBC.c
+  - 0x71cc (-[OTRAppObject addFakeUnItem:un:]) -> decompile/71CC.c
+  - 0x7388 (-[OTRAppObject removeFakeUnItemWithBundleIdentifier:]) -> decompile/7388.c
+
+Calls: none
+
+================================================================================
+Function: -[OTRAppObject setLocationCfg:]
+Address: 0x7884
+File: decompile/7884.c
+Type: decompile
+
+Called by (2):
+  - 0x6864 (-[OTRAppObject tryLoadConfig]) -> decompile/6864.c
+  - 0x69c0 (-[OTRAppObject loadConfig]) -> decompile/69C0.c
+
+Calls: none
+
+================================================================================
+Function: -[OTRAppObject serviceIsRuning]
+Address: 0x78a0
+File: decompile/78A0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: -[OTRAppObject setServiceIsRuning:]
+Address: 0x78b0
+File: decompile/78B0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: +[OTRAppService sharedSingleton]
+Address: 0x78c0
+File: decompile/78C0.c
+Type: decompile
+
+Called by (9):
+  - 0x5b18 (sub_5B18) -> decompile/5B18.c
+  - 0x6540 (-[OTRAppObject appReBecomeActive]) -> decompile/6540.c
+  - 0x6a54 (-[OTRAppObject setShow5G:]) -> decompile/6A54.c
+  - 0x6b9c (-[OTRAppObject setFakeSwitch:]) -> decompile/6B9C.c
+  - 0x6ce4 (-[OTRAppObject setFakeDeviceModuleSwitch:]) -> decompile/6CE4.c
+  - 0x6e20 (-[OTRAppObject removeFakeItemWithBundleIdentifier:]) -> decompile/6E20.c
+  - 0x6fbc (-[OTRAppObject addFakeItem:locationCoordinate:]) -> decompile/6FBC.c
+  - 0x71cc (-[OTRAppObject addFakeUnItem:un:]) -> decompile/71CC.c
+  - 0x7388 (-[OTRAppObject removeFakeUnItemWithBundleIdentifier:]) -> decompile/7388.c
+
+Calls (4):
+  - 0x79e4 (-[OTRAppService init]) -> decompile/79E4.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+  - 0x90b0 (_objc_sync_enter) -> decompile/90B0.c
+  - 0x90bc (_objc_sync_exit) -> decompile/90BC.c
+
+================================================================================
+Function: sub_7928
+Address: 0x7928
+File: decompile/7928.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x8fa8 (__Unwind_Resume) -> decompile/8FA8.c
+  - 0x90bc (_objc_sync_exit) -> decompile/90BC.c
+
+================================================================================
+Function: -[OTRAppService isJailBreak]
+Address: 0x793c
+File: decompile/793C.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppService init]
+Address: 0x79e4
+File: decompile/79E4.c
+Type: decompile
+
+Called by (2):
+  - 0x78c0 (+[OTRAppService sharedSingleton]) -> decompile/78C0.c
+  - 0x79e4 (-[OTRAppService init]) -> decompile/79E4.c
+
+Calls (5):
+  - 0x793c (-[OTRAppService isJailBreak]) -> decompile/793C.c
+  - 0x79e4 (-[OTRAppService init]) -> decompile/79E4.c
+  - 0x801c (-[OTRAppService setIsJailBreakDevice:]) -> decompile/801C.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+  - 0x9098 (_objc_msgSendSuper2) -> decompile/9098.c
+
+================================================================================
+Function: -[OTRAppService createService]
+Address: 0x7a7c
+File: decompile/7A7C.c
+Type: decompile
+
+Called by: none
+
+Calls (5):
+  - 0x8ec4 (_CFMessagePortCreateLocal) -> decompile/8EC4.c
+  - 0x8edc (_CFMessagePortCreateRunLoopSource) -> decompile/8EDC.c
+  - 0x8f0c (_CFNotificationCenterGetDarwinNotifyCenter) -> decompile/8F0C.c
+  - 0x8f30 (_CFRunLoopAddSource) -> decompile/8F30.c
+  - 0x8f3c (_CFRunLoopGetCurrent) -> decompile/8F3C.c
+
+================================================================================
+Function: sub_7B0C
+Address: 0x7b0c
+File: decompile/7B0C.c
+Type: decompile
+
+Called by (1):
+  - 0x7a7c (-[OTRAppService createService]) -> decompile/7A7C.c
+
+Calls (4):
+  - 0x5ebc (+[appTweakHelper DataToPropertyLis:]) -> decompile/5EBC.c
+  - 0x5edc (+[appTweakHelper PropertyLisToData:]) -> decompile/5EDC.c
+  - 0x78c0 (+[OTRAppService sharedSingleton]) -> decompile/78C0.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: sub_7BEC
+Address: 0x7bec
+File: decompile/7BEC.c
+Type: decompile
+
+Called by (1):
+  - 0x7a7c (-[OTRAppService createService]) -> decompile/7A7C.c
+
+Calls (1):
+  - 0x8ffc (_dispatch_time) -> decompile/8FFC.c
+
+================================================================================
+Function: -[OTRAppService appReBecomeActive]
+Address: 0x7c1c
+File: decompile/7C1C.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x8f0c (_CFNotificationCenterGetDarwinNotifyCenter) -> decompile/8F0C.c
+
+================================================================================
+Function: -[OTRAppService startMsgService]
+Address: 0x7c44
+File: decompile/7C44.c
+Type: decompile
+
+Called by: none
+
+Calls (4):
+  - 0x800c (-[OTRAppService isJailBreakDevice]) -> decompile/800C.c
+  - 0x8f6c (_NSClassFromString) -> decompile/8F6C.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+  - 0x90c8 (_rocketbootstrap_distributedmessagingcenter_apply) -> decompile/90C8.c
+
+================================================================================
+Function: -[OTRAppService handleMessageNamed:withUserInfo:]
+Address: 0x7d18
+File: decompile/7D18.c
+Type: decompile
+
+Called by: none
+
+Calls (2):
+  - 0x8f84 (_UIImagePNGRepresentation) -> decompile/8F84.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[OTRAppService saveConfig:]
+Address: 0x7e34
+File: decompile/7E34.c
+Type: decompile
+
+Called by: none
+
+Calls (4):
+  - 0x800c (-[OTRAppService isJailBreakDevice]) -> decompile/800C.c
+  - 0x8f6c (_NSClassFromString) -> decompile/8F6C.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+  - 0x90c8 (_rocketbootstrap_distributedmessagingcenter_apply) -> decompile/90C8.c
+
+================================================================================
+Function: -[OTRAppService appicon:]
+Address: 0x7ec0
+File: decompile/7EC0.c
+Type: decompile
+
+Called by: none
+
+Calls (5):
+  - 0x800c (-[OTRAppService isJailBreakDevice]) -> decompile/800C.c
+  - 0x8f6c (_NSClassFromString) -> decompile/8F6C.c
+  - 0x8fb4 (___stack_chk_fail) -> decompile/8FB4.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+  - 0x90c8 (_rocketbootstrap_distributedmessagingcenter_apply) -> decompile/90C8.c
+
+================================================================================
+Function: -[OTRAppService info]
+Address: 0x7fe0
+File: decompile/7FE0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: -[OTRAppService setInfo:]
+Address: 0x7ff0
+File: decompile/7FF0.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: -[OTRAppService isJailBreakDevice]
+Address: 0x800c
+File: decompile/800C.c
+Type: decompile
+
+Called by (3):
+  - 0x7c44 (-[OTRAppService startMsgService]) -> decompile/7C44.c
+  - 0x7e34 (-[OTRAppService saveConfig:]) -> decompile/7E34.c
+  - 0x7ec0 (-[OTRAppService appicon:]) -> decompile/7EC0.c
+
+Calls: none
+
+================================================================================
+Function: -[OTRAppService setIsJailBreakDevice:]
+Address: 0x801c
+File: decompile/801C.c
+Type: decompile
+
+Called by (1):
+  - 0x79e4 (-[OTRAppService init]) -> decompile/79E4.c
+
+Calls: none
+
+================================================================================
+Function: sub_802C
+Address: 0x802c
+File: decompile/802C.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: +[CLLocationManager load]
+Address: 0x8088
+File: decompile/8088.c
+Type: decompile
+
+Called by: none
+
+Calls (1):
+  - 0x8ff0 (_dispatch_once) -> decompile/8FF0.c
+
+================================================================================
+Function: sub_80F4
+Address: 0x80f4
+File: decompile/80F4.c
+Type: decompile
+
+Called by (1):
+  - 0x8088 (+[CLLocationManager load]) -> decompile/8088.c
+
+Calls (2):
+  - 0x8fd8 (_class_getInstanceMethod) -> decompile/8FD8.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: sub_815C
+Address: 0x815c
+File: decompile/815C.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_816C
+Address: 0x816c
+File: decompile/816C.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: -[CLLocationManager my_otr_tweak_location]
+Address: 0x8178
+File: decompile/8178.c
+Type: decompile
+
+Called by (1):
+  - 0x8178 (-[CLLocationManager my_otr_tweak_location]) -> decompile/8178.c
+
+Calls (3):
+  - 0x5f2c (+[OTRAppObject sharedSingleton]) -> decompile/5F2C.c
+  - 0x8178 (-[CLLocationManager my_otr_tweak_location]) -> decompile/8178.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: -[CLLocationManager my_otr_onClientEventLocation:forceMapMatching:type:]
+Address: 0x81e8
+File: decompile/81E8.c
+Type: decompile
+
+Called by (1):
+  - 0x81e8 (-[CLLocationManager my_otr_onClientEventLocation:forceMapMatching:type:]) -> decompile/81E8.c
+
+Calls (5):
+  - 0x5f2c (+[OTRAppObject sharedSingleton]) -> decompile/5F2C.c
+  - 0x81e8 (-[CLLocationManager my_otr_onClientEventLocation:forceMapMatching:type:]) -> decompile/81E8.c
+  - 0x8fb4 (___stack_chk_fail) -> decompile/8FB4.c
+  - 0x905c (_objc_enumerationMutation) -> decompile/905C.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: __Z27replaced_didUpdateLocationsP11objc_objectP13objc_selectorP17CLLocationManagerP7NSArray
+Address: 0x837c
+File: decompile/837C.c
+Type: decompile
+
+Called by (1):
+  - 0x8c70 (+[OTRHook setLocationHooks]) -> decompile/8C70.c
+
+Calls (4):
+  - 0x5f2c (+[OTRAppObject sharedSingleton]) -> decompile/5F2C.c
+  - 0x8fb4 (___stack_chk_fail) -> decompile/8FB4.c
+  - 0x905c (_objc_enumerationMutation) -> decompile/905C.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: __Z28replaced_didUpdateToLocationP11objc_objectP13objc_selectorP17CLLocationManagerP10CLLocationS6_
+Address: 0x8728
+File: decompile/8728.c
+Type: decompile
+
+Called by (1):
+  - 0x8c70 (+[OTRHook setLocationHooks]) -> decompile/8C70.c
+
+Calls (4):
+  - 0x5f2c (+[OTRAppObject sharedSingleton]) -> decompile/5F2C.c
+  - 0x8fb4 (___stack_chk_fail) -> decompile/8FB4.c
+  - 0x905c (_objc_enumerationMutation) -> decompile/905C.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: +[OTRHook OTRUname:original_uname:]
+Address: 0x89d8
+File: decompile/89D8.c
+Type: decompile
+
+Called by (1):
+  - 0x5984 (__Z8OTRUnameP7utsname) -> decompile/5984.c
+
+Calls (3):
+  - 0x5f2c (+[OTRAppObject sharedSingleton]) -> decompile/5F2C.c
+  - 0x8f6c (_NSClassFromString) -> decompile/8F6C.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: +[OTRHook OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:]
+Address: 0x8a84
+File: decompile/8A84.c
+Type: decompile
+
+Called by (1):
+  - 0x59a8 (__Z15OTRsysctlbynamePKcPvPmS1_m) -> decompile/59A8.c
+
+Calls (3):
+  - 0x5f2c (+[OTRAppObject sharedSingleton]) -> decompile/5F2C.c
+  - 0x8f6c (_NSClassFromString) -> decompile/8F6C.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: +[OTRHook OTRLocationInit]
+Address: 0x8b70
+File: decompile/8B70.c
+Type: decompile
+
+Called by (1):
+  - 0x59ec (InitFunc_0) -> decompile/59EC.c
+
+Calls (4):
+  - 0x5f2c (+[OTRAppObject sharedSingleton]) -> decompile/5F2C.c
+  - 0x8c70 (+[OTRHook setLocationHooks]) -> decompile/8C70.c
+  - 0x8f78 (_NSSearchPathForDirectoriesInDomains) -> decompile/8F78.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: +[OTRHook isSetHooked]
+Address: 0x8c64
+File: decompile/8C64.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: +[OTRHook setLocationHooks]
+Address: 0x8c70
+File: decompile/8C70.c
+Type: decompile
+
+Called by (1):
+  - 0x8b70 (+[OTRHook OTRLocationInit]) -> decompile/8B70.c
+
+Calls (7):
+  - 0x8fcc (_class_conformsToProtocol) -> decompile/8FCC.c
+  - 0x8fd8 (_class_getInstanceMethod) -> decompile/8FD8.c
+  - 0x9008 (_free) -> decompile/9008.c
+  - 0x9014 (_malloc) -> decompile/9014.c
+  - 0x9038 (_method_setImplementation) -> decompile/9038.c
+  - 0x9074 (_objc_getClassList) -> decompile/9074.c
+  - 0x908c (_objc_msgSend) -> decompile/908C.c
+
+================================================================================
+Function: _CFLog
+Address: 0x8eb8
+File: decompile/8EB8.c
+Type: decompile
+
+Called by (1):
+  - 0x59ec (InitFunc_0) -> decompile/59EC.c
+
+Calls: none
+
+================================================================================
+Function: _CFMessagePortCreateLocal
+Address: 0x8ec4
+File: decompile/8EC4.c
+Type: decompile
+
+Called by (1):
+  - 0x7a7c (-[OTRAppService createService]) -> decompile/7A7C.c
+
+Calls: none
+
+================================================================================
+Function: _CFMessagePortCreateRemote
+Address: 0x8ed0
+File: decompile/8ED0.c
+Type: decompile
+
+Called by (1):
+  - 0x5b74 (+[appTweakHelper getDefaultCenterNotifyHandle]) -> decompile/5B74.c
+
+Calls: none
+
+================================================================================
+Function: _CFMessagePortCreateRunLoopSource
+Address: 0x8edc
+File: decompile/8EDC.c
+Type: decompile
+
+Called by (1):
+  - 0x7a7c (-[OTRAppService createService]) -> decompile/7A7C.c
+
+Calls: none
+
+================================================================================
+Function: _CFMessagePortIsValid
+Address: 0x8ee8
+File: decompile/8EE8.c
+Type: decompile
+
+Called by (2):
+  - 0x5b74 (+[appTweakHelper getDefaultCenterNotifyHandle]) -> decompile/5B74.c
+  - 0x5ddc (+[appTweakHelper sendMessage:messageId:userInfo:]) -> decompile/5DDC.c
+
+Calls: none
+
+================================================================================
+Function: _CFMessagePortSendRequest
+Address: 0x8ef4
+File: decompile/8EF4.c
+Type: decompile
+
+Called by (1):
+  - 0x5ddc (+[appTweakHelper sendMessage:messageId:userInfo:]) -> decompile/5DDC.c
+
+Calls: none
+
+================================================================================
+Function: _CFNotificationCenterAddObserver
+Address: 0x8f00
+File: decompile/8F00.c
+Type: decompile
+
+Called by (1):
+  - 0x7a7c (-[OTRAppService createService]) -> decompile/7A7C.c
+
+Calls: none
+
+================================================================================
+Function: _CFNotificationCenterGetDarwinNotifyCenter
+Address: 0x8f0c
+File: decompile/8F0C.c
+Type: decompile
+
+Called by (2):
+  - 0x7a7c (-[OTRAppService createService]) -> decompile/7A7C.c
+  - 0x7c1c (-[OTRAppService appReBecomeActive]) -> decompile/7C1C.c
+
+Calls: none
+
+================================================================================
+Function: _CFNotificationCenterPostNotification
+Address: 0x8f18
+File: decompile/8F18.c
+Type: decompile
+
+Called by (1):
+  - 0x7c1c (-[OTRAppService appReBecomeActive]) -> decompile/7C1C.c
+
+Calls: none
+
+================================================================================
+Function: _CFRelease
+Address: 0x8f24
+File: decompile/8F24.c
+Type: decompile
+
+Called by (1):
+  - 0x5ddc (+[appTweakHelper sendMessage:messageId:userInfo:]) -> decompile/5DDC.c
+
+Calls: none
+
+================================================================================
+Function: _CFRunLoopAddSource
+Address: 0x8f30
+File: decompile/8F30.c
+Type: decompile
+
+Called by (1):
+  - 0x7a7c (-[OTRAppService createService]) -> decompile/7A7C.c
+
+Calls: none
+
+================================================================================
+Function: _CFRunLoopGetCurrent
+Address: 0x8f3c
+File: decompile/8F3C.c
+Type: decompile
+
+Called by (1):
+  - 0x7a7c (-[OTRAppService createService]) -> decompile/7A7C.c
+
+Calls: none
+
+================================================================================
+Function: _CLLocationCoordinate2DMake
+Address: 0x8f48
+File: decompile/8F48.c
+Type: decompile
+
+Called by (1):
+  - 0x656c (-[OTRAppObject returnFakeLocation:isUse:]) -> decompile/656C.c
+
+Calls: none
+
+================================================================================
+Function: _MSHookFunction
+Address: 0x8f54
+File: decompile/8F54.c
+Type: decompile
+
+Called by (1):
+  - 0x59ec (InitFunc_0) -> decompile/59EC.c
+
+Calls: none
+
+================================================================================
+Function: _MSHookMessageEx
+Address: 0x8f60
+File: decompile/8F60.c
+Type: decompile
+
+Called by (1):
+  - 0x59ec (InitFunc_0) -> decompile/59EC.c
+
+Calls: none
+
+================================================================================
+Function: _NSClassFromString
+Address: 0x8f6c
+File: decompile/8F6C.c
+Type: decompile
+
+Called by (6):
+  - 0x75bc (-[OTRAppObject otr_changetTo5g]) -> decompile/75BC.c
+  - 0x7c44 (-[OTRAppService startMsgService]) -> decompile/7C44.c
+  - 0x7e34 (-[OTRAppService saveConfig:]) -> decompile/7E34.c
+  - 0x7ec0 (-[OTRAppService appicon:]) -> decompile/7EC0.c
+  - 0x89d8 (+[OTRHook OTRUname:original_uname:]) -> decompile/89D8.c
+  - 0x8a84 (+[OTRHook OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:]) -> decompile/8A84.c
+
+Calls: none
+
+================================================================================
+Function: _NSSearchPathForDirectoriesInDomains
+Address: 0x8f78
+File: decompile/8F78.c
+Type: decompile
+
+Called by (1):
+  - 0x8b70 (+[OTRHook OTRLocationInit]) -> decompile/8B70.c
+
+Calls: none
+
+================================================================================
+Function: _UIImagePNGRepresentation
+Address: 0x8f84
+File: decompile/8F84.c
+Type: decompile
+
+Called by (1):
+  - 0x7d18 (-[OTRAppService handleMessageNamed:withUserInfo:]) -> decompile/7D18.c
+
+Calls: none
+
+================================================================================
+Function: __Block_object_assign
+Address: 0x8f90
+File: decompile/8F90.c
+Type: decompile
+
+Called by (3):
+  - 0x69a4 (sub_69A4) -> decompile/69A4.c
+  - 0x7858 (sub_7858) -> decompile/7858.c
+  - 0x815c (sub_815C) -> decompile/815C.c
+
+Calls: none
+
+================================================================================
+Function: __Block_object_dispose
+Address: 0x8f9c
+File: decompile/8F9C.c
+Type: decompile
+
+Called by (3):
+  - 0x69b4 (sub_69B4) -> decompile/69B4.c
+  - 0x7868 (sub_7868) -> decompile/7868.c
+  - 0x816c (sub_816C) -> decompile/816C.c
+
+Calls: none
+
+================================================================================
+Function: __Unwind_Resume
+Address: 0x8fa8
+File: decompile/8FA8.c
+Type: decompile
+
+Called by (5):
+  - 0x5f94 (sub_5F94) -> decompile/5F94.c
+  - 0x610c (sub_610C) -> decompile/610C.c
+  - 0x61e4 (-[OTRAppObject OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:]) -> decompile/61E4.c
+  - 0x7784 (sub_7784) -> decompile/7784.c
+  - 0x7928 (sub_7928) -> decompile/7928.c
+
+Calls: none
+
+================================================================================
+Function: ___stack_chk_fail
+Address: 0x8fb4
+File: decompile/8FB4.c
+Type: decompile
+
+Called by (4):
+  - 0x7ec0 (-[OTRAppService appicon:]) -> decompile/7EC0.c
+  - 0x81e8 (-[CLLocationManager my_otr_onClientEventLocation:forceMapMatching:type:]) -> decompile/81E8.c
+  - 0x837c (__Z27replaced_didUpdateLocationsP11objc_objectP13objc_selectorP17CLLocationManagerP7NSArray) -> decompile/837C.c
+  - 0x8728 (__Z28replaced_didUpdateToLocationP11objc_objectP13objc_selectorP17CLLocationManagerP10CLLocationS6_) -> decompile/8728.c
+
+Calls: none
+
+================================================================================
+Function: _bzero
+Address: 0x8fc0
+File: decompile/8FC0.c
+Type: decompile
+
+Called by (1):
+  - 0x61e4 (-[OTRAppObject OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:]) -> decompile/61E4.c
+
+Calls: none
+
+================================================================================
+Function: _class_conformsToProtocol
+Address: 0x8fcc
+File: decompile/8FCC.c
+Type: decompile
+
+Called by (2):
+  - 0x58bc (__Z33hookApplicationDidFinishLaunchingv) -> decompile/58BC.c
+  - 0x8c70 (+[OTRHook setLocationHooks]) -> decompile/8C70.c
+
+Calls: none
+
+================================================================================
+Function: _class_getInstanceMethod
+Address: 0x8fd8
+File: decompile/8FD8.c
+Type: decompile
+
+Called by (3):
+  - 0x58bc (__Z33hookApplicationDidFinishLaunchingv) -> decompile/58BC.c
+  - 0x80f4 (sub_80F4) -> decompile/80F4.c
+  - 0x8c70 (+[OTRHook setLocationHooks]) -> decompile/8C70.c
+
+Calls: none
+
+================================================================================
+Function: _dispatch_after
+Address: 0x8fe4
+File: decompile/8FE4.c
+Type: decompile
+
+Called by (3):
+  - 0x6864 (-[OTRAppObject tryLoadConfig]) -> decompile/6864.c
+  - 0x77c8 (-[OTRAppObject otr_checkStatusBar]) -> decompile/77C8.c
+  - 0x7bec (sub_7BEC) -> decompile/7BEC.c
+
+Calls: none
+
+================================================================================
+Function: _dispatch_once
+Address: 0x8ff0
+File: decompile/8FF0.c
+Type: decompile
+
+Called by (1):
+  - 0x8088 (+[CLLocationManager load]) -> decompile/8088.c
+
+Calls: none
+
+================================================================================
+Function: _dispatch_time
+Address: 0x8ffc
+File: decompile/8FFC.c
+Type: decompile
+
+Called by (3):
+  - 0x6864 (-[OTRAppObject tryLoadConfig]) -> decompile/6864.c
+  - 0x77c8 (-[OTRAppObject otr_checkStatusBar]) -> decompile/77C8.c
+  - 0x7bec (sub_7BEC) -> decompile/7BEC.c
+
+Calls: none
+
+================================================================================
+Function: _free
+Address: 0x9008
+File: decompile/9008.c
+Type: decompile
+
+Called by (2):
+  - 0x58bc (__Z33hookApplicationDidFinishLaunchingv) -> decompile/58BC.c
+  - 0x8c70 (+[OTRHook setLocationHooks]) -> decompile/8C70.c
+
+Calls: none
+
+================================================================================
+Function: _malloc
+Address: 0x9014
+File: decompile/9014.c
+Type: decompile
+
+Called by (2):
+  - 0x58bc (__Z33hookApplicationDidFinishLaunchingv) -> decompile/58BC.c
+  - 0x8c70 (+[OTRHook setLocationHooks]) -> decompile/8C70.c
+
+Calls: none
+
+================================================================================
+Function: _memset
+Address: 0x9020
+File: decompile/9020.c
+Type: decompile
+
+Called by (1):
+  - 0x5ffc (-[OTRAppObject OTRUname:original_uname:]) -> decompile/5FFC.c
+
+Calls: none
+
+================================================================================
+Function: _method_exchangeImplementations
+Address: 0x902c
+File: decompile/902C.c
+Type: decompile
+
+Called by (1):
+  - 0x80f4 (sub_80F4) -> decompile/80F4.c
+
+Calls: none
+
+================================================================================
+Function: _method_setImplementation
+Address: 0x9038
+File: decompile/9038.c
+Type: decompile
+
+Called by (1):
+  - 0x8c70 (+[OTRHook setLocationHooks]) -> decompile/8C70.c
+
+Calls: none
+
+================================================================================
+Function: _objc_begin_catch
+Address: 0x9044
+File: decompile/9044.c
+Type: decompile
+
+Called by (3):
+  - 0x610c (sub_610C) -> decompile/610C.c
+  - 0x61e4 (-[OTRAppObject OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:]) -> decompile/61E4.c
+  - 0x7784 (sub_7784) -> decompile/7784.c
+
+Calls: none
+
+================================================================================
+Function: _objc_end_catch
+Address: 0x9050
+File: decompile/9050.c
+Type: decompile
+
+Called by (3):
+  - 0x610c (sub_610C) -> decompile/610C.c
+  - 0x61e4 (-[OTRAppObject OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:]) -> decompile/61E4.c
+  - 0x7784 (sub_7784) -> decompile/7784.c
+
+Calls: none
+
+================================================================================
+Function: _objc_enumerationMutation
+Address: 0x905c
+File: decompile/905C.c
+Type: decompile
+
+Called by (3):
+  - 0x81e8 (-[CLLocationManager my_otr_onClientEventLocation:forceMapMatching:type:]) -> decompile/81E8.c
+  - 0x837c (__Z27replaced_didUpdateLocationsP11objc_objectP13objc_selectorP17CLLocationManagerP7NSArray) -> decompile/837C.c
+  - 0x8728 (__Z28replaced_didUpdateToLocationP11objc_objectP13objc_selectorP17CLLocationManagerP10CLLocationS6_) -> decompile/8728.c
+
+Calls: none
+
+================================================================================
+Function: _objc_getClass
+Address: 0x9068
+File: decompile/9068.c
+Type: decompile
+
+Called by (1):
+  - 0x59ec (InitFunc_0) -> decompile/59EC.c
+
+Calls: none
+
+================================================================================
+Function: _objc_getClassList
+Address: 0x9074
+File: decompile/9074.c
+Type: decompile
+
+Called by (2):
+  - 0x58bc (__Z33hookApplicationDidFinishLaunchingv) -> decompile/58BC.c
+  - 0x8c70 (+[OTRHook setLocationHooks]) -> decompile/8C70.c
+
+Calls: none
+
+================================================================================
+Function: _objc_getProperty
+Address: 0x9080
+File: decompile/9080.c
+Type: decompile
+
+Called by (1):
+  - 0x7fe0 (-[OTRAppService info]) -> decompile/7FE0.c
+
+Calls: none
+
+================================================================================
+Function: _objc_msgSend
+Address: 0x908c
+File: decompile/908C.c
+Type: decompile
+
+Called by (61):
+  - 0x58bc (__Z33hookApplicationDidFinishLaunchingv) -> decompile/58BC.c
+  - 0x5984 (__Z8OTRUnameP7utsname) -> decompile/5984.c
+  - 0x59a8 (__Z15OTRsysctlbynamePKcPvPmS1_m) -> decompile/59A8.c
+  - 0x59ec (InitFunc_0) -> decompile/59EC.c
+  - 0x5b18 (sub_5B18) -> decompile/5B18.c
+  - 0x5bc4 (+[appTweakHelper isChinese]) -> decompile/5BC4.c
+  - 0x5c54 (+[appTweakHelper OTRConfig]) -> decompile/5C54.c
+  - 0x5cc4 (+[appTweakHelper saveOTRConfig:]) -> decompile/5CC4.c
+  - 0x5d08 (+[appTweakHelper isShowedUseTip]) -> decompile/5D08.c
+  - 0x5d48 (+[appTweakHelper setShowedUseTip]) -> decompile/5D48.c
+  - 0x5ddc (+[appTweakHelper sendMessage:messageId:userInfo:]) -> decompile/5DDC.c
+  - 0x5ebc (+[appTweakHelper DataToPropertyLis:]) -> decompile/5EBC.c
+  - 0x5edc (+[appTweakHelper PropertyLisToData:]) -> decompile/5EDC.c
+  - 0x5f2c (+[OTRAppObject sharedSingleton]) -> decompile/5F2C.c
+  - 0x5fa8 (-[OTRAppObject bundleIdentifier]) -> decompile/5FA8.c
+  - 0x5ffc (-[OTRAppObject OTRUname:original_uname:]) -> decompile/5FFC.c
+  - 0x6130 (-[OTRAppObject to:]) -> decompile/6130.c
+  - 0x61e4 (-[OTRAppObject OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:]) -> decompile/61E4.c
+  - 0x63dc (-[OTRAppObject onRunApp]) -> decompile/63DC.c
+  - 0x647c (-[OTRAppObject checkServiceStatus]) -> decompile/647C.c
+  - 0x6540 (-[OTRAppObject appReBecomeActive]) -> decompile/6540.c
+  - 0x656c (-[OTRAppObject returnFakeLocation:isUse:]) -> decompile/656C.c
+  - 0x67d0 (-[OTRAppObject fakeLocationInfo:]) -> decompile/67D0.c
+  - 0x680c (-[OTRAppObject onOTRApplicationDidBecomeActiveNotification:]) -> decompile/680C.c
+  - 0x6818 (-[OTRAppObject onOTRCheckService:]) -> decompile/6818.c
+  - 0x6864 (-[OTRAppObject tryLoadConfig]) -> decompile/6864.c
+  - 0x6964 (sub_6964) -> decompile/6964.c
+  - 0x69c0 (-[OTRAppObject loadConfig]) -> decompile/69C0.c
+  - 0x6a1c (-[OTRAppObject show5G]) -> decompile/6A1C.c
+  - 0x6a54 (-[OTRAppObject setShow5G:]) -> decompile/6A54.c
+  - 0x6b64 (-[OTRAppObject fakeSwitch]) -> decompile/6B64.c
+  - 0x6b9c (-[OTRAppObject setFakeSwitch:]) -> decompile/6B9C.c
+  - 0x6cac (-[OTRAppObject fakeDeviceModuleSwitch]) -> decompile/6CAC.c
+  - 0x6ce4 (-[OTRAppObject setFakeDeviceModuleSwitch:]) -> decompile/6CE4.c
+  - 0x6df4 (-[OTRAppObject allBundleIdentifierConfig]) -> decompile/6DF4.c
+  - 0x6e20 (-[OTRAppObject removeFakeItemWithBundleIdentifier:]) -> decompile/6E20.c
+  - 0x6fbc (-[OTRAppObject addFakeItem:locationCoordinate:]) -> decompile/6FBC.c
+  - 0x71cc (-[OTRAppObject addFakeUnItem:un:]) -> decompile/71CC.c
+  - 0x7388 (-[OTRAppObject removeFakeUnItemWithBundleIdentifier:]) -> decompile/7388.c
+  - 0x750c (-[OTRAppObject showOpenOTRLocation]) -> decompile/750C.c
+  - 0x75bc (-[OTRAppObject otr_changetTo5g]) -> decompile/75BC.c
+  - 0x77c8 (-[OTRAppObject otr_checkStatusBar]) -> decompile/77C8.c
+  - 0x7848 (sub_7848) -> decompile/7848.c
+  - 0x78c0 (+[OTRAppService sharedSingleton]) -> decompile/78C0.c
+  - 0x793c (-[OTRAppService isJailBreak]) -> decompile/793C.c
+  - 0x79e4 (-[OTRAppService init]) -> decompile/79E4.c
+  - 0x7b0c (sub_7B0C) -> decompile/7B0C.c
+  - 0x7c44 (-[OTRAppService startMsgService]) -> decompile/7C44.c
+  - 0x7d18 (-[OTRAppService handleMessageNamed:withUserInfo:]) -> decompile/7D18.c
+  - 0x7e34 (-[OTRAppService saveConfig:]) -> decompile/7E34.c
+  - 0x7ec0 (-[OTRAppService appicon:]) -> decompile/7EC0.c
+  - 0x802c (sub_802C) -> decompile/802C.c
+  - 0x80f4 (sub_80F4) -> decompile/80F4.c
+  - 0x8178 (-[CLLocationManager my_otr_tweak_location]) -> decompile/8178.c
+  - 0x81e8 (-[CLLocationManager my_otr_onClientEventLocation:forceMapMatching:type:]) -> decompile/81E8.c
+  - 0x837c (__Z27replaced_didUpdateLocationsP11objc_objectP13objc_selectorP17CLLocationManagerP7NSArray) -> decompile/837C.c
+  - 0x8728 (__Z28replaced_didUpdateToLocationP11objc_objectP13objc_selectorP17CLLocationManagerP10CLLocationS6_) -> decompile/8728.c
+  - 0x89d8 (+[OTRHook OTRUname:original_uname:]) -> decompile/89D8.c
+  - 0x8a84 (+[OTRHook OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:]) -> decompile/8A84.c
+  - 0x8b70 (+[OTRHook OTRLocationInit]) -> decompile/8B70.c
+  - 0x8c70 (+[OTRHook setLocationHooks]) -> decompile/8C70.c
+
+Calls: none
+
+================================================================================
+Function: _objc_msgSendSuper2
+Address: 0x9098
+File: decompile/9098.c
+Type: decompile
+
+Called by (2):
+  - 0x5ef8 (-[OTRAppObject init]) -> decompile/5EF8.c
+  - 0x79e4 (-[OTRAppService init]) -> decompile/79E4.c
+
+Calls: none
+
+================================================================================
+Function: _objc_setProperty
+Address: 0x90a4
+File: decompile/90A4.c
+Type: decompile
+
+Called by (2):
+  - 0x7884 (-[OTRAppObject setLocationCfg:]) -> decompile/7884.c
+  - 0x7ff0 (-[OTRAppService setInfo:]) -> decompile/7FF0.c
+
+Calls: none
+
+================================================================================
+Function: _objc_sync_enter
+Address: 0x90b0
+File: decompile/90B0.c
+Type: decompile
+
+Called by (2):
+  - 0x5f2c (+[OTRAppObject sharedSingleton]) -> decompile/5F2C.c
+  - 0x78c0 (+[OTRAppService sharedSingleton]) -> decompile/78C0.c
+
+Calls: none
+
+================================================================================
+Function: _objc_sync_exit
+Address: 0x90bc
+File: decompile/90BC.c
+Type: decompile
+
+Called by (4):
+  - 0x5f2c (+[OTRAppObject sharedSingleton]) -> decompile/5F2C.c
+  - 0x5f94 (sub_5F94) -> decompile/5F94.c
+  - 0x78c0 (+[OTRAppService sharedSingleton]) -> decompile/78C0.c
+  - 0x7928 (sub_7928) -> decompile/7928.c
+
+Calls: none
+
+================================================================================
+Function: _rocketbootstrap_distributedmessagingcenter_apply
+Address: 0x90c8
+File: decompile/90C8.c
+Type: decompile
+
+Called by (3):
+  - 0x7c44 (-[OTRAppService startMsgService]) -> decompile/7C44.c
+  - 0x7e34 (-[OTRAppService saveConfig:]) -> decompile/7E34.c
+  - 0x7ec0 (-[OTRAppService appicon:]) -> decompile/7EC0.c
+
+Calls: none
+
+================================================================================
+Function: _strcmp
+Address: 0x90d4
+File: decompile/90D4.c
+Type: decompile
+
+Called by (1):
+  - 0x61e4 (-[OTRAppObject OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:]) -> decompile/61E4.c
+
+Calls: none
+
+================================================================================
+Function: _strncpy
+Address: 0x90e0
+File: decompile/90E0.c
+Type: decompile
+
+Called by (2):
+  - 0x5ffc (-[OTRAppObject OTRUname:original_uname:]) -> decompile/5FFC.c
+  - 0x61e4 (-[OTRAppObject OTRsysctlbyname:out:outsize:p1:psize:original_sysctlbyname:]) -> decompile/61E4.c
+
+Calls: none
+

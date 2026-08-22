@@ -1,0 +1,15 @@
+/*
+ * func-name: sub_1004F7EC0
+ * func-address: 0x1004f7ec0
+ * export-type: decompile
+ * callers: 0x10052f7e8, 0x10053ad9c
+ * callees: 0x10056b9b8
+ */
+
+void sub_1004F7EC0()
+{
+  nullsub_25(off_100926C20);
+  nullsub_25(off_100926C28);
+  nullsub_25(off_100982308);
+  __asm { BR              X0 }
+}

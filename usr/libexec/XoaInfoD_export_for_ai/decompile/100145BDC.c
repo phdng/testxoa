@@ -1,0 +1,15 @@
+/*
+ * func-name: sub_100145BDC
+ * func-address: 0x100145bdc
+ * export-type: decompile
+ * callers: none
+ * callees: none
+ */
+
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_100145BDC()
+{
+  __int64 v1; // [xsp-80h] [xbp-80h]
+
+  return v1;
+}

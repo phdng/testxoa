@@ -1,0 +1,37 @@
+# Exports
+# Format: func-addr:func-name
+#============================================================
+
+0x2f2c:_MGSetLogHandler
+0x5ec0:_MGSetAnswer
+0x5e6c:_MGCopyAnswerWithError
+0x61a0:_MGCopyAnswer
+0x64f8:_MGCopyMultipleAnswers
+0x6d34:_MGCancelNotifications
+0x5ea4:_MGIsQuestionValid
+0x688c:_MGIsDeviceOfType
+0x68dc:_MGIsDeviceOneOfType
+0x65c8:_MGGetBoolAnswer
+0x668c:_MGGetSInt32Answer
+0x67fc:_MGGetSInt64Answer
+0x6844:_MGGetFloat32Answer
+0x12070:_MGGetProductType
+0x6948:_MGRegisterForBulkUpdates
+0x6c40:_MGRegisterForUpdates
+0x3268:__MGLog
+0x4c54:__MGCacheValid
+0x12434:__MGCopyDeviceDescription
+0x129e0:__MGCopyIteratedDeviceDescription
+0x5238:__MGWriteCache
+0x122f4:__MGWaitForDevices
+0x5c30:__MGSetServer
+0x5c44:__MGServerCopyAnswerWithError
+0x12134:__MGIterateDevices
+0x12840:__MGPrintIteratedDeviceDescription
+0x1c830:_kMGQDiskUsageTotalSystemCapacity
+0x1c838:_kMGQDiskUsageTotalSystemAvailable
+0x1c840:_kMGQDiskUsageTotalDataCapacity
+0x1c848:_kMGQDiskUsageTotalDataAvailable
+0x1c850:_kMGQDiskUsageTotalDiskCapacity
+0x1c858:_kMGQDiskUsageAmountDataReserved
+0x1c860:_kMGQDiskUsageAmountDataAvailable
