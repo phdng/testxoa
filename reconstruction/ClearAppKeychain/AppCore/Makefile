@@ -1,8 +1,7 @@
 include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = XoaInfoReconstructedCore
-XoaInfoReconstructedCore_FILES = Tweak.xm \
-    ../Shared/XIConfig.m \
+XoaInfoReconstructedCore_FILES = ../Shared/XIConfig.m \
     ../Shared/XIKeychainPolicy.m \
     ../Core/XIKeychainWorkers.mm \
     ../Core/XIDaemonKeychainWorker.mm \
