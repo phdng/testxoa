@@ -1,0 +1,55 @@
+name: Build reconstructed XoaInfo
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - reconstruct-clear-app-keychain
+    paths:
+      - "reconstruction/ClearAppKeychain/**"
+      - ".github/workflows/build.yml"
+  pull_request:
+    paths:
+      - "reconstruction/ClearAppKeychain/**"
+      - ".github/workflows/build.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-14
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Theos
+        uses: beerpiss/theos-action@v1
+        with:
+          theos-src: https://github.com/theos/theos
+          theos-sdks: https://github.com/theos/sdks
+          cache: true
+
+      - name: Build package
+        working-directory: reconstruction/ClearAppKeychain
+        run: |
+          set -euxo pipefail
+          make clean
+          make package FINALPACKAGE=1
+
+      - name: Show build outputs
+        if: always()
+        working-directory: reconstruction/ClearAppKeychain
+        run: |
+          find . -maxdepth 3 -type f \( -name '*.deb' -o -name '*.dylib' -o -name 'XoaInfoD' \) -print || true
+
+      - name: Upload Debian package
+        uses: actions/upload-artifact@v4
+        with:
+          name: xoainfo-reconstructed-package
+          path: reconstruction/ClearAppKeychain/packages/*.deb
+          if-no-files-found: error

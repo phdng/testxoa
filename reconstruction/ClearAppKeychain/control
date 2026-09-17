@@ -1,0 +1,9 @@
+Package: com.openai.xoainfo-reconstructed-clear
+Name: XoaInfo Clear/Keychain Reconstruction
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: Evidence-scoped reconstruction of XoaInfo clear-app/keychain workers and confirmed passive hooks.
+Maintainer: Reconstruction project
+Author: Reconstruction project
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 13.0)

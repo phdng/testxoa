@@ -1,0 +1,39 @@
+# Whitelist repository: track only the reconstructed buildable source + CI.
+/*
+
+# Root metadata.
+!/.gitignore
+
+# GitHub Actions: allow only this build workflow.
+!/.github/
+/.github/*
+!/.github/workflows/
+/.github/workflows/*
+!/.github/workflows/build.yml
+
+# Reconstruction: allow only ClearAppKeychain.
+!/reconstruction/
+/reconstruction/*
+!/reconstruction/ClearAppKeychain/
+!/reconstruction/ClearAppKeychain/**
+
+# Analysis documentation is not required to compile/package the reconstruction.
+/reconstruction/ClearAppKeychain/docs/
+
+# Generated Theos/build artifacts.
+/reconstruction/ClearAppKeychain/.theos/
+/reconstruction/ClearAppKeychain/packages/
+/reconstruction/ClearAppKeychain/obj/
+/reconstruction/ClearAppKeychain/.build/
+/reconstruction/ClearAppKeychain/**/*.o
+/reconstruction/ClearAppKeychain/**/*.d
+/reconstruction/ClearAppKeychain/**/*.deb
+/reconstruction/ClearAppKeychain/**/*.ipa
+/reconstruction/ClearAppKeychain/**/*.zip
+
+# Editor / OS / Python cache noise inside the allowed tree.
+/reconstruction/ClearAppKeychain/**/.DS_Store
+/reconstruction/ClearAppKeychain/**/.idea/
+/reconstruction/ClearAppKeychain/**/.vscode/
+/reconstruction/ClearAppKeychain/**/__pycache__/
+/reconstruction/ClearAppKeychain/**/*.pyc
