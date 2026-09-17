@@ -1,20 +1,50 @@
 #import "XIDaemonProcess.h"
 
-#import <libproc.h>
+#import <dispatch/dispatch.h>
+#import <dlfcn.h>
 #import <signal.h>
+#import <stdint.h>
+#import <stdlib.h>
 #import <unistd.h>
+
+#define XI_PROC_ALL_PIDS 1
+#define XI_PROC_PIDPATHINFO_MAXSIZE 4096
+
+typedef int (*XIProcListPIDsFn)(uint32_t type, uint32_t typeinfo, void *buffer, int buffersize);
+typedef int (*XIProcPIDPathFn)(int pid, void *buffer, uint32_t buffersize);
+
+static BOOL XIResolveLibproc(XIProcListPIDsFn *listPIDsOut, XIProcPIDPathFn *pidPathOut) {
+    static void *image = NULL;
+    static XIProcListPIDsFn listPIDs = NULL;
+    static XIProcPIDPathFn pidPath = NULL;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        image = dlopen("/usr/lib/libproc.dylib", RTLD_LAZY | RTLD_LOCAL);
+        void *scope = image ?: RTLD_DEFAULT;
+        listPIDs = (XIProcListPIDsFn)dlsym(scope, "proc_listpids");
+        pidPath = (XIProcPIDPathFn)dlsym(scope, "proc_pidpath");
+    });
+
+    if (listPIDsOut) *listPIDsOut = listPIDs;
+    if (pidPathOut) *pidPathOut = pidPath;
+    return listPIDs != NULL && pidPath != NULL;
+}
 
 NSArray<NSNumber *> *XIDaemonPIDsForExecutableName(NSString *name) {
     if (!name) return @[];
 
-    int bytes = proc_listpids(PROC_ALL_PIDS, 0, NULL, 0);
+    XIProcListPIDsFn procListPIDs = NULL;
+    XIProcPIDPathFn procPIDPath = NULL;
+    if (!XIResolveLibproc(&procListPIDs, &procPIDPath)) return @[];
+
+    int bytes = procListPIDs(XI_PROC_ALL_PIDS, 0, NULL, 0);
     if (bytes <= 0) return @[];
 
     size_t capacity = (size_t)bytes + sizeof(pid_t) * 32;
     pid_t *pids = calloc(1, capacity);
     if (!pids) return @[];
 
-    int filled = proc_listpids(PROC_ALL_PIDS, 0, pids, (int)capacity);
+    int filled = procListPIDs(XI_PROC_ALL_PIDS, 0, pids, (int)capacity);
     NSMutableArray<NSNumber *> *matches = [NSMutableArray array];
     pid_t selfPID = getpid();
 
@@ -24,8 +54,8 @@ NSArray<NSNumber *> *XIDaemonPIDsForExecutableName(NSString *name) {
             pid_t pid = pids[i];
             if (pid <= 0 || pid == selfPID) continue;
 
-            char pathBuffer[PROC_PIDPATHINFO_MAXSIZE] = {0};
-            if (proc_pidpath(pid, pathBuffer, 0x1000) <= 0) continue;
+            char pathBuffer[XI_PROC_PIDPATHINFO_MAXSIZE] = {0};
+            if (procPIDPath(pid, pathBuffer, XI_PROC_PIDPATHINFO_MAXSIZE) <= 0) continue;
 
             NSString *path = [NSString stringWithUTF8String:pathBuffer];
             NSString *basename = [path lastPathComponent];
