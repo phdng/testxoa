@@ -32,7 +32,17 @@ jobs:
         with:
           theos-src: https://github.com/theos/theos
           theos-sdks: https://github.com/theos/sdks
-          cache: true
+          cache: false
+
+      - name: Show toolchain
+        run: |
+          set -euxo pipefail
+          echo "THEOS=$THEOS"
+          xcodebuild -version
+          clang --version
+          make --version
+          ls -la "$THEOS"
+          ls -la "$THEOS/sdks" || true
 
       - name: Build package
         working-directory: reconstruction/ClearAppKeychain
@@ -45,7 +55,7 @@ jobs:
         if: always()
         working-directory: reconstruction/ClearAppKeychain
         run: |
-          find . -maxdepth 3 -type f \( -name '*.deb' -o -name '*.dylib' -o -name 'XoaInfoD' \) -print || true
+          find . -maxdepth 4 -type f \( -name '*.deb' -o -name '*.dylib' -o -name 'XoaInfoD' \) -print || true
 
       - name: Upload Debian package
         uses: actions/upload-artifact@v4
