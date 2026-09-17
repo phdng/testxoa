@@ -1,6 +1,7 @@
 #import "XIResetCoordinator.h"
 #import "XIKeychainWorkers.h"
 #import "XIDaemonPreparation.h"
+#import "../Shared/XISystemCompat.h"
 #import <stdlib.h>
 
 static BOOL XISetP9u2gDmCStub(__unused NSString *bundleIdentifier) {
@@ -34,7 +35,7 @@ void XIExecuteResetSystemCore(NSMutableArray *accessGroups,
     XIAppSQLiteDeleteFiveClasses(accessGroups);
 
     // Exact observed side effect before the 13.5 split. Return ignored.
-    (void)system("killall -9 securityd");
+    (void)XIInvokeSystemCommand("killall -9 securityd");
 
     if (!platformAtLeastIOS13_5) {
         // Exact four-class Security.framework branch; no Identity.
@@ -46,7 +47,7 @@ void XIExecuteResetSystemCore(NSMutableArray *accessGroups,
     XIPrepareXoaInfoDaemon(accessGroups);
 
     // T-0064 confirms this outer CLI invocation is real; return is discarded.
-    (void)system("/usr/libexec/XoaInfoD delete");
+    (void)XIInvokeSystemCommand("/usr/libexec/XoaInfoD delete");
 
     [[NSFileManager defaultManager] removeItemAtPath:@"/tmp/keyChainAccess.plist"
                                                error:nil];

@@ -1,5 +1,6 @@
 #import "XIDaemonPreparation.h"
 #import "../Shared/XIConfig.h"
+#import "../Shared/XISystemCompat.h"
 #import <UIKit/UIKit.h>
 #import <objc/message.h>
 #import <spawn.h>
@@ -21,7 +22,7 @@ static id XISendId(id receiver, const char *selectorName) {
 static void XIExecuteShellBestEffort(NSString *command) {
     // Evidence: +[z66bqP7l i0OLpS8C:] results are claimed/discarded by
     // setL2BNixat:. No command result gates the following operation.
-    (void)system([command UTF8String]);
+    (void)XIInvokeSystemCommand([command UTF8String]);
 }
 
 static void XISignDaemonBestEffort(void) {

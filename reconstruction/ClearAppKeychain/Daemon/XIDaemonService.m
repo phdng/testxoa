@@ -1,4 +1,5 @@
 #import "XIDaemonService.h"
+#import "../Shared/XISystemCompat.h"
 
 #import <CoreFoundation/CoreFoundation.h>
 #import <dispatch/dispatch.h>
@@ -238,7 +239,7 @@ static void XIDoneNotificationCallback(CFNotificationCenterRef center,
     (void)messageName;
     id key = [userInfo objectForKey:@"key"];
     NSString *command = [NSString stringWithFormat:@"killall -9 '%@'", key];
-    system(command.UTF8String);
+    (void)XIInvokeSystemCommand(command.UTF8String);
 }
 
 - (void)v59T1BFi:(NSString *)messageName withUserInfo:(NSDictionary *)userInfo {
