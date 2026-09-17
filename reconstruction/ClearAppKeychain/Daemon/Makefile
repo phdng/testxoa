@@ -13,7 +13,6 @@ XoaInfoD_FILES = main.m \
     ../Shared/XIKeychainPolicy.m \
     ../Shared/XISystemCompat.m
 XoaInfoD_FRAMEWORKS = Foundation CoreFoundation Security MobileCoreServices
-XoaInfoD_PRIVATE_FRAMEWORKS = AppSupport
 XoaInfoD_LDFLAGS += -lsqlite3 -lz
 XoaInfoD_CFLAGS = -fobjc-arc
 XoaInfoD_CCFLAGS = -fobjc-arc
