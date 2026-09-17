@@ -61,11 +61,11 @@
     close(fd);
 }
 
-static const void *XIContextRetain(const void *info) {
-    return CFRetain(info);
+static void *XIContextRetain(void *info) {
+    return (void *)CFRetain(info);
 }
 
-static void XIContextRelease(const void *info) {
+static void XIContextRelease(void *info) {
     CFRelease(info);
 }
 
