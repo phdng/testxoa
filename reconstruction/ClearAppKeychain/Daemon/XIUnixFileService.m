@@ -1,5 +1,44 @@
 #import "XIUnixFileService.h"
 
+static id XIJSONSafeFileAttributeValue(id value) {
+    if (value == nil || value == [NSNull null]) return value;
+
+    if ([value isKindOfClass:[NSString class]] ||
+        [value isKindOfClass:[NSNumber class]]) {
+        return value;
+    }
+
+    if ([value isKindOfClass:[NSDate class]]) {
+        return @([(NSDate *)value timeIntervalSince1970]);
+    }
+
+    if ([value isKindOfClass:[NSDictionary class]]) {
+        NSMutableDictionary *safe = [NSMutableDictionary dictionary];
+        [(NSDictionary *)value enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
+            (void)stop;
+            if (![key isKindOfClass:[NSString class]]) return;
+            id converted = XIJSONSafeFileAttributeValue(obj);
+            if (converted != nil) safe[key] = converted;
+        }];
+        return safe;
+    }
+
+    if ([value isKindOfClass:[NSArray class]]) {
+        NSMutableArray *safe = [NSMutableArray array];
+        for (id obj in (NSArray *)value) {
+            id converted = XIJSONSafeFileAttributeValue(obj);
+            [safe addObject:converted ?: [NSNull null]];
+        }
+        return safe;
+    }
+
+    // NSFileManager can expose extended/private metadata objects (notably
+    // NSData-backed values) that NSJSONSerialization on older iOS releases
+    // cannot encode and may raise on. The original wire contract is JSON, so
+    // such values are outside the transportable surface and are omitted.
+    return nil;
+}
+
 @interface NSObject (XIUnixCompressionSelectors)
 - (BOOL)gunzipFile:(NSString *)source toDest:(NSString *)destination err:(NSError **)error;
 - (BOOL)gzipFileAtPath:(NSString *)source
@@ -85,7 +124,8 @@ NSDictionary *XIHandleUnixFileServiceRequest(NSDictionary *request,
                 attrs[NSFileModificationDate] = @([modification timeIntervalSince1970]);
             }
         }
-        response[@"attributes"] = attrs ?: [NSNull null];
+        NSDictionary *wireAttrs = attrs ? XIJSONSafeFileAttributeValue(attrs) : nil;
+        response[@"attributes"] = wireAttrs ?: [NSNull null];
         if (error) response[@"error"] = error.localizedDescription;
         return response;
     }
